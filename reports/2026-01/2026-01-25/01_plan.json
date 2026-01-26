@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260126_163548",
+    "user_intent": "使用重构后的系统重新生成2026-01-25的自动驾驶技术日报，验证重构后系统功能完整性",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "优先最近一周内（2026-01-19至2026-01-25），可接受一到两个月内内容",
+      "academic": "优先最近一周内（2026-01-19至2026-01-25），可接受一到两个月内内容",
+      "open_source": "优先最近一周内（2026-01-19至2026-01-25），可接受一到两个月内内容"
+    }
+  },
+  "thought_process": "用户请求重新生成2026-01-25的日报以验证重构后系统功能。这是全量日报模式，需要并行启动Agent A/B/C → Agent D汇总。重构后的Agent使用共享模块，需要验证引用正确性和功能完整性。时间范围设置为最近一周（2026-01-19至2026-01-25），符合日报时效性要求。",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "task_001",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla FSD 2026", "华为ADS 2026", "Waymo autonomous 2026", "end-to-end driving", "BEV perception"],
+        "instruction": "作为重构后的Industry_Watcher，请搜索2026年1月（特别是1月19日至25日期间）的自动驾驶工业动态。重点关注Tesla FSD更新、华为ADS进展、Waymo技术发布等。必须使用WebFetch工具从真实网站（如TechCrunch、Electrek、官方博客）获取数据，确保数据真实性。输出格式请遵循通用输出格式标准。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_002",
+        "agent": "Agent_B",
+        "query_keywords": ["arXiv autonomous driving 2026", "end-to-end autonomous driving", "world model driving", "diffusion policy autonomous", "VLA driving"],
+        "instruction": "作为重构后的Paper_Hunter，请搜索2026年1月（特别是1月19日至25日期间）上传的自动驾驶相关学术论文。重点关注端到端自动驾驶、世界模型、扩散策略、视觉语言模型等方向。必须使用WebFetch工具访问真实的arXiv网站，确保数据真实性。优先选择有代码实现的项目。输出格式请遵循通用输出格式标准。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_003",
+        "agent": "Agent_C",
+        "query_keywords": ["GitHub autonomous driving 2026", "end-to-end driving github", "autonomous driving simulator", "driving dataset", "BEV github"],
+        "instruction": "作为重构后的Code_Scout，请搜索2026年1月（特别是1月19日至25日期间）更新的自动驾驶相关开源项目。重点关注仿真器、数据集、算法实现、工具链。必须使用WebFetch工具访问真实的GitHub网站，使用'Updated this month'筛选器。优先大厂开源项目和高星增长项目。输出格式请遵循通用输出格式标准。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "final_summary",
+      "agent": "Agent_D",
+      "depends_on": ["task_001", "task_002", "task_003"],
+      "instruction": "作为重构后的Chief_Analyst，请整合三方情报生成2026-01-25的技术日报。执行以下任务：1.读取并验证Agent A/B/C的输出文件；2.维护话题历史，识别版本延续和全新话题；3.执行7天回顾（对比2026-01-18的内容）；4.生成结构化日报，包含工业界、学术界、开源界分析；5.提供学习建议；6.评估今日情报质量，生成系统优化建议。日报格式请遵循标准模板。",
+      "input_sources": [
+        "./reports/2026-01/2026-01-25/02_industry.json",
+        "./reports/2026-01/2026-01-25/03_papers.json",
+        "./reports/2026-01/2026-01-25/04_code.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-25/2026-01-25_Report.md",
+        "./reports/topic_history/2026-01.json",
+        "./reports/2026-01/2026-01-25/05_optimization.json"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["task_001", "task_002", "task_003"],
+    "final_trigger": "all_completed",
+    "failure_handling": "continue_with_available"
+  }
+}

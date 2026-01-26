@@ -1,0 +1,62 @@
+[
+  {
+    "source": "Academic",
+    "title": "Listen, Look, Drive: Coupling Audio Instructions for User-aware VLA-based Autonomous Driving",
+    "authors": "Ziang Guo, Feng Yang, Xuefeng Zhang, Jiaqi Guo, Kun Zhao, Peng Lu, Zufeng Zhang, Sifa Zheng",
+    "url": "https://arxiv.org/abs/2601.12142",
+    "arxiv_id": "arXiv:2601.12142",
+    "publish_date": "2026-01-17",
+    "category": "eess.AS cs.MM cs.RO",
+    "innovation": "提出EchoVLA框架，将音频指令与视觉语言动作模型结合，实现用户感知的自动驾驶决策",
+    "application_potential": "高",
+    "abstract": "Vision Language Action (VLA) models promise an open-vocabulary interface that can translate perceptual ambiguity into semantically grounded driving decisions, yet they still treat language as a static prior fixed at inference time. We argue that effective VLAs for autonomous driving need an online channel in which users can influence driving with specific intentions. To this end, we present EchoVLA, a user-aware VLA that couples camera streams with in situ audio instructions.",
+    "keywords": ["VLA", "audio instructions", "user-aware", "autonomous driving", "multimodal"],
+    "code_available": false,
+    "conference": "IV (Intelligent Vehicles)"
+  },
+  {
+    "source": "Academic",
+    "title": "Generative Scenario Rollouts for End-to-End Autonomous Driving",
+    "authors": "Rajeev Yasarla, Deepti Hegde, Shizhong Han, Hsin-Pai Cheng, Yunxiao Shi, Meysam Sadeghigooghari, Shweta Mahajan, Apratim Bhattacharyya, Litian Liu, Risheek Garrepalli, Thomas Svantesson, Fatih Porikli, Hong Cai",
+    "url": "https://arxiv.org/abs/2601.11475",
+    "arxiv_id": "arXiv:2601.11475",
+    "publish_date": "2026-01-16",
+    "category": "cs.CV",
+    "innovation": "提出Generative Scenario Rollouts (GeRo)框架，通过自回归推演实现语言接地的交通场景生成与规划",
+    "application_potential": "高",
+    "abstract": "Vision-Language-Action (VLA) models are emerging as highly effective planning models for end-to-end autonomous driving systems. However, current works mostly rely on imitation learning from sparse trajectory annotations and under-utilize their potential as generative models. We propose Generative Scenario Rollouts (GeRo), a plug-and-play framework for VLA models that jointly performs planning and generation of language-grounded future traffic scenes through an autoregressive rollout strategy.",
+    "keywords": ["VLA", "generative models", "scenario rollouts", "autonomous driving", "planning"],
+    "code_available": false,
+    "conference": null
+  },
+  {
+    "source": "Academic",
+    "title": "See Less, Drive Better: Generalizable End-to-End Autonomous Driving via Foundation Models Stochastic Patch Selection",
+    "authors": "Amir Mallak, Erfan Aasi, Shiva Sreeram, Tsun-Hsuan Wang, Daniela Rus, Alaa Maalouf",
+    "url": "https://arxiv.org/abs/2601.10707",
+    "arxiv_id": "arXiv:2601.10707",
+    "publish_date": "2026-01-15",
+    "category": "cs.CV cs.LG cs.RO",
+    "innovation": "提出Stochastic Patch Selection (SPS)方法，通过随机掩码补丁特征提升端到端自动驾驶模型的泛化能力",
+    "application_potential": "中",
+    "abstract": "Recent advances in end-to-end autonomous driving show that policies trained on patch-aligned features extracted from foundation models generalize better to Out-of-Distribution (OOD). We hypothesize that due to the self-attention mechanism, each patch feature implicitly embeds/contains information from all other patches, making these descriptors highly redundant. We present Stochastic-Patch-Selection (SPS), a simple yet effective approach for learning policies that are more robust, generalizable, and efficient.",
+    "keywords": ["foundation models", "generalization", "patch selection", "autonomous driving", "robustness"],
+    "code_available": false,
+    "conference": null
+  },
+  {
+    "source": "Academic",
+    "title": "Driving on Registers",
+    "authors": "Ellington Kirby, Alexandre Boulch, Yihong Xu, Yuan Yin, Gilles Puy, Éloi Zablocki, Andrei Bursuc, Spyros Gidaris, Renaud Marlet, Florent Bartoccioni, Anh-Quan Cao, Nermin Samet, Tuan-Hung VU, Matthieu Cord",
+    "url": "https://arxiv.org/abs/2601.05083",
+    "arxiv_id": "arXiv:2601.05083",
+    "publish_date": "2026-01-08",
+    "category": "cs.CV cs.AI cs.RO",
+    "innovation": "提出DrivoR架构，使用相机感知的寄存器令牌压缩多相机特征，实现高效端到端自动驾驶规划",
+    "application_potential": "高",
+    "abstract": "We present DrivoR, a simple and efficient transformer-based architecture for end-to-end autonomous driving. Our approach builds on pretrained Vision Transformers (ViTs) and introduces camera-aware register tokens that compress multi-camera features into a compact scene representation, significantly reducing downstream computation without sacrificing accuracy.",
+    "keywords": ["transformer", "register tokens", "efficient architecture", "autonomous driving", "multi-camera"],
+    "code_available": false,
+    "conference": null
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260125_151800",
+    "user_intent": "测试新架构Token优化效果，生成2026-01-25自动驾驶技术情报日报",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "优先最近一周内，可接受一到两个月内",
+      "academic": "优先最近一周内，可接受一到两个月内",
+      "open_source": "优先最近一周内，可接受一到两个月内"
+    }
+  },
+  "thought_process": "用户需要测试新架构Token优化效果，生成2026-01-25日报 → 并行启动A/B/C → 重点关注端到端自动驾驶、共享模块、Token优化相关进展 → D整合输出并评估优化效果",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "industry_today",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla", "end-to-end", "FSD", "华为", "Waymo", "NIO", "XPeng", "autonomous driving", "2026"],
+        "instruction": "搜集2026年1月25日工业界端到端自动驾驶相关动态，时间范围：最近24小时，重点关注技术细节和版本更新，遵守数据真实性原则",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "papers_today",
+        "agent": "Agent_B",
+        "query_keywords": ["end-to-end autonomous driving", "diffusion driving", "VLM driving", "world model", "2026", "arxiv"],
+        "instruction": "搜索2026年1月25日arXiv上端到端自动驾驶相关论文，时间范围：最近7天，重点关注有代码实现的论文",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "code_today",
+        "agent": "Agent_C",
+        "query_keywords": ["end-to-end-driving", "autonomous-driving", "github", "simulator", "dataset", "2026"],
+        "instruction": "发现GitHub上2026年1月25日更新的端到端自动驾驶项目，时间范围：最近30天，优先大厂开源项目和高星增长项目",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-25/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "daily_synthesis",
+      "agent": "Agent_D",
+      "depends_on": ["industry_today", "papers_today", "code_today"],
+      "instruction": "基于三方情报生成2026-01-25技术日报，特别关注端到端进展，执行7天回顾和系统优化建议，评估Token优化效果",
+      "input_sources": [
+        "./reports/2026-01/2026-01-25/02_industry.json",
+        "./reports/2026-01/2026-01-25/03_papers.json",
+        "./reports/2026-01/2026-01-25/04_code.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-25/2026-01-25_Report.md"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["industry_today", "papers_today", "code_today"],
+    "final_trigger": "all_completed",
+    "failure_handling": "continue_with_available"
+  }
+}

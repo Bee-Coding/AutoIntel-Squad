@@ -1,0 +1,65 @@
+[
+  {
+    "source": "Analysis",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "report_type": "优化建议",
+      "report_date": "2026-01-25",
+      "sections": {
+        "industry": "工业数据质量优秀，建议增加中国本地媒体覆盖",
+        "academic": "学术搜索全面，建议增加会议论文搜索渠道",
+        "opensource": "开源数据访问受限，需解决GitHub API认证问题",
+        "topic_evolution": "话题演进分析完整，可增加更多量化指标",
+        "review_reflection": "7天回顾深度足够，建议增加更多历史对比",
+        "learning_suggestions": "学习建议针对性强，可增加更多实践项目",
+        "optimization_suggestions": "系统级优化建议具体可行"
+      },
+      "topic_history_updates": [
+        {
+          "topic_id": "fsd_regulation",
+          "topic_name": "FSD监管审批",
+          "version": "v2.4",
+          "update_type": "更新"
+        },
+        {
+          "topic_id": "diffusion_safety",
+          "topic_name": "扩散模型安全规划",
+          "version": "v1.0",
+          "update_type": "新增"
+        },
+        {
+          "topic_id": "vlm_explainability",
+          "topic_name": "VLM可解释性",
+          "version": "v1.3",
+          "update_type": "更新"
+        },
+        {
+          "topic_id": "opensource_ai",
+          "topic_name": "开源自动驾驶AI",
+          "version": "v3.2",
+          "update_type": "更新"
+        }
+      ],
+      "quality_assessment": {
+        "relevance": 9.2,
+        "technical_depth": 8.5,
+        "practicality": 7.8,
+        "timeliness": 9.0,
+        "coverage": 8.7,
+        "overall_score": 8.64
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

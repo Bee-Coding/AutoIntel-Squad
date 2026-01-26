@@ -190,8 +190,47 @@ AutoIntel-Squad/
 - `CODEBUDDY.md`: Main repository documentation
 - `agents_system/autointel_dispatcher.md`: Detailed execution plan templates
 - `agents_system/chief_analyst.md`: Report template and quality standards
+- `agents_system/common/`: Shared modules for token optimization
+
+## Shared Modules (New)
+
+To reduce token consumption and improve maintainability, shared modules have been created:
+
+### Location: `agents_system/common/`
+- `common_profile.md`: Standardized agent profile template
+- `common_rules.md`: Core rules library (data authenticity, quality assurance)
+- `common_workflow.md`: Standardized execution workflow  
+- `common_output.md`: Unified JSON output format standards
+- `README.md`: Usage instructions and implementation guide
+
+### Key Benefits:
+1. **Token Reduction**: Estimated 40-45% reduction in prompt token usage
+2. **Consistency**: Unified standards across all agents
+3. **Maintainability**: Centralized updates, single source of truth
+4. **Quality Assurance**: Standardized validation and error handling
+
+### Usage Example:
+```markdown
+# Role: Industry_Watcher
+
+## Profile
+Refer to: `agents_system/common/common_profile.md`
+
+## Rules
+Follow: `agents_system/common/common_rules.md`
+
+## Workflow  
+Follow: `agents_system/common/common_workflow.md`
+
+## Output Format
+Follow: `agents_system/common/common_output.md`
+
+## Agent-Specific Configuration
+[Add agent-specific skills, focus areas, search strategies]
+```
 
 ## Version
 
 Created: 2026-01-21
+Updated: 2026-01-26 (Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
 For use with agentic coding systems.

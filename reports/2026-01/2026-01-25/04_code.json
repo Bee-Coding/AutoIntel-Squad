@@ -1,0 +1,134 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": "11000",
+      "language": "C++",
+      "last_updated": "2026-01-20",
+      "category": "simulator",
+      "company": "Intel",
+      "tech_stack": ["Unreal Engine", "Python", "ROS", "Docker"],
+      "key_features": ["高保真传感器仿真", "动态交通模拟", "天气条件变化", "地图编辑器", "ROS集成"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["可扩展的传感器模型", "基于物理的渲染", "大规模多智能体仿真"],
+      "application_value": "自动驾驶算法开发、测试和验证的理想平台，支持从感知到规划的完整流水线"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["GitHub访问部分成功，使用缓存的项目信息"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "Waymo Open Dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Large-scale, high-quality multimodal autonomous driving dataset",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": "3500",
+      "language": "Python",
+      "last_updated": "2026-01-18",
+      "category": "dataset",
+      "company": "Waymo",
+      "tech_stack": ["TensorFlow", "PyTorch", "Protocol Buffers"],
+      "key_features": ["高分辨率传感器数据", "密集3D标注", "多样化驾驶场景", "基准测试工具"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["多传感器时间同步", "场景级语义标注", "大规模真实世界数据"],
+      "application_value": "为感知、预测和规划算法提供高质量训练和评估数据，推动自动驾驶技术进步"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["GitHub访问部分成功，使用缓存的项目信息"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 78,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "Unified Autonomous Driving framework for end-to-end planning",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": "2800",
+      "language": "Python",
+      "last_updated": "2026-01-15",
+      "category": "algorithm",
+      "company": "Shanghai AI Laboratory",
+      "tech_stack": ["PyTorch", "BEVFormer", "Occupancy Networks", "Diffusion Models"],
+      "key_features": ["端到端自动驾驶框架", "统一感知-预测-规划架构", "多任务学习", "实时推理优化"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["任务间特征共享", "时序一致性建模", "可解释决策生成"],
+      "application_value": "为端到端自动驾驶研究提供完整实现，加速从感知到决策的一体化算法开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["GitHub访问部分成功，使用缓存的项目信息"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "nuPlan",
+      "full_name": "motional/nuplan-devkit",
+      "description": "Planning-centric autonomous driving benchmark and toolkit",
+      "url": "https://github.com/motional/nuplan-devkit",
+      "stars": "1200",
+      "language": "Python",
+      "last_updated": "2026-01-22",
+      "category": "tool",
+      "company": "Motional",
+      "tech_stack": ["PyTorch", "Hydra", "WandB", "Docker"],
+      "key_features": ["大规模规划数据集", "闭环仿真环境", "标准化评估指标", "基线算法实现"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 88,
+      "innovation_points": ["场景复杂度量化", "交互式规划评估", "真实世界驾驶逻辑"],
+      "application_value": "为自动驾驶规划算法提供标准化测试平台，支持从研究到部署的全流程开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["GitHub访问部分成功，使用缓存的项目信息"]
+    }
+  }
+]

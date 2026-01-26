@@ -1,0 +1,126 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems",
+      "authors": "Mohamed Amine Ferrag, Abderrahmane Lakas, Merouane Debbah",
+      "url": "https://arxiv.org/abs/2601.16964",
+      "arxiv_id": "2601.16964",
+      "publish_date": "2026-01-23",
+      "category": "cs.AI",
+      "innovation": "提出首个大规模、结构化、安全关键的自驾驶智能体推理基准数据集，包含30万LLM生成的驾驶场景",
+      "application_potential": "高",
+      "abstract": "LLM的快速发展推动了其在自动驾驶系统中用于推理驱动的感知、规划和决策。但缺乏大规模、结构化、安全关键的基准数据集限制了这类智能体AI模型的评估和训练。本文提出了AgentDrive，一个包含30万LLM生成的驾驶场景的开放基准数据集，专为在不同条件下训练、微调和评估自动驾驶智能体而设计。AgentDrive在七个正交轴上形式化了因子化场景空间：场景类型、驾驶员行为、环境、道路布局、目标、难度和交通密度。LLM驱动的提示到JSON管道生成语义丰富、仿真就位的规范，并通过物理和模式约束进行验证。",
+      "keywords": ["自动驾驶", "LLM", "智能体推理", "基准数据集", "场景生成"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving",
+      "authors": "Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma",
+      "url": "https://arxiv.org/abs/2601.15729",
+      "arxiv_id": "2601.15729",
+      "publish_date": "2026-01-22",
+      "category": "cs.RO cs.AI eess.SY",
+      "innovation": "提出DualShield框架，利用Hamilton-Jacobi可达性值函数双重能力，为扩散模型规划提供主动安全引导和反应式安全保护",
+      "application_potential": "高",
+      "abstract": "扩散模型已成为自动驾驶中多模态运动规划的有力方法。然而，其实践部署通常受到难以强制执行车辆动力学以及对其他智能体预测准确性的关键依赖的阻碍，使其在不确定交互下容易产生安全问题。为了解决这些限制，我们引入了DualShield，这是一个利用Hamilton-Jacobi (HJ) 可达性值函数双重能力的规划和控制框架。首先，值函数作为主动引导，引导扩散去噪过程朝向安全和动态可行的区域。其次，它们使用控制屏障值函数 (CBVF) 形成反应式安全保护，以修改执行的动作并确保安全。这种双重机制保留了扩散模型的丰富探索能力，同时在不确定甚至对抗性交互下提供原则性的安全保障。",
+      "keywords": ["扩散模型", "安全规划", "可达性分析", "自动驾驶", "交互决策"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "AutoDriDM: An Explainable Benchmark for Decision-Making of Vision-Language Models in Autonomous Driving",
+      "authors": "Zecong Tang, Zixu Wang, Yifei Wang, Weitong Lian, Tianjian Gao, Haoran Li, Tengju Ru, Lingyi Meng, Zhejun Cui, Yichen Zhu, Qi Kang, Kaixuan Wang, Yu Zhang",
+      "url": "https://arxiv.org/abs/2601.14702",
+      "arxiv_id": "2601.14702",
+      "publish_date": "2026-01-21",
+      "category": "cs.AI cs.CV cs.RO",
+      "innovation": "提出首个面向自动驾驶决策的视觉语言模型可解释性基准，包含6,650个问题，覆盖物体、场景和决策三个维度",
+      "application_potential": "中",
+      "abstract": "自动驾驶是一个高度挑战的领域，需要在复杂场景中进行可靠的感知和安全决策。最近的视觉语言模型展示了推理和泛化能力，为自动驾驶开辟了新的可能性；然而，现有的基准和指标过分强调感知能力，未能充分评估决策过程。在这项工作中，我们提出了AutoDriDM，一个面向决策的渐进式基准，包含三个维度（物体、场景、决策）的6,650个问题。我们评估主流VLM，以描绘自动驾驶中感知到决策的能力边界，我们的相关性分析揭示了感知和决策性能之间的弱对齐。我们进一步对模型的推理过程进行可解释性分析，识别关键失败模式，如逻辑推理错误，并引入分析器模型来自动化大规模标注。",
+      "keywords": ["视觉语言模型", "自动驾驶决策", "可解释性", "基准评估", "VLM"],
+      "code_available": true,
+      "conference": "ACL ARR 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning",
+      "authors": "Hongchen Li, Tianyu Li, Jiazhi Yang, Haochen Tian, Caojun Wang, Lei Shi, Mingyang Shang, Zengrong Lin, Gaoqiang Wu, Zhihui Hao, Xianpeng Lang, Jia Hu, Hongyang Li",
+      "url": "https://arxiv.org/abs/2601.12901",
+      "arxiv_id": "2601.12901",
+      "publish_date": "2026-01-19",
+      "category": "cs.RO",
+      "innovation": "提出PlannerRFT框架，通过双重分支优化同时细化轨迹分布并自适应引导去噪过程，实现样本高效的扩散规划器强化微调",
+      "application_potential": "高",
+      "abstract": "基于扩散的规划器已成为自动驾驶中类人轨迹生成的有前途的方法。最近的工作结合强化微调，通过生成-评估循环中的奖励导向优化来增强扩散规划器的鲁棒性。然而，它们难以生成多模态、场景自适应的轨迹，阻碍了微调期间信息奖励的利用效率。为了解决这个问题，我们提出了PlannerRFT，一个面向扩散规划器的样本高效强化微调框架。PlannerRFT采用双重分支优化，同时细化轨迹分布并自适应引导去噪过程朝向更有前景的探索，而不改变原始推理流程。为了支持大规模并行学习，我们开发了nuMax，一个优化的仿真器，相比原生nuPlan实现了10倍更快的rollout。",
+      "keywords": ["扩散规划器", "强化学习", "轨迹生成", "自动驾驶", "样本效率"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

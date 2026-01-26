@@ -35,8 +35,8 @@
       "category": "academic",
       "description": "基于扩散模型的自动驾驶运动规划方法",
       "first_appeared": "2026-01-23",
-      "latest_version": "v1.0",
-      "latest_update": "2026-01-23",
+      "latest_version": "v1.1",
+      "latest_update": "2026-01-25",
       "priority": "high",
       "history": [
         {
@@ -50,6 +50,19 @@
           ],
           "sources": [
             "https://arxiv.org/abs/2601.15729"
+          ]
+        },
+        {
+          "date": "2026-01-25",
+          "version": "v1.1",
+          "description": "PlannerRFT框架通过双重分支优化实现样本高效的扩散规划器强化微调",
+          "key_points": [
+            "同时细化轨迹分布并自适应引导去噪过程",
+            "不改变原始推理流程，保持扩散模型优势",
+            "在nuPlan基准上实现最先进性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.12901"
           ]
         }
       ]
@@ -87,8 +100,8 @@
       "category": "opensource",
       "description": "自动驾驶研究和开发的数据集",
       "first_appeared": "2026-01-23",
-      "latest_version": "v1.0",
-      "latest_update": "2026-01-23",
+      "latest_version": "v1.1",
+      "latest_update": "2026-01-25",
       "priority": "medium",
       "history": [
         {
@@ -102,6 +115,19 @@
           ],
           "sources": [
             "https://arxiv.org/abs/2601.15260"
+          ]
+        },
+        {
+          "date": "2026-01-25",
+          "version": "v1.1",
+          "description": "AgentDrive数据集提供30万LLM生成的驾驶场景基准，专为智能体AI推理设计",
+          "key_points": [
+            "包含30万LLM生成的驾驶场景",
+            "在7个正交轴上形式化因子化场景空间",
+            "支持自动驾驶智能体的训练、微调和评估"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.16964"
           ]
         }
       ]
@@ -128,6 +154,84 @@
           ],
           "sources": [
             "https://github.com/OpenDriveLab/UniAD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fsd_regulation",
+      "name": "FSD监管审批",
+      "aliases": ["自动驾驶监管", "技术准入"],
+      "category": "industry",
+      "description": "自动驾驶系统（特别是FSD）的监管审批和市场准入",
+      "first_appeared": "2026-01-25",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-25",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-01-25",
+          "version": "v1.0",
+          "description": "中国监管机构否认Elon Musk关于FSD下月获批的说法，Tesla在华战略面临调整",
+          "key_points": [
+            "监管成为自动驾驶商业化主要障碍",
+            "全球监管环境趋严，技术落地面临非技术挑战",
+            "投资者预期管理成为企业重要能力"
+          ],
+          "sources": [
+            "https://electrek.co/2026/01/23/china-shuts-down-elon-musks-claim-that-tesla-fsd-will-be-approved-next-month/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlm_explainability",
+      "name": "VLM可解释性",
+      "aliases": ["视觉语言模型可解释性", "决策透明度"],
+      "category": "academic",
+      "description": "视觉语言模型在自动驾驶决策中的可解释性和透明度",
+      "first_appeared": "2026-01-25",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-25",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-01-25",
+          "version": "v1.0",
+          "description": "AutoDriDM基准首次系统评估VLM在自动驾驶决策中的可解释性",
+          "key_points": [
+            "提出6,650个问题的决策中心基准",
+            "揭示感知与决策性能之间的弱对齐",
+            "识别逻辑推理错误等关键失败模式"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.14702"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opensource_ai",
+      "name": "开源自动驾驶AI",
+      "aliases": ["开源AI平台", "开放技术栈"],
+      "category": "opensource",
+      "description": "开源自动驾驶人工智能平台和工具",
+      "first_appeared": "2026-01-25",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-25",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-01-25",
+          "version": "v1.0",
+          "description": "NVIDIA发布开源自动驾驶AI平台，将集成于Mercedes-Benz CLA车型",
+          "key_points": [
+            "NVIDIA加入自动驾驶开源阵营",
+            "降低行业准入门槛，加速技术开发",
+            "与Tesla闭源策略形成鲜明对比"
+          ],
+          "sources": [
+            "https://electrek.co/2026/01/05/nvidia-unveils-open-source-ai-for-autonomous-driving-ships-in-mercedes-benz-cla-in-q1-2026/"
           ]
         }
       ]

@@ -1,0 +1,102 @@
+[
+  {
+    "source": "OpenSource",
+    "name": "EWolf-BFMC2026",
+    "full_name": "EWolf-BFMC/EWolf-BFMC2026",
+    "description": "Official repository for Team EWolf participating in the Bosch Future Mobility Challenge (BFMC) 2026. This project focuses on developing autonomous driving algorithms for the competition.",
+    "url": "https://github.com/EWolf-BFMC/EWolf-BFMC2026",
+    "stars": 0,
+    "language": "Python",
+    "last_updated": "2026-01-25",
+    "category": "algorithm",
+    "company": "Team EWolf (Academic)",
+    "tech_stack": ["Python", "ROS", "OpenCV", "TensorFlow/PyTorch"],
+    "key_features": [
+      "Bosch Future Mobility Challenge 2026 competition code",
+      "Autonomous driving algorithms for scaled vehicles",
+      "Perception, planning, control modules"
+    ],
+    "difficulty_level": "intermediate",
+    "relevance_score": 75,
+    "innovation_points": [
+      "Real-time autonomous driving for scaled vehicle competition",
+      "Integration of perception and control systems"
+    ],
+    "application_value": "Educational and research value for autonomous driving competition participants. Provides practical implementation of autonomous driving algorithms on scaled platforms."
+  },
+  {
+    "source": "OpenSource",
+    "name": "paper-its2026-clftv2",
+    "full_name": "taltech-av/paper-its2026-clftv2",
+    "description": "CLFTv2: Hierarchical Vision Transformers for Camera-LiDAR Foreground Segmentation in Autonomous Driving",
+    "url": "https://github.com/taltech-av/paper-its2026-clftv2",
+    "stars": 0,
+    "language": "Python",
+    "last_updated": "2026-01-22",
+    "category": "algorithm",
+    "company": "Tallinn University of Technology (Academic)",
+    "tech_stack": ["Python", "PyTorch", "Vision Transformer", "LiDAR processing"],
+    "key_features": [
+      "Hierarchical Vision Transformers for sensor fusion",
+      "Camera-LiDAR foreground segmentation",
+      "Autonomous driving perception research"
+    ],
+    "difficulty_level": "advanced",
+    "relevance_score": 85,
+    "innovation_points": [
+      "Novel hierarchical transformer architecture for multi-modal fusion",
+      "Improved foreground segmentation for autonomous driving"
+    ],
+    "application_value": "Research code for advanced perception algorithms. Useful for researchers working on sensor fusion and segmentation in autonomous driving."
+  },
+  {
+    "source": "OpenSource",
+    "name": "ROS2_autonomous_driving_education_UNITA_2026",
+    "full_name": "EliseEgkart/ROS2_autonomous_driving_education_UNITA_2026",
+    "description": "ROS 2 Humble–based autonomous driving introductory course repository for UNITA (2025.12.26), including simulation practice, perception–planning–control integration.",
+    "url": "https://github.com/EliseEgkart/ROS2_autonomous_driving_education_UNITA_2026",
+    "stars": 1,
+    "language": "Python",
+    "last_updated": "2026-01-19",
+    "category": "tool",
+    "company": "Educational (UNITA)",
+    "tech_stack": ["ROS 2", "Python", "Gazebo", "OpenCV"],
+    "key_features": [
+      "ROS 2-based autonomous driving educational course",
+      "Simulation practice with Gazebo",
+      "Perception, planning, control integration examples"
+    ],
+    "difficulty_level": "beginner",
+    "relevance_score": 70,
+    "innovation_points": [
+      "Structured educational materials for autonomous driving with ROS 2",
+      "Hands-on simulation exercises"
+    ],
+    "application_value": "Excellent educational resource for beginners learning autonomous driving with ROS 2. Provides step-by-step tutorials and simulation environment."
+  },
+  {
+    "source": "OpenSource",
+    "name": "Autonomous-Winter-Driving-Benchmark-AWDB",
+    "full_name": "Ali-Awad/Autonomous-Winter-Driving-Benchmark-AWDB-",
+    "description": "Dataset for benchmarking Vision-Language Models for Traffic Scene Understanding in Inclement Winter Weather",
+    "url": "https://github.com/Ali-Awad/Autonomous-Winter-Driving-Benchmark-AWDB-",
+    "stars": 0,
+    "language": "Not specified",
+    "last_updated": "2026-01-18",
+    "category": "dataset",
+    "company": "Academic research",
+    "tech_stack": ["Dataset", "Vision-Language Models", "Benchmark"],
+    "key_features": [
+      "Winter driving scenario dataset",
+      "Benchmark for Vision-Language Models",
+      "Traffic scene understanding in adverse weather"
+    ],
+    "difficulty_level": "intermediate",
+    "relevance_score": 80,
+    "innovation_points": [
+      "Specialized dataset for winter driving conditions",
+      "Benchmark for evaluating VLMs in adverse weather"
+    ],
+    "application_value": "Valuable dataset for researchers working on robust autonomous driving in adverse weather conditions. Supports benchmarking of Vision-Language Models."
+  }
+]

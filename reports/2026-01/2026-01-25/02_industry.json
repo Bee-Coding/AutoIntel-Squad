@@ -1,0 +1,110 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "China shuts down Elon Musk's claim that Tesla FSD will be approved next month",
+      "url": "https://electrek.co/2026/01/23/china-shuts-down-elon-musks-claim-that-tesla-fsd-will-be-approved-next-month/",
+      "publish_date": "2026-01-23",
+      "technical_points": ["FSD监管审批", "中国市场准入", "监管政策变化"],
+      "raw_content": "特斯拉投资者对FSD在中国市场落地抱有期待，但中国监管机构否认了Elon Musk关于FSD下月获批的说法。文章讨论了特斯拉FSD在中国面临的监管挑战和市场准入障碍，分析了对特斯拉股价和战略的影响。",
+      "search_keywords": ["Tesla FSD 2026", "China regulation", "autonomous driving approval"],
+      "version_info": "FSD (Supervised) v14.2.2.3",
+      "event_type": "监管动态"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla cuts standard Autopilot, paywalls basic safety feature behind FSD subscription",
+      "url": "https://electrek.co/2026/01/23/tesla-cuts-standard-autopilot-paywalls-basic-safety-feature-behind-fsd-subscription/",
+      "publish_date": "2026-01-23",
+      "technical_points": ["Autopilot功能调整", "FSD订阅模式", "软件定价策略"],
+      "raw_content": "特斯拉在北美市场取消了Model 3和Model Y的基础Autopilot标准配置，将基本安全功能转为FSD订阅的一部分。这一变化反映了特斯拉软件货币化战略的调整，可能会影响消费者购买决策和市场竞争格局。",
+      "search_keywords": ["Tesla Autopilot", "FSD subscription", "software pricing"],
+      "version_info": "Autopilot 4.0",
+      "event_type": "产品策略变更"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo is now in Miami, now takes driverless rides in 6 cities (Tesla: 1, sorta)",
+      "url": "https://electrek.co/2026/01/22/waymo-is-now-in-miami-now-taking-autonomous-rides-in-6-cities-tesla-1/",
+      "publish_date": "2026-01-22",
+      "technical_points": ["无人驾驶运营扩展", "城市级部署", "运营规模对比"],
+      "raw_content": "Waymo在迈阿密启动无人驾驶网约车服务，覆盖60平方英里的运营区域。这使得Waymo的无人驾驶服务城市数量达到6个，相比之下特斯拉的Robotaxi服务仅在奥斯汀有限区域运营。文章分析了Waymo的扩展策略和技术成熟度。",
+      "search_keywords": ["Waymo Miami", "autonomous rides", "robotaxi expansion"],
+      "version_info": "Waymo Driver 6.0",
+      "event_type": "运营扩展"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-26T08:37:34Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "NVIDIA",
+      "title": "Nvidia unveils open-source AI for autonomous driving, ships in Mercedes-Benz CLA in Q1 2026",
+      "url": "https://electrek.co/2026/01/05/nvidia-unveils-open-source-ai-for-autonomous-driving-ships-in-mercedes-benz-cla-in-q1-2026/",
+      "publish_date": "2026-01-05",
+      "technical_points": ["开源自动驾驶AI", "NVIDIA Drive平台", "Mercedes-Benz集成"],
+      "raw_content": "NVIDIA在CES 2026上发布了开源自动驾驶AI平台，该平台将集成于2026年第一季度上市的Mercedes-Benz CLA车型。这一举措旨在加速自动驾驶技术开发，降低行业准入门槛，并与特斯拉的闭源FSD形成竞争。",
+      "search_keywords": ["NVIDIA autonomous", "open source AI", "Mercedes-Benz CLA"],
+      "version_info": "NVIDIA Drive 12.0",
+      "event_type": "技术发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
