@@ -18,8 +18,8 @@
 2. **第二优先级（权威媒体）**：已验证可访问性的专业科技媒体
    - Tesla专业媒体：Electrek、Teslarati、InsideEVs
    - 国际科技媒体：The Verge Transportation、CNBC Autos、Automotive News
-    - 中国科技媒体：自动驾驶之心(https://www.zdjszx.com/)、雷峰网-智能驾驶、虎嗅网、机器之心
-    - 中国公司技术博客：OpenDriveLab(https://opendrivelab.com/)、华为开发者社区、百度Apollo技术博客
+   - 中国科技媒体：自动驾驶之心(https://blog.csdn.net/cv_autobot/article/list/)、雷峰网-智能驾驶、虎嗅网、机器之心
+   - 中国公司技术博客：OpenDriveLab(https://opendrivelab.com/)、华为开发者社区、百度Apollo技术博客
    - 综合科技媒体：量子位(qbitai.com/feed)、汽车之心(autobit.com.cn)
    - GitHub技术组织：OpenDriveLab(https://github.com/OpenDriveLab)、OpenDILab(https://github.com/opendilab)
 3. **第三优先级（备用媒体）**：综合性科技媒体和行业博客
