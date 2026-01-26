@@ -1,0 +1,185 @@
+{
+  "timestamp": "2026-01-23T04:00:00Z",
+  "source": "GitHub API Search Results",
+  "projects": [
+    {
+      "name": "Apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "An open autonomous driving platform",
+      "stars": 26385,
+      "language": "C++",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "category": "autonomous-driving-platform",
+      "company": "Baidu",
+      "features": ["full-stack", "production-ready", "large-scale"]
+    },
+    {
+      "name": "openpilot",
+      "full_name": "commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "stars": 59784,
+      "language": "Python",
+      "url": "https://github.com/commaai/openpilot",
+      "category": "driver-assistance-system",
+      "company": "comma.ai",
+      "features": ["real-world", "consumer-hardware", "large-community"]
+    },
+    {
+      "name": "End-to-end-Autonomous-Driving",
+      "full_name": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "description": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving",
+      "stars": 3505,
+      "language": "Python",
+      "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+      "category": "end-to-end-autonomous-driving",
+      "company": "OpenDriveLab",
+      "features": ["research", "simulation", "policy-learning"]
+    },
+    {
+      "name": "transfuser",
+      "full_name": "autonomousvision/transfuser",
+      "description": "[PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving",
+      "stars": 1496,
+      "language": "Python",
+      "url": "https://github.com/autonomousvision/transfuser",
+      "category": "end-to-end-autonomous-driving",
+      "company": "autonomousvision",
+      "features": ["transformer", "sensor-fusion", "imitation-learning"]
+    },
+    {
+      "name": "DiffusionDrive",
+      "full_name": "hustvl/DiffusionDrive",
+      "description": "[CVPR 2025 Highlight] Truncated Diffusion Model for Real-Time End-to-End Autonomous Driving",
+      "stars": 1251,
+      "language": "Python",
+      "url": "https://github.com/hustvl/DiffusionDrive",
+      "category": "end-to-end-autonomous-driving",
+      "company": "hustvl",
+      "features": ["diffusion-models", "real-time", "latest-research"]
+    },
+    {
+      "name": "waymo-open-dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo Open Dataset",
+      "stars": 3205,
+      "language": "Python",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "category": "dataset",
+      "company": "Waymo",
+      "features": ["large-scale", "multi-modal", "benchmark"]
+    },
+    {
+      "name": "cartographer",
+      "full_name": "cartographer-project/cartographer",
+      "description": "Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.",
+      "stars": 7755,
+      "language": "C++",
+      "url": "https://github.com/cartographer-project/cartographer",
+      "category": "slam",
+      "company": "Google",
+      "features": ["slam", "localization", "mapping"]
+    },
+    {
+      "name": "self-driving-car",
+      "full_name": "udacity/self-driving-car",
+      "description": "The Udacity open source self-driving car project",
+      "stars": 6293,
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/udacity/self-driving-car",
+      "category": "education",
+      "company": "Udacity",
+      "features": ["educational", "comprehensive", "beginner-friendly"]
+    },
+    {
+      "name": "donkeycar",
+      "full_name": "autorope/donkeycar",
+      "description": "Open source hardware and software platform to build a small scale self driving car.",
+      "stars": 3358,
+      "language": "Python",
+      "url": "https://github.com/autorope/donkeycar",
+      "category": "small-scale",
+      "company": "autorope",
+      "features": ["diy", "raspberry-pi", "hardware"]
+    },
+    {
+      "name": "AirSim",
+      "full_name": "microsoft/AirSim",
+      "description": "Open source simulator for autonomous vehicles built on Unreal Engine",
+      "stars": 15500,
+      "language": "C++",
+      "url": "https://github.com/microsoft/AirSim",
+      "category": "simulator",
+      "company": "Microsoft",
+      "features": ["simulation", "unreal-engine", "photorealistic"]
+    },
+    {
+      "name": "SparseDrive",
+      "full_name": "swc-17/SparseDrive",
+      "description": "SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation",
+      "stars": 839,
+      "language": "Python",
+      "url": "https://github.com/swc-17/SparseDrive",
+      "category": "end-to-end-autonomous-driving",
+      "company": "swc-17",
+      "features": ["sparse-representation", "efficient", "research"]
+    },
+    {
+      "name": "OpenDriveVLA",
+      "full_name": "DriveVLA/OpenDriveVLA",
+      "description": "[AAAI 2026] OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model",
+      "stars": 585,
+      "language": "Python",
+      "url": "https://github.com/DriveVLA/OpenDriveVLA",
+      "category": "end-to-end-autonomous-driving",
+      "company": "DriveVLA",
+      "features": ["vlm", "vision-language-action", "latest-research"]
+    },
+    {
+      "name": "Orion",
+      "full_name": "xiaomi-mlab/Orion",
+      "description": "[ICCV 2025] Official code of \"ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation\"",
+      "stars": 557,
+      "language": "Python",
+      "url": "https://github.com/xiaomi-mlab/Orion",
+      "category": "end-to-end-autonomous-driving",
+      "company": "Xiaomi",
+      "features": ["vision-language", "holistic", "industry-research"]
+    },
+    {
+      "name": "Senna",
+      "full_name": "hustvl/Senna",
+      "description": "Bridging Large Vision-Language Models and End-to-End Autonomous Driving",
+      "stars": 516,
+      "language": "Python",
+      "url": "https://github.com/hustvl/Senna",
+      "category": "end-to-end-autonomous-driving",
+      "company": "hustvl",
+      "features": ["vlm-integration", "bridge-models", "research"]
+    }
+  ],
+  "summary": {
+    "total_projects": 14,
+    "categories": {
+      "end-to-end-autonomous-driving": 8,
+      "autonomous-driving-platform": 1,
+      "driver-assistance-system": 1,
+      "dataset": 1,
+      "slam": 1,
+      "education": 1,
+      "small-scale": 1,
+      "simulator": 1
+    },
+    "top_languages": ["Python", "C++", "Jupyter Notebook", "C"],
+    "highest_starred": "openpilot (59784 stars)",
+    "most_active_category": "end-to-end-autonomous-driving (8 projects)",
+    "company_projects": {
+      "Baidu": 1,
+      "comma.ai": 1,
+      "Waymo": 1,
+      "Google": 1,
+      "Udacity": 1,
+      "Microsoft": 1,
+      "Xiaomi": 1
+    }
+  }
+}

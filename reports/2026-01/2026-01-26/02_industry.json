@@ -1,0 +1,41 @@
+[
+  {
+    "source": "Industry",
+    "company": "Tesla/Waymo",
+    "title": "TechCrunch Mobility: RIP, Tesla Autopilot, and the NTSB investigates Waymo",
+    "url": "https://techcrunch.com/category/transportation/",
+    "publish_date": "2026-01-26",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "85/100 A",
+    "technical_points": ["Tesla Autopilot 停用", "NTSB 调查Waymo", "FSD 推广策略"],
+    "raw_content": "TechCrunch Mobility 专栏报道：Tesla 正式停用 Autopilot 功能，全力推广 Full Self-Driving (FSD) 软件；同时 NTSB（国家运输安全委员会）对 Waymo 的非法校车行为展开调查。这标志着自动驾驶行业从辅助驾驶向完全自动驾驶的加速转型。",
+    "search_keywords": ["Tesla", "Autopilot", "Waymo", "NTSB", "FSD"]
+  },
+  {
+    "source": "Industry",
+    "company": "Waymo",
+    "title": "Waymo probed by National Transportation Safety Board over illegal school bus behavior",
+    "url": "https://techcrunch.com/category/transportation/",
+    "publish_date": "2026-01-24",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "82/100 A",
+    "technical_points": ["NTSB 调查", "校车行为违规", "Robotaxi 安全"],
+    "raw_content": "美国国家运输安全委员会（NTSB）正在调查 Waymo 的自动驾驶车辆涉嫌非法校车行为。这是对自动驾驶安全监管的重要案例，可能影响未来 robotaxi 的运营规范。",
+    "search_keywords": ["Waymo", "NTSB", "school bus", "robotaxi", "safety"]
+  },
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla discontinues Autopilot in bid to boost adoption of its Full Self-Driving software",
+    "url": "https://techcrunch.com/category/transportation/",
+    "publish_date": "2026-01-23",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "88/100 A",
+    "technical_points": ["Autopilot 停用", "FSD 订阅制", "端到端架构"],
+    "raw_content": "Tesla 宣布停止提供 Autopilot 功能，全力转向 Full Self-Driving (FSD) 软件的订阅制推广。这一战略调整旨在加速用户向完全自动驾驶功能迁移，反映 Tesla 对端到端技术路线的坚定信心。",
+    "search_keywords": ["Tesla", "Autopilot", "FSD", "subscription", "end-to-end"]
+  }
+]

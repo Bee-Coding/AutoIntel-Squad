@@ -1,0 +1,15 @@
+[
+  {
+    "source": "OpenSource",
+    "project_name": "DrivIng",
+    "url": "https://github.com/cvims/DrivIng",
+    "last_updated": "2026-01-21",
+    "description": "Large-scale multimodal driving dataset with full digital twin integration. Includes ~18 km route with urban, suburban, and highway segments, recorded with 6 RGB cameras, LiDAR, and high-precision localization.",
+    "stack": "Python, PyTorch, ROS",
+    "usability": "高",
+    "stars": "新项目，尚未有star数据",
+    "language": "Python",
+    "license": "未指定",
+    "quality_score": 87
+  }
+]

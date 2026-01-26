@@ -1,0 +1,62 @@
+[
+  {
+    "source": "OpenSource",
+    "project_name": "waymax",
+    "url": "https://github.com/waymo-research/waymax",
+    "last_updated": "2026-01-20",
+    "description": "A JAX-based simulator for autonomous driving research.",
+    "stack": "JAX, Python",
+    "usability": "中",
+    "stars": 1026,
+    "language": "Python",
+    "license": "other"
+  },
+  {
+    "source": "OpenSource",
+    "project_name": "mppi-in-autonomous-driving",
+    "url": "https://github.com/PuYuuu/mppi-in-autonomous-driving",
+    "last_updated": "2026-01-20",
+    "description": "Real-time probabilistic inference-based motion planning for autonomous driving with MPPI",
+    "stack": "C++, CUDA",
+    "usability": "中高",
+    "stars": 4,
+    "language": "C++",
+    "license": "mit"
+  },
+  {
+    "source": "OpenSource",
+    "project_name": "ROS2_autonomous_driving_education_UNITA_2026",
+    "url": "https://github.com/EliseEgkart/ROS2_autonomous_driving_education_UNITA_2026",
+    "last_updated": "2026-01-21",
+    "description": "ROS 2 Humble–based autonomous driving introductory course repository for UNITA (2025.12.26), including simulation practice, perception–planning–control overview, team-based code review, and short hackathon.",
+    "stack": "ROS2, Python",
+    "usability": "中",
+    "stars": 1,
+    "language": "Python",
+    "license": "gpl-3.0"
+  },
+  {
+    "source": "OpenSource",
+    "project_name": "Autonomous-Vehicle-Remake",
+    "url": "https://github.com/grexrr/Autonomous-Vehicle-Remake",
+    "last_updated": "2026-01-17",
+    "description": "This project implements an autonomous driving simulation system with global path planning and local trajectory tracking.",
+    "stack": "Python, PyGame",
+    "usability": "高",
+    "stars": 3,
+    "language": "Python",
+    "license": null
+  },
+  {
+    "source": "OpenSource",
+    "project_name": "av2-api",
+    "url": "https://github.com/argoverse/av2-api",
+    "last_updated": "2026-01-21",
+    "description": "Argoverse 2: Next generation datasets for self-driving perception and forecasting.",
+    "stack": "Python",
+    "usability": "高",
+    "stars": 400,
+    "language": "Python",
+    "license": "mit"
+  }
+]

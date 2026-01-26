@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_at": "2026-01-21T00:00:00Z",
+    "last_updated": "2026-01-22T10:55:00Z",
+    "schema_version": "1.0"
+  },
+  "system_stats": {
+    "total_days": 2,
+    "data_collection_days": 2,
+    "pattern_recognition_days": 0,
+    "precision_optimization_days": 0,
+    "first_execution_date": "2026-01-21",
+    "last_execution_date": "2026-01-22",
+    "total_suggestions_generated": 3,
+    "total_suggestions_applied": 0
+  },
+  "optimization_config": {
+    "current_phase": "data_collection",
+    "phase_descriptions": {
+      "data_collection": "数据收集期（前30天）：保持广泛搜索，建立质量基线，探索率20%",
+      "pattern_recognition": "模式识别期（30-90天）：识别高频高质量话题，探索率10%",
+      "precision_optimization": "精准优化期（90天后）：基于历史模式智能调整，探索率5%"
+    },
+    "exploration_rates": {
+      "data_collection": 0.2,
+      "pattern_recognition": 0.1,
+      "precision_optimization": 0.05
+    },
+    "core_topics": [
+      "end_to_end",
+      "vla_model",
+      "world_model",
+      "diffusion_planner",
+      "generative_scenario",
+      "fsd",
+      "huawei_ads"
+    ],
+    "quality_metrics": {
+      "relevance": "与端到端自动驾驶转型的相关程度（0-10）",
+      "technical_depth": "算法原理、架构设计的解析深度（0-10）",
+      "practicality": "代码实现、部署落地的可行性（0-10）",
+      "timeliness": "信息的新鲜度和技术前沿性（0-10）",
+      "coverage": "话题多样性和技术领域覆盖（0-10）"
+    }
+  },
+  "suggestion_history": {
+    "months": ["2026-01"],
+    "monthly_files": {
+      "2026-01": "./reports/optimization/2026-01.json"
+    }
+  },
+  "active_suggestions": [
+    {
+      "id": "init_config",
+      "type": "system_configuration",
+      "description": "初始系统配置：数据收集期，探索率20%，保持广泛搜索",
+      "applied": true,
+      "applied_date": "2026-01-21",
+      "valid_until": "2026-02-20"
+    },
+    {
+      "id": "opt_20260122_001",
+      "type": "keyword_expansion",
+      "description": "Agent A: 增加自动驾驶初创公司、欧洲法规、美国监管关键词",
+      "applied": false,
+      "applied_date": null,
+      "valid_until": "2026-01-29",
+      "priority": "medium",
+      "target_agent": "Agent_A"
+    },
+    {
+      "id": "opt_20260122_002",
+      "type": "keyword_expansion",
+      "description": "Agent B: 增加会议论文和工业研究关键词（CVPR/ICRA, Waymo Research等）",
+      "applied": false,
+      "applied_date": null,
+      "valid_until": "2026-01-29",
+      "priority": "high",
+      "target_agent": "Agent_B"
+    },
+    {
+      "id": "opt_20260122_003",
+      "type": "keyword_expansion",
+      "description": "Agent C: 增加商业化工具和云服务平台关键词",
+      "applied": false,
+      "applied_date": null,
+      "valid_until": "2026-01-29",
+      "priority": "medium",
+      "target_agent": "Agent_C"
+    }
+  ]
+}

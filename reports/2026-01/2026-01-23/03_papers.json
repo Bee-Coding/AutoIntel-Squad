@@ -1,0 +1,62 @@
+[
+  {
+    "source": "Academic",
+    "title": "DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving",
+    "authors": "Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma",
+    "url": "https://arxiv.org/abs/2601.15729",
+    "arxiv_id": "2601.15729",
+    "publish_date": "2026-01-22",
+    "category": "cs.RO",
+    "innovation": "提出DualShield框架，将Hamilton-Jacobi可达性分析融入扩散模型规划，实现主动安全引导和反应式安全防护的双重机制",
+    "application_potential": "高",
+    "abstract": "扩散模型已成为自动驾驶多模态运动规划的有力方法，但其实际部署通常受到车辆动力学约束执行困难和依赖其他智能体准确预测的限制，使其在不确定交互下容易出现安全问题。为解决这些限制，我们引入了DualShield，这是一个利用Hamilton-Jacobi（HJ）可达性值函数双重能力的规划与控制框架。首先，值函数作为主动引导，将扩散去噪过程引导至安全且动态可行的区域。其次，它们形成反应式安全防护，使用控制屏障值函数（CBVF）修改执行动作以确保安全。这种双重机制保留了扩散模型的丰富探索能力，同时在不确定甚至对抗性交互下提供原则性的安全保障。在具有挑战性的无保护U形转弯场景中的仿真表明，与不同规划范式下的领先方法相比，DualShield在不确定性下显著提高了安全性和任务效率。",
+    "keywords": ["扩散模型", "运动规划", "可达性分析", "安全验证", "自动驾驶"],
+    "code_available": false,
+    "conference": null
+  },
+  {
+    "source": "Academic",
+    "title": "SuperOcc: Toward Cohesive Temporal Modeling for Superquadric-based Occupancy Prediction",
+    "authors": "Zichen Yu, Quanli Liu, Wei Wang, Liyong Zhang, Xiaoguang Zhao",
+    "url": "https://arxiv.org/abs/2601.15644",
+    "arxiv_id": "2601.15644",
+    "publish_date": "2026-01-21",
+    "category": "cs.CV",
+    "innovation": "提出SuperOcc框架，通过凝聚时序建模机制同时利用视角中心和物体中心的时序线索，增强超二次曲面表示的几何表达能力",
+    "application_potential": "高",
+    "abstract": "3D占用预测在自动驾驶领域起着关键作用，因为它提供了对驾驶环境的全面理解。大多数现有方法构建密集场景表示进行占用预测，忽略了真实世界驾驶场景固有的稀疏性。最近，3D超二次曲面表示由于超二次曲面的强大几何表达能力，已成为密集场景表示的有希望的稀疏替代方案。然而，现有的超二次曲面框架仍然存在时序建模不足、查询稀疏性和几何表达能力之间的困难权衡以及超二次曲面到体素投影效率低下的问题。为解决这些问题，我们提出了SuperOcc，一个用于基于超二次曲面的3D占用预测的新框架。SuperOcc包含三个关键设计：（1）凝聚时序建模机制，同时利用视角中心和物体中心的时序线索；（2）多超二次曲面解码策略，在不牺牲查询稀疏性的情况下增强几何表达能力；（3）高效的超二次曲面到体素投影方案，提高计算效率。在SurroundOcc和Occ3D基准测试上的广泛实验表明，SuperOcc在保持卓越效率的同时实现了最先进的性能。",
+    "keywords": ["3D占用预测", "超二次曲面", "时序建模", "自动驾驶感知", "稀疏表示"],
+    "code_available": true,
+    "conference": null
+  },
+  {
+    "source": "Academic",
+    "title": "DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration",
+    "authors": "Dominik Rößle, Xujun Xie, Adithya Mohan, Venkatesh Thirugnana Sambandham, Daniel Cremers, Torsten Schön",
+    "url": "https://arxiv.org/abs/2601.15260",
+    "arxiv_id": "2601.15260",
+    "publish_date": "2026-01-21",
+    "category": "cs.CV",
+    "innovation": "提出DrivIng数据集，包含完整地理参考的数字孪生，支持真实交通到仿真的1对1转换，保留智能体交互同时实现灵活的场景测试",
+    "application_potential": "高",
+    "abstract": "感知是自动驾驶的基石，使车辆能够理解周围环境并做出安全可靠的决定。开发稳健的感知算法需要大规模、高质量的数据集，涵盖多样化的驾驶条件并支持全面评估。现有数据集通常缺乏高保真度的数字孪生，限制了系统测试、边缘情况模拟、传感器修改和仿真到真实评估。为填补这一空白，我们提出了DrivIng，一个具有完整地理参考数字孪生的大规模多模态数据集，涵盖约18公里的路线，包括城市、郊区和高速公路段。我们的数据集提供了来自六个RGB摄像头、一个LiDAR和高精度ADMA定位的连续记录，涵盖白天、黄昏和夜晚。所有序列以10Hz频率标注，包含12个类别的3D边界框和轨迹ID，产生约120万个标注实例。除了数字孪生的优势外，DrivIng实现了真实交通到仿真的1对1转换，保留智能体交互同时实现现实且灵活的场景测试。为支持可重复研究和稳健验证，我们使用最先进的感知模型对DrivIng进行基准测试，并公开发布数据集、数字孪生、高清地图和代码库。",
+    "keywords": ["自动驾驶数据集", "数字孪生", "多模态感知", "仿真到真实", "基准测试"],
+    "code_available": true,
+    "conference": "IEEE Intelligent Vehicles Symposium 2026"
+  },
+  {
+    "source": "Academic",
+    "title": "AutoDriDM: An Explainable Benchmark for Decision-Making of Vision-Language Models in Autonomous Driving",
+    "authors": "Zecong Tang, Zixu Wang",
+    "url": "https://arxiv.org/abs/2601.14702",
+    "arxiv_id": "2601.14702",
+    "publish_date": "2026-01-21",
+    "category": "cs.AI",
+    "innovation": "提出AutoDriDM基准测试，专注于视觉语言模型在自动驾驶决策中的可解释性评估，包含多种驾驶场景和决策任务",
+    "application_potential": "中",
+    "abstract": "视觉语言模型（VLMs）在自动驾驶决策中显示出巨大潜力，但缺乏系统评估其决策能力的基准测试。我们提出了AutoDriDM，一个专注于VLMs在自动驾驶决策中可解释性评估的基准测试。该基准包含多种驾驶场景，包括城市道路、高速公路和复杂交叉路口，涵盖感知、预测和规划等多个决策任务。我们设计了专门的评估指标，不仅评估决策准确性，还评估决策过程的可解释性和一致性。实验结果表明，当前VLMs在简单场景下表现良好，但在复杂交互和长时程规划方面仍有改进空间。AutoDriDM为VLMs在自动驾驶中的应用提供了系统评估框架。",
+    "keywords": ["视觉语言模型", "自动驾驶决策", "可解释性", "基准测试", "决策评估"],
+    "code_available": true,
+    "conference": null
+  }
+]

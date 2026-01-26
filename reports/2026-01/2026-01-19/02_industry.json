@@ -1,0 +1,53 @@
+[
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla is finally doing unsupervised robotaxi rides",
+    "url": "https://www.theverge.com/transportation/2026/1/22/tesla-unsupervised-robotaxi-rides",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "84/100 B",
+    "technical_points": [
+      "特斯拉开始无监督Robotaxi试运行",
+      "Elon Musk宣布里程碑但实际规模有限",
+      "与Waymo的完全无人驾驶服务对比"
+    ],
+    "raw_content": "特斯拉终于开始无监督Robotaxi试运行，Elon Musk庆祝这一里程碑，但实际能够乘坐特斯拉新无监督Robotaxi的人数在近期内尚不明确。The Verge指出，特斯拉的部署规模有限，与Waymo在多个城市的完全无人驾驶服务形成对比。",
+    "search_keywords": ["Tesla Robotaxi", "unsupervised", "2026年1月", "The Verge"]
+  },
+  {
+    "source": "Industry",
+    "company": "Waymo",
+    "title": "Waymo is accepting public riders in Miami",
+    "url": "https://www.theverge.com/transportation/2026/1/22/waymo-miami-public-riders",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "86/100 A",
+    "technical_points": [
+      "Waymo在迈阿密接受公众乘客",
+      "服务范围持续扩大",
+      "完全无人驾驶技术成熟度验证"
+    ],
+    "raw_content": "Waymo在迈阿密开始接受公众乘客，这是其完全无人驾驶服务的又一扩展。Magic City成为Waymo服务的第六个城市，展示了公司在完全无人驾驶技术方面的成熟度和规模化能力。",
+    "search_keywords": ["Waymo", "Miami", "public riders", "2026年1月"]
+  },
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla didn't remove the Robotaxi 'safety monitor' – it just moved them to a trailing car",
+    "url": "https://electrek.co/2026/01/23/tesla-didnt-remove-the-robotaxi-safety-monitor-it-just-moved-them-to-a-trailing-car/",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "82/100 B",
+    "technical_points": [
+      "特斯拉Robotaxi采用跟随车辆监控策略",
+      "无监督车辆实际仍有远程监控支持",
+      "与Waymo完全无人驾驶形成对比"
+    ],
+    "raw_content": "特斯拉并未真正移除Robotaxi的安全监控员，而是将他们移到了跟随车辆中。视频证据显示，特斯拉的'无监督'Robotaxi在奥斯汀运营时，都有黑色特斯拉车辆紧随其后。这意味着特斯拉的安全监控员只是从车内移到了后面的车辆中，随时准备在出现问题时进行干预。这与Waymo的真正无监督自动驾驶形成对比，Waymo车辆在没有跟随车辆的情况下运营，已积累了超过1亿英里的完全无人驾驶里程。",
+    "search_keywords": ["Tesla Robotaxi", "safety monitor", "trailing car", "2026年1月"]
+  }
+]

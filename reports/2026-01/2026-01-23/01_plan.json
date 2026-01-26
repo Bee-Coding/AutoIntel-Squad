@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260123_rerun_strict",
+    "user_intent": "重新生成今日自动驾驶技术日报，严格遵守禁止臆造、无源则无果、强制引用原则",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "优先最近一周内，可接受一到两个月内",
+      "academic": "优先最近一周内，可接受一到两个月内",
+      "open_source": "优先最近一周内，可接受一到两个月内"
+    }
+  },
+  "thought_process": "用户要求重新生成日报并严格禁止模拟数据 → 采用真实网络搜索，如果搜索结果为空则内容为空 → 并行执行A/B/C真实搜索 → 验证搜索结果时效性 → 无符合时效结果则返回空数据 → D生成空结果日报并分析搜索失败原因",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "industry_real_search",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla blog 2026", "Waymo blog 2026", "华为自动驾驶 2026", "NIO 自动驾驶", "XPeng 自动驾驶", "地平线 HSD"],
+        "instruction": "执行真实网络搜索，访问公司官网和权威媒体网站。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟数据、示例数据或编造信息\n2. **允许空结果**：如果确实没有新动态，可以报告\"今日无重要工业动态更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史信息修改日期后伪装成今日信息\n4. **强制真实搜索**：必须使用WebSearch工具访问实际网站获取真实信息\n5. **日期验证**：每条信息必须有真实、可验证的发布日期，与来源网站一致\n6. **禁止臆造**：必须严格基于提供的搜索结果或代码执行的输出撰写日报。绝对禁止使用任何模拟数据、占位符数据（如 \"Sample Data\", \"123.00\"）或训练集中的旧知识。\n7. **无源则无果**：如果搜索工具返回的结果为空，或者因为网络原因无法获取数据，必须直接回复\"无法获取今日真实数据\"，而不是尝试编造内容。\n8. **强制引用**：每一条新闻或数据必须附带来源链接（URL）。如果无法提供真实链接，则该条新闻不能被收录。\n\n**实际搜索执行**：使用WebFetch工具访问Tesla博客、Waymo博客、华为官网、NIO官网、XPeng官网、地平线官网。记录真实搜索结果。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-23/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "actual_search_results": {
+          "tesla_blog": "403 Forbidden (访问受限)",
+          "waymo_blog": "连接超时",
+          "huawei_site": "可访问但无自动驾驶相关新闻",
+          "nio_site": "可访问但无今日技术更新",
+          "xpeng_site": "可访问但无今日技术更新",
+          "horizon_site": "无法连接"
+        }
+      },
+      {
+        "task_id": "papers_real_search",
+        "agent": "Agent_B",
+        "query_keywords": ["autonomous driving arXiv 2026", "end-to-end autonomous driving", "world model driving"],
+        "instruction": "执行真实arXiv API查询，获取最新论文信息。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟论文信息、编造arXiv链接或虚假摘要\n2. **允许空结果**：如果今日确实没有新论文，可以报告\"今日无重要论文更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史论文修改日期后伪装成今日上传\n4. **强制真实搜索**：必须使用WebSearch工具访问真实的arXiv.org网站获取论文信息\n5. **日期验证**：每篇论文必须有真实的arXiv上传日期，与arXiv页面显示一致\n6. **禁止臆造**：必须严格基于提供的搜索结果或代码执行的输出撰写日报。绝对禁止使用任何模拟数据、占位符数据（如 \"Sample Data\", \"123.00\"）或训练集中的旧知识。\n7. **无源则无果**：如果搜索工具返回的结果为空，或者因为网络原因无法获取数据，必须直接回复\"无法获取今日真实数据\"，而不是尝试编造内容。\n8. **强制引用**：每一条新闻或数据必须附带来源链接（URL）。如果无法提供真实链接，则该条新闻不能被收录。\n\n**实际搜索执行**：使用arXiv API查询（http://export.arxiv.org/api/query?search_query=all:autonomous+driving&start=0&max_results=10）。验证论文上传日期是否符合时效要求。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-23/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "actual_search_results": {
+          "arxiv_api_url": "http://export.arxiv.org/api/query?search_query=all:autonomous+driving&start=0&max_results=10",
+          "total_results": 84405,
+          "latest_paper_date": "2025-09-28",
+          "timeliness_assessment": "超过4个月，不符合收集标准（最近一至两个月内）"
+        }
+      },
+      {
+        "task_id": "code_real_search",
+        "agent": "Agent_C",
+        "query_keywords": ["GitHub trending autonomous driving", "autonomous driving open source"],
+        "instruction": "执行真实GitHub Trending页面分析，寻找自动驾驶相关项目。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟GitHub项目、编造star数或虚假描述\n2. **允许空结果**：如果今日确实没有新项目，可以报告\"今日无重要开源项目更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史项目修改更新时间后伪装成今日更新\n4. **强制真实搜索**：必须使用WebSearch工具访问真实的GitHub.com网站获取项目信息\n5. **日期验证**：每个项目必须有真实的最近更新时间，与GitHub页面显示一致\n6. **禁止臆造**：必须严格基于提供的搜索结果或代码执行的输出撰写日报。绝对禁止使用任何模拟数据、占位符数据（如 \"Sample Data\", \"123.00\"）或训练集中的旧知识。\n7. **无源则无果**：如果搜索工具返回的结果为空，或者因为网络原因无法获取数据，必须直接回复\"无法获取今日真实数据\"，而不是尝试编造内容。\n8. **强制引用**：每一条新闻或数据必须附带来源链接（URL）。如果无法提供真实链接，则该条新闻不能被收录。\n\n**实际搜索执行**：访问GitHub Trending页面（https://github.com/trending），使用关键词搜索分析内容。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-23/04_code.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "actual_search_results": {
+          "github_trending_url": "https://github.com/trending",
+          "keyword_search": "autonomous|driving|self-driving|自动驾驶",
+          "matches_found": 1,
+          "match_content": "An autonomous agent for deep financial research (无关结果)",
+          "conclusion": "无自动驾驶相关高价值项目"
+        }
+      }
+    ],
+    "final_task": {
+      "task_id": "empty_results_synthesis",
+      "agent": "Agent_D",
+      "depends_on": ["industry_real_search", "papers_real_search", "code_real_search"],
+      "instruction": "**数据真实性验证**：验证所有搜索结果为空，确认无模拟数据迹象。\n\n基于空结果生成日报：\n1. 如实报告\"无法获取今日真实数据\"\n2. 详细记录搜索过程和失败原因\n3. 提供系统优化建议\n4. 严格遵守\"禁止臆造、无源则无果、强制引用\"原则\n\n**要求**：\n- 如果某方面确实没有新动态，如实报告\"今日无重要更新\"\n- 不得编造任何内容填充日报\n- 分析搜索失败原因，提供改进建议\n- 保持日报结构完整，但内容为空",
+      "input_sources": [
+        "./reports/2026-01/2026-01-23/02_industry.json",
+        "./reports/2026-01/2026-01-23/03_papers.json",
+        "./reports/2026-01/2026-01-23/04_code.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-23/2026-01-23_Report.md"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["industry_real_search", "papers_real_search", "code_real_search"],
+    "final_trigger": "all_completed",
+    "timeout_handling": "proceed_with_available",
+    "empty_results_allowed": true,
+    "strict_data_authenticity": true
+  },
+  "execution_summary": {
+    "start_time": "2026-01-23T12:00:00Z",
+    "end_time": "2026-01-23T12:15:00Z",
+    "overall_result": "空结果 - 无符合时效性要求的数据",
+    "data_authenticity": "严格遵守禁止臆造、无源则无果、强制引用原则",
+    "search_coverage": "覆盖Tesla、Waymo、华为、NIO、XPeng、地平线、arXiv、GitHub Trending",
+    "timeliness_violations": "所有搜索结果均不符合时效性要求（工业动态无今日更新，论文最新为2025年9月，GitHub无相关项目）"
+  }
+}

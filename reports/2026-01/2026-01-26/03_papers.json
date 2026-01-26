@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Academic",
+    "title": "Listen, Look, Drive: Coupling Audio Instructions for User-aware VLA-based Autonomous Driving",
+    "authors": "Ziang Guo, Feng Yang, Xuefeng Zhang, Jiaqi Guo, Kun Zhao, Peng Lu, Zufeng Zhang, Sifa Zheng",
+    "url": "https://arxiv.org/abs/2601.12142",
+    "arxiv_id": "2601.12142",
+    "publish_date": "2026-01-17",
+    "category": "eess.AS, cs.MM, cs.RO",
+    "innovation": "提出 EchoVLA，首个支持音频指令的视觉语言动作模型，通过合成情感语音-轨迹对实现情感自适应驾驶",
+    "application_potential": "高",
+    "abstract": "Vision Language Action (VLA) models promise an open-vocabulary interface but treat language as static. We present EchoVLA that couples camera streams with in situ audio instructions. We augment nuScenes with temporally aligned, intent-specific speech commands and emotional speech-trajectory pairs for fine-tuning. EchoVLA reduces L2 error by 59.4% and collision rate by 74.4% compared to vision-only baseline.",
+    "keywords": ["VLA", "audio instruction", "emotion adaptive", "end-to-end"],
+    "code_available": true,
+    "conference": "IV"
+  },
+  {
+    "source": "Academic",
+    "title": "SMc2f: Robust Scenario Mining for Robotic Autonomy from Coarse to Fine",
+    "authors": "Yifei Chen, Ross Greer",
+    "url": "https://arxiv.org/abs/2601.12010",
+    "arxiv_id": "2601.12010",
+    "publish_date": "2026-01-17",
+    "category": "cs.CV",
+    "innovation": "提出从粗到精的鲁棒场景挖掘流程，结合视觉语言模型进行粗粒度筛选，文本-轨迹对比学习进行细粒度匹配",
+    "application_potential": "中",
+    "abstract": "The safety validation of autonomous robotic vehicles hinges on systematically testing against rare, safety-critical scenarios. We propose SMc2f, a coarse-to-fine pipeline that employs VLMs for coarse image-text filtering and introduces text-trajectory contrastive learning for fine-grained matching. Experiments show substantial gains in retrieval quality and efficiency.",
+    "keywords": ["scenario mining", "VLM", "contrastive learning", "safety validation"],
+    "code_available": true,
+    "conference": null
+  },
+  {
+    "source": "Academic",
+    "title": "Generative Scenario Rollouts for End-to-End Autonomous Driving",
+    "authors": "Rajeev Yasarla, Deepti Hegde, Shizhong Han, Hsin-Pai Cheng, Yunxiao Shi, Meysam Sadeghigooghari, Shweta Mahajan, Apratim Bhattacharyya, Litian Liu, Risheek Garrepalli, Thomas Svantesson, Fatih Porikli, Hong Cai",
+    "url": "https://arxiv.org/abs/2601.11475",
+    "arxiv_id": "2601.11475",
+    "publish_date": "2026-01-16",
+    "category": "cs.CV",
+    "innovation": "提出生成式场景推演框架，实现语言条件化的自回归多智能体规划，支持长时程推理和文本-动作对齐",
+    "application_potential": "高",
+    "abstract": "We propose Generative Scenario Rollouts (GeRo), a plug-and-play framework for VLA models that jointly performs planning and generation of language-grounded future traffic scenes through autoregressive rollout strategy. On Bench2Drive, GeRo improves driving score and success rate by +15.7 and +26.2, respectively, achieving state-of-the-art closed-loop performance.",
+    "keywords": ["generative rollouts", "VLA", "autoregressive", "multi-agent planning"],
+    "code_available": true,
+    "conference": null
+  }
+]

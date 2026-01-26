@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "month": "2026-01",
+    "created_at": "2026-01-21T18:04:00Z",
+    "last_updated": "2026-01-21T18:22:05.394156Z",
+    "topics_count": 19
+  },
+  "topics": {
+    "end_to_end": {
+      "id": "end_to_end",
+      "name": "端到端自动驾驶模型",
+      "aliases": [
+        "End-to-End Autonomous Driving",
+        "端到端自动驾驶",
+        "E2E AD"
+      ],
+      "category": "architecture",
+      "description": "直接从传感器输入到控制输出的完整神经网络架构",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "diffusion_model": {
+      "id": "diffusion_model",
+      "name": "Diffusion Model",
+      "aliases": [
+        "扩散模型",
+        "生成扩散模型"
+      ],
+      "category": "model",
+      "description": "基于扩散过程的生成模型，用于轨迹预测和规划",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "diffusion_planner": {
+      "id": "diffusion_planner",
+      "name": "Diffusion Planner",
+      "aliases": [
+        "扩散规划器",
+        "Diffusion Policy"
+      ],
+      "category": "planning",
+      "description": "基于扩散模型的运动规划算法",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "vlm": {
+      "id": "vlm",
+      "name": "视觉语言模型",
+      "aliases": [
+        "Vision-Language Model",
+        "VLM"
+      ],
+      "category": "model",
+      "description": "融合视觉和语言理解的多模态模型",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "vla_model": {
+      "id": "vla_model",
+      "name": "视觉-语言-动作模型",
+      "aliases": [
+        "Vision-Language-Action Model",
+        "VLA"
+      ],
+      "category": "model",
+      "description": "扩展VLM到动作空间，支持端到端规划",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "world_model": {
+      "id": "world_model",
+      "name": "世界模型",
+      "aliases": [
+        "World Model",
+        "环境模型"
+      ],
+      "category": "model",
+      "description": "学习环境动态的模型，用于预测和规划",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "fsd": {
+      "id": "fsd",
+      "name": "Tesla Full Self-Driving",
+      "aliases": [
+        "FSD",
+        "Tesla FSD",
+        "FSD Beta"
+      ],
+      "category": "industry",
+      "description": "Tesla端到端自动驾驶系统",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": [
+        {
+          "version": "AI5",
+          "name": "AI5自动驾驶芯片",
+          "description": "AI5芯片是Tesla自研的下一代自动驾驶计算芯片，预计替代当前HW4平台的芯片。算力目标可能达到2000+ TOPS，支持更复杂的神经网络模型。延迟原因未公布，可能涉及制造工艺、设计验证或供应链问题。芯片延期可能影响Tesla Robotaxi和下一代车型的自动驾驶能力。",
+          "changes": [
+            "下一代自研自动驾驶芯片",
+            "预计算力2000+ TOPS",
+            "可能影响Robotaxi和下一代车型部署时间表"
+          ],
+          "detected_at": "2026-01-21",
+          "source": "https://electrek.co/2026/01/20/tesla-ai5-is-late-canada-gets-chinese-cars-and-ev-beats-diesel-in-extreme-cold/"
+        }
+      ]
+    },
+    "huawei_ads": {
+      "id": "huawei_ads",
+      "name": "华为乾崑智驾",
+      "aliases": [
+        "华为ADS",
+        "Huawei ADS",
+        "乾崑智驾"
+      ],
+      "category": "industry",
+      "description": "华为自动驾驶解决方案",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": [
+        {
+          "version": "4.0",
+          "name": "乾崑智驾ADS 4.0",
+          "description": "安全数据：ADS辅助驾驶模式平均644万公里发生一次严重碰撞，人驾模式490万公里，中国平均值180万公里。技术特性：全维防碰撞系统CAS 4.0支持全时速（0-120km/h）、全方向、全目标、全天候、全场景。系统包含前向/侧向/后向AEB、LOCP、eAES等主动安全功能。",
+          "changes": [
+            "引入全维防碰撞系统CAS 4.0",
+            "支持全时速（0-120km/h）全方向主动安全",
+            "安全数据提升至平均644万公里一次严重碰撞"
+          ],
+          "detected_at": "2026-01-21",
+          "source": "https://auto.huawei.com/cn/ads/safety-and-data-report"
+        }
+      ]
+    },
+    "waymo": {
+      "id": "waymo",
+      "name": "Waymo自动驾驶",
+      "aliases": [
+        "Waymo",
+        "Waymo Driver"
+      ],
+      "category": "industry",
+      "description": "Waymo自动驾驶系统",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "bev_perception": {
+      "id": "bev_perception",
+      "name": "BEV感知",
+      "aliases": [
+        "Bird's Eye View",
+        "BEV",
+        "鸟瞰图感知"
+      ],
+      "category": "perception",
+      "description": "基于鸟瞰图的空间感知技术",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "ood_generalization": {
+      "id": "ood_generalization",
+      "name": "OOD泛化",
+      "aliases": [
+        "Out-of-Distribution Generalization",
+        "分布外泛化"
+      ],
+      "category": "evaluation",
+      "description": "模型在未见数据分布上的泛化能力",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "generative_scenario": {
+      "id": "generative_scenario",
+      "name": "生成式场景推演",
+      "aliases": [
+        "Generative Scenario Rollouts",
+        "场景生成"
+      ],
+      "category": "planning",
+      "description": "生成未来交通场景用于规划和推理",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "",
+      "last_updated": "2026-01-21",
+      "versions": [
+        {
+          "version": "GeRo",
+          "name": "Generative Scenario Rollouts",
+          "description": "提出Generative Scenario Rollouts (GeRo)框架，通过自回归rollout策略实现语言驱动的未来交通场景生成与规划联合优化",
+          "changes": [
+            "通过自回归rollout策略实现语言驱动的未来场景生成",
+            "规划与生成联合优化",
+            "在Bench2Drive上驾驶评分提升+15.7，成功率提升+26.2"
+          ],
+          "detected_at": "2026-01-21",
+          "source": "https://arxiv.org/abs/2601.11475v1"
+        }
+      ]
+    },
+    "satmap": {
+      "id": "satmap",
+      "name": "SatMap卫星地图先验",
+      "aliases": [
+        "SatMap",
+        "Satellite Map Prior"
+      ],
+      "category": "perception",
+      "description": "利用卫星地图作为全局先验，结合多视角相机观测在线构建矢量化高精地图，有效缓解深度模糊和遮挡问题",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://arxiv.org/abs/2601.10512v2",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "sgdrive": {
+      "id": "sgdrive",
+      "name": "场景-目标层次化认知框架",
+      "aliases": [
+        "SGDrive",
+        "Scene-to-Goal Hierarchy"
+      ],
+      "category": "architecture",
+      "description": "提出场景-智能体-目标层次化认知框架，将VLM表示学习结构化以适应自动驾驶特定推理需求",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://arxiv.org/abs/2601.05640v2",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "latentvla": {
+      "id": "latentvla",
+      "name": "LatentVLA潜在动作预测",
+      "aliases": [
+        "LatentVLA",
+        "Latent Vision-Language-Action"
+      ],
+      "category": "model",
+      "description": "通过自监督潜在动作预测训练VLA模型，无需语言标注，消除语言偏见，并通过知识蒸馏实现高效实时推理",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://arxiv.org/abs/2601.05611v1",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "waymax": {
+      "id": "waymax",
+      "name": "Waymax自动驾驶模拟器",
+      "aliases": [
+        "waymax",
+        "Waymax Simulator"
+      ],
+      "category": "tool",
+      "description": "A JAX-based simulator for autonomous driving research.",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://github.com/waymo-research/waymax",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "mppi_planner": {
+      "id": "mppi_planner",
+      "name": "MPPI运动规划器",
+      "aliases": [
+        "MPPI",
+        "Model Predictive Path Integral"
+      ],
+      "category": "planning",
+      "description": "Real-time probabilistic inference-based motion planning for autonomous driving with MPPI",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://github.com/PuYuuu/mppi-in-autonomous-driving",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "argoverse2": {
+      "id": "argoverse2",
+      "name": "Argoverse 2数据集",
+      "aliases": [
+        "Argoverse 2",
+        "AV2"
+      ],
+      "category": "dataset",
+      "description": "Argoverse 2: Next generation datasets for self-driving perception and forecasting.",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://github.com/argoverse/av2-api",
+      "last_updated": "2026-01-21",
+      "versions": []
+    },
+    "sps": {
+      "id": "sps",
+      "name": "随机Patch选择",
+      "aliases": [
+        "Stochastic Patch Selection",
+        "SPS"
+      ],
+      "category": "technique",
+      "description": "提出Stochastic-Patch-Selection (SPS)方法，随机掩码部分patch特征以增强策略对冗余特征的鲁棒性，提升OOD泛化能力",
+      "first_seen": "2026-01-21",
+      "first_seen_source": "https://arxiv.org/abs/2601.10707v1",
+      "last_updated": "2026-01-21",
+      "versions": [
+        {
+          "version": "1.0",
+          "name": "SPS方法",
+          "description": "提出Stochastic-Patch-Selection (SPS)方法，随机掩码部分patch特征以增强策略对冗余特征的鲁棒性，提升OOD泛化能力",
+          "changes": [
+            "随机掩码部分patch特征增强OOD泛化能力",
+            "在闭环仿真中平均提升6.2%，最高提升20.4%",
+            "推理速度提升2.4倍"
+          ],
+          "detected_at": "2026-01-21",
+          "source": "https://arxiv.org/abs/2601.10707v1"
+        }
+      ]
+    }
+  }
+}

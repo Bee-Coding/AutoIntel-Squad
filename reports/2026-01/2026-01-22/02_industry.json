@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-01-22T12:00:00Z",
+    "source": "AutoIntel-System",
+    "content": "今日无重要工业动态更新。由于网站访问限制和时间窗口限制，未能获取到Tesla、华为、Waymo等公司今日最新动态。",
+    "publish_date": "2026-01-22",
+    "company": "系统报告",
+    "version": "N/A",
+    "technical_details": "根据数据真实性优先原则，系统未生成模拟数据。工业动态收集依赖公司官网和权威媒体实时更新，今日未检测到重要更新。",
+    "quality_score": 70
+  }
+]

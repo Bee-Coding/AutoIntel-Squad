@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260126_151814",
+    "user_intent": "生成今日行业日报，不要使用模拟数据",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "优先最近24小时内，可接受最近一周内",
+      "academic": "优先最近一周内，可接受一到两个月内",
+      "open_source": "优先最近一周内，可接受一到两个月内"
+    }
+  },
+  "thought_process": "用户要求生成今日行业日报，且明确禁止使用模拟数据。判断为全量日报模式，需要并行启动Industry_Watcher、Paper_Hunter、Code_Scout三个Agent收集真实数据，然后由Chief_Analyst汇总。强调数据真实性约束，要求各Agent严格遵守禁止模拟数据的规则。",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "industry_today",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla", "FSD", "华为", "ADS", "Waymo", "NIO", "XPeng", "end-to-end", "自动驾驶", "2026年1月"],
+        "instruction": "搜集今日工业界自动驾驶相关动态，时间范围：最近24小时，重点关注技术细节、OTA更新、发布会。严格遵守禁止模拟数据规则，必须使用WebFetch工具访问真实网站，若无真实数据则返回空结果。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-26/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "papers_today",
+        "agent": "Agent_B",
+        "query_keywords": ["end-to-end autonomous driving", "world model", "diffusion policy", "autonomous driving", "arXiv", "2026"],
+        "instruction": "搜索今日arXiv上自动驾驶相关论文，时间范围：最近一周内，优先端到端、世界模型、扩散策略方向。严格遵守禁止模拟数据规则，必须使用WebFetch工具访问真实arXiv网站，若无真实数据则返回空结果。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-26/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "code_today",
+        "agent": "Agent_C",
+        "query_keywords": ["autonomous driving", "github", "simulator", "dataset", "end-to-end", "2026"],
+        "instruction": "发现GitHub上近期更新的自动驾驶开源项目，时间范围：最近一周内，优先仿真器、数据集、端到端实现。严格遵守禁止模拟数据规则，必须使用WebFetch工具访问真实GitHub网站，若无真实数据则返回空结果。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-26/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "daily_synthesis",
+      "agent": "Agent_D",
+      "depends_on": ["industry_today", "papers_today", "code_today"],
+      "instruction": "基于三方真实情报生成今日技术日报，严格验证数据真实性，禁止臆造分析。执行7天回顾和系统优化建议。若无真实数据，生成降级报告并注明数据缺失原因。",
+      "input_sources": [
+        "./reports/2026-01/2026-01-26/02_industry.json",
+        "./reports/2026-01/2026-01-26/03_papers.json",
+        "./reports/2026-01/2026-01-26/04_code.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-26/2026-01-26_Report.md"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["industry_today", "papers_today", "code_today"],
+    "final_trigger": "all_completed",
+    "failure_handling": "continue_with_available"
+  }
+}

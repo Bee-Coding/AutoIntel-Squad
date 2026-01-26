@@ -1,0 +1,104 @@
+[
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla starts Robotaxi rides without safety monitor in Austin: what you need to know",
+    "url": "https://electrek.co/2026/01/23/tesla-starts-robotaxi-rides-without-safety-monitor-in-austin-what-you-need-to-know/",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "85/100 A",
+    "technical_points": [
+      "特斯拉在奥斯汀启动无安全监控员的Robotaxi服务",
+      "采用渐进式部署策略，混合有监督和无监督车辆",
+      "车辆事故率数据显示仍需改进"
+    ],
+    "raw_content": "特斯拉在德克萨斯州奥斯汀开始提供无安全监控员的Robotaxi服务。Elon Musk在X上宣布了这一里程碑，但Electrek分析指出，特斯拉实际上只是将安全监控员从车内移到了跟随车辆中。数据显示，特斯拉Robotaxi车队在安全监控员在场的情况下，每6万英里发生一次事故，而人类驾驶员平均每50万英里发生一次事故。特斯拉采用渐进式部署，将少量无监督车辆混入有监督车队中，比例将随时间逐渐增加。",
+    "search_keywords": ["Tesla Robotaxi Austin"]
+  },
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla didn't remove the Robotaxi 'safety monitor' – it just moved them to a trailing car",
+    "url": "https://electrek.co/2026/01/23/tesla-didnt-remove-the-robotaxi-safety-monitor-it-just-moved-them-to-a-trailing-car/",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "success",
+    "score": "82/100 B",
+    "technical_points": [
+      "特斯拉Robotaxi采用跟随车辆监控策略",
+      "无监督车辆实际仍有远程监控支持",
+      "与Waymo完全无人驾驶形成对比"
+    ],
+    "raw_content": "特斯拉并未真正移除Robotaxi的安全监控员，而是将他们移到了跟随车辆中。视频证据显示，特斯拉的'无监督'Robotaxi在奥斯汀运营时，都有黑色特斯拉车辆紧随其后。这意味着特斯拉的安全监控员只是从车内移到了后面的车辆中，随时准备在出现问题时进行干预。这与Waymo的真正无监督自动驾驶形成对比，Waymo车辆在没有跟随车辆的情况下运营，已积累了超过1亿英里的完全无人驾驶里程。",
+    "search_keywords": ["Tesla Robotaxi Austin"]
+  },
+  {
+    "source": "Industry",
+    "company": "Waymo",
+    "title": "Waymo is now in Miami, now takes driverless rides in 6 cities",
+    "url": "https://electrek.co/2026/01/23/waymo-is-now-in-miami-now-takes-driverless-rides-in-6-cities-tesla-1-sorta/",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "partial",
+    "score": "88/100 A",
+    "technical_points": [
+      "Waymo在迈阿密启动完全无人驾驶服务",
+      "服务范围覆盖60平方英里区域",
+      "现已在6个城市提供无人驾驶服务"
+    ],
+    "raw_content": "Waymo在佛罗里达州迈阿密开始自动驾驶叫车服务，覆盖从设计区到市中心的60平方英里服务区域。这使得Waymo的完全无人驾驶服务城市数量达到6个：奥斯汀、凤凰城、旧金山、洛杉矶、亚特兰大和迈阿密。Waymo目前每周提供45万次无人驾驶乘车服务，比六个月前增长80%，并计划到2026年底扩展到另外10个美国城市。",
+    "search_keywords": ["Waymo Miami"]
+  },
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "BREAKING: Tesla launches public Robotaxi rides in Austin with no Safety Monitor",
+    "url": "https://www.teslarati.com/breaking-tesla-launches-public-robotaxi-rides-in-austin-with-no-safety-monitor/",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "partial",
+    "score": "80/100 B",
+    "technical_points": [
+      "特斯拉在奥斯汀推出无安全监控员的公开Robotaxi服务",
+      "这是公司首次移除车内人员",
+      "标志着自动驾驶技术的重要里程碑"
+    ],
+    "raw_content": "特斯拉在德克萨斯州奥斯汀正式推出无安全监控员的公开Robotaxi服务，这是公司首次移除车内人员。这一里程碑标志着特斯拉自动驾驶技术的重要进展，尽管实际部署规模有限且采用渐进式策略。",
+    "search_keywords": ["Tesla FSD Robotaxi"]
+  },
+  {
+    "source": "Industry",
+    "company": "Tesla",
+    "title": "Tesla is finally doing unsupervised robotaxi rides",
+    "url": "https://www.theverge.com/transportation/2026/1/22/tesla-unsupervised-robotaxi-rides",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "partial",
+    "score": "78/100 B",
+    "technical_points": [
+      "特斯拉开始无监督Robotaxi试运行",
+      "Elon Musk宣布里程碑但实际规模有限",
+      "与Waymo的完全无人驾驶服务对比"
+    ],
+    "raw_content": "特斯拉终于开始无监督Robotaxi试运行，Elon Musk庆祝这一里程碑，但实际能够乘坐特斯拉新无监督Robotaxi的人数在近期内尚不明确。The Verge指出，特斯拉的部署规模有限，与Waymo在多个城市的完全无人驾驶服务形成对比。",
+    "search_keywords": ["autonomous driving robotaxi"]
+  },
+  {
+    "source": "Industry",
+    "company": "Waymo",
+    "title": "Waymo is accepting public riders in Miami",
+    "url": "https://www.theverge.com/transportation/2026/1/22/waymo-miami-public-riders",
+    "publish_date": "2026-01-22",
+    "data_source": "权威媒体",
+    "access_status": "partial",
+    "score": "86/100 A",
+    "technical_points": [
+      "Waymo在迈阿密接受公众乘客",
+      "服务范围持续扩大",
+      "完全无人驾驶技术成熟度验证"
+    ],
+    "raw_content": "Waymo在迈阿密开始接受公众乘客，这是其完全无人驾驶服务的又一扩展。Magic City成为Waymo服务的第六个城市，展示了公司在完全无人驾驶技术方面的成熟度和规模化能力。",
+    "search_keywords": ["autonomous driving robotaxi"]
+  }
+]

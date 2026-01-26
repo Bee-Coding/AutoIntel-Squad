@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "plan_id": "full_test_20260119_1700",
+    "user_intent": "完整测试所有5个优化后的Agent工作流",
+    "execution_mode": "sequential",
+    "priority": "high",
+    "time_range": {
+      "industry": "搜索真实存在的近期内容（2026年1月）",
+      "academic": "搜索真实存在的近期内容（2026年1月）",
+      "open_source": "搜索真实存在的近期内容（2026年1月）"
+    }
+  },
+  "thought_process": "完整测试所有Agent → 验证Dispatcher调度逻辑 → 测试Industry_Watcher三级数据源策略 → 测试Paper_Hunter真实arXiv搜索 → 测试Code_Scout真实GitHub搜索 → 测试Chief_Analyst整合分析 → 验证数据真实性约束",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "test_dispatcher",
+        "agent": "AutoIntel-Dispatcher",
+        "query_keywords": ["全量日报测试"],
+        "instruction": "作为Dispatcher，验证意图分析、模式识别、计划生成功能。生成完整的执行计划JSON。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-19/dispatcher_test_output.json",
+        "timeout": 180,
+        "retry_count": 1
+      },
+      {
+        "task_id": "test_industry_watcher",
+        "agent": "Industry_Watcher",
+        "query_keywords": ["Tesla Robotaxi", "Waymo", "autonomous driving news"],
+        "instruction": "使用WebFetch工具进行真实网络搜索，测试三级数据源策略。严格遵守数据真实性约束：禁止臆造、无源则无果、强制引用。如果搜索结果为空，输出空数组[]。",
+        "depends_on": ["test_dispatcher"],
+        "output_to": "./reports/2026-01/2026-01-19/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "test_paper_hunter",
+        "agent": "Paper_Hunter",
+        "query_keywords": ["autonomous driving arXiv", "end-to-end driving"],
+        "instruction": "使用WebFetch工具搜索真实arXiv网站，测试论文搜索功能。严格遵守数据真实性约束：禁止编造论文信息、强制真实arXiv链接。如果搜索结果为空，输出空数组[]。",
+        "depends_on": ["test_industry_watcher"],
+        "output_to": "./reports/2026-01/2026-01-19/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "test_code_scout",
+        "agent": "Code_Scout",
+        "query_keywords": ["autonomous driving github", "self-driving car"],
+        "instruction": "使用WebFetch工具搜索真实GitHub网站，测试开源项目发现功能。严格遵守数据真实性约束：禁止编造项目信息、强制真实GitHub链接。如果搜索结果为空，输出空数组[]。",
+        "depends_on": ["test_paper_hunter"],
+        "output_to": "./reports/2026-01/2026-01-19/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "test_chief_analyst",
+      "agent": "Chief_Analyst",
+      "depends_on": ["test_industry_watcher", "test_paper_hunter", "test_code_scout"],
+      "instruction": "基于三方真实搜索结果生成完整日报。首先验证数据真实性：检查URL有效性、日期真实性、内容一致性。执行7天回顾测试。生成系统优化建议。严格遵守数据真实性验证责任。",
+      "input_sources": [
+        "./reports/2026-01/2026-01-19/02_industry.json",
+        "./reports/2026-01/2026-01-19/03_papers.json",
+        "./reports/2026-01/2026-01-19/04_code.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-19/2026-01-19_FullTest_Report.md",
+        "./reports/2026-01/2026-01-19/05_optimization.json"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": [],
+    "final_trigger": "all_completed",
+    "failure_handling": "continue_with_available"
+  }
+}

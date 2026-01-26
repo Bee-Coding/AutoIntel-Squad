@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-01-21T16:30:00Z",
+    "source": "https://electrek.co/2026/01/20/tesla-tells-customers-one-time-fsd-transfer-ends-this-quarter/",
+    "content": "Tesla再次通知客户FSD软件包转移窗口将在本季度结束，这可能是最后一次转移机会。随着FSD转为仅订阅模式，本次转移窗口可能成为获得永久许可的最后机会。文章指出Tesla多次使用此策略作为季度需求杠杆，而非真正截止日期。",
+    "publish_date": "2026-01-20",
+    "company": "Tesla",
+    "version": "FSD (全自动驾驶软件包)",
+    "technical_details": "Tesla FSD转移政策变化：从一次性购买转向订阅制。FSD软件包价格高达15,000美元，但尚未实现L4-L5级无人监督自动驾驶。Tesla使用转移窗口作为需求刺激手段，历史显示多次延期。硬件兼容性：HW3/HW4可能限制未来功能实现。",
+    "quality_score": 85
+  },
+  {
+    "timestamp": "2026-01-21T16:30:00Z",
+    "source": "https://electrek.co/2026/01/20/waymo-founder-john-krafcik-teslas-full-self-driving-myopia/",
+    "content": "Waymo前CEO John Krafcik批评Tesla的纯视觉自动驾驶策略，称其患有'严重近视'。他指出Tesla的7个500万像素摄像头分散配置导致有效视觉仅相当于20/60-20/70视力，缺乏LiDAR和雷达的冗余感知将限制系统在边缘场景的表现。",
+    "publish_date": "2026-01-20",
+    "company": "Waymo & Tesla",
+    "version": "FSD Vision-only vs Waymo传感器融合",
+    "technical_details": "传感器对比：Tesla使用7个500万像素摄像头（1个窄视角，6个广角），无LiDAR/雷达。Waymo采用摄像头+LiDAR+雷达多模态融合。Krafcik指出人类视觉能力远超当前车载摄像头，LiDAR提供主动感知补充被动视觉。技术路线分歧：纯视觉vs多传感器冗余。",
+    "quality_score": 90
+  },
+  {
+    "timestamp": "2026-01-21T16:30:00Z",
+    "source": "https://auto.huawei.com/cn/ads/safety-and-data-report",
+    "content": "华为乾崑智驾ADS发布安全出行报告，累计辅助驾驶里程达72.8亿公里（截至2026年1月15日）。数据显示ADS辅助驾驶模式下的平均安全行驶里程是中国平均值（推算）的3.58倍，人驾模式下为2.72倍。报告详细介绍了全维防碰撞系统CAS 4.0的五维安全能力。",
+    "publish_date": "2026-01-15",
+    "company": "华为",
+    "version": "乾崑智驾ADS 4.0",
+    "technical_details": "安全数据：ADS辅助驾驶模式平均644万公里发生一次严重碰撞，人驾模式490万公里，中国平均值180万公里。技术特性：全维防碰撞系统CAS 4.0支持全时速（0-120km/h）、全方向、全目标、全天候、全场景。系统包含前向/侧向/后向AEB、LOCP、eAES等主动安全功能。",
+    "quality_score": 88
+  },
+  {
+    "timestamp": "2026-01-21T16:30:00Z",
+    "source": "https://electrek.co/2026/01/20/tesla-ai5-is-late-canada-gets-chinese-cars-and-ev-beats-diesel-in-extreme-cold/",
+    "content": "Tesla AI5芯片延期，Elon Musk在六个月前称设计已完成，现在表示'几乎完成'。AI5是Tesla下一代自动驾驶芯片，预计将为FSD提供更高算力。延迟可能影响Tesla下一代硬件平台和Robotaxi部署时间表。",
+    "publish_date": "2026-01-20",
+    "company": "Tesla",
+    "version": "AI5芯片",
+    "technical_details": "AI5芯片是Tesla自研的下一代自动驾驶计算芯片，预计替代当前HW4平台的芯片。算力目标可能达到2000+ TOPS，支持更复杂的神经网络模型。延迟原因未公布，可能涉及制造工艺、设计验证或供应链问题。芯片延期可能影响Tesla Robotaxi和下一代车型的自动驾驶能力。",
+    "quality_score": 82
+  },
+  {
+    "timestamp": "2026-01-21T16:30:00Z",
+    "source": "https://www.nio.cn/news/20260119001",
+    "content": "蔚来全新ES8在开启交付120天内完成第50,000台新车交付，刷新40万元级车型交付纪录。虽然不直接涉及自动驾驶技术更新，但反映了蔚来高端车型的市场接受度，为其自动驾驶研发提供资金和用户基础。",
+    "publish_date": "2026-01-19",
+    "company": "蔚来",
+    "version": "全新ES8",
+    "technical_details": "交付数据：120天交付50,000台，平均每天约417台。车型定位：全场景科技旗舰SUV，搭载蔚来NT2.0平台，支持NAD（NIO Autonomous Driving）自动驾驶系统。硬件配置：包括激光雷达、800万像素摄像头等33个传感器，算力1016 TOPS。市场表现反映用户对高端智能电动车的需求增长。",
+    "quality_score": 75
+  }
+]

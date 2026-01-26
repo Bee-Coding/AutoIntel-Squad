@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260122_1200_real",
+    "user_intent": "生成基于真实数据的今日自动驾驶技术日报，特别关注端到端进展",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "优先最近一周内，可接受一到两个月内",
+      "academic": "优先最近一周内，可接受一到两个月内",
+      "open_source": "优先最近一周内，可接受一到两个月内"
+    }
+  },
+  "thought_process": "用户要求绝对真实数据，禁止模拟数据 → 强化真实性要求 → 并行启动A/B/C进行真实搜索 → D汇总并验证真实性 → 允许空结果但必须真实",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "industry_real",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla FSD 2026年1月", "华为ADS 2026年1月", "Waymo 2026年1月", "小鹏汽车端到端", "Mobileye 2026"],
+        "instruction": "搜集今日工业界端到端自动驾驶相关动态，时间范围：最近24-72小时，重点关注技术细节。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟数据、示例数据或编造信息\n2. **允许空结果**：如果确实没有新动态，可以报告\"今日无重要工业动态更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史信息修改日期后伪装成今日信息\n4. **强制真实搜索**：必须使用WebSearch工具访问实际网站获取真实信息\n5. **日期验证**：每条信息必须有真实、可验证的发布日期，与来源网站一致\n\n**真实搜索要求**：必须使用WebSearch工具访问Tesla、华为、Waymo等公司官网或权威媒体网站。\n**时间要求**：工业动态优先最近一周内，可接受一到两个月内",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-22/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "papers_real",
+        "agent": "Agent_B",
+        "query_keywords": ["end-to-end autonomous driving arXiv 2026年1月", "world model autonomous driving 2026", "diffusion policy driving 2026", "VLA autonomous driving 2026"],
+        "instruction": "搜索今日arXiv上端到端自动驾驶相关论文，时间范围：最近7天，优先今天上传。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟论文信息、编造arXiv链接或虚假摘要\n2. **允许空结果**：如果今日确实没有新论文，可以报告\"今日无重要论文更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史论文修改日期后伪装成今日上传\n4. **强制真实搜索**：必须使用WebSearch工具访问真实的arXiv.org网站获取论文信息\n5. **日期验证**：每篇论文必须有真实的arXiv上传日期，与arXiv页面显示一致\n\n**真实搜索要求**：必须使用WebSearch工具访问arXiv.org网站，查询格式为\"site:arxiv.org [关键词] 2026年1月\"。\n**时间要求**：论文优先最近一周内，可接受一到两个月内",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-22/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "code_real",
+        "agent": "Agent_C",
+        "query_keywords": ["autonomous-driving GitHub updated:2026-01", "end-to-end-driving GitHub", "BEV perception GitHub 2026", "planning model GitHub"],
+        "instruction": "发现GitHub上近期更新的端到端自动驾驶项目，时间范围：最近30天，按star排序。\n\n**🚨 数据真实性绝对优先原则**：\n1. **绝对禁止生成模拟数据**：任何情况下不得生成模拟GitHub项目、编造star数或虚假描述\n2. **允许空结果**：如果今日确实没有新项目，可以报告\"今日无重要开源项目更新\"，返回空数组\n3. **禁止历史拼接**：不得将历史项目修改更新时间后伪装成今日更新\n4. **强制真实搜索**：必须使用WebSearch工具访问真实的GitHub.com网站获取项目信息\n5. **日期验证**：每个项目必须有真实的最近更新时间，与GitHub页面显示一致\n\n**真实搜索要求**：必须使用WebSearch工具访问GitHub.com网站，查询格式为\"site:github.com [关键词] updated:2026-01\"。\n**时间要求**：开源项目优先最近一周内，可接受一到两个月内",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-22/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "daily_synthesis_real",
+      "agent": "Agent_D",
+      "depends_on": ["industry_real", "papers_real", "code_real"],
+      "instruction": "**数据真实性验证**：首先验证所有输入数据的真实性：\n1. 检查每条信息的URL是否真实可访问\n2. 验证发布日期是否与来源网站一致\n3. 检查是否有模拟数据迹象（如编造的版本号、虚假的arXiv链接）\n4. 如果发现虚假数据，丢弃该条信息并在日报中注明\n\n基于以下情报源，生成今日技术日报并更新话题历史：\n1. 工业界动态：重点关注端到端部署进展\n2. 最新研究：端到端算法创新\n3. 开源生态：可用工具和代码\n4. 话题历史：追踪技术演进\n\n**7天回顾任务**：\n- 从话题历史中检索7天前（±1天容错）的高优先级话题\n- 系统第2天，尚无7天前历史数据，选择核心话题\"端到端自动驾驶模型\"进行回顾\n- 生成深度反思内容，关注理解深化而非肤浅更新\n\n**系统优化建议任务**：\n1. **客观质量评估**：对工业动态、学术论文、开源项目进行5维度评分（相关性、技术深度、工程实用性、时效性、覆盖广度）\n2. **渐进式优化分析**：基于系统运行天数确定当前阶段（数据收集期第2天，探索率20%）\n3. **生成结构化建议**：为每个Agent提供具体、可执行的优化建议，包含问题识别、具体建议、预期效果\n4. **防过拟合保护**：根据阶段设置探索保留率（数据收集期20%），确保搜索范围不过早收窄\n5. **存储优化历史**：将优化建议保存到./reports/optimization/2026-01.json和当日目录的05_optimization.json\n\n要求：按优先级排序，标注学习价值，提供实践建议，识别版本延续和全新术语，集成7天回顾内容，生成系统优化建议。如果某方面确实没有新动态，如实报告\"今日无重要更新\"。",
+      "input_sources": [
+        "./reports/2026-01/2026-01-22/02_industry.json",
+        "./reports/2026-01/2026-01-22/03_papers.json",
+        "./reports/2026-01/2026-01-22/04_code.json",
+        "./reports/topic_history/2026-01.json"
+      ],
+      "output_to": [
+        "./reports/2026-01/2026-01-22/2026-01-22_Report.md",
+        "./reports/topic_history/2026-01.json",
+        "./reports/2026-01/2026-01-22/05_optimization.json",
+        "./reports/optimization/2026-01.json"
+      ]
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["industry_real", "papers_real", "code_real"],
+    "final_trigger": "all_completed",
+    "timeout_handling": "proceed_with_available",
+    "empty_results_allowed": true
+  }
+}

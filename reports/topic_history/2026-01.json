@@ -1,0 +1,136 @@
+{
+  "month": "2026-01",
+  "topics": [
+    {
+      "id": "robotaxi_deployment",
+      "name": "Robotaxi部署",
+      "aliases": ["无人驾驶出租车", "自动驾驶叫车服务"],
+      "category": "industry",
+      "description": "自动驾驶出租车服务的商业化部署",
+      "first_appeared": "2026-01-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-01-23",
+          "version": "v1.0",
+          "description": "特斯拉在奥斯汀启动无安全监控员Robotaxi服务，Waymo在迈阿密扩展完全无人驾驶服务",
+          "key_points": [
+            "特斯拉采用渐进式部署策略，混合有监督和无监督车辆",
+            "Waymo现已在6个城市提供完全无人驾驶服务",
+            "特斯拉事故率数据显示仍需改进（每6万英里vs人类50万英里）"
+          ],
+          "sources": [
+            "https://electrek.co/2026/01/23/tesla-starts-robotaxi-rides-without-safety-monitor-in-austin-what-you-need-to-know/",
+            "https://electrek.co/2026/01/23/waymo-is-now-in-miami-now-takes-driverless-rides-in-6-cities-tesla-1-sorta/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diffusion_planning",
+      "name": "扩散模型规划",
+      "aliases": ["扩散策略", "生成式运动规划"],
+      "category": "academic",
+      "description": "基于扩散模型的自动驾驶运动规划方法",
+      "first_appeared": "2026-01-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-01-23",
+          "version": "v1.0",
+          "description": "DualShield框架将Hamilton-Jacobi可达性分析融入扩散模型规划",
+          "key_points": [
+            "提出主动安全引导和反应式安全防护的双重机制",
+            "在不确定交互下提供原则性的安全保障",
+            "保留扩散模型的丰富探索能力"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.15729"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occupancy_prediction",
+      "name": "3D占用预测",
+      "aliases": ["场景理解", "空间占用"],
+      "category": "academic",
+      "description": "自动驾驶场景的3D空间占用预测",
+      "first_appeared": "2026-01-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-01-23",
+          "version": "v1.0",
+          "description": "SuperOcc框架提出超二次曲面表示和凝聚时序建模",
+          "key_points": [
+            "创新的超二次曲面表示方法",
+            "同时利用视角和物体中心时序线索",
+            "多超二次曲面解码策略增强几何表达能力"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.15644"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "driving_dataset",
+      "name": "自动驾驶数据集",
+      "aliases": ["驾驶数据集", "感知数据集"],
+      "category": "opensource",
+      "description": "自动驾驶研究和开发的数据集",
+      "first_appeared": "2026-01-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-01-23",
+          "version": "v1.0",
+          "description": "DrivIng数据集提供完整数字孪生，支持真实交通到仿真的1对1转换",
+          "key_points": [
+            "包含完整地理参考的数字孪生",
+            "支持真实交通到仿真的1对1转换",
+            "保留智能体交互同时实现灵活的场景测试"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2601.15260"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end_to_end_framework",
+      "name": "端到端框架",
+      "aliases": ["统一自动驾驶框架", "规划导向框架"],
+      "category": "opensource",
+      "description": "端到端自动驾驶统一框架",
+      "first_appeared": "2026-01-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-01-23",
+          "version": "v1.0",
+          "description": "UniAD项目展示首个以规划为导向的端到端自动驾驶框架",
+          "key_points": [
+            "统一的多任务学习架构",
+            "创新的任务间交互机制",
+            "工业级部署优化"
+          ],
+          "sources": [
+            "https://github.com/OpenDriveLab/UniAD"
+          ]
+        }
+      ]
+    }
+  ]
+}

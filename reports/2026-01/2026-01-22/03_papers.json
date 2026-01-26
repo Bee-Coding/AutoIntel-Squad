@@ -1,0 +1,28 @@
+[
+  {
+    "source": "Academic",
+    "title": "DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration",
+    "authors": "Dominik Rößle, Xujun Xie, Adithya Mohan, Venkatesh Thirugnana Sambandham, Daniel Cremers, Torsten Schön",
+    "url": "https://arxiv.org/abs/2601.15260",
+    "publish_date": "2026-01-21",
+    "innovation": "提出首个具有完整数字孪生体的大规模多模态驾驶数据集，支持真实交通1:1转移到仿真环境，实现系统化测试和边缘案例模拟",
+    "application_potential": "高",
+    "abstract": "Perception is a cornerstone of autonomous driving, enabling vehicles to understand their surroundings and make safe, reliable decisions. Developing robust perception algorithms requires large-scale, high-quality datasets that cover diverse driving conditions and support thorough evaluation. Existing datasets often lack a high-fidelity digital twin, limiting systematic testing, edge-case simulation, sensor modification, and sim-to-real evaluations. To address this gap, we present DrivIng, a large-scale multimodal dataset with a complete geo-referenced digital twin of a ~18 km route spanning urban, suburban, and highway segments. Our dataset provides continuous recordings from six RGB cameras, one LiDAR, and high-precision ADMA-based localization, captured across day, dusk, and night. All sequences are annotated at 10 Hz with 3D bounding boxes and track IDs across 12 classes, yielding ~1.2 million annotated instances. Alongside the benefits of a digital twin, DrivIng enables a 1-to-1 transfer of real traffic into simulation, preserving agent interactions while enabling realistic and flexible scenario testing. To support reproducible research and robust validation, we benchmark DrivIng with state-of-the-art perception models and publicly release the dataset, digital twin, HD map, and codebase.",
+    "code_available": "是",
+    "conference": "IEEE Intelligent Vehicles Symposium 2026",
+    "quality_score": 88
+  },
+  {
+    "source": "Academic",
+    "title": "FlowSSC: Universal Generative Monocular Semantic Scene Completion via One-Step Latent Diffusion",
+    "authors": "Zichen Xi, Hao-Xiang Chen, Nan Xue, Hongyu Yan, Qi-Yuan Feng, Levent Burak Kara, Joaquim Jorge, Qun-Ce Xu",
+    "url": "https://arxiv.org/abs/2601.15250",
+    "publish_date": "2026-01-21",
+    "innovation": "首个生成式单目语义场景补全框架，引入捷径流匹配在紧凑三平面潜在空间中实现单步高保真生成，满足自动驾驶系统实时部署需求",
+    "application_pential": "高",
+    "abstract": "Semantic Scene Completion (SSC) from monocular RGB images is a fundamental yet challenging task due to the inherent ambiguity of inferring occluded 3D geometry from a single view. While feed-forward methods have made progress, they often struggle to generate plausible details in occluded regions and preserve the fundamental spatial relationships of objects. Such accurate generative reasoning capability for the entire 3D space is critical in real-world applications. In this paper, we present FlowSSC, the first generative framework applied directly to monocular semantic scene completion. FlowSSC treats the SSC task as a conditional generation problem and can seamlessly integrate with existing feed-forward SSC methods to significantly boost their performance. To achieve real-time inference without compromising quality, we introduce Shortcut Flow-matching that operates in a compact triplane latent space. Unlike standard diffusion models that require hundreds of steps, our method utilizes a shortcut mechanism to achieve high-fidelity generation in a single step, enabling practical deployment in autonomous systems. Extensive experiments on SemanticKITTI demonstrate that FlowSSC achieves state-of-the-art performance, significantly outperforming existing baselines.",
+    "code_available": "未知",
+    "conference": "Under Review",
+    "quality_score": 85
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "plan_id": "plan_20260121_170704",
+    "user_intent": "获取今日最新动态，特别关注端到端决策规划进展",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时",
+      "academic": "最近7天",
+      "open_source": "最近30天"
+    }
+  },
+  "thought_process": "分析逻辑：1.用户需要今日全量日报，特别强调端到端决策规划 → 2.选择并行执行Agent A/B/C以最大化效率 → 3.优化关键词：针对端到端决策规划加入'decision planning', 'end-to-end planning'等术语 → 4.时间范围确定：工业动态最近24-72小时（时效性要求高），学术论文最近7天（arXiv更新频率），开源项目最近30天（GitHub活跃度）",
+  "execution_plan": {
+    "tasks": [
+      {
+        "task_id": "task_001",
+        "agent": "Agent_A",
+        "query_keywords": ["Tesla FSD", "华为ADS", "Waymo", "蔚小理", "end-to-end planning", "decision making", "autonomous driving", "OTA update", "端到端决策规划"],
+        "instruction": "搜集今日工业界端到端决策规划相关动态，时间范围：最近24小时，重点关注技术细节、版本更新和实际部署进展。\n**真实搜索要求**：必须使用WebSearch工具进行真实网络搜索，访问官方博客、技术新闻网站获取数据，禁止生成模拟数据。\n**时间要求**：工业动态优先最近24小时内，可接受72小时内内容。\n**输出格式**：JSON列表，包含timestamp, source, content, publish_date等字段。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-21/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_002",
+        "agent": "Agent_B",
+        "query_keywords": ["end-to-end autonomous driving", "decision planning", "diffusion policy", "world model", "behavior planning", "motion planning", "arXiv", "2026"],
+        "instruction": "搜索今日arXiv上端到端决策规划相关论文，时间范围：最近7天，优先今天上传，重点关注有代码实现的论文。\n**真实搜索要求**：必须使用WebSearch工具搜索arXiv.org网站，获取真实论文信息，禁止生成模拟数据。\n**时间要求**：学术论文优先最近7天内，可接受一个月内内容。\n**输出格式**：JSON列表，包含title, authors, url, publish_date, innovation, application_potential, abstract等字段。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-21/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_003",
+        "agent": "Agent_C",
+        "query_keywords": ["autonomous-driving", "end-to-end-planning", "decision-making", "motion-planning", "github", "open source"],
+        "instruction": "发现GitHub上近期更新的端到端决策规划相关项目，时间范围：最近30天，按star排序，评估代码质量和实用性。\n**真实搜索要求**：必须使用WebSearch工具搜索GitHub网站，获取真实项目信息，禁止生成模拟数据。\n**时间要求**：开源项目优先最近30天内更新，可接受60天内内容。\n**输出格式**：JSON列表，包含project_name, url, last_updated, description, stack, usability等字段。",
+        "depends_on": [],
+        "output_to": "./reports/2026-01/2026-01-21/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      }
+    ],
+    "final_task": {
+      "task_id": "final_summary",
+      "agent": "Agent_D",
+      "depends_on": ["task_001", "task_002", "task_003"],
+      "instruction": "基于工业动态、学术论文和开源项目情报，生成今日技术日报，特别关注端到端决策规划进展。\n要求：1.结构化分析（工业界风向标、学术界前沿、开源界工具箱） 2.技术深度解析 3.学习建议（为转型端到端算法的工程师提供3条具体建议） 4.时效性验证。",
+      "input_sources": [
+        "./reports/2026-01/2026-01-21/02_industry.json",
+        "./reports/2026-01/2026-01-21/03_papers.json",
+        "./reports/2026-01/2026-01-21/04_code.json"
+      ],
+      "output_to": "./reports/2026-01/2026-01-21/2026-01-21_Report.md"
+    }
+  },
+  "trigger_conditions": {
+    "parallel_start": ["task_001", "task_002", "task_003"],
+    "final_trigger": "all_completed",
+    "failure_handling": "continue_with_available"
+  }
+}
