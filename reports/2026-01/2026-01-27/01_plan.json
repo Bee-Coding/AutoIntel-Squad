@@ -1,0 +1,93 @@
+[
+  {
+    "source": "Plan",
+    "metadata": {
+      "timestamp": "2026-01-27T02:30:41Z",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "report_type": "执行计划",
+      "report_date": "2026-01-27",
+      "sections": {
+        "plan_metadata": "计划元数据",
+        "thought_process": "思考过程",
+        "execution_plan": "执行计划详情",
+        "trigger_conditions": "触发条件"
+      },
+      "plan_id": "plan_20260127_103047",
+      "user_intent": "用户要求收集今日行业情报生成日报，特别强调不能使用模拟数据，必须基于真实搜索获取最新信息",
+      "execution_mode": "parallel",
+      "priority": "high",
+      "time_range": {
+        "industry": "最近24-72小时内的最新动态",
+        "academic": "最近一周内的最新论文",
+        "open_source": "最近一个月内活跃的开源项目"
+      },
+      "thought_process": "用户请求属于全量日报模式，需要并行启动Industry_Watcher、Paper_Hunter、Code_Scout三个Agent收集真实数据，然后由Chief_Analyst整合生成日报。用户特别强调不能使用模拟数据，因此所有Agent必须使用WebFetch工具访问真实网站，确保数据真实性。时间范围聚焦近期，行业动态重点关注Tesla、华为、Waymo等公司，学术论文关注端到端自动驾驶、世界模型等方向，开源项目关注GitHub Trending相关项目。",
+      "execution_plan": [
+        {
+          "agent": "Industry_Watcher",
+          "task_id": "task_industry_001",
+          "description": "收集今日自动驾驶行业动态，重点关注Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司的最新进展",
+          "output_file": "./reports/2026-01/2026-01-27/02_industry.json",
+          "keywords": ["Tesla FSD", "华为自动驾驶", "Waymo", "端到端自动驾驶", "BEV", "Occupancy", "2026年1月"],
+          "instruction": "使用WebFetch工具访问真实新闻网站，搜索最新行业动态，确保每条信息都有真实来源链接和发布日期，禁止使用模拟数据",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Paper_Hunter",
+          "task_id": "task_paper_001",
+          "description": "收集近期自动驾驶相关学术论文，重点关注arXiv上的最新预印本和顶会论文",
+          "output_file": "./reports/2026-01/2026-01-27/03_papers.json",
+          "keywords": ["end-to-end autonomous driving", "world model", "diffusion policy", "VAD", "自动驾驶论文", "arXiv"],
+          "instruction": "访问arXiv等学术网站，搜索近期发表的自动驾驶相关论文，提取关键信息，确保有真实论文链接和发布日期",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Code_Scout",
+          "task_id": "task_code_001",
+          "description": "发现GitHub上近期活跃的自动驾驶相关开源项目",
+          "output_file": "./reports/2026-01/2026-01-27/04_code.json",
+          "keywords": ["autonomous driving", "self-driving", "ADAS", "simulator", "dataset", "GitHub trending"],
+          "instruction": "访问GitHub Trending等网站，寻找近期更新活跃的自动驾驶开源项目，记录项目信息和链接",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Chief_Analyst",
+          "task_id": "task_analysis_001",
+          "description": "整合三方情报，生成结构化日报报告",
+          "output_file": "./reports/2026-01/2026-01-27/2026-01-27_Report.md",
+          "dependencies": ["task_industry_001", "task_paper_001", "task_code_001"],
+          "instruction": "读取前三个Agent的输出文件，进行去重、质量评估、技术分析，生成包含工业界、学术界、开源界分析的完整日报，并提供学习建议",
+          "timeout": 600000,
+          "retry_count": 1
+        }
+      ],
+      "trigger_conditions": {
+        "parallel_start": "立即并行启动Industry_Watcher、Paper_Hunter、Code_Scout",
+        "analysis_trigger": "当02_industry.json、03_papers.json、04_code.json三个文件都存在且非空时，自动触发Chief_Analyst",
+        "fallback_strategy": "如果任何Agent失败，继续使用可用数据生成降级报告"
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

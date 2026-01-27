@@ -1,0 +1,142 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-27T02:32:33Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla quietly starts shipping Model Y with new AI4.5 computer",
+      "url": "https://electrek.co/2026/01/26/tesla-quietly-starts-shipping-model-y-with-new-ai4-5-computer/",
+      "publish_date": "2026-01-26",
+      "technical_points": ["AI4.5计算机", "硬件4.5", "FSD计算机升级", "Model Y硬件更新"],
+      "raw_content": "特斯拉开始悄悄交付配备新AI4.5计算机（硬件4.5）的Model Y车型。新计算机被标记为'AP4.5'或'AP45'，对应零件号2261336-02-A。这表明特斯拉正在逐步升级其全自动驾驶计算机硬件，为未来FSD功能提供更强算力支持。",
+      "search_keywords": ["Tesla", "Model Y", "AI4.5", "FSD computer", "hardware 4.5"],
+      "version_info": "AI4.5/硬件4.5",
+      "event_type": "硬件更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-27T02:32:33Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Xiaomi",
+      "title": "Xiaomi SU7 outsells Tesla Model 3 in China for the first time",
+      "url": "https://electrek.co/2026/01/26/xiaomi-su7-outsells-tesla-model-3-china/",
+      "publish_date": "2026-01-26",
+      "technical_points": ["中国市场", "电动轿车销量", "竞争格局变化", "小米汽车"],
+      "raw_content": "小米SU7在2025年交付258,164辆，首次超过特斯拉Model 3在中国市场的200,361辆。这标志着中国电动汽车市场竞争格局的重大变化，智能手机制造商小米成功进入高端电动轿车市场并取得显著成绩。",
+      "search_keywords": ["Xiaomi SU7", "Tesla Model 3", "China sales", "EV market"],
+      "version_info": "2025年度销量数据",
+      "event_type": "市场销售数据"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-27T02:32:33Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla brings Cybertruck to Middle East amid US demand collapse",
+      "url": "https://electrek.co/2026/01/26/tesla-brings-cybertruck-to-middle-east-amid-us-demand-collapse/",
+      "publish_date": "2026-01-26",
+      "technical_points": ["Cybertruck海外市场", "中东市场扩张", "美国需求下降", "国际化战略"],
+      "raw_content": "特斯拉已开始在阿联酋交付Cybertruck，标志着这款电动皮卡首次进入中东市场。此举发生在美国市场对Cybertruck需求下降的背景下，特斯拉寻求通过国际化扩张来维持销量增长。",
+      "search_keywords": ["Tesla Cybertruck", "Middle East", "UAE", "international expansion"],
+      "version_info": "中东首发",
+      "event_type": "市场扩张"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-27T02:32:33Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "轻舟智航",
+      "title": "轻舟智航L2/L4智驾方案解析：一段式、VLA和世界模型",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/157413658",
+      "publish_date": "2026-01-26",
+      "technical_points": ["端到端自动驾驶", "VLA（视觉语言行动）", "世界模型", "一段式架构", "J6M 128TOPS算力"],
+      "raw_content": "轻舟智航分享了其L2/L4智驾方案技术细节，采用一段式架构结合VLA和世界模型。方案在J6M 128TOPS算力平台上实现，展示了严重错位道路和复杂路口无保护左转的实车表现。文章还提到了Diffusion Planner和Flow Planner等算法。",
+      "search_keywords": ["轻舟智航", "端到端", "VLA", "世界模型", "一段式架构"],
+      "version_info": "J6M平台方案",
+      "event_type": "技术分享"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

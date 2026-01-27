@@ -1,0 +1,207 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-27T02:39:56Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "Bench2Drive-Leaderboard",
+      "full_name": "pzzkkj324244/Bench2Drive-Leaderboard",
+      "description": "🚗 Track and compare performance of all methods tested on Bench2Drive, presenting a clear view of autonomous driving benchmarks and their results",
+      "url": "https://github.com/pzzkkj324244/Bench2Drive-Leaderboard",
+      "stars": 0,
+      "language": "TeX",
+      "last_updated": "2026-01-27",
+      "category": "tool",
+      "company": null,
+      "tech_stack": ["TeX", "BibTeX"],
+      "key_features": ["自动驾驶基准测试跟踪", "方法性能比较", "排行榜可视化"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["自动驾驶基准测试标准化", "多方法性能对比框架"],
+      "application_value": "为自动驾驶研究提供标准化的性能评估工具，帮助研究人员快速比较不同方法在Bench2Drive数据集上的表现"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-27T02:39:56Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "ad-arxiv-daily",
+      "full_name": "Blake-Jiang/ad-arxiv-daily",
+      "description": "Daily tracking and organizing the latest arXiv papers in the field of autonomous driving (AD)",
+      "url": "https://github.com/Blake-Jiang/ad-arxiv-daily",
+      "stars": 39,
+      "language": "Python",
+      "last_updated": "2026-01-27",
+      "category": "tool",
+      "company": null,
+      "tech_stack": ["Python", "GitHub Actions", "arXiv API"],
+      "key_features": ["自动驾驶arXiv论文每日跟踪", "自动分类整理", "持续更新维护"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["自动驾驶领域论文自动化跟踪", "GitHub Actions自动化工作流"],
+      "application_value": "帮助研究人员及时了解自动驾驶领域最新学术进展，提供结构化的论文整理和分类，节省文献调研时间"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-27T02:39:56Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "wato_monorepo",
+      "full_name": "WATonomous/wato_monorepo",
+      "description": "Dockerized ROS2 stack for the WATonomous Autonomous Driving Software Pipeline",
+      "url": "https://github.com/WATonomous/wato_monorepo",
+      "stars": 109,
+      "language": "C",
+      "last_updated": "2026-01-27",
+      "category": "algorithm",
+      "company": "WATonomous",
+      "tech_stack": ["ROS2", "Docker", "C", "C++", "Python", "CMake"],
+      "key_features": ["完整自动驾驶软件栈", "Docker化部署", "模块化架构", "ROS2生态集成"],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": ["完整自动驾驶软件栈开源实现", "Docker化ROS2部署方案", "模块化系统架构设计"],
+      "application_value": "为自动驾驶开发提供完整的开源软件栈参考，包含感知、规划、控制等完整模块，适合学术研究和工业原型开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-27T02:39:56Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "Autonomous-Driving-Robot-System",
+      "full_name": "xigua-pi/Autonomous-Driving-Robot-System",
+      "description": "A full-stack autonomous robot system integrating ESP32-S3 vision, PC-end Deep Learning (YOLOv8 & CNN), and Pyboard-based PID hardware control",
+      "url": "https://github.com/xigua-pi/Autonomous-Driving-Robot-System",
+      "stars": 1,
+      "language": "Python",
+      "last_updated": "2026-01-27",
+      "category": "algorithm",
+      "company": null,
+      "tech_stack": ["Python", "ESP32-S3", "YOLOv8", "CNN", "MicroPython", "PID控制"],
+      "key_features": ["全栈自动驾驶机器人系统", "ESP32-S3视觉处理", "YOLOv8目标检测", "PID硬件控制"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["端到端自动驾驶机器人实现", "嵌入式视觉与深度学习融合", "温漂补偿IMU融合算法"],
+      "application_value": "展示从感知、决策到执行的完整自动驾驶系统实现，适合教育和研究用途，提供硬件与软件结合的实际案例"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-27T02:39:56Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "ro-arxiv-daily",
+      "full_name": "XuzhaoLi/ro-arxiv-daily",
+      "description": "Automatically Update Arxiv Papers about Path Planning, LLM and Autonomous Driving using Github Actions since 2024.2",
+      "url": "https://github.com/XuzhaoLi/ro-arxiv-daily",
+      "stars": 35,
+      "language": "Python",
+      "last_updated": "2026-01-27",
+      "category": "tool",
+      "company": null,
+      "tech_stack": ["Python", "GitHub Actions", "arXiv API"],
+      "key_features": ["路径规划与自动驾驶论文自动更新", "LLM相关论文跟踪", "GitHub Actions自动化"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["多主题arXiv论文自动化跟踪", "路径规划与自动驾驶交叉领域覆盖"],
+      "application_value": "为路径规划、大语言模型和自动驾驶交叉领域研究提供自动化论文跟踪工具，帮助研究人员保持对相关领域最新进展的了解"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

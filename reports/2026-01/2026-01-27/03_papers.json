@@ -1,0 +1,197 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-27T02:34:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving",
+      "authors": "Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma",
+      "url": "https://arxiv.org/abs/2601.15729",
+      "arxiv_id": "2601.15729",
+      "publish_date": "2026-01-22",
+      "category": "cs.RO, cs.AI, eess.SY",
+      "innovation": "提出DualShield框架，结合扩散模型和可达性分析，为交互式自动驾驶提供安全规划保障",
+      "application_potential": "高",
+      "abstract": "扩散模型已成为自动驾驶中多模态运动规划的有力方法，但其实际部署受到车辆动力学约束执行困难和依赖其他智能体准确预测的限制。DualShield利用Hamilton-Jacobi可达性值函数作为主动指导和反应安全屏障，在保持扩散模型丰富探索能力的同时提供安全保证。",
+      "keywords": ["自动驾驶规划", "扩散模型", "可达性分析", "安全验证", "交互式驾驶"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-27T02:34:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems",
+      "authors": "Mohamed Amine Ferrag, Abderrahmane Lakas, Merouane Debbah",
+      "url": "https://arxiv.org/abs/2601.16964",
+      "arxiv_id": "2601.16964",
+      "publish_date": "2026-01-23",
+      "category": "cs.AI",
+      "innovation": "推出AgentDrive数据集，包含30万个LLM生成的驾驶场景，为自主系统中的智能体AI推理提供大规模基准测试",
+      "application_potential": "高",
+      "abstract": "大语言模型在自主系统中的集成日益增长，但评估和训练这类智能体AI模型仍缺乏大规模、结构化、安全关键的基准测试。AgentDrive包含300,000个LLM生成的驾驶场景，涵盖七个正交轴：场景类型、驾驶员行为、环境、道路布局、目标、难度和交通密度。",
+      "keywords": ["自动驾驶数据集", "大语言模型", "基准测试", "智能体AI", "场景生成"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-27T02:34:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "SuperOcc: Toward Cohesive Temporal Modeling for Superquadric-based Occupancy Prediction",
+      "authors": "Zichen Yu, Quanli Liu, Wei Wang, Liyong Zhang, Xiaoguang Zhao",
+      "url": "https://arxiv.org/abs/2601.15644",
+      "arxiv_id": "2601.15644",
+      "publish_date": "2026-01-21",
+      "category": "cs.CV",
+      "innovation": "提出SuperOcc框架，通过超二次曲面表示进行3D占用预测，结合一致性时序建模机制和多超二次曲面解码策略",
+      "application_potential": "高",
+      "abstract": "3D占用预测在自动驾驶领域至关重要，大多数现有方法构建密集场景表示，忽略了真实驾驶场景的固有稀疏性。SuperOcc采用超二次曲面表示，引入一致性时序建模机制同时利用视角中心和物体中心时序线索，提升几何表达能力而不牺牲查询稀疏性。",
+      "keywords": ["3D占用预测", "超二次曲面", "时序建模", "自动驾驶感知", "稀疏表示"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-27T02:34:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis",
+      "authors": "Sheng Miao, Sijin Li, Pan Wang, Dongfeng Bai, Bingbing Liu, Yue Wang, Andreas Geiger, Yiyi Liao",
+      "url": "https://arxiv.org/abs/2601.15951",
+      "arxiv_id": "2601.15951",
+      "publish_date": "2026-01-22",
+      "category": "cs.CV",
+      "innovation": "提出EVolSplat4D框架，通过体积基础和像素基础的高斯预测统一，实现静态和动态城市场景的4D重建",
+      "application_potential": "中",
+      "abstract": "静态和动态城市场景的新视角合成对自动驾驶仿真至关重要。EVolSplat4D超越现有逐像素范式，通过三个专用分支统一体积基础和像素基础高斯预测：近距离静态区域、动态参与者和远场景，确保全场景覆盖。",
+      "keywords": ["高斯溅射", "4D场景合成", "城市场景重建", "自动驾驶仿真", "神经渲染"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-27T02:34:34Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Masked Depth Modeling for Spatial Perception",
+      "authors": "Bin Tan, Changjiang Sun, Xiage Qin, Hanat Adai, Zelin Fu, Tianxiang Zhou, Han Zhang, Yinghao Xu, Xing Zhu, Yujun Shen, Nan Xue",
+      "url": "https://arxiv.org/abs/2601.17895",
+      "arxiv_id": "2601.17895",
+      "publish_date": "2026-01-25",
+      "category": "cs.CV, cs.RO",
+      "innovation": "提出LingBot-Depth深度补全模型，通过掩码深度建模利用视觉上下文优化深度图，在RGB和深度模态间提供对齐的潜在表示",
+      "application_potential": "高",
+      "abstract": "空间视觉感知是自动驾驶等物理世界应用的基本需求。深度传感器的不准确性可视为反映基础几何模糊性的'掩码'信号。LingBot-Depth通过掩码深度建模利用视觉上下文优化深度图，在RGB和深度模态间提供对齐的潜在表示。",
+      "keywords": ["深度补全", "空间感知", "掩码建模", "自动驾驶感知", "多模态对齐"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]
