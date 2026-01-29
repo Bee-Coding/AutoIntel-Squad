@@ -1,0 +1,167 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-28T06:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "AVP_Core_Implementation",
+      "full_name": "azsxfv92/AVP_Core_Implementation",
+      "description": "A comprehensive AVP implementation roadmap for Jetson Orin Nano. It covers the full autonomous driving stack: Modern C++17, ROS 2, Yocto, and TensorRT/CUDA optimization. By integrating 10-sensor fusion and CARLA HILs, it targets <30ms E2E latency and a 94% success rate, demonstrating production-ready deployment skills.",
+      "url": "https://github.com/azsxfv92/AVP_Core_Implementation",
+      "stars": 0,
+      "language": "Python",
+      "last_updated": "2026-01-28",
+      "category": "algorithm",
+      "company": "Independent Developer",
+      "tech_stack": ["Python", "C++17", "ROS 2", "Yocto", "TensorRT", "CUDA", "Jetson Orin Nano"],
+      "key_features": ["10-sensor fusion", "CARLA HIL integration", "<30ms E2E latency", "94% success rate target", "Production-ready deployment"],
+      "difficulty_level": "expert",
+      "relevance_score": 85,
+      "innovation_points": ["完整的自动驾驶堆栈实现", "Jetson Orin Nano优化", "多传感器融合", "CARLA硬件在环测试"],
+      "application_value": "适用于自动驾驶系统原型开发、嵌入式部署测试、传感器融合算法验证，具有实际工程应用价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-28T06:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "alpasim",
+      "full_name": "taha16112001/alpasim",
+      "description": "🚗 Simulate realistic autonomous driving scenarios with AlpaSim, a modular and data-driven platform for research, testing, and performance evaluation.",
+      "url": "https://github.com/taha16112001/alpasim",
+      "stars": 0,
+      "language": "Python",
+      "last_updated": "2026-01-28",
+      "category": "simulator",
+      "company": "Independent Developer",
+      "tech_stack": ["Python", "Data-driven simulation", "Modular architecture"],
+      "key_features": ["真实自动驾驶场景模拟", "模块化平台", "数据驱动", "研究测试一体化"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 80,
+      "innovation_points": ["模块化仿真架构", "数据驱动的场景生成", "研究测试一体化平台"],
+      "application_value": "适用于自动驾驶算法测试、场景仿真、性能评估，为研究人员和开发者提供灵活的测试环境。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-28T06:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "PMCT-master",
+      "full_name": "THU-AI-Testing/PMCT-master",
+      "description": "This project contains the source code for the paper titled \"A Provable Safety Metric for Autonomous Driving via Deep Reinforcement Learning and PAC Verification\". We propose a real-time automonous driving safety metric called Provable Minimum Collision Time (PMCT) that provably predict the minimum time to collision from the inputed initial state.",
+      "url": "https://github.com/THU-AI-Testing/PMCT-master",
+      "stars": 1,
+      "language": "Python",
+      "last_updated": "2026-01-28",
+      "category": "algorithm",
+      "company": "清华大学AI测试实验室",
+      "tech_stack": ["Python", "Deep Reinforcement Learning", "PAC Verification", "Safety Metrics"],
+      "key_features": ["可证明的安全度量", "实时碰撞时间预测", "深度强化学习", "PAC验证"],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": ["可证明的最小碰撞时间度量", "基于PAC验证的安全保证", "深度强化学习与形式化验证结合"],
+      "application_value": "为自动驾驶系统提供理论安全保证，适用于安全关键系统验证、自动驾驶安全评估，具有重要的学术和工程价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-28T06:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "Tesla",
+      "full_name": "i-anasop/Tesla",
+      "description": "TESLA - An Autonomous Driving Simulator (Python + Pygame)",
+      "url": "https://github.com/i-anasop/Tesla",
+      "stars": 1,
+      "language": "Python",
+      "last_updated": "2026-01-24",
+      "category": "simulator",
+      "company": "Independent Developer (Tesla-inspired)",
+      "tech_stack": ["Python", "Pygame", "Simulation"],
+      "key_features": ["自动驾驶模拟器", "Pygame图形界面", "简单易用"],
+      "difficulty_level": "beginner",
+      "relevance_score": 75,
+      "innovation_points": ["轻量级自动驾驶模拟器", "基于Pygame的可视化", "教育友好型设计"],
+      "application_value": "适用于自动驾驶入门教育、算法原型验证、基础驾驶行为模拟，适合教学和初学者使用。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-28T06:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "OpenV2X_self_driving_vision_and_reconstruction",
+      "full_name": "luigiPP93/OpenV2X_self_driving_vision_and_reconstruction",
+      "description": "FSD Tesla Open-source. Real-Time Environment Reconstruction System for Autonomous Vehicles",
+      "url": "https://github.com/luigiPP93/OpenV2X_self_driving_vision_and_reconstruction",
+      "stars": 13,
+      "language": "Python",
+      "last_updated": "2026-01-28",
+      "category": "algorithm",
+      "company": "Independent Developer (FSD Tesla inspired)",
+      "tech_stack": ["Python", "Computer Vision", "Environment Reconstruction", "Object Detection"],
+      "key_features": ["实时环境重建", "FSD Tesla开源实现", "物体检测", "场景重建"],
+      "difficulty_level": "advanced",
+      "relevance_score": 85,
+      "innovation_points": ["FSD Tesla开源实现", "实时环境重建系统", "车辆感知与场景理解"],
+      "application_value": "为自动驾驶环境感知提供参考实现，适用于视觉SLAM、环境重建、车辆感知算法开发，具有较高的工程参考价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

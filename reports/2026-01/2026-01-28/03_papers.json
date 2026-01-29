@@ -1,0 +1,197 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-28T13:51:54+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "ScenePilot-Bench: A Large-Scale Dataset and Benchmark for Evaluation of Vision-Language Models in Autonomous Driving",
+      "authors": "Yujin Wang, Yutong Zheng, Wenxian Fan, Tianyi Wang, Hongqing Chu, Daxin Tian, Bingzhao Gao, Jianqiang Wang, Hong Chen",
+      "url": "https://arxiv.org/abs/2601.19582",
+      "arxiv_id": "2601.19582",
+      "publish_date": "2026-01-27",
+      "category": "cs.CV",
+      "innovation": "提出了一个大规模第一人称驾驶基准，用于评估自动驾驶场景中的视觉语言模型，包含多粒度标注和四轴评估套件",
+      "application_potential": "高",
+      "abstract": "介绍了ScenePilot-Bench，一个基于3,847小时驾驶视频的大规模第一人称驾驶基准，用于评估视觉语言模型在自动驾驶场景中的表现，包含场景理解、空间感知、运动规划和GPT-Score四轴评估",
+      "keywords": ["vision-language models", "autonomous driving", "benchmark", "dataset", "evaluation"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-28T13:51:54+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Instance-Guided Radar Depth Estimation for 3D Object Detection",
+      "authors": "Chen-Chou Lo, Patrick Vandewalle",
+      "url": "https://arxiv.org/abs/2601.19314",
+      "arxiv_id": "2601.19314",
+      "publish_date": "2026-01-27",
+      "category": "cs.CV, cs.AI",
+      "innovation": "提出了InstaRadar实例分割引导的雷达扩展方法，增强雷达密度和语义对齐，集成RCDPT到BEVDepth框架提升3D检测性能",
+      "application_potential": "高",
+      "abstract": "提出了一种端到端框架，通过实例分割引导的雷达扩展和预训练RCDPT集成，增强单目3D目标检测，在雷达引导深度估计中达到SOTA",
+      "keywords": ["radar-camera fusion", "3D object detection", "depth estimation", "autonomous driving", "BEV"],
+      "code_available": false,
+      "conference": "IPMV2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-28T13:51:54+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Learning the Pareto Space of Multi-Objective Autonomous Driving: A Modular, Data-Driven Approach",
+      "authors": "Mohammad Elayan, Wissam Kontar",
+      "url": "https://arxiv.org/abs/2601.18913",
+      "arxiv_id": "2601.18913",
+      "publish_date": "2026-01-26",
+      "category": "cs.RO, cs.MA",
+      "innovation": "提出了一个经验学习框架，直接从自然轨迹数据中推导安全、效率和交互之间的权衡，使用帕累托支配识别非支配状态",
+      "application_potential": "中高",
+      "abstract": "引入了一个模块化框架，通过帕累托支配分析自动驾驶中的安全、效率和交互权衡，使用TGSIM数据集展示了只有0.23%的驾驶实例是帕累托最优的",
+      "keywords": ["multi-objective optimization", "Pareto frontier", "autonomous driving", "safety", "efficiency"],
+      "code_available": false,
+      "conference": "IEEE Intelligent Vehicles Symposium 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-28T13:51:54+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "DualShield: Safe Model Predictive Diffusion via Reachability Analysis for Interactive Autonomous Driving",
+      "authors": "Rui Yang, Lei Zheng, Ruoyu Yao, Jun Ma",
+      "url": "https://arxiv.org/abs/2601.15729",
+      "arxiv_id": "2601.15729",
+      "publish_date": "2026-01-22",
+      "category": "cs.RO, cs.AI, eess.SY",
+      "innovation": "提出了DualShield框架，利用Hamilton-Jacobi可达性值函数双重机制，引导扩散去噪过程并形成反应式安全屏障，确保扩散模型在不确定交互中的安全性",
+      "application_potential": "高",
+      "abstract": "提出了一个结合可达性分析的扩散模型安全规划框架，在具有挑战性的无保护左转场景中显著提高了安全性和任务效率",
+      "keywords": ["diffusion models", "motion planning", "safety", "reachability analysis", "autonomous driving"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-28T13:51:54+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "SuperOcc: Toward Cohesive Temporal Modeling for Superquadric-based Occupancy Prediction",
+      "authors": "Zichen Yu, Quanli Liu, Wei Wang, Liyong Zhang, Xiaoguang Zhao",
+      "url": "https://arxiv.org/abs/2601.15644",
+      "arxiv_id": "2601.15644",
+      "publish_date": "2026-01-22",
+      "category": "cs.CV",
+      "innovation": "提出了SuperOcc框架，通过凝聚时序建模机制、多超二次曲面解码策略和高效超二次曲面到体素溅射方案，改进基于超二次曲面的3D占用预测",
+      "application_potential": "高",
+      "abstract": "提出了一个基于超二次曲面的3D占用预测框架，在SurroundOcc和Occ3D基准上实现了SOTA性能，同时保持了高效率",
+      "keywords": ["3D occupancy prediction", "superquadric", "autonomous driving", "temporal modeling", "sparse representation"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

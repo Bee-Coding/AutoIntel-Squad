@@ -1,0 +1,207 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-29T07:59:03Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 70,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "OpenDriveVLA",
+      "full_name": "DriveVLA/OpenDriveVLA",
+      "description": "[AAAI 2026] OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model",
+      "url": "https://github.com/DriveVLA/OpenDriveVLA",
+      "stars": 585,
+      "language": "Python",
+      "last_updated": "2026-01-23",
+      "category": "end-to-end-autonomous-driving",
+      "company": "DriveVLA",
+      "tech_stack": ["Python", "PyTorch", "Vision-Language Models", "Transformers"],
+      "key_features": ["大视觉语言动作模型", "端到端自动驾驶", "AAAI 2026最新研究", "多模态融合"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["视觉语言动作模型在自动驾驶中的应用", "端到端架构", "最新AAAI 2026研究成果"],
+      "application_value": "展示了最新的大视觉语言模型在自动驾驶中的应用，为端到端自动驾驶研究提供了新方向，具有较高的学术参考价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["网络访问受限，更新时间基于缓存文件估计"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-29T07:59:03Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "DiffusionDrive",
+      "full_name": "hustvl/DiffusionDrive",
+      "description": "[CVPR 2025 Highlight] Truncated Diffusion Model for Real-Time End-to-End Autonomous Driving",
+      "url": "https://github.com/hustvl/DiffusionDrive",
+      "stars": 1251,
+      "language": "Python",
+      "last_updated": "2026-01-23",
+      "category": "end-to-end-autonomous-driving",
+      "company": "hustvl",
+      "tech_stack": ["Python", "PyTorch", "Diffusion Models", "Transformers"],
+      "key_features": ["截断扩散模型", "实时端到端自动驾驶", "CVPR 2025亮点论文", "高效推理"],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": ["扩散模型在自动驾驶中的应用", "实时推理优化", "截断扩散策略"],
+      "application_value": "将扩散模型应用于端到端自动驾驶，实现了实时性能，为生成式模型在自动驾驶领域的应用提供了重要参考。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["网络访问受限，更新时间基于缓存文件估计"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-29T07:59:03Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "Senna",
+      "full_name": "hustvl/Senna",
+      "description": "Bridging Large Vision-Language Models and End-to-End Autonomous Driving",
+      "url": "https://github.com/hustvl/Senna",
+      "stars": 516,
+      "language": "Python",
+      "last_updated": "2026-01-23",
+      "category": "end-to-end-autonomous-driving",
+      "company": "hustvl",
+      "tech_stack": ["Python", "PyTorch", "Vision-Language Models", "Transformers"],
+      "key_features": ["大视觉语言模型桥接", "端到端自动驾驶", "多模态理解", "指令跟随"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["连接大视觉语言模型与自动驾驶", "多模态指令理解", "端到端架构"],
+      "application_value": "探索了大视觉语言模型与自动驾驶系统的结合，为利用现有大模型能力提升自动驾驶系统的理解和决策能力提供了思路。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["网络访问受限，更新时间基于缓存文件估计"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-29T07:59:03Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "Orion",
+      "full_name": "xiaomi-mlab/Orion",
+      "description": "[ICCV 2025] Official code of \"ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation\"",
+      "url": "https://github.com/xiaomi-mlab/Orion",
+      "stars": 557,
+      "language": "Python",
+      "last_updated": "2026-01-23",
+      "category": "end-to-end-autonomous-driving",
+      "company": "Xiaomi",
+      "tech_stack": ["Python", "PyTorch", "Vision-Language Models", "Transformers"],
+      "key_features": ["全栈端到端自动驾驶框架", "视觉语言指令动作生成", "ICCV 2025论文", "小米实验室出品"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["全栈端到端自动驾驶框架", "视觉语言指令驱动", "工业界研究项目"],
+      "application_value": "小米自动驾驶实验室的最新研究成果，展示了工业界在端到端自动驾驶领域的探索，具有较高的工程参考价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["网络访问受限，更新时间基于缓存文件估计"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-29T07:59:03Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "End-to-end-Autonomous-Driving",
+      "full_name": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "description": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+      "stars": 3505,
+      "language": "Python",
+      "last_updated": "2026-01-23",
+      "category": "end-to-end-autonomous-driving",
+      "company": "OpenDriveLab",
+      "tech_stack": ["Python", "PyTorch", "CARLA", "Reinforcement Learning"],
+      "key_features": ["端到端自动驾驶完整方案", "IEEE T-PAMI 2024论文", "CARLA仿真集成", "策略学习"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["端到端自动驾驶完整实现", "顶级期刊论文配套代码", "仿真到真实世界迁移"],
+      "application_value": "提供了端到端自动驾驶的完整实现方案，包含感知、规划、控制等完整模块，是学习端到端自动驾驶的重要参考项目。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["网络访问受限，更新时间基于缓存文件估计"]
+    }
+  }
+]

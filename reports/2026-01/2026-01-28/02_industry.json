@@ -1,0 +1,142 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-28T05:51:53Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo, Uber, Tesla",
+      "title": "The price gap between Waymo and Uber is narrowing",
+      "url": "https://techcrunch.com/2026/01/27/the-price-gap-between-waymo-and-uber-is-narrowing/",
+      "publish_date": "2026-01-27",
+      "technical_points": ["robotaxi pricing convergence", "Tesla FSD ride-hailing data", "consumer preference survey"],
+      "raw_content": "根据Obi最新数据，Waymo robotaxi与人类驾驶的Uber/Lyft之间的价格差距正在缩小。Waymo在旧金山湾区的平均费用从2025年4月的20.43美元降至19.69美元（下降3.62%），而Uber从15.58美元涨至17.47美元（上涨12%）。调查显示，尽管Tesla尚未大规模运营真正的robotaxi服务，但31%受访者最偏好Tesla自动驾驶品牌，男性用户中56%偏好Tesla。",
+      "search_keywords": ["Waymo", "Uber", "Tesla", "robotaxi", "pricing", "FSD"],
+      "version_info": null,
+      "event_type": "market analysis report"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-28T05:51:53Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Luminar, MicroVision",
+      "title": "Luminar receives a larger $33M bid for its lidar business",
+      "url": "https://techcrunch.com/2026/01/27/luminar-receives-a-larger-33-million-bid-for-its-lidar-business/",
+      "publish_date": "2026-01-27",
+      "technical_points": ["lidar sensor acquisition", "bankruptcy auction", "Iris and Halo sensors"],
+      "raw_content": "激光雷达公司Luminar在破产拍卖中收到了来自MicroVision的3300万美元更高竞标，超过了Quantum Computing Inc.先前2800万美元的出价。MicroVision将收购Luminar的Iris和Halo激光雷达传感器相关IP、库存、核心工程团队以及部分商业合同。此次收购反映了激光雷达行业正在进行的整合与调整。",
+      "search_keywords": ["Luminar", "lidar", "MicroVision", "bankruptcy", "acquisition"],
+      "version_info": null,
+      "event_type": "merger and acquisition"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-28T05:51:53Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Uber",
+      "title": "Uber launches an 'AV Labs' division to gather driving data for robotaxi partners",
+      "url": "https://techcrunch.com/2026/01/27/uber-launches-an-av-labs-division-to-gather-driving-data-for-robotaxi-partners/",
+      "publish_date": "2026-01-27",
+      "technical_points": ["autonomous vehicle data collection", "sensor-equipped fleet", "shadow mode testing"],
+      "raw_content": "Uber推出名为AV Labs的新部门，旨在为其20多个自动驾驶合作伙伴收集驾驶数据。该部门将部署配备激光雷达、雷达和摄像头的车辆，在城市中收集真实世界驾驶数据，并通过语义理解和影子模式帮助合作伙伴改进自动驾驶算法。Uber表示此举旨在民主化数据访问，加速整个自动驾驶生态系统发展。",
+      "search_keywords": ["Uber", "AV Labs", "autonomous vehicle", "data collection", "robotaxi"],
+      "version_info": null,
+      "event_type": "new division launch"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-28T05:51:53Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "丰田、大众、宝马、奔驰等",
+      "title": "外资车企，史诗级加仓中国",
+      "url": "https://www.huxiu.com/article/4830197.html",
+      "publish_date": "2026-01-27",
+      "technical_points": ["研发本土化", "供应链深度整合", "技术反哺全球"],
+      "raw_content": "外资车企正在中国进行史诗级加仓，将决策权、研发中心和供应链深度植入中国产业生态。丰田任命中国籍高管李晖担任中国总经理，大众在合肥投资70亿欧元建立全流程研发中心，宝马和奔驰宣布未来数年将在华追加超千亿元研发投资。中国已从制造中心转变为电动化与智能化的创新策源地，外资车企通过反向本土化获取中国创新技术并反哺全球市场。",
+      "search_keywords": ["外资车企", "本土化", "研发中心", "供应链", "电动化"],
+      "version_info": null,
+      "event_type": "industry analysis"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

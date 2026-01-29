@@ -1,0 +1,157 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-29T08:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction",
+      "authors": "Matej Halinkovic, Nina Masarykova, Alexey Vinel, Marek Galinski",
+      "url": "https://arxiv.org/abs/2601.20720v1",
+      "arxiv_id": "2601.20720",
+      "publish_date": "2026-01-28",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出查询门控可变形融合（QGDF）方法，在查询空间集成多视角RGB和LiDAR，实现端到端感知和轨迹预测的联合优化",
+      "application_potential": "高",
+      "abstract": "End-to-end perception and trajectory prediction from raw sensor data is one of the key capabilities for autonomous driving. Modular pipelines restrict information flow and can amplify upstream errors. Recent query-based, fully differentiable perception-and-prediction (PnP) models mitigate these issues, yet the complementarity of cameras and LiDAR in the query-space has not been sufficiently explored. Models often rely on fusion schemes that introduce heuristic alignment and discrete selection steps which prevent full utilization of available information and can introduce unwanted bias. We propose Li-ViP3D++, a query-based multimodal PnP framework that introduces Query-Gated Deformable Fusion (QGDF) to integrate multi-view RGB and LiDAR in query space. QGDF (i) aggregates image evidence via masked attention across cameras and feature levels, (ii) extracts LiDAR context through fully differentiable BEV sampling with learned per-query offsets, and (iii) applies query-conditioned gating to adaptively weight visual and geometric cues per agent. The resulting architecture jointly optimizes detection, tracking, and multi-hypothesis trajectory forecasting in a single end-to-end model. On nuScenes, Li-ViP3D++ improves end-to-end behavior and detection quality, achieving higher EPA (0.335) and mAP (0.502) while substantially reducing false positives (FP ratio 0.147), and it is faster than the prior Li-ViP3D variant (139.82 ms vs. 145.91 ms). These results indicate that query-space, fully differentiable camera-LiDAR fusion can increase robustness of end-to-end PnP without sacrificing deployability.",
+      "keywords": ["end-to-end perception", "trajectory prediction", "camera-LiDAR fusion", "query-based models", "autonomous driving"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-29T08:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Learning Contextual Runtime Monitors for Safe AI-Based Autonomy",
+      "authors": "Alejandro Luque-Cerpa, Mengyuan Wang, Emil Carlsson, Sanjit A. Seshia, Devdatt Dubhashi, Hazem Torfah",
+      "url": "https://arxiv.org/abs/2601.20666v1",
+      "arxiv_id": "2601.20666",
+      "publish_date": "2026-01-28",
+      "category": "cs.LG, cs.AI, eess.SY",
+      "innovation": "提出上下文感知运行时监控框架，利用上下文多臂老虎机技术，根据系统上下文选择最适合的控制器，提升自动驾驶安全性",
+      "application_potential": "高",
+      "abstract": "We introduce a novel framework for learning context-aware runtime monitors for AI-based control ensembles. Machine-learning (ML) controllers are increasingly deployed in (autonomous) cyber-physical systems because of their ability to solve complex decision-making tasks. However, their accuracy can degrade sharply in unfamiliar environments, creating significant safety concerns. Traditional ensemble methods aim to improve robustness by averaging or voting across multiple controllers, yet this often dilutes the specialized strengths that individual controllers exhibit in different operating contexts. We argue that, rather than blending controller outputs, a monitoring framework should identify and exploit these contextual strengths. In this paper, we reformulate the design of safe AI-based control ensembles as a contextual monitoring problem. A monitor continuously observes the system's context and selects the controller best suited to the current conditions. To achieve this, we cast monitor learning as a contextual learning task and draw on techniques from contextual multi-armed bandits. Our approach comes with two key benefits: (1) theoretical safety guarantees during controller selection, and (2) improved utilization of controller diversity. We validate our framework in two simulated autonomous driving scenarios, demonstrating significant improvements in both safety and performance compared to non-contextual baselines.",
+      "keywords": ["runtime monitoring", "safety", "contextual learning", "autonomous driving", "controller ensemble"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-29T08:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Unsupervised Anomaly Detection in Multi-Agent Trajectory Prediction via Transformer-Based Models",
+      "authors": "Qing Lyu, Zhe Fu, Alexandre Bayen",
+      "url": "https://arxiv.org/abs/2601.20367v1",
+      "arxiv_id": "2601.20367",
+      "publish_date": "2026-01-28",
+      "category": "cs.LG, eess.SY",
+      "innovation": "提出基于Transformer的多智能体轨迹预测无监督异常检测框架，通过预测残差度量偏差，并引入双重评估方案验证检测稳定性与物理对齐性",
+      "application_potential": "中高",
+      "abstract": "Identifying safety-critical scenarios is essential for autonomous driving, but the rarity of such events makes supervised labeling impractical. Traditional rule-based metrics like Time-to-Collision are too simplistic to capture complex interaction risks, and existing methods lack a systematic way to verify whether statistical anomalies truly reflect physical danger. To address this gap, we propose an unsupervised anomaly detection framework based on a multi-agent Transformer that models normal driving and measures deviations through prediction residuals. A dual evaluation scheme has been proposed to assess both detection stability and physical alignment: Stability is measured using standard ranking metrics in which Kendall Rank Correlation Coefficient captures rank agreement and Jaccard index captures the consistency of the top-K selected items; Physical alignment is assessed through correlations with established Surrogate Safety Measures (SSM). Experiments on the NGSIM dataset demonstrate our framework's effectiveness: We show that the maximum residual aggregator achieves the highest physical alignment while maintaining stability. Furthermore, our framework identifies 388 unique anomalies missed by Time-to-Collision and statistical baselines, capturing subtle multi-agent risks like reactive braking under lateral drift. The detected anomalies are further clustered into four interpretable risk types, offering actionable insights for simulation and testing.",
+      "keywords": ["anomaly detection", "trajectory prediction", "transformer", "multi-agent", "autonomous driving"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-29T08:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Game-Theoretic Autonomous Driving: A Graphs of Convex Sets Approach",
+      "authors": "Nikolaj Käfer, Ahmed Khalil, Edward Huynh, Efstathios Bakolas, David Fridovich-Keil",
+      "url": "https://arxiv.org/abs/2601.20054v1",
+      "arxiv_id": "2601.20054",
+      "publish_date": "2026-01-27",
+      "category": "cs.MA, cs.RO",
+      "innovation": "提出IBR-GCS（基于凸集图的迭代最佳响应）规划方法，将高速公路驾驶建模为非合作博弈，结合组合机动推理、轨迹规划和博弈论交互",
+      "application_potential": "中高",
+      "abstract": "Multi-vehicle autonomous driving couples strategic interaction with hybrid (discrete-continuous) maneuver planning under shared safety constraints. We introduce IBR-GCS, an Iterative Best Response (IBR) planning approach based on the Graphs of Convex Sets (GCS) framework that models highway driving as a generalized noncooperative game. IBR-GCS integrates combinatorial maneuver reasoning, trajectory planning, and game-theoretic interaction within a unified framework. The key novelty is a vehicle-specific, strategy-dependent GCS construction. Specifically, at each best-response update, each vehicle builds its own graph conditioned on the current strategies of the other vehicles, with vertices representing lane-specific, time-varying, convex, collision-free regions and edges encoding dynamically feasible transitions. This yields a shortest-path problem in GCS for each best-response step, which admits an efficient convex relaxation that can be solved using convex optimization tools without exhaustive discrete tree search. We then apply an iterative best-response scheme in which vehicles update their trajectories sequentially and provide conditions under which the resulting inexact updates converge to an approximate generalized Nash equilibrium. Simulation results across multi-lane, multi-vehicle scenarios demonstrate that IBR-GCS produces safe trajectories and strategically consistent interactive behaviors.",
+      "keywords": ["game theory", "motion planning", "convex sets", "multi-agent", "autonomous driving"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-01-29T08:00:00Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Towards Safety-Compliant Transformer Architectures for Automotive Systems",
+      "authors": "Sven Kirchner, Nils Purschke, Chengdong Wu, Alois Knoll",
+      "url": "https://arxiv.org/abs/2601.18850v1",
+      "arxiv_id": "2601.18850",
+      "publish_date": "2026-01-26",
+      "category": "cs.SE",
+      "innovation": "提出面向汽车系统的安全合规Transformer架构框架，通过多模态独立编码器融合表示，支持故障操作行为，弥合深度学习与功能安全实践之间的差距",
+      "application_potential": "高",
+      "abstract": "Transformer-based architectures have shown remarkable performance in vision and language tasks but pose unique challenges for safety-critical applications. This paper presents a conceptual framework for integrating Transformers into automotive systems from a safety perspective. We outline how multimodal Foundation Models can leverage sensor diversity and redundancy to improve fault tolerance and robustness. Our proposed architecture combines multiple independent modality-specific encoders that fuse their representations into a shared latent space, supporting fail-operational behavior if one modality degrades. We demonstrate how different input modalities could be fused in order to maintain consistent scene understanding. By structurally embedding redundancy and diversity at the representational level, this approach bridges the gap between modern deep learning and established functional safety practices, paving the way for certifiable AI systems in autonomous driving.",
+      "keywords": ["transformer", "safety", "automotive", "multimodal fusion", "functional safety"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

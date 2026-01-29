@@ -1,0 +1,177 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-29T15:56:42+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waabi",
+      "title": "Waabi raises $1B and expands into robotaxis with Uber",
+      "url": "https://techcrunch.com/2026/01/28/waabi-raises-1b-and-expands-into-robotaxis-with-uber/",
+      "publish_date": "2026-01-28",
+      "technical_points": ["AI-first autonomous driving", "Single technology stack for multiple verticals", "Waabi World closed-loop simulator", "Generalizable AI architecture"],
+      "raw_content": "自动驾驶初创公司Waabi获得10亿美元融资，并与Uber达成合作，将其自动驾驶汽车部署在打车平台上。这标志着该公司首次超越自动驾驶卡车领域进行扩张。融资包括由Khosla Ventures和G2 Venture Partners共同领投的7.5亿美元C轮融资，以及Uber提供的约2.5亿美元基于里程碑的资本，用于支持在其平台上独家部署25,000辆或更多由Waabi Driver驱动的机器人出租车。Waabi创始人兼CEO Raquel Urtasun表示，该公司的核心技术首次实现了单一解决方案能够处理多个垂直领域，并且能够大规模实施。",
+      "search_keywords": ["Waabi", "robotaxi", "Uber", "autonomous driving", "AI"],
+      "version_info": null,
+      "event_type": "funding_and_partnership"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-29T15:56:42+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "The price gap between Waymo and Uber is narrowing",
+      "url": "https://techcrunch.com/2026/01/27/the-price-gap-between-waymo-and-uber-is-narrowing/",
+      "publish_date": "2026-01-27",
+      "technical_points": ["Robotaxi pricing strategy", "Market competition analysis", "Consumer preference data"],
+      "raw_content": "根据Obi公司发布的新数据，Waymo机器人出租车的平均费用仍然高于人类驾驶的Uber或Lyft，但这一差距正在缩小。数据显示，Waymo在旧金山湾区的平均费用为19.69美元，Uber为17.47美元，Lyft为15.47美元。与2025年4月的数据相比，Waymo的平均成本下降了3.62%，而Uber和Lyft分别上涨了12%和7%。报告还指出，特斯拉的机器人出租车服务价格更低，但车队规模较小，等待时间较长。随着Waymo扩展到新城市并与Uber和Lyft合作，机器人出租车市场的竞争正在加剧。",
+      "search_keywords": ["Waymo", "Uber", "pricing", "robotaxi", "competition"],
+      "version_info": null,
+      "event_type": "market_analysis"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-29T15:56:42+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Zoox",
+      "title": "San Francisco Police Department investigating Zoox collision with a parked car",
+      "url": "https://techcrunch.com/2026/01/28/san-francisco-police-department-investigating-zoox-collision-with-a-parked-car/",
+      "publish_date": "2026-01-28",
+      "technical_points": ["Autonomous vehicle safety", "Incident investigation", "Regulatory compliance"],
+      "raw_content": "旧金山警察局正在调查一起涉及Zoox自动驾驶车辆的事故，该车辆撞上了一辆停放汽车的驾驶员侧车门。事故发生在1月17日下午2点左右，地点在15th和Mission街道附近。Zoox机器人出租车正在15th街道上行驶时，一名街道大使突然打开了他的1977年凯迪拉克Coupe DeVille的驾驶员侧车门。该男子的手在碰撞中受伤，Zoox车辆的玻璃门受损。Zoox表示，机器人出租车'识别到打开的车门并试图避让，但接触无法避免'。该公司正在与当地当局合作提供准确的事故报告。",
+      "search_keywords": ["Zoox", "accident", "safety", "investigation", "autonomous vehicle"],
+      "version_info": null,
+      "event_type": "safety_incident"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-29T15:56:42+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Huawei",
+      "title": "含ADS4.1升级/无麦K歌2.0/隔空开门等功能 享界S9T/S9新年OTA推送",
+      "url": "https://www.autohome.com.cn/news/202601/1312095.html",
+      "publish_date": "2026-01-29",
+      "technical_points": ["ADS4.1 autonomous driving system", "End-to-end AI capabilities", "OTA software upgrades", "Intelligent cockpit features"],
+      "raw_content": "华为与赛力斯合作的享界S9/S9T开始推送新年OTA升级。此次升级包含ADS4.1智驾体验提升，新增编队出行功能、eAES自动避让切入车辆、eAEB识别动态静态障碍物、自动避让开门、白天幽灵模式、二点式掉头等功能。座舱方面新增杨幂语音包、疲劳分神提醒、口语练习生、深度思考哼唱识曲、小芝语音助手‘活人感’对话模式、方言自由说和声纹识别、一语多指令和多屏跨屏分享。娱乐体验升级天籁K歌2.0版本，支持随时开唱。此次OTA大幅提升了车辆在复杂路况下的自动驾驶能力和座舱智能化水平。",
+      "search_keywords": ["Huawei", "ADS4.1", "OTA", "autonomous driving", "end-to-end"],
+      "version_info": "ADS4.1",
+      "event_type": "software_update"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-29T15:56:42+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Luminar",
+      "title": "Luminar sale approved despite last-minute mystery bid",
+      "url": "https://techcrunch.com/2026/01/28/luminar-sale-approved-despite-last-minute-mystery-bid/",
+      "publish_date": "2026-01-28",
+      "technical_points": ["Lidar technology", "Corporate acquisition", "Bankruptcy proceedings"],
+      "raw_content": "激光雷达制造商Luminar的出售计划已获批准，尽管出现了最后一刻的神秘竞标。该公司此前已申请破产保护，正在出售其激光雷达业务。新的竞标比之前的出价高出3300万美元，总金额达到3300万美元。收购方身份尚未公开。Luminar是自动驾驶汽车传感器领域的关键参与者，其激光雷达技术被多家汽车制造商采用。此次出售可能影响自动驾驶行业的供应链格局。",
+      "search_keywords": ["Luminar", "lidar", "acquisition", "bankruptcy", "autonomous driving"],
+      "version_info": null,
+      "event_type": "corporate_acquisition"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]
