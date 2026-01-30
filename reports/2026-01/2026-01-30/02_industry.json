@@ -1,0 +1,201 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-30T15:00:00Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo (Alphabet)",
+      "title": "Waymo begins autonomous taxi service to SFO airport",
+      "url": "https://electrek.co/2026/01/29/waymo-begins-autonomous-taxi-service-to-sfo-airport/",
+      "publish_date": "2026-01-29",
+      "technical_points": [
+        "Level 4 autonomous driving (no human driver)",
+        "Initial service limited to rental car center, not terminal",
+        "Plans to expand to terminal areas in future",
+        "Operates in 6 metro areas including San Francisco"
+      ],
+      "raw_content": "Waymo has started providing rides with its autonomous taxi service to San Francisco International airport, starting today for select riders. The service is Level 4 autonomous, meaning no human driver in the vehicle. Currently, drop-off and pick-up are only at the SFO rental car center, with shuttle connection to main terminals. Waymo plans to serve additional airport locations like terminals in the future.",
+      "search_keywords": ["Waymo", "SFO", "airport", "robotaxi", "autonomous taxi"],
+      "version_info": "Initial rollout",
+      "event_type": "service expansion"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-30T15:01:00Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla's own Robotaxi data confirms crash rate 3x worse than humans even with monitor",
+      "url": "https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/",
+      "publish_date": "2026-01-29",
+      "technical_points": [
+        "Crash rate: 1 per 55,000 miles with safety monitor",
+        "Human drivers: 1 per 500,000 miles (police-reported)",
+        "9 crashes reported in Austin between July-November 2025",
+        "Comparison with Waymo's safety record (better than human average)"
+      ],
+      "raw_content": "New NHTSA crash data combined with Tesla's robotaxi mileage disclosure reveals Tesla's autonomous vehicles are crashing at a rate much higher than human drivers, even with a safety monitor in every car. The fleet has traveled approximately 500,000 miles as of November 2025, resulting in roughly one crash every 55,000 miles. In contrast, human drivers in the US average approximately one police-reported crash every 500,000 miles.",
+      "search_keywords": ["Tesla", "Robotaxi", "crash rate", "safety monitor", "NHTSA"],
+      "version_info": "Q4 2025 data",
+      "event_type": "safety report"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-30T15:02:00Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Hyundai Motor Group",
+      "title": "Hyundai and Kia reveal 'world first' advanced sensing tech",
+      "url": "https://electrek.co/2026/01/29/hyundai-kia-reveal-world-first-advanced-sensing-tech/",
+      "publish_date": "2026-01-29",
+      "technical_points": [
+        "Vision Pulse uses ultra-wideband (UWB) radio waves",
+        "Detection range: 100m radius with 10cm error margin",
+        "Eliminates need for expensive LiDAR and radar sensors",
+        "Requires other objects to also have UWB devices for identification"
+      ],
+      "raw_content": "Hyundai Motor Company and Kia unveiled a new advanced sensing technology called 'Vision Pulse' which uses ultra-wideband radio waves to identify people and obstacles in real time. The system can pinpoint objects within a 100m radius with a 10cm error range, even in tight city streets. It eliminates the need for expensive LiDAR and radar sensors, potentially enabling advanced safety features at lower cost.",
+      "search_keywords": ["Hyundai", "Kia", "Vision Pulse", "UWB", "sensing technology"],
+      "version_info": "New technology announcement",
+      "event_type": "technology unveiling"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-30T15:03:00Z",
+      "data_source": "backup_media",
+      "access_status": "success",
+      "quality_score": 79,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Unspecified Chinese robotaxi operator",
+      "title": "女子搭乘无人出租车 行李未取出车就跑了！客服回应",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-01-30/doc-inhiztiq0326655.shtml",
+      "publish_date": "2026-01-30",
+      "technical_points": [
+        "User experience flaw: vehicle departs before luggage retrieval",
+        "Operational procedure issue: need to open trunk before closing doors",
+        "Fixed pickup/drop-off points requirement"
+      ],
+      "raw_content": "A female passenger reported that after exiting an autonomous taxi, the vehicle drove away before she could retrieve her luggage from the trunk. The incident highlights user experience flaws in current robotaxi operations. Customer service responded that passengers should open the trunk before closing doors to prevent such issues.",
+      "search_keywords": ["无人出租车", "行李", "用户体验", "自动驾驶", "robotaxi"],
+      "version_info": null,
+      "event_type": "incident report"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["Company name not specified in article"]
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-01-30T15:04:00Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo robotaxi hits a child near an elementary school in Santa Monica",
+      "url": "https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/",
+      "publish_date": "2026-01-29",
+      "technical_points": [
+        "Child ran into street while hidden behind SUV",
+        "Waymo detected child and applied brakes, reducing speed from 17 mph to under 6 mph",
+        "Transparency: Waymo released full incident details",
+        "Model shows human driver would have likely hit child at twice the speed"
+      ],
+      "raw_content": "A Waymo autonomous vehicle struck a child in a school zone in Santa Monica. Waymo released detailed information showing the child ran into the street while hidden behind an SUV. The vehicle detected the child and applied brakes, reducing impact speed from 17 mph to under 6 mph. Waymo claims its models show a human driver would have likely reacted more slowly and hit the child at twice the speed.",
+      "search_keywords": ["Waymo", "accident", "child", "safety", "transparency"],
+      "version_info": null,
+      "event_type": "incident report"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-30T03:07:41Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "开源自动驾驶研究仿真器",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13537,
+      "language": "C++",
+      "last_updated": "2026-01-30",
+      "category": "simulator",
+      "company": "CARLA Simulator",
+      "tech_stack": ["C++", "Unreal Engine", "Python", "ROS"],
+      "key_features": ["高保真仿真", "多传感器模拟", "自动驾驶研究", "多车辆场景"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["开源自动驾驶仿真器", "逼真环境渲染", "灵活的研究API"],
+      "application_value": "用于自动驾驶算法开发、测试和验证的高保真仿真平台，支持多传感器模拟和复杂交通场景。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-30T03:07:41Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "开源自动驾驶平台",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26404,
+      "language": "C++",
+      "last_updated": "2026-01-30",
+      "category": "algorithm",
+      "company": "百度 Apollo",
+      "tech_stack": ["C++", "Python", "ROS", "Cyber RT"],
+      "key_features": ["全栈自动驾驶解决方案", "高精度地图", "感知规划控制", "云平台集成"],
+      "difficulty_level": "expert",
+      "relevance_score": 98,
+      "innovation_points": ["模块化自动驾驶框架", "开源量产级系统", "端到端工具链"],
+      "application_value": "百度开源的全栈自动驾驶平台，涵盖感知、预测、规划、控制等核心模块，适合研究和商业应用。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-30T03:07:41Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "世界领先的自动驾驶开源软件项目",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11021,
+      "language": "Dockerfile",
+      "last_updated": "2026-01-30",
+      "category": "algorithm",
+      "company": "Autoware Foundation",
+      "tech_stack": ["ROS", "ROS2", "C++", "Python", "Docker"],
+      "key_features": ["模块化自动驾驶软件栈", "ROS/ROS2支持", "开源生态系统", "商业化工具"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["基于ROS的自动驾驶框架", "开源标准化架构", "产业界广泛采用"],
+      "application_value": "基于ROS的自动驾驶开源软件栈，提供从感知到控制的完整解决方案，适合学术研究和原型开发。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-30T03:07:41Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "waymo-open-dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo开放数据集",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": 3208,
+      "language": "Python",
+      "last_updated": "2026-01-29",
+      "category": "dataset",
+      "company": "Waymo",
+      "tech_stack": ["Python", "TensorFlow", "PyTorch", "数据工具"],
+      "key_features": ["大规模自动驾驶数据集", "高精度传感器数据", "多样化场景", "标注工具"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["业界领先的自动驾驶数据集", "多传感器同步数据", "丰富标注信息"],
+      "application_value": "Waymo提供的大规模自动驾驶数据集，包含高质量传感器数据和标注，用于算法训练和基准测试。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-01-30T03:07:41Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "nuscenes-devkit",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "nuScenes数据集开发工具包",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": 2662,
+      "language": "Python",
+      "last_updated": "2026-01-29",
+      "category": "dataset",
+      "company": "nuTonomy (Motional)",
+      "tech_stack": ["Python", "数据可视化", "评估工具"],
+      "key_features": ["nuScenes数据集工具", "数据加载与可视化", "基准测试评估", "多模态数据支持"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["多模态自动驾驶数据集工具包", "标准化评估指标", "易于使用的API"],
+      "application_value": "nuScenes自动驾驶数据集的开发工具包，提供数据加载、可视化和评估功能，支持多传感器融合研究。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

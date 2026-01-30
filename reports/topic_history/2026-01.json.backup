@@ -8,8 +8,8 @@
       "category": "industry",
       "description": "自动驾驶出租车服务的商业化部署",
       "first_appeared": "2026-01-23",
-      "latest_version": "v1.1",
-      "latest_update": "2026-01-30",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
       "priority": "high",
       "history": [
         {
@@ -24,23 +24,6 @@
           "sources": [
             "https://electrek.co/2026/01/23/tesla-starts-robotaxi-rides-without-safety-monitor-in-austin-what-you-need-to-know/",
             "https://electrek.co/2026/01/23/waymo-is-now-in-miami-now-takes-driverless-rides-in-6-cities-tesla-1-sorta/"
-          ]
-        },
-        {
-          "date": "2026-01-30",
-          "version": "v1.1",
-          "description": "Waymo启动SFO机场Robotaxi服务，Tesla公布碰撞率数据（有监控员仍3倍于人类），中国Robotaxi出现用户体验事件",
-          "key_points": [
-            "Robotaxi服务向交通枢纽（机场）扩展，商业化版图扩张",
-            "Tesla碰撞率数据透明化，推动行业安全标准建立",
-            "用户体验问题（行李事件）凸显商业化运营挑战",
-            "Waymo儿童事故处理展现透明度与安全改进"
-          ],
-          "sources": [
-            "https://electrek.co/2026/01/29/waymo-begins-autonomous-taxi-service-to-sfo-airport/",
-            "https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/",
-            "https://finance.sina.com.cn/tech/roll/2026-01-30/doc-inhiztiq0326655.shtml",
-            "https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/"
           ]
         }
       ]
@@ -153,11 +136,11 @@
       "id": "end_to_end_framework",
       "name": "端到端框架",
       "aliases": ["统一自动驾驶框架", "规划导向框架"],
-      "category": "academic",
+      "category": "opensource",
       "description": "端到端自动驾驶统一框架",
       "first_appeared": "2026-01-23",
-      "latest_version": "v1.1",
-      "latest_update": "2026-01-30",
+      "latest_version": "v1.0",
+      "latest_update": "2026-01-23",
       "priority": "high",
       "history": [
         {
@@ -171,20 +154,6 @@
           ],
           "sources": [
             "https://github.com/OpenDriveLab/UniAD"
-          ]
-        },
-        {
-          "date": "2026-01-30",
-          "version": "v1.1",
-          "description": "Drive-JEPA集成视频JEPA与多模态轨迹蒸馏，大规模驾驶视频预训练结合轨迹蒸馏，在NAVSIM基准达到新SOTA",
-          "key_points": [
-            "V-JEPA预训练产生与轨迹规划对齐的预测表示",
-            "基于提议的规划器蒸馏模拟器多轨迹与人类轨迹",
-            "动量感知选择机制促进稳定安全行为",
-            "在NAVSIM上达到93.3 PDMS（v1）和87.8 EPDMS（v2）新SOTA"
-          ],
-          "sources": [
-            "https://arxiv.org/abs/2601.22032"
           ]
         }
       ]
@@ -263,87 +232,6 @@
           ],
           "sources": [
             "https://electrek.co/2026/01/05/nvidia-unveils-open-source-ai-for-autonomous-driving-ships-in-mercedes-benz-cla-in-q1-2026/"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "safety_critical_ai_certification",
-      "name": "安全关键AI系统认证",
-      "aliases": ["AI安全认证", "运行设计域定义"],
-      "category": "academic",
-      "description": "安全关键AI系统的运行条件定义和认证方法",
-      "first_appeared": "2026-01-30",
-      "latest_version": "v1.0",
-      "latest_update": "2026-01-30",
-      "priority": "medium",
-      "history": [
-        {
-          "date": "2026-01-30",
-          "version": "v1.0",
-          "description": "基于多维核表示的安全关键AI系统运行条件定义方法，从数据中后验定义ODD（运行设计域）",
-          "key_points": [
-            "使用多维核表示从先前收集的数据中后验定义ODD",
-            "通过蒙特卡洛方法和真实世界航空用例验证",
-            "定义两个ODD相等的条件，表明数据驱动的ODD可以等于数据的原始、隐藏底层ODD",
-            "为数据驱动的安全关键AI系统认证提供理论框架"
-          ],
-          "sources": [
-            "https://arxiv.org/abs/2601.22118"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "uwb_sensing_technology",
-      "name": "超宽带传感技术",
-      "aliases": ["UWB传感", "无线电波传感"],
-      "category": "industry",
-      "description": "基于超宽带（UWB）无线电波的传感技术，作为LiDAR/Radar替代方案",
-      "first_appeared": "2026-01-30",
-      "latest_version": "v1.0",
-      "latest_update": "2026-01-30",
-      "priority": "medium",
-      "history": [
-        {
-          "date": "2026-01-30",
-          "version": "v1.0",
-          "description": "Hyundai Vision Pulse超宽带传感技术，检测范围100米半径误差10厘米，消除对昂贵LiDAR和雷达传感器的需求",
-          "key_points": [
-            "使用超宽带（UWB）无线电波识别人和障碍物",
-            "检测范围：100米半径，误差10厘米",
-            "消除对昂贵LiDAR和雷达传感器的需求",
-            "需要其他物体也配备UWB设备才能识别"
-          ],
-          "sources": [
-            "https://electrek.co/2026/01/29/hyundai-kia-reveal-world-first-advanced-sensing-tech/"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "metric_depth_foundation_model",
-      "name": "度量深度基础模型",
-      "aliases": ["深度估计基础模型", "3D感知基础模型"],
-      "category": "academic",
-      "description": "度量深度估计的基础模型，通过大规模异质数据预训练",
-      "first_appeared": "2026-01-30",
-      "latest_version": "v1.0",
-      "latest_update": "2026-01-30",
-      "priority": "medium",
-      "history": [
-        {
-          "date": "2026-01-30",
-          "version": "v1.0",
-          "description": "Metric Anything预训练框架通过稀疏度量提示从噪声异质3D数据中学习度量深度，首次展示度量深度领域的扩展定律",
-          "key_points": [
-            "稀疏度量提示作为通用接口，将空间推理与传感器和相机偏差解耦",
-            "使用约2000万图像-深度对，跨越10000个相机模型",
-            "首次展示度量深度领域的明确扩展趋势",
-            "在多个度量感知任务中达到SOTA性能"
-          ],
-          "sources": [
-            "https://arxiv.org/abs/2601.22054"
           ]
         }
       ]
