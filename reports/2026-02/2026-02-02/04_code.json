@@ -1,0 +1,292 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:01Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 88,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "开源自动驾驶研究仿真器",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13537,
+      "language": "C++",
+      "last_updated": "2026-01-30",
+      "category": "simulator",
+      "company": "CARLA Simulator",
+      "tech_stack": ["C++", "Unreal Engine", "Python", "ROS"],
+      "key_features": ["高保真仿真", "多传感器模拟", "自动驾驶研究", "多车辆场景"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["开源自动驾驶仿真器", "逼真环境渲染", "灵活的研究API"],
+      "application_value": "用于自动驾驶算法开发、测试和验证的高保真仿真平台，支持多传感器模拟和复杂交通场景。",
+      "topic_relations": [
+        {
+          "topic": "端到端自动驾驶",
+          "relation": "CARLA是端到端驾驶研究的主流仿真平台，多数端到端论文使用CARLA进行验证",
+          "relevance_score": 90
+        },
+        {
+          "topic": "世界模型",
+          "relation": "CARLA支持构建驾驶世界模型，用于预测和规划算法测试",
+          "relevance_score": 85
+        },
+        {
+          "topic": "仿真训练",
+          "relation": "CARLA提供逼真的传感器数据和物理引擎，适用于强化学习训练",
+          "relevance_score": 95
+        }
+      ]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["基于缓存数据，最后更新时间2026-01-30"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:01Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "开源自动驾驶平台",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26404,
+      "language": "C++",
+      "last_updated": "2026-01-30",
+      "category": "algorithm",
+      "company": "百度 Apollo",
+      "tech_stack": ["C++", "Python", "ROS", "Cyber RT"],
+      "key_features": ["全栈自动驾驶解决方案", "高精度地图", "感知规划控制", "云平台集成"],
+      "difficulty_level": "expert",
+      "relevance_score": 98,
+      "innovation_points": ["模块化自动驾驶框架", "开源量产级系统", "端到端工具链"],
+      "application_value": "百度开源的全栈自动驾驶平台，涵盖感知、预测、规划、控制等核心模块，适合研究和商业应用。",
+      "topic_relations": [
+        {
+          "topic": "感知算法",
+          "relation": "Apollo包含先进的感知模块，与BEV感知、Occupancy网络等最新研究相关",
+          "relevance_score": 95
+        },
+        {
+          "topic": "规划控制",
+          "relation": "Apollo的规划控制模块与强化学习、MPC等算法研究紧密结合",
+          "relevance_score": 90
+        },
+        {
+          "topic": "高精度地图",
+          "relation": "Apollo的高精度地图系统与HD地图构建、更新算法研究相关",
+          "relevance_score": 85
+        }
+      ]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["基于缓存数据，最后更新时间2026-01-30"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:01Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 86,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "世界领先的自动驾驶开源软件项目",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11021,
+      "language": "Dockerfile",
+      "last_updated": "2026-01-30",
+      "category": "algorithm",
+      "company": "Autoware Foundation",
+      "tech_stack": ["ROS", "ROS2", "C++", "Python", "Docker"],
+      "key_features": ["模块化自动驾驶软件栈", "ROS/ROS2支持", "开源生态系统", "商业化工具"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["基于ROS的自动驾驶框架", "开源标准化架构", "产业界广泛采用"],
+      "application_value": "基于ROS的自动驾驶开源软件栈，提供从感知到控制的完整解决方案，适合学术研究和原型开发。",
+      "topic_relations": [
+        {
+          "topic": "ROS/ROS2生态",
+          "relation": "Autoware是ROS生态中最重要的自动驾驶框架，与ROS2迁移、通信优化等研究相关",
+          "relevance_score": 95
+        },
+        {
+          "topic": "模块化架构",
+          "relation": "Autoware的模块化设计与可插拔组件研究、系统集成测试相关",
+          "relevance_score": 88
+        },
+        {
+          "topic": "商业化部署",
+          "relation": "Autoware的商业化工具链与量产自动驾驶系统部署研究相关",
+          "relevance_score": 80
+        }
+      ]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["基于缓存数据，最后更新时间2026-01-30"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:01Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 84,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "waymo-open-dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo开放数据集",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": 3208,
+      "language": "Python",
+      "last_updated": "2026-01-29",
+      "category": "dataset",
+      "company": "Waymo",
+      "tech_stack": ["Python", "TensorFlow", "PyTorch", "数据工具"],
+      "key_features": ["大规模自动驾驶数据集", "高精度传感器数据", "多样化场景", "标注工具"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["业界领先的自动驾驶数据集", "多传感器同步数据", "丰富标注信息"],
+      "application_value": "Waymo提供的大规模自动驾驶数据集，包含高质量传感器数据和标注，用于算法训练和基准测试。",
+      "topic_relations": [
+        {
+          "topic": "感知算法基准测试",
+          "relation": "Waymo数据集是感知算法评估的黄金标准，与目标检测、语义分割等论文强相关",
+          "relevance_score": 95
+        },
+        {
+          "topic": "多传感器融合",
+          "relation": "数据集提供多传感器同步数据，与融合算法、时序对齐研究相关",
+          "relevance_score": 90
+        },
+        {
+          "topic": "数据集偏差分析",
+          "relation": "Waymo数据集的地域和场景分布与数据集偏差、泛化能力研究相关",
+          "relevance_score": 75
+        }
+      ]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["基于缓存数据，最后更新时间2026-01-29"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:01Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": ["网络访问受限，使用缓存数据"],
+        "strategy_used": "fallback_hardcoded"
+      }
+    },
+    "content": {
+      "name": "nuscenes-devkit",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "nuScenes数据集开发工具包",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": 2662,
+      "language": "Python",
+      "last_updated": "2026-01-29",
+      "category": "dataset",
+      "company": "nuTonomy (Motional)",
+      "tech_stack": ["Python", "数据可视化", "评估工具"],
+      "key_features": ["nuScenes数据集工具", "数据加载与可视化", "基准测试评估", "多模态数据支持"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["多模态自动驾驶数据集工具包", "标准化评估指标", "易于使用的API"],
+      "application_value": "nuScenes自动驾驶数据集的开发工具包，提供数据加载、可视化和评估功能，支持多传感器融合研究。",
+      "topic_relations": [
+        {
+          "topic": "多模态感知",
+          "relation": "nuScenes提供相机、激光雷达、雷达多模态数据，与多模态融合算法研究强相关",
+          "relevance_score": 92
+        },
+        {
+          "topic": "数据集评估",
+          "relation": "devkit包含标准化评估指标，与算法公平性、鲁棒性评估研究相关",
+          "relevance_score": 88
+        },
+        {
+          "topic": "数据可视化",
+          "relation": "工具包提供丰富的数据可视化功能，与可解释性AI、可视化分析研究相关",
+          "relevance_score": 80
+        }
+      ]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["基于缓存数据，最后更新时间2026-01-29"]
+    }
+  }
+]

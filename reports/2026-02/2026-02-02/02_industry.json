@@ -1,0 +1,177 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-02T10:57:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo拟融资160亿美元，估值逼近1100亿美元",
+      "url": "https://news.baidu.com/ns?word=Waymo+%E8%9E%8D%E8%B5%84+160%E4%BA%BF&cl=2&rn=10&tn=news&ie=utf-8",
+      "publish_date": "2026-02-01",
+      "technical_points": ["自动驾驶融资", "估值1100亿美元", "母公司Alphabet注资130亿美元"],
+      "raw_content": "据彭博社报道，Alphabet旗下自动驾驶子公司Waymo正计划在一轮融资中筹集约160亿美元资金，此轮融资后该子公司估值将接近1100亿美元。母公司Alphabet将向Waymo注资约130亿美元，其余资金来自红杉资本、DST Global等新晋投资方。融资预计于2026年2月完成。Waymo已在美国六城运营无安全员自动驾驶网约车，并将拓展至更多美国城市及英国市场。",
+      "search_keywords": ["Waymo", "融资", "自动驾驶", "估值"],
+      "version_info": null,
+      "event_type": "融资新闻"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-02T10:57:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "华为",
+      "title": "华为鸿蒙智行2026年首OTA，63项新功能，智驾稳定，新年氛围浓厚",
+      "url": "https://news.baidu.com/ns?word=%E5%8D%8E%E4%B8%BA%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C+2026%E5%B9%B4%E9%A6%96OTA&cl=2&rn=10&tn=news&ie=utf-8",
+      "publish_date": "2026-01-30",
+      "technical_points": ["OTA升级", "WEWA架构优化", "eAES紧急避让系统", "智驾ADS 3.0"],
+      "raw_content": "华为鸿蒙智行迎来年度首次OTA升级，覆盖尊界、问界、享界、尚界等车型，新增63项功能并优化31项体验。升级重点提升驾驶安全性，强化WEWA架构，使跟车和变道更加平稳果断。eAES功能的升级增强了闪躲预判能力，在紧急情况下能够实现边刹边让。新增急弯/路口主动减速、爆胎应急辅助等功能。",
+      "search_keywords": ["华为", "鸿蒙智行", "OTA", "智驾", "自动驾驶"],
+      "version_info": "ADS 3.0系统升级",
+      "event_type": "OTA升级"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-02T10:57:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "特斯拉",
+      "title": "特斯拉2月14日后停售FSD，仅提供订阅服务",
+      "url": "https://news.baidu.com/ns?word=%E7%89%B9%E6%96%AF%E6%8B%89+FSD+%E5%81%9C%E5%94%AE+%E8%AE%A2%E9%98%85+1%E6%9C%8814%E6%97%A5&cl=2&rn=10&tn=news&ie=utf-8",
+      "publish_date": "2026-01-14",
+      "technical_points": ["FSD停售", "订阅制", "商业模式转型"],
+      "raw_content": "特斯拉CEO马斯克在社交媒体平台X发文表示，特斯拉将在2月14日后停止销售FSD（完全自动驾驶能力）一次性买断版，此后该功能将仅以月度订阅形式提供。这一调整正值FSD技术迭代关键期与中国市场落地窗口。马斯克正试图推动特斯拉成为自动驾驶出行领域的领军企业。",
+      "search_keywords": ["特斯拉", "FSD", "订阅制", "自动驾驶"],
+      "version_info": null,
+      "event_type": "商业策略调整"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-02T10:57:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "黑芝麻智能",
+      "title": "黑芝麻智能与萝卜快跑达成战略合作，共同打造无人驾驶生态圈",
+      "url": "https://news.baidu.com/ns?word=%E9%BB%91%E8%8A%9D%E9%BA%BB%E6%99%BA%E8%83%BD+%E8%90%9D%E5%8D%9C%E5%BF%AB%E8%B7%91+%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C&cl=2&rn=10&tn=news&ie=utf-8",
+      "publish_date": "2026-01-29",
+      "technical_points": ["战略合作", "算力芯片", "L4自动驾驶", "无人驾驶生态"],
+      "raw_content": "黑芝麻智能与百度旗下萝卜快跑正式签署战略合作协议。黑芝麻智能作为萝卜快跑合作范围内产品研发的算力芯片技术支撑单位，全力配合萝卜快跑产品的相关技术研究及成果转化；萝卜快跑在方案验证等方面为黑芝麻智能提供指导、支持。双方将共同打造无人驾驶生态圈，推进中国智能驾驶产业链的成熟。",
+      "search_keywords": ["黑芝麻智能", "萝卜快跑", "百度", "L4自动驾驶", "芯片"],
+      "version_info": null,
+      "event_type": "战略合作"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-02T10:57:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 70,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "小鹏汽车",
+      "title": "小鹏IRON人形机器人首秀行走摔倒，何小鹏回应",
+      "url": "https://news.baidu.com/ns?word=%E5%B0%8F%E9%B9%8FIRON%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA+%E8%B5%B7%E8%B7%8C&cl=2&rn=10&tn=news&ie=utf-8",
+      "publish_date": "2026-02-02",
+      "technical_points": ["人形机器人", "行走稳定性", "机器人摔倒"],
+      "raw_content": "小鹏IRON人形机器人在首次公开行走演示中摔倒，引发关注。小鹏汽车董事长何小鹏回应称，机器人摔倒属于正常测试过程中的现象，团队正在优化算法和机械结构。IRON机器人是小鹏在机器人领域的重要布局，旨在探索自动驾驶技术与机器人技术的融合。",
+      "search_keywords": ["小鹏", "IRON机器人", "人形机器人", "摔倒"],
+      "version_info": null,
+      "event_type": "技术演示"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

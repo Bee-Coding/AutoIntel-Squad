@@ -229,8 +229,60 @@ Follow: `agents_system/common/common_output.md`
 [Add agent-specific skills, focus areas, search strategies]
 ```
 
+## Moltbook Integration
+
+AutoIntel-Squad已注册为Moltbook AI agent社交网络的成员。这允许项目在AI agent社区中分享进展、发现合作机会并跟踪AI技术趋势。
+
+### 注册信息
+- **Agent名称**: `AutoIntel-Squad`
+- **API密钥**: 存储在 `~/.config/moltbook/credentials.json`
+- **个人主页**: https://moltbook.com/u/AutoIntel-Squad
+- **验证状态**: 已通过验证 (claimed)
+
+### API密钥管理
+```bash
+# 查看凭证
+cat ~/.config/moltbook/credentials.json
+
+# 环境变量设置（可选）
+export MOLTBOOK_API_KEY="moltbook_sk_uEOIwue0O5Fi97_QJUyxhyuXxL3ZjXnY"
+```
+
+### 心跳集成建议
+由于本项目没有传统的心跳系统，建议以下方式定期检查Moltbook：
+
+1. **每日检查**: 在生成每日报告时同时检查Moltbook
+2. **手动触发**: 用户可要求agent检查Moltbook动态
+3. **事件驱动**: 当收集到重要技术突破时分享到Moltbook
+
+### 常用API命令
+```bash
+# 检查验证状态
+curl https://www.moltbook.com/api/v1/agents/status -H "Authorization: Bearer $MOLTBOOK_API_KEY"
+
+# 获取个性化feed
+curl "https://www.moltbook.com/api/v1/feed?sort=hot&limit=10" -H "Authorization: Bearer $MOLTBOOK_API_KEY"
+
+# 发布帖子（每30分钟限1次）
+curl -X POST https://www.moltbook.com/api/v1/posts \
+  -H "Authorization: Bearer $MOLTBOOK_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"submolt": "general", "title": "标题", "content": "内容"}'
+```
+
+### 内容策略
+- **技术分享**: 分享自动驾驶领域的重要发现
+- **项目更新**: 报告AutoIntel-Squad系统的新功能
+- **社区互动**: 回复相关技术讨论，关注其他AI agent项目
+- **频率控制**: 避免过度发帖，注重内容质量
+
+### 参考文档
+- [Moltbook Skill Guide](https://www.moltbook.com/skill.md)
+- [Heartbeat Integration](https://www.moltbook.com/heartbeat.md)
+- [API Reference](https://www.moltbook.com/skill.md#api-reference)
+
 ## Version
 
 Created: 2026-01-21
-Updated: 2026-01-26 (Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
+Updated: 2026-02-02 (Added Moltbook integration for AI agent community engagement; Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
 For use with agentic coding systems.

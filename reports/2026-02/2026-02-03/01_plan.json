@@ -1,0 +1,93 @@
+[
+  {
+    "source": "Plan",
+    "metadata": {
+      "timestamp": "2026-02-02T03:20:54Z",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "report_type": "执行计划",
+      "report_date": "2026-02-03",
+      "sections": {
+        "plan_metadata": "计划元数据",
+        "thought_process": "思考过程",
+        "execution_plan": "执行计划详情",
+        "trigger_conditions": "触发条件"
+      },
+      "plan_id": "plan_20260203_032054",
+      "user_intent": "作为AutoIntel-Dispatcher收集今日行业情报生成日报，不要使用模拟数据",
+      "execution_mode": "parallel",
+      "priority": "high",
+      "time_range": {
+        "industry": "最近24-72小时内的最新动态",
+        "academic": "最近一周内的最新论文",
+        "open_source": "最近一个月内活跃的开源项目"
+      },
+      "thought_process": "用户要求作为AutoIntel-Dispatcher收集今日（2026年2月3日）行业情报生成日报，特别强调不能使用模拟数据，必须基于真实搜索获取最新信息。基于用户对昨日（2026-02-02）开源项目收集的反馈，今日执行需特别注意：用户希望更多了解端到端决策规划模型、Diffusion模型、VLA模型（视觉语言动作模型）、世界模型相关的开源项目，而不仅仅是高星标项目。因此今日Code_Scout任务需重点调整：1) 技术方向聚焦：优先寻找端到端决策规划、Diffusion模型规划、VLA模型、世界模型相关的开源实现；2) 质量与相关性平衡：在保证项目质量（星标≥10，最近更新≤30天）的前提下，优先推荐技术方向匹配的项目；3) 持续实施其他优化建议：用户体验维度覆盖、话题关联挖掘、学术论文周期波动应对、代码可用性标注等。所有Agent必须使用WebFetch工具访问真实网站，确保数据真实性。时间范围聚焦近期，行业动态重点关注Tesla、华为、Waymo等公司最新动态，学术论文关注端到端自动驾驶、世界模型等方向，开源项目重点关注上述技术方向的具体实现。",
+      "execution_plan": [
+        {
+          "agent": "Industry_Watcher",
+          "task_id": "task_industry_001",
+          "description": "收集今日自动驾驶行业动态，重点关注Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司的最新进展",
+          "output_file": "./reports/2026-02/2026-02-03/02_industry.json",
+          "keywords": ["Tesla FSD", "华为自动驾驶", "Waymo", "端到端自动驾驶", "BEV", "Occupancy", "2026年2月", "用户体验", "操作流程", "人机交互"],
+          "instruction": "使用WebFetch工具访问真实新闻网站（如Electrek、TechCrunch、中国技术媒体等），搜索今日最新行业动态，确保每条信息都有真实来源链接和发布日期，禁止使用模拟数据。特别注意：1) 用户体验维度覆盖：关注操作流程、人机交互等非技术因素；2) 工业动态技术深度增强：从报道正文中挖掘架构设计、算法原理等深度技术信息；3) 地域覆盖平衡：增加欧洲、日本、中国媒体源。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Paper_Hunter",
+          "task_id": "task_paper_001",
+          "description": "收集近期自动驾驶相关学术论文，重点关注arXiv上的最新预印本和顶会论文",
+          "output_file": "./reports/2026-02/2026-02-03/03_papers.json",
+          "keywords": ["end-to-end autonomous driving", "world model", "diffusion policy", "VAD", "自动驾驶论文", "arXiv", "2026"],
+          "instruction": "访问arXiv等学术网站，搜索近期（一周内）发表的自动驾驶相关论文，提取关键信息，确保有真实论文链接和发布日期。特别注意：1) 学术论文工程价值提升：优先推荐有代码实现的论文；为无代码论文标注复现难度评估；2) 话题关联挖掘：基于技术关键词、作者网络、方法相似性识别潜在关联；3) 学术论文周期波动应对：当某话题无新进展时，从历史数据中提取相关进展进行分析；4) 实施学术论文去重机制，避免重复报告昨日已报告的论文。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Code_Scout",
+          "task_id": "task_code_001",
+          "description": "发现GitHub上近期活跃的自动驾驶相关开源项目，特别关注端到端决策规划模型、Diffusion模型、VLA模型、世界模型相关实现",
+          "output_file": "./reports/2026-02/2026-02-03/04_code.json",
+          "keywords": ["end-to-end decision planning", "diffusion model planning", "VLA model", "world model", "autonomous driving", "diffusion policy", "vision-language-action", "world model driving", "GitHub trending", "2026"],
+          "instruction": "访问GitHub Trending等网站，寻找近期（一个月内）更新活跃的自动驾驶开源项目，记录项目描述、星标、技术栈、更新时间等详细信息。特别注意：1) 技术方向聚焦：优先寻找端到端决策规划模型、Diffusion模型规划、VLA模型（视觉语言动作模型）、世界模型相关的开源实现，而不仅仅是高星标项目；2) 开源项目质量过滤：在保证项目质量（星标≥10，最近更新≤30天，有活跃Issue/Pull Request）的前提下，优先推荐技术方向匹配的项目；3) 网络访问优化策略：优先实时API访问，失败时使用缓存并标注数据时效性受限；4) 话题关联挖掘：识别与今日学术论文相关的开源项目，特别是端到端、Diffusion、VLA、世界模型等方向。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Chief_Analyst",
+          "task_id": "task_analysis_001",
+          "description": "整合三方情报，生成结构化日报报告",
+          "output_file": "./reports/2026-02/2026-02-03/2026-02-03_Report.md",
+          "dependencies": ["task_industry_001", "task_paper_001", "task_code_001"],
+          "instruction": "读取前三个Agent的输出文件（02_industry.json、03_papers.json、04_code.json），进行去重、质量评估、技术分析，生成包含工业界、学术界、开源界分析的完整日报，并提供学习建议和系统优化建议。特别注意：1) 评估开源项目技术方向匹配度：分析是否找到端到端决策规划、Diffusion模型、VLA模型、世界模型相关的开源项目；2) 评估用户体验维度覆盖情况；3) 实施话题关联挖掘，识别跨领域技术关联；4) 评估学术论文工程价值（代码可用性、复现难度）；5) 分析工业动态技术深度；6) 实施话题演进分析智能化，与昨日报告对比；7) 评估昨日优化建议实施情况，特别是开源项目技术方向调整效果。",
+          "timeout": 600000,
+          "retry_count": 1
+        }
+      ],
+      "trigger_conditions": {
+        "parallel_start": "立即并行启动Industry_Watcher、Paper_Hunter、Code_Scout",
+        "analysis_trigger": "当02_industry.json、03_papers.json、04_code.json三个文件都存在且非空时，自动触发Chief_Analyst",
+        "fallback_strategy": "如果任何Agent失败，继续使用可用数据生成降级报告"
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

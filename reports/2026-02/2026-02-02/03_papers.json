@@ -1,0 +1,212 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:46Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 96,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving",
+      "authors": "Linhan Wang, Zichong Yang, Chen Bai, Guoxiang Zhang, Xiaotong Liu, Xiaoyin Zheng, Xiao-Xiao Long, Chang-Tien Lu, Cheng Lu",
+      "url": "https://arxiv.org/abs/2601.22032",
+      "arxiv_id": "2601.22032",
+      "publish_date": "2026-01-29",
+      "category": "cs.CV",
+      "innovation": "将视频JEPA（联合嵌入预测架构）与多模态轨迹蒸馏相结合，用于端到端驾驶，通过动量感知选择机制提升稳定性和安全性。",
+      "application_potential": "高",
+      "abstract": "端到端自动驾驶越来越多地利用自监督视频预训练来学习可迁移的规划表示。然而，用于场景理解的视频世界模型预训练目前仅带来有限改进。这一限制与驾驶的固有模糊性相关：每个场景通常只提供单一人为轨迹，使得学习多模态行为变得困难。本文提出Drive-JEPA，一个将视频JEPA与多模态轨迹蒸馏相结合的框架。首先，我们将V-JEPA适配于端到端驾驶，在大规模驾驶视频上预训练ViT编码器，以产生与轨迹规划对齐的预测表示。其次，我们引入一个以提议为中心的规划器，将模拟器生成的不同轨迹与人为轨迹进行蒸馏，通过动量感知选择机制促进稳定和安全行为。",
+      "keywords": ["end-to-end autonomous driving", "world model", "JEPA", "trajectory distillation", "video pretraining"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null,
+      "code_availability": false,
+      "reproduction_difficulty": "高",
+      "topic_relations": ["world models", "end-to-end driving", "self-supervised learning", "trajectory prediction"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:46Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "MTDrive: Multi-turn Interactive Reinforcement Learning for Autonomous Driving",
+      "authors": "Xidong Li, Mingyu Guo, Chenchao Xu, Bailin Li, Wenjing Zhu, Yangang Zou, Rui Chen, Zehuan Wang",
+      "url": "https://arxiv.org/abs/2601.22930",
+      "arxiv_id": "2601.22930",
+      "publish_date": "2026-01-30",
+      "category": "cs.RO",
+      "innovation": "多轮交互式强化学习框架，使多模态大语言模型能够基于环境反馈迭代优化轨迹，引入多轮组相对策略优化（mtGRPO）缓解奖励稀疏性问题。",
+      "application_potential": "高",
+      "abstract": "轨迹规划是自动驾驶的核心任务，需要在多样场景中预测安全舒适的路径。将多模态大语言模型与强化学习相结合，在解决'长尾'场景方面显示出潜力。然而，现有方法局限于单轮推理，限制了其处理需要迭代优化的复杂任务的能力。为克服此限制，我们提出MTDrive，一个多轮框架，使MLLMs能够基于环境反馈迭代优化轨迹。MTDrive引入多轮组相对策略优化（mtGRPO），通过跨轮计算相对优势来缓解奖励稀疏性。我们进一步从闭环模拟构建交互式轨迹理解数据集以支持多轮训练。在NAVSIM基准测试上的实验表明，与现有方法相比具有优越性能，验证了我们多轮推理范式的有效性。",
+      "keywords": ["multi-turn reinforcement learning", "MLLMs", "trajectory planning", "interactive driving", "long-tail scenarios"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null,
+      "code_availability": false,
+      "reproduction_difficulty": "中高",
+      "topic_relations": ["reinforcement learning", "large language models", "interaction modeling", "trajectory optimization"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:46Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction",
+      "authors": "Matej Halinkovic, Nina Masarykova, Alexey Vinel, Marek Galinski",
+      "url": "https://arxiv.org/abs/2601.20720",
+      "arxiv_id": "2601.20720",
+      "publish_date": "2026-01-28",
+      "category": "cs.CV",
+      "innovation": "基于查询的门控可变形相机-LiDAR融合框架，用于端到端感知和轨迹预测，通过查询条件门控自适应加权视觉和几何线索。",
+      "application_potential": "高",
+      "abstract": "从原始传感器数据进行端到端感知和轨迹预测是自动驾驶的关键能力之一。模块化管道限制信息流并可能放大上游错误。最近的基于查询的完全可微分感知与预测模型缓解了这些问题，但相机和LiDAR在查询空间中的互补性尚未得到充分探索。模型通常依赖于引入启发式对齐和离散选择步骤的融合方案，这阻碍了信息的充分利用并可能引入不必要的偏差。我们提出Li-ViP3D++，一个基于查询的多模态PnP框架，引入查询门控可变形融合（QGDF）以在查询空间中集成多视图RGB和LiDAR。QGDF（i）通过跨相机和特征级别的掩码注意力聚合图像证据，（ii）通过具有学习到的每查询偏移的完全可微分BEV采样提取LiDAR上下文，（iii）应用查询条件门控以按智能体自适应加权视觉和几何线索。所得架构在单个端到端模型中联合优化检测、跟踪和多假设轨迹预测。",
+      "keywords": ["end-to-end perception", "camera-LiDAR fusion", "query-based models", "trajectory prediction", "multi-modal fusion"],
+      "code_available": false,
+      "conference": "Submitted to IEEE",
+      "citation_count": null,
+      "code_availability": false,
+      "reproduction_difficulty": "高",
+      "topic_relations": ["sensor fusion", "end-to-end perception", "3D detection", "trajectory forecasting"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:46Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "GaussianOcc3D: A Gaussian-Based Adaptive Multi-modal 3D Occupancy Prediction",
+      "authors": "A. Enes Doruk, Hasan F. Ates",
+      "url": "https://arxiv.org/abs/2601.22729",
+      "arxiv_id": "2601.22729",
+      "publish_date": "2026-01-30",
+      "category": "cs.CV",
+      "innovation": "基于高斯的多模态3D占据预测框架，使用内存高效的连续3D高斯表示桥接相机和LiDAR，引入熵基特征平滑和自适应相机-LiDAR融合。",
+      "application_potential": "中高",
+      "abstract": "3D语义占据预测是自动驾驶中的关键任务，提供对环境密集和细粒度的理解，但单模态方法在相机语义和LiDAR几何之间面临权衡。现有的多模态框架常常难以处理模态异质性、空间错位和表示危机——体素计算量大而BEV替代方案有损。我们提出GaussianOcc3D，一个多模态框架，通过内存高效的连续3D高斯表示桥接相机和LiDAR。我们引入四个模块：（1）LiDAR深度特征聚合（LDFA），使用深度可变形采样将稀疏信号提升到高斯基元；（2）熵基特征平滑（EBFS）以减轻域噪声；（3）具有不确定性感知重加权的自适应相机-LiDAR融合（ACLF）以处理传感器可靠性；（4）利用选择性状态空间模型实现线性复杂度全局上下文的高斯-Mamba头。在Occ3D、SurroundOcc和SemanticKITTI基准测试上的评估展示了最先进的性能，分别达到49.4%、28.9%和25.2%的mIoU分数。GaussianOcc3D在具有挑战性的雨天和夜间条件下表现出卓越的鲁棒性。",
+      "keywords": ["3D occupancy prediction", "Gaussian representation", "multi-modal fusion", "autonomous driving", "scene understanding"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null,
+      "code_availability": false,
+      "reproduction_difficulty": "中高",
+      "topic_relations": ["3D scene understanding", "occupancy prediction", "multi-modal perception", "robust perception"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-02T02:50:46Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 94,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "A Serverless Edge-Native Data Processing Architecture for Autonomous Driving Training",
+      "authors": "Fabian Bally, Michael Schötz, Thomas Limbrunner",
+      "url": "https://arxiv.org/abs/2601.22919",
+      "arxiv_id": "2601.22919",
+      "publish_date": "2026-01-30",
+      "category": "cs.SE",
+      "innovation": "Lambda框架，一个边缘原生平台，通过用户定义函数实现车载数据过滤和处理，提供无服务器启发的抽象层，将应用逻辑与低级执行关注点分离。",
+      "application_potential": "高",
+      "abstract": "数据既是机器学习在自动驾驶中的关键推动者，也是主要瓶颈。有效的模型训练不仅需要大量传感器数据，还需要平衡覆盖包括罕见但安全关键的场景。捕获此类事件需要大量驾驶时间和高效选择。本文介绍Lambda框架，一个边缘原生平台，通过用户定义函数实现车载数据过滤和处理。该框架提供无服务器启发的抽象层，将应用逻辑与调度、部署和隔离等低级执行关注点分离。通过将函数即服务原则适配于资源受限的汽车环境，它允许开发者实现模块化、事件驱动的过滤算法，同时保持与ROS 2和现有数据记录管道的兼容性。我们在NVIDIA Jetson Orin Nano上评估该框架，并与原生ROS 2部署进行比较。结果显示竞争性能、降低的延迟和抖动，并确认基于lambda的抽象可以支持嵌入式自动驾驶系统中的实时数据处理。",
+      "keywords": ["data processing", "edge computing", "serverless", "autonomous driving training", "ROS 2"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null,
+      "code_availability": true,
+      "reproduction_difficulty": "中",
+      "topic_relations": ["data pipeline", "edge AI", "training infrastructure", "system optimization"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
