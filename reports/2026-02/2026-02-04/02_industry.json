@@ -1,0 +1,80 @@
+{
+  "source": "Industry",
+  "metadata": {
+    "timestamp": "2026-02-04T12:45:00Z",
+    "data_source": "authoritative",
+    "access_status": "partial",
+    "quality_score": 88,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "company": "Waymo",
+      "title": "Waymo raises massive $16 billion round at $126 billion valuation, plans expansion to 20+ cities",
+      "url": "https://electrek.co/2026/02/02/waymo-raises-16-billion-round-at-126-billion-valuation-plans-expansion/",
+      "publish_date": "2026-02-02",
+      "technical_points": ["160亿美元融资，1260亿美元估值", "计划扩展到20+城市", "首次进入国际市场（东京和伦敦）", "已行驶1.27亿英里完全自动驾驶里程", "严重事故比人类驾驶员减少90%"],
+      "raw_content": "Waymo刚刚完成了160亿美元融资，估值达到1260亿美元，这是自动驾驶公司有史以来最大的投资。这家Alphabet支持的机器人出租车领导者计划利用这笔资金在今年扩展到20多个新城市，包括其第一个国际市场。Waymo已经行驶了1.27亿英里完全自动驾驶里程，与人类驾驶员相比减少了90%的严重事故。2025年完成了1500万次行程，是2024年的3倍增长。",
+      "search_keywords": ["Waymo", "funding", "autonomous vehicles", "robotaxi", "expansion"],
+      "version_info": "",
+      "event_type": "融资公告",
+      "quality_assessment": {
+        "accuracy": 28,
+        "depth": 27,
+        "practicality": 18,
+        "timeliness": 18,
+        "total": 91
+      }
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla launches new Model Y AWD at $41,990 — just $2,000 more than base",
+      "url": "https://electrek.co/2026/02/03/tesla-launches-new-model-y-awd-41990/",
+      "publish_date": "2026-02-03",
+      "technical_points": ["新Model Y AWD版本", "价格41,990美元", "双电机配置", "相比基础版仅贵2000美元", "加速性能显著提升"],
+      "raw_content": "特斯拉在其美国产品线中增加了第五个Model Y变体：新的标准全轮驱动版本，定价为41,990美元。仅比基础后轮驱动版本贵2000美元，买家可以获得双电机和显著更好的加速性能，而无需支付所有'高级'功能费用。",
+      "search_keywords": ["Tesla", "Model Y", "AWD", "new variant", "price"],
+      "version_info": "Model Y Standard AWD",
+      "event_type": "产品发布",
+      "quality_assessment": {
+        "accuracy": 27,
+        "depth": 25,
+        "practicality": 19,
+        "timeliness": 20,
+        "total": 91
+      }
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla's global fleet surpasses 9 million vehicles worldwide",
+      "url": "https://www.teslarati.com/tesla-global-fleet-surpasses-9-million-vehicles/",
+      "publish_date": "2026-02-03",
+      "technical_points": ["全球车队超过900万辆", "中国市场表现强劲", "电动汽车普及里程碑"],
+      "raw_content": "特斯拉全球车队已超过900万辆汽车，这一更新由特斯拉中国发布，该公司在全球竞争最激烈的电动汽车市场竞争。",
+      "search_keywords": ["Tesla", "global fleet", "9 million", "vehicles", "milestone"],
+      "version_info": "",
+      "event_type": "运营里程碑",
+      "quality_assessment": {
+        "accuracy": 26,
+        "depth": 22,
+        "practicality": 16,
+        "timeliness": 19,
+        "total": 83
+      }
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": ["部分中国数据源访问受限，已使用国际权威媒体作为替代"]
+  }
+}

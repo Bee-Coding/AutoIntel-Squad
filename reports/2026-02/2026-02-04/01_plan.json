@@ -1,0 +1,43 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-02-04T12:40:42Z",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-02-04",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260204_124042",
+    "user_intent": "用户要求生成今日行业日报，特别强调禁止使用模拟数据和训练时的数据，需要收集真实的自动驾驶领域最新动态",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时",
+      "academic": "最近一周内",
+      "open_source": "最近一个月内"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}
