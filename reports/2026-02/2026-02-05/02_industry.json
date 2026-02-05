@@ -1,0 +1,107 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla's new FSD push looks like a gross money grab: they have questions to answer",
+      "url": "https://electrek.co",
+      "publish_date": "2026-02-05",
+      "technical_points": ["FSD subscription model", "policy change: FSD stays with your Tesla as long as you own it", "contradicting support page information"],
+      "raw_content": "Tesla is sending emails urging owners to purchase Full Self-Driving (FSD) before February 14, when the automaker switches to a subscription-only model. But in the email, Tesla appears to sneak in a policy change: FSD now only 'stays with your Tesla as long as you own it.' It also has contradicting information on its support page.",
+      "search_keywords": ["Tesla", "FSD", "Full Self-Driving", "subscription", "policy change", "2026年2月"],
+      "version_info": "FSD subscription transition",
+      "event_type": "政策更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Accelerating our global growth: Waymo raises $16 billion investment round",
+      "url": "https://waymo.com/blog",
+      "publish_date": "2026-02-02",
+      "technical_points": ["$16 billion investment", "$126 billion post-money valuation", "global expansion", "autonomous mobility at scale"],
+      "raw_content": "Waymo enters a new era with a $16 billion investment round valuing the company at $126 billion post-money. The financing was led by Dragoneer Investment Group, DST Global, and Sequoia Capital, with significant investments from Andreessen Horowitz and Mubadala Capital. This capital underscores that the age of autonomous mobility at scale has arrived.",
+      "search_keywords": ["Waymo", "investment", "$16 billion", "autonomous driving", "valuation", "2026年2月"],
+      "version_info": "5th-generation Waymo vehicles",
+      "event_type": "融资公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Today, February 4, Waymo's Chief Safety Officer testifies before U.S. Senate Committee",
+      "url": "https://waymo.com/blog",
+      "publish_date": "2026-02-04",
+      "technical_points": ["Senate testimony", "road safety data", "National AV rules", "federal leadership"],
+      "raw_content": "Waymo's Chief Safety Officer Dr. Mauricio Peña testified before the U.S. Senate Committee on Commerce, Science, and Transportation regarding Waymo's mission, commitment to improving road safety, and data showing that Waymo is making roads safer in the cities where they operate. He discussed the critical role of federal leadership in establishing National AV rules.",
+      "search_keywords": ["Waymo", "safety", "Senate testimony", "regulations", "autonomous vehicles", "2026年2月"],
+      "version_info": "Safety framework",
+      "event_type": "政府听证"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

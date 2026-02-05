@@ -1,0 +1,207 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "Waymo Open Dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo Open Dataset is a large-scale, high-quality, diverse dataset for autonomous driving research. It contains sensor data (LiDAR, camera) collected by Waymo vehicles in various environments.",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": "3500+",
+      "language": "Python",
+      "last_updated": "2026-01-15",
+      "category": "dataset",
+      "company": "Waymo",
+      "tech_stack": ["TensorFlow", "Python", "C++"],
+      "key_features": ["High-resolution sensor data", "Diverse driving scenarios", "3D bounding box annotations", "Multi-modal sensor fusion"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["大规模高质量数据集", "多传感器同步数据", "真实世界驾驶场景"],
+      "application_value": "为自动驾驶感知、预测、规划算法提供基准测试和数据支持"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "nuScenes",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "nuScenes is a large-scale autonomous driving dataset with 3D bounding box annotations for 23 object classes, collected in Boston and Singapore.",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": "2800+",
+      "language": "Python",
+      "last_updated": "2025-12-20",
+      "category": "dataset",
+      "company": "NuTonomy (Aptiv)",
+      "tech_stack": ["Python", "Matplotlib", "NumPy"],
+      "key_features": ["1000 scenes", "1.4M camera images", "390k LiDAR sweeps", "1.4M 3D bounding boxes"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["多城市数据集", "丰富标注类别", "完整传感器套件"],
+      "application_value": "自动驾驶感知模型训练和评估的行业标准数据集"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "CARLA is an open-source simulator for autonomous driving research. It supports development, training, and validation of autonomous driving systems.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": "10500+",
+      "language": "C++",
+      "last_updated": "2026-01-30",
+      "category": "simulator",
+      "company": "Intel",
+      "tech_stack": ["Unreal Engine", "C++", "Python"],
+      "key_features": ["Open-source", "Modular architecture", "Realistic urban environments", "Sensor simulation"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["开源自动驾驶仿真平台", "高保真图形渲染", "灵活的场景配置"],
+      "application_value": "为自动驾驶算法开发提供安全、可重复的测试环境，加速研发进程"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "Apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "Apollo is an open autonomous driving platform by Baidu, providing a comprehensive software stack for autonomous vehicles.",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": "23000+",
+      "language": "C++",
+      "last_updated": "2026-01-25",
+      "category": "algorithm",
+      "company": "Baidu",
+      "tech_stack": ["C++", "Python", "ROS", "Cyber RT"],
+      "key_features": ["Modular architecture", "HD maps", "Perception", "Prediction", "Planning", "Control"],
+      "difficulty_level": "expert",
+      "relevance_score": 85,
+      "innovation_points": ["完整自动驾驶软件栈", "模块化架构设计", "工业级解决方案"],
+      "application_value": "为自动驾驶系统开发提供全面的开源参考实现，加速技术产业化"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "OpenPilot",
+      "full_name": "commaai/openpilot",
+      "description": "openpilot is an open source driver assistance system. It performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 250 supported car makes and models.",
+      "url": "https://github.com/commaai/openpilot",
+      "stars": "45000+",
+      "language": "Python",
+      "last_updated": "2026-02-03",
+      "category": "algorithm",
+      "company": "comma.ai",
+      "tech_stack": ["Python", "C++", "TensorFlow", "PyTorch"],
+      "key_features": ["Lane keeping", "Adaptive cruise control", "Driver monitoring", "Over-the-air updates"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 82,
+      "innovation_points": ["开源驾驶辅助系统", "广泛车型支持", "社区驱动开发"],
+      "application_value": "为L2+级自动驾驶系统提供成熟的开源实现，推动驾驶辅助技术普及"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

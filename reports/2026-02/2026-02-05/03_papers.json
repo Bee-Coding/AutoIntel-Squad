@@ -1,0 +1,197 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model",
+      "authors": "Shuo Pei, Yong Wang, Yuanchen Zhu, Chen Sun, Qin Li, Yanan Zhao, Huachun Tan",
+      "url": "https://arxiv.org/abs/2602.04329",
+      "arxiv_id": "2602.04329",
+      "publish_date": "2026-02-04",
+      "category": "cs.RO",
+      "innovation": "提出SDD Planner，一个基于扩散模型的框架，有效协调安全约束与驾驶风格，实现实时安全且个性化的轨迹规划",
+      "application_potential": "高",
+      "abstract": "在复杂现实场景中实现安全且风格化的轨迹规划仍然是自动驾驶系统的关键挑战。本文提出SDD Planner，一个基于扩散的框架，旨在实时有效协调安全约束与驾驶风格。该框架整合了两个核心模块：多源风格感知编码器，采用距离敏感注意力融合动态智能体数据和环境上下文以实现异构安全-风格感知；以及风格引导动态轨迹生成器，自适应调整扩散去噪过程中的优先级权重，生成用户偏好且安全的轨迹。",
+      "keywords": ["autonomous driving", "trajectory planning", "diffusion model", "safety", "driving style"],
+      "code_available": false,
+      "conference": "IEEE Transactions on Intelligent Transportation Systems (submitted)",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "AppleVLM: End-to-end Autonomous Driving with Advanced Perception and Planning-Enhanced Vision-Language Models",
+      "authors": "Yuxuan Han, Kunyuan Wu, Qianyi Shao, Renxiang Xiao, Zilu Wang, Cansen Jiang, Yi Xiao, Liang Hu, Yunjiang Lou",
+      "url": "https://arxiv.org/abs/2602.04256",
+      "arxiv_id": "2602.04256",
+      "publish_date": "2026-02-04",
+      "category": "cs.RO",
+      "innovation": "提出AppleVLM，一个增强感知和规划的VLM模型，用于鲁棒的端到端驾驶，引入新颖的视觉编码器和规划策略编码器",
+      "application_potential": "高",
+      "abstract": "端到端自动驾驶已成为一个 promising 范式，将感知、决策和控制整合在一个统一的学习框架中。最近，视觉语言模型因其在多样化和未见场景中增强端到端驾驶模型的鲁棒性和泛化能力而受到关注。然而，现有的基于VLM的方法仍面临挑战，包括次优的车道感知、语言理解偏差以及处理 corner cases 的困难。为解决这些问题，我们提出AppleVLM，一个增强感知和规划的VLM模型，用于鲁棒的端到端驾驶。AppleVLM引入了新颖的视觉编码器和规划策略编码器以改进感知和决策。",
+      "keywords": ["end-to-end autonomous driving", "vision-language models", "perception", "planning", "VLM"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty",
+      "authors": "Rui Liu, Pratap Tokekar, Ming Lin",
+      "url": "https://arxiv.org/abs/2602.04763",
+      "arxiv_id": "2602.04763",
+      "publish_date": "2026-02-04",
+      "category": "cs.LG",
+      "innovation": "提出A2MAML，一种不确定性感知的、模态级协作方法，用于连接自动驾驶场景中的协同事故检测",
+      "application_potential": "中",
+      "abstract": "多智能体系统越来越多地配备异构多模态传感器，实现更丰富的感知但引入了模态特定和智能体依赖的不确定性。现有的多智能体协作框架通常在智能体级别进行推理，假设同质感知，并隐式处理不确定性，限制了在传感器损坏下的鲁棒性。我们提出Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty (A2MAML)，一种不确定性感知的、模态级协作的原则性方法。A2MAML将每个模态特定特征建模为具有不确定性预测的随机估计，主动选择可靠的智能体-模态对，并通过贝叶斯逆方差加权聚合信息。",
+      "keywords": ["multi-agent", "multimodal learning", "uncertainty", "autonomous driving", "collaborative accident detection"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Natural Language Instructions for Scene-Responsive Human-in-the-Loop Motion Planning in Autonomous Driving using Vision-Language-Action Models",
+      "authors": "Angel Martinez-Sanchez, Parthib Roy, Ross Greer",
+      "url": "https://arxiv.org/abs/2602.04184",
+      "arxiv_id": "2602.04184",
+      "publish_date": "2026-02-03",
+      "category": "cs.CV",
+      "innovation": "利用首个真实世界数据集doScenes，将自由形式指令与nuScenes真实运动关联，实现指令条件规划",
+      "application_potential": "中",
+      "abstract": "指令 grounding 驾驶，即乘客语言指导轨迹规划，要求车辆在运动之前理解意图。然而，大多数先前的指令跟随规划器依赖于模拟或固定命令词汇，限制了真实世界的泛化。doScenes是首个将自由形式指令（具有指代性）与nuScenes真实运动关联的真实世界数据集，实现指令条件规划。在这项工作中，我们适应OpenEMMA，一个开源基于MLLM的端到端驾驶框架，该框架摄入前摄像头视图和自我状态并输出10步速度-曲率轨迹，在此设置下提供一个可复现的指令条件基线，并研究人类指令提示对预测驾驶行为的影响。",
+      "keywords": ["natural language instructions", "motion planning", "vision-language-action models", "autonomous driving", "human-in-the-loop"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-05T04:36:14Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "PlanTRansformer: Unified Prediction and Planning with Goal-conditioned Transformer",
+      "authors": "Constantin Selzer, Fabina B. Flohr",
+      "url": "https://arxiv.org/abs/2602.03376",
+      "arxiv_id": "2602.03376",
+      "publish_date": "2026-02-03",
+      "category": "cs.RO",
+      "innovation": "提出PlanTRansformer (PTR)，一个统一的高斯混合Transformer框架，整合目标条件预测、动态可行性、交互意识和车道级拓扑推理",
+      "application_potential": "高",
+      "abstract": "轨迹预测和规划是自动驾驶中基本但脱节的组件。预测模型在未知意图下预测周围智能体运动，产生多模态分布，而规划假设已知自我目标并生成确定性轨迹。这种不匹配造成了关键瓶颈：预测缺乏对智能体意图的监督，而规划需要这些信息。现有的预测模型，尽管基准测试性能强劲，但通常仍与规划约束（如碰撞避免和动态可行性）脱节。我们引入PlanTRansformer (PTR)，一个统一的高斯混合Transformer框架，整合目标条件预测、动态可行性、交互意识和车道级拓扑推理。",
+      "keywords": ["trajectory prediction", "planning", "transformer", "autonomous driving", "goal-conditioned"],
+      "code_available": true,
+      "conference": "IEEE IV 2026 (accepted)",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
