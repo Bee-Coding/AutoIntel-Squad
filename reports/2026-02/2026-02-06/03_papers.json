@@ -1,0 +1,86 @@
+{
+  "source": "Academic",
+  "metadata": {
+    "timestamp": "2026-02-06T09:47:53Z",
+    "data_source": "official",
+    "access_status": "success",
+    "quality_score": 88,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "title": "ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Driving System Testing",
+      "authors": "Jianlei Chi, Yuzhen Wu, Jiaxuan Hou, Xiaodong Zhang, Ming Fan, Suhui Sun, Weijun Dai, Bo Li, Jianguo Sun, Jun Sun",
+      "url": "https://arxiv.org/abs/2602.05617",
+      "arxiv_id": "2602.05617",
+      "publish_date": "2026-02-06",
+      "category": "cs.CV",
+      "innovation": "提出了一种基于奖励编排的多头注意力网络，用于自动驾驶系统测试，通过注意力机制优化测试场景生成和系统评估。",
+      "application_potential": "高",
+      "abstract": "该论文提出了ROMAN框架，一种用于自动驾驶系统测试的新型网络架构。它使用奖励编排机制和多头注意力来生成具有挑战性的测试场景，并评估自动驾驶系统的鲁棒性。框架包含13页内容，8个表格和7个图表，展示了在多种测试场景下的有效性。",
+      "keywords": ["自动驾驶测试", "注意力机制", "奖励编排", "系统验证", "场景生成"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    {
+      "title": "Visual Implicit Geometry Transformer for Autonomous Driving",
+      "authors": "Arsenii Shirokov, Mikhail Kuznetsov, Danila Stepochkin, Egor Evdokimov, Daniil Glazkov, Nikolay Patakin, Anton Konushin, Dmitry Senushkin",
+      "url": "https://arxiv.org/abs/2602.05573",
+      "arxiv_id": "2602.05573",
+      "publish_date": "2026-02-06",
+      "category": "cs.CV",
+      "innovation": "提出了视觉隐式几何Transformer，用于自动驾驶中的几何感知和场景理解，结合隐式表示和Transformer架构提高3D场景重建精度。",
+      "application_potential": "高",
+      "abstract": "该研究提出了一种用于自动驾驶的视觉隐式几何Transformer架构，将隐式几何表示与Transformer相结合，以更好地理解复杂驾驶场景的3D几何结构。该方法在多个自动驾驶数据集上展示了优越的性能。",
+      "keywords": ["自动驾驶", "Transformer", "隐式几何", "3D场景理解", "视觉感知"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    {
+      "title": "LSA: Localized Semantic Alignment for Enhancing Temporal Consistency in Traffic Video Generation",
+      "authors": "Mirlan Karimov, Teodora Spasojevic, Markus Braun, Julian Wiederer, Vasileios Belagiannis, Marc Pollefeys",
+      "url": "https://arxiv.org/abs/2602.05966",
+      "arxiv_id": "2602.05966",
+      "publish_date": "2026-02-06",
+      "category": "cs.CV; cs.AI",
+      "innovation": "提出了局部语义对齐方法，用于提高交通视频生成的时间一致性，特别关注自动驾驶模拟中的动态场景生成。",
+      "application_potential": "中",
+      "abstract": "该论文被IEEE IV 2026接受，提出了一种局部语义对齐方法，用于改善交通视频生成的时间一致性。该方法通过局部语义对齐机制，确保生成的交通视频在时间维度上保持一致性，适用于自动驾驶模拟和测试。代码已开源。",
+      "keywords": ["交通视频生成", "时间一致性", "语义对齐", "自动驾驶模拟", "视频合成"],
+      "code_available": true,
+      "conference": "IEEE IV 2026",
+      "citation_count": ""
+    },
+    {
+      "title": "Unified Sensor Simulation for Autonomous Driving",
+      "authors": "Nikolay Patakin, Arsenii Shirokov, Anton Konushin, Dmitry Senushkin",
+      "url": "https://arxiv.org/abs/2602.05617",
+      "arxiv_id": "2602.05617",
+      "publish_date": "2026-02-06",
+      "category": "cs.CV; cs.GR",
+      "innovation": "提出了统一的传感器仿真框架，用于自动驾驶系统的多传感器数据生成和测试，支持摄像头、激光雷达等多种传感器模拟。",
+      "application_potential": "高",
+      "abstract": "该研究提出了一个统一的传感器仿真框架，用于自动驾驶系统的测试和验证。该框架能够生成多种传感器（摄像头、激光雷达、雷达等）的合成数据，支持端到端的自动驾驶系统开发和测试。",
+      "keywords": ["传感器仿真", "自动驾驶", "合成数据", "多传感器融合", "系统测试"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

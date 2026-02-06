@@ -1,0 +1,111 @@
+{
+  "source": "OpenSource",
+  "metadata": {
+    "timestamp": "2026-02-06T09:49:12Z",
+    "data_source": "official",
+    "access_status": "success",
+    "quality_score": 86,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "name": "FM-AD-Survey",
+      "full_name": "TUM-AVS/FM-AD-Survey",
+      "description": "This repository collects research papers of large Foundation Models for Scenario Generation and Analysis in Autonomous Driving. The repository focuses on world models, diffusion models, and scenario analysis/generation.",
+      "url": "https://github.com/TUM-AVS/FM-AD-Survey",
+      "stars": 148,
+      "language": "",
+      "last_updated": "2026-02-06",
+      "category": "algorithm",
+      "company": "Technical University of Munich - Autonomous Vehicle Systems",
+      "tech_stack": ["Python", "Markdown", "Jupyter Notebook"],
+      "key_features": ["自动驾驶基础模型调查", "场景生成与分析", "世界模型", "扩散模型", "论文收集"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["系统化收集自动驾驶基础模型研究", "重点关注场景生成与分析", "提供论文分类和总结"],
+      "application_value": "高价值研究资源，适合研究人员了解自动驾驶基础模型的最新进展和趋势。"
+    },
+    {
+      "name": "DREAM",
+      "full_name": "PeterWANGHK/DREAM",
+      "description": "DREAM: Dynamic Risk-Aware Enhanced Autonomous Maneuver Planning for Highway Interactive Driving",
+      "url": "https://github.com/PeterWANGHK/DREAM",
+      "stars": 0,
+      "language": "",
+      "last_updated": "2026-02-06",
+      "category": "algorithm",
+      "company": "",
+      "tech_stack": ["Python", "PyTorch", "ROS"],
+      "key_features": ["动态风险感知", "高速公路交互驾驶", "机动规划", "增强学习"],
+      "difficulty_level": "advanced",
+      "relevance_score": 85,
+      "innovation_points": ["动态风险感知规划", "高速公路交互驾驶场景", "实时机动决策"],
+      "application_value": "适用于高速公路自动驾驶的规划算法，具有动态风险感知能力，提高交互驾驶安全性。"
+    },
+    {
+      "name": "ttbot_ws",
+      "full_name": "Uyle-gif/ttbot_ws",
+      "description": "Ackermann-steering ROS workspace for autonomous driving: steering & speed control, sensor processing, and navigation.",
+      "url": "https://github.com/Uyle-gif/ttbot_ws",
+      "stars": 2,
+      "language": "C",
+      "last_updated": "2026-02-06",
+      "category": "tool",
+      "company": "",
+      "tech_stack": ["ROS", "C", "C++", "Python"],
+      "key_features": ["阿克曼转向控制", "ROS工作空间", "传感器处理", "导航系统", "速度控制"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 80,
+      "innovation_points": ["完整的ROS自动驾驶工作空间", "集成转向和速度控制", "传感器数据处理流水线"],
+      "application_value": "实用的自动驾驶开发平台，适合教育和研究用途，提供完整的ROS工作空间和算法实现。"
+    },
+    {
+      "name": "immitation-learning",
+      "full_name": "applekite/immitation-learning",
+      "description": "🚗 Develop safe reinforcement learning for autonomous driving using Trust-aware Soft Actor-Critic and advanced safety methods in CARLA simulator.",
+      "url": "https://github.com/applekite/immitation-learning",
+      "stars": 0,
+      "language": "Python",
+      "last_updated": "2026-02-06",
+      "category": "algorithm",
+      "company": "",
+      "tech_stack": ["Python", "PyTorch", "CARLA", "Reinforcement Learning"],
+      "key_features": ["安全强化学习", "信任感知Soft Actor-Critic", "CARLA仿真器", "模仿学习"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["信任感知安全强化学习", "CARLA仿真集成", "模仿学习与安全约束结合"],
+      "application_value": "先进的自动驾驶安全强化学习方法，在CARLA仿真环境中验证，适合安全关键的自动驾驶研究。"
+    },
+    {
+      "name": "VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "full_name": "tulioeleuterio/VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "description": "🚗 Enhance autonomous driving with VisionDriveX, a perception system for traffic sign classification, stop-sign detection, and lane segmentation with explainable AI.",
+      "url": "https://github.com/tulioeleuterio/VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "stars": 0,
+      "language": "Python",
+      "last_updated": "2026-02-06",
+      "category": "algorithm",
+      "company": "",
+      "tech_stack": ["Python", "PyTorch", "OpenCV", "Grad-CAM", "Computer Vision"],
+      "key_features": ["可解释AI", "交通标志分类", "停车标志检测", "车道分割", "感知系统"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 82,
+      "innovation_points": ["可解释自动驾驶感知", "Grad-CAM可视化", "多任务感知系统"],
+      "application_value": "提供可解释性的自动驾驶感知系统，帮助理解和验证感知模型的决策过程，适合教育和研究。"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

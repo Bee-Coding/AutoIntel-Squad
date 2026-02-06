@@ -130,6 +130,168 @@
           ]
         }
       ]
+    },
+    {
+      "id": "autonomous_driving_testing_framework",
+      "name": "自动驾驶测试验证框架",
+      "aliases": ["自动驾驶系统测试", "场景生成测试"],
+      "category": "academic",
+      "description": "结合多头注意力网络和交通法规加权机制，生成高风险违规场景进行自动驾驶系统测试",
+      "first_appeared": "2026-02-05",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-05",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-02-05",
+          "version": "v1.0",
+          "description": "提出ROMAN框架，结合多头注意力网络和交通法规加权机制，用于生成高风险违规场景以进行更彻底的自动驾驶系统测试",
+          "key_points": [
+            "多头注意力机制建模车辆、交通信号和其他因素之间的交互",
+            "基于LLM的风险加权模块从严重性和发生概率两个维度评估违规行为",
+            "在平均违规数量上超过现有工具ABLE 7.91%，超过LawBreaker 55.96%",
+            "保持更大的场景多样性"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.05629"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unified_sensor_simulation",
+      "name": "统一传感器仿真",
+      "aliases": ["传感器仿真框架", "3DGUT splatting仿真"],
+      "category": "academic",
+      "description": "扩展3DGUT splatting技术，为自动驾驶应用提供统一的传感器建模和渲染解决方案",
+      "first_appeared": "2026-02-05",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-05",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-02-05",
+          "version": "v1.0",
+          "description": "提出XSIM传感器仿真框架，扩展3DGUT splatting技术，针对自动驾驶应用提供广义的滚动快门建模",
+          "key_points": [
+            "统一且灵活的外观和几何传感器建模",
+            "支持在动态环境中渲染复杂的传感器畸变",
+            "解决球形相机的循环投影和时间不连续性问题",
+            "在Waymo Open Dataset、Argoverse 2和PandaSet等多个数据集上优于现有基线"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.05617"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visual_implicit_geometry_transformer",
+      "name": "视觉隐式几何Transformer",
+      "aliases": ["ViGT", "隐式几何模型", "3D占据场估计"],
+      "category": "academic",
+      "description": "从环视摄像头估计连续3D占据场的自动驾驶几何模型，无需标定的架构实现跨传感器配置泛化",
+      "first_appeared": "2026-02-05",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-05",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-02-05",
+          "version": "v1.0",
+          "description": "提出视觉隐式几何Transformer（ViGT），一个从环视摄像头估计连续3D占据场的自动驾驶几何模型",
+          "key_points": [
+            "无需标定的架构实现跨不同传感器配置的泛化",
+            "在鸟瞰图中估计连续3D占据场，满足特定领域需求",
+            "采用自监督训练程序，利用同步的图像-激光雷达对，消除手动标注需求",
+            "在五个大规模自动驾驶数据集上训练，在点云估计任务上实现SOTA性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.05573"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steer_by_wire_mass_production",
+      "name": "线控转向技术量产",
+      "aliases": ["线控转向系统", "电子转向系统"],
+      "category": "industry",
+      "description": "线控转向系统开始进入量产阶段，消除机械连接，为智能驾驶控制提供更大灵活性",
+      "first_appeared": "2026-02-06",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-06",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-02-06",
+          "version": "v1.0",
+          "description": "小鹏GX旗舰SUV首次展示线控转向技术，标志着线控转向系统开始进入量产阶段",
+          "key_points": [
+            "小鹏GX旗舰六座SUV搭载先进线控转向技术",
+            "线控转向消除机械连接，为智能驾驶控制提供更大灵活性",
+            "直接与理想L9、华为Aito M9、极氪9X和蔚来ES9等高端竞争对手竞争",
+            "反映中国新能源汽车在智能驾驶核心技术上的突破"
+          ],
+          "sources": [
+            "https://electrek.co"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autonomous_driving_regulations",
+      "name": "自动驾驶法规",
+      "aliases": ["自动驾驶政策", "联邦框架"],
+      "category": "industry",
+      "description": "自动驾驶技术的政策环境和法规框架发展，特别是联邦统一法规的推动",
+      "first_appeared": "2026-02-05",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-05",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-02-05",
+          "version": "v1.0",
+          "description": "Tesla高管在美国参议院商务委员会面前呼吁现代化联邦自动驾驶框架，推动统一联邦法规制定",
+          "key_points": [
+            "Tesla高管Lars Moravy强调现代化联邦自动驾驶框架的重要性",
+            "呼吁制定统一的联邦法规促进自动驾驶技术发展和安全部署",
+            "反映自动驾驶公司积极推动政策环境改善",
+            "为FSD等系统的大规模部署扫清法律障碍"
+          ],
+          "sources": [
+            "https://www.teslarati.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explainable_perception_system",
+      "name": "可解释感知系统",
+      "aliases": ["可解释自动驾驶感知", "Grad-CAM可视化"],
+      "category": "opensource",
+      "description": "提供可解释的自动驾驶感知系统，帮助理解和调试自动驾驶模型的决策过程，提高系统透明度和可信度",
+      "first_appeared": "2026-02-06",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-06",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-02-06",
+          "version": "v1.0",
+          "description": "VisionDriveX可解释自动驾驶感知系统，用于交通标志分类、停车标志检测和车道分割",
+          "key_points": [
+            "集成Grad-CAM可视化提供模型决策过程的可解释性",
+            "多任务感知模型同时处理交通标志分类、停车标志检测和车道分割",
+            "帮助理解和调试自动驾驶模型的决策过程",
+            "提高自动驾驶系统的透明度和可信度"
+          ],
+          "sources": [
+            "https://github.com/tulioeleuterio/VisionDriveX-Explainable-Autonomous-Driving-Perception-System"
+          ]
+        }
+      ]
     }
   ]
 }

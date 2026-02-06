@@ -1,0 +1,59 @@
+{
+  "source": "Industry",
+  "metadata": {
+    "timestamp": "2026-02-06T09:46:38Z",
+    "data_source": "authoritative",
+    "access_status": "success",
+    "quality_score": 85,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "company": "Tesla",
+      "title": "Tesla drops plans for robo-charging site for the SF robotaxis it doesn't have",
+      "url": "https://electrek.co/2026/02/05/tesla-drops-plans-for-robo-charging-site-for-the-sf-robotaxis-it-doesnt-have/",
+      "publish_date": "2026-02-05",
+      "technical_points": ["robotaxi", "autonomous charging", "FSD", "driverless taxis"],
+      "raw_content": "特斯拉突然决定放弃在旧金山市中心建设未来无人驾驶出租车的自动充电站的计划。该计划遭到了卡车司机工会的反对，尽管特斯拉的决定是否受此影响尚不清楚。这一决定发生在就该事项举行公开听证会之前。",
+      "search_keywords": ["Tesla", "robotaxi", "autonomous charging", "FSD"],
+      "version_info": "",
+      "event_type": "战略调整"
+    },
+    {
+      "company": "XPeng",
+      "title": "Xpeng reveals first images of GX flagship SUV with Range Rover styling and steer-by-wire",
+      "url": "https://electrek.co/2026/02/05/xpeng-reveals-first-images-of-gx-flagship-suv-with-range-rover-styling-and-steer-by-wire/",
+      "publish_date": "2026-02-05",
+      "technical_points": ["steer-by-wire", "线控转向", "旗舰SUV", "高级驾驶辅助"],
+      "raw_content": "小鹏汽车公布了其新款旗舰六座SUV GX的首批官方图片，该车在设计上明显借鉴了路虎揽胜，同时搭载了公司最先进的技术。线控转向技术是自动驾驶系统的关键组成部分，可实现更精确的转向控制和更灵活的车辆布局。",
+      "search_keywords": ["XPeng", "GX", "steer-by-wire", "autonomous driving"],
+      "version_info": "GX旗舰SUV",
+      "event_type": "产品发布"
+    },
+    {
+      "company": "Audi",
+      "title": "Audi announces 2027 A6/Q6 e-tron updates: scroll wheel return, new drift mode, improved regen",
+      "url": "https://electrek.co/2026/02/05/audi-announces-2027-a6-q6-e-tron-updates-scroll-wheel-return-new-drift-mode-improved-regen/",
+      "publish_date": "2026-02-05",
+      "technical_points": ["regenerative braking", "驾驶模式", "电动平台", "自动驾驶兼容性"],
+      "raw_content": "奥迪宣布了其A6 e-tron和Q6 e-tron电动汽车的2027款重大更新，包括回归物理控制、新增动态+漂移模式以及改进的再生制动系统以提高效率。这些改进是奥迪PPE（高级电动平台）系列更广泛更新的一部分，解决了这些车辆早期的一些批评，同时增加了真正有用的新功能。",
+      "search_keywords": ["Audi", "e-tron", "regenerative braking", "autonomous driving"],
+      "version_info": "2027款",
+      "event_type": "产品更新"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}
