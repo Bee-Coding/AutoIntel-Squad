@@ -1,0 +1,207 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "full_name": "tulioeleuterio/VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "description": "增强自动驾驶与VisionDriveX，一个用于交通标志分类、停车标志检测和车道分割的感知系统。Enhance autonomous driving with VisionDriveX, a perception system for traffic sign classification, stop-sign detection, and lane segmentation。",
+      "url": "https://github.com/tulioeleuterio/VisionDriveX-Explainable-Autonomous-Driving-Perception-System",
+      "stars": "0",
+      "language": "Python",
+      "last_updated": "2026-02-09",
+      "category": "algorithm",
+      "company": "个人项目",
+      "tech_stack": ["Python", "PyTorch", "Grad-CAM", "计算机视觉", "深度学习"],
+      "key_features": ["可解释性感知系统", "交通标志分类", "停车标志检测", "车道分割", "Grad-CAM可视化"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["可解释性自动驾驶感知系统", "集成Grad-CAM可视化", "多任务感知模型"],
+      "application_value": "提供可解释的自动驾驶感知系统，帮助理解和调试自动驾驶模型的决策过程，提高系统透明度和可信度。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "DiffusionDriveV2",
+      "full_name": "rushikeshjaware/DiffusionDriveV2",
+      "description": "🚗 增强自动驾驶与DiffusionDriveV2，一个结合强化学习和截断扩散的模型，用于改进决策和轨迹生成。Enhance autonomous driving with DiffusionDriveV2, a model combining reinforcement learning and truncated diffusion for improved decision-making and trajectory generation。",
+      "url": "https://github.com/rushikeshjaware/DiffusionDriveV2",
+      "stars": "1",
+      "language": "Python",
+      "last_updated": "2026-02-09",
+      "category": "algorithm",
+      "company": "个人项目",
+      "tech_stack": ["Python", "Reinforcement Learning", "Diffusion Models", "自动驾驶"],
+      "key_features": ["扩散模型", "强化学习", "轨迹生成", "决策优化", "截断扩散"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["结合强化学习与扩散模型", "截断扩散技术", "改进自动驾驶决策"],
+      "application_value": "提供基于扩散模型和强化学习的自动驾驶决策框架，可用于复杂场景下的轨迹生成和决策优化。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "ro-arxiv-daily",
+      "full_name": "XuzhaoLi/ro-arxiv-daily",
+      "description": "自动更新关于路径规划、LLM和自动驾驶的arXiv论文，使用Github Actions自2024年2月起。Automatically Update Arxiv Papers about Path Planning, LLM and Autonomous Driving using Github Actions since 2024.2.",
+      "url": "https://github.com/XuzhaoLi/ro-arxiv-daily",
+      "stars": "36",
+      "language": "Python",
+      "last_updated": "2026-02-09",
+      "category": "tool",
+      "company": "个人项目",
+      "tech_stack": ["Python", "GitHub Actions", "arXiv API", "自动化"],
+      "key_features": ["arXiv论文自动更新", "路径规划论文", "LLM论文", "自动驾驶论文", "GitHub Actions"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["自动化arXiv论文收集", "专注于路径规划和自动驾驶", "持续更新维护"],
+      "application_value": "为研究人员提供自动化的arXiv论文更新服务，帮助跟踪路径规划、LLM和自动驾驶领域的最新研究进展。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "copilot4D",
+      "full_name": "skr3178/copilot4D",
+      "description": "Copilot4D的实现：通过离散扩散学习自动驾驶的无监督世界模型。Implementation of Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion.",
+      "url": "https://github.com/skr3178/copilot4D",
+      "stars": "0",
+      "language": "Python",
+      "last_updated": "2026-02-09",
+      "category": "algorithm",
+      "company": "个人项目",
+      "tech_stack": ["Python", "Discrete Diffusion", "World Models", "自动驾驶"],
+      "key_features": ["无监督世界模型", "离散扩散", "自动驾驶", "环境建模"],
+      "difficulty_level": "advanced",
+      "relevance_score": 87,
+      "innovation_points": ["基于离散扩散的世界模型", "无监督学习", "自动驾驶环境建模"],
+      "application_value": "实现Copilot4D论文中的无监督世界模型，为自动驾驶提供环境建模和预测能力，支持更智能的决策系统。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "Bench2Drive-Leaderboard",
+      "full_name": "pzzkkj324244/Bench2Drive-Leaderboard",
+      "description": "🚗 跟踪和比较在Bench2Drive上测试的所有方法的性能，提供自动驾驶基准测试及其结果的清晰视图。Track and compare performance of all methods tested on Bench2Drive, presenting a clear view of autonomous driving benchmarks and their results.",
+      "url": "https://github.com/pzzkkj324244/Bench2Drive-Leaderboard",
+      "stars": "0",
+      "language": "TeX",
+      "last_updated": "2026-02-09",
+      "category": "benchmark",
+      "company": "个人项目",
+      "tech_stack": ["TeX", "Benchmarking", "Leaderboard", "自动驾驶评估"],
+      "key_features": ["Bench2Drive基准测试", "方法性能比较", "排行榜系统", "自动驾驶评估"],
+      "difficulty_level": "beginner",
+      "relevance_score": 82,
+      "innovation_points": ["自动驾驶基准测试排行榜", "方法性能可视化", "标准化评估"],
+      "application_value": "提供Bench2Drive基准测试的排行榜，帮助研究人员比较不同自动驾驶方法的性能，促进技术交流和进步。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

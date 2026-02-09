@@ -1,0 +1,177 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "BYD",
+      "title": "Autonomous, battery-swap mining truck gets big-buck boost from BYD",
+      "url": "https://electrek.co/2026/02/07/autonomous-battery-swap-mining-truck-gets-big-buck-boost-from-byd/",
+      "publish_date": "2026-02-07",
+      "technical_points": ["自动驾驶矿卡", "电池换电技术", "矿山作业自动化", "BYD战略投资"],
+      "raw_content": "中国设备品牌Boonray开发了一款自动驾驶、电池可换电的电动矿卡，希望彻底改变全球矿业。全球电动汽车领导者比亚迪给予了数百万美元的战略投资。该矿卡采用自主导航和电池快速换电技术，旨在提高矿山作业效率和安全性。",
+      "search_keywords": ["autonomous mining truck", "BYD investment", "battery swap", "mining automation"],
+      "version_info": "",
+      "event_type": "战略投资"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla exec tells Congress 'no one has ever' taken control of its vehicles — but that's not true",
+      "url": "https://electrek.co/2026/02/06/tesla-exec-tells-congress-no-one-has-ever-taken-control-vehicles-but-thats-not-true/",
+      "publish_date": "2026-02-06",
+      "technical_points": ["车辆网络安全", "远程控制风险", "黑客攻击历史", "安全监控"],
+      "raw_content": "特斯拉车辆工程副总裁Lars Moravy本周告诉参议院委员会，从未有人远程控制过特斯拉车辆。这一说法与历史事实不符。实际上，曾有黑客一次性控制了特斯拉整个车队。这引发了关于特斯拉车辆网络安全和远程控制风险的讨论。",
+      "search_keywords": ["Tesla cybersecurity", "remote vehicle control", "hacking history", "Congress testimony"],
+      "version_info": "",
+      "event_type": "安全听证"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla now has AI training capability in China, a critical step for Full Self-Driving",
+      "url": "https://electrek.co/2026/02/06/tesla-ai-training-capability-china-critical-step-full-self-driving/",
+      "publish_date": "2026-02-06",
+      "technical_points": ["AI训练中心", "中国本土化", "Full Self-Driving", "数据合规"],
+      "raw_content": "特斯拉在中国启动了人工智能训练中心，这是特斯拉在全球最大电动汽车市场实现全自动驾驶（FSD）雄心的关键进展。该中心将支持特斯拉在中国进行本地化的AI模型训练，有助于满足数据合规要求并加速FSD在中国的落地。",
+      "search_keywords": ["Tesla AI training China", "FSD China deployment", "AI localization", "data compliance"],
+      "version_info": "",
+      "event_type": "技术设施建设"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla launches Cybertruck vehicle-to-grid program in Texas",
+      "url": "https://www.teslarati.com/tesla-launches-cybertruck-v2g-powershare-texas/",
+      "publish_date": "2026-02-06",
+      "technical_points": ["车辆到电网", "Cybertruck", "双向充电", "能源管理"],
+      "raw_content": "特斯拉在德克萨斯州启动了Cybertruck车辆到电网（V2G）项目，允许Cybertruck车主将车辆电池中的电力反向输送回电网。该项目基于特斯拉的Powershare技术，展示了电动汽车作为分布式能源资源的潜力。",
+      "search_keywords": ["Tesla Cybertruck V2G", "vehicle-to-grid", "Powershare Texas", "bidirectional charging"],
+      "version_info": "",
+      "event_type": "技术发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla/Samsung",
+      "title": "Samsung nears Tesla AI chip ramp with early approval at TX factory",
+      "url": "https://www.teslarati.com/samsung-tesla-ai-chip-ramp-texas-factory/",
+      "publish_date": "2026-02-06",
+      "technical_points": ["AI芯片生产", "三星代工", "特斯拉自动驾驶芯片", "德克萨斯工厂"],
+      "raw_content": "三星电子接近获得特斯拉AI芯片的早期生产批准，将在其德克萨斯州工厂加速特斯拉自动驾驶芯片的量产。这一进展将支持特斯拉Full Self-Driving系统对高性能AI芯片不断增长的需求。",
+      "search_keywords": ["Samsung Tesla AI chip", "Texas factory approval", "autonomous driving chip", "chip production ramp"],
+      "version_info": "",
+      "event_type": "供应链进展"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-02-09T09:05:47Z",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-02-09",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260209_090547",
+    "user_intent": "生成今日行业日报，不要使用模拟数据和训练时的数据",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时",
+      "academic": "最近一周内",
+      "open_source": "最近一个月内"
+    },
+    "thought_process": "用户要求生成今日行业日报，特别强调禁止使用模拟数据和训练时的数据。这是典型的全量日报模式，需要并行启动三个情报收集Agent（Industry_Watcher、Paper_Hunter、Code_Scout），从真实网络源收集最新信息，然后由Chief_Analyst汇总生成日报。必须严格遵守数据真实性原则，所有信息必须有真实来源链接和发布日期。",
+    "execution_tasks": [
+      {
+        "task_id": "task_a_industry",
+        "agent": "Industry_Watcher",
+        "output_file": "reports/2026-02/2026-02-09/02_industry.json",
+        "instructions": "收集Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司在端到端自动驾驶、BEV、Occupancy、城市NOA等方面的最新工业动态，时间范围最近24-72小时，严格禁止使用模拟数据，所有信息必须有真实来源链接和发布日期。优先搜索官方渠道，失败时切换权威媒体。",
+        "keywords": ["Tesla FSD", "华为ADS", "Waymo", "NIO", "XPeng", "Li Auto", "端到端自动驾驶", "BEV", "Occupancy", "城市NOA", "2026年2月"],
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_b_academic",
+        "agent": "Paper_Hunter",
+        "output_file": "reports/2026-02/2026-02-09/03_papers.json",
+        "instructions": "搜索arXiv、CVPR、ICCV、ICRA等顶会中关于端到端自动驾驶、世界模型、扩散策略、VAD等领域的最新论文，优先选择有代码实现的论文，时间范围最近一周内，严格禁止使用模拟数据，所有论文必须有arXiv链接或官方PDF链接。",
+        "keywords": ["end-to-end autonomous driving", "world model", "diffusion policy", "VAD", "arXiv", "CVPR 2026", "ICCV 2026", "autonomous driving", "端到端"],
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_c_opensource",
+        "agent": "Code_Scout",
+        "output_file": "reports/2026-02/2026-02-09/04_code.json",
+        "instructions": "搜索GitHub Trending、Hugging Face上关于自动驾驶仿真器、数据集、算法实现、工具链的最新开源项目，关注大厂开源项目和高星增长项目，时间范围最近一个月内，严格禁止使用模拟数据，所有项目必须有真实GitHub或Hugging Face链接。",
+        "keywords": ["autonomous driving", "self-driving", "simulator", "dataset", "GitHub", "Hugging Face", "open source", "自动驾驶", "仿真", "数据集"],
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_d_analysis",
+        "agent": "Chief_Analyst",
+        "output_file": "reports/2026-02/2026-02-09/2026-02-09_Report.md",
+        "instructions": "读取前三个Agent的输出文件（02_industry.json、03_papers.json、04_code.json），进行数据验证、去重、质量评估，生成结构化的今日行业情报日报，包含工业界动态、学术界进展、开源项目分析、技术话题演进、7天回顾和学习建议。严格遵守数据真实性验证原则。",
+        "dependencies": ["task_a_industry", "task_b_academic", "task_c_opensource"],
+        "timeout": 600,
+        "retry_count": 1
+      }
+    ],
+    "trigger_conditions": {
+      "parallel_start": ["task_a_industry", "task_b_academic", "task_c_opensource"],
+      "sequential_dependencies": {
+        "task_d_analysis": ["task_a_industry", "task_b_academic", "task_c_opensource"]
+      },
+      "completion_check": "所有输出文件存在且非空"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

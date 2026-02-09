@@ -1,0 +1,197 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "ROMAN: Reward-Orchestrated Multi-Head Attention Network for Autonomous Driving System Testing",
+      "authors": "Jianlei Chi, Yuzhen Wu, Jiaxuan Hou, Xiaodong Zhang, Ming Fan, Suhui Sun, Weijun Dai, Bo Li, Jianguo Sun, Jun Sun",
+      "url": "https://arxiv.org/abs/2602.05629",
+      "arxiv_id": "2602.05629",
+      "publish_date": "2026-02-05",
+      "category": "cs.CV",
+      "innovation": "提出ROMAN框架，结合多头注意力网络和交通法规加权机制，用于生成高风险违规场景以进行更彻底的自动驾驶系统测试",
+      "application_potential": "高",
+      "abstract": "自动驾驶系统（ADS）是自动驾驶车辆的大脑，负责其安全和效率。安全部署需要在多样化的真实世界场景中进行全面测试，并遵守交通法规。ROMAN结合多头注意力机制建模车辆、交通信号和其他因素之间的交互，利用基于LLM的风险加权模块从严重性和发生概率两个维度评估违规行为。实验显示ROMAN在平均违规数量上超过现有工具ABLE 7.91%，超过LawBreaker 55.96%，同时保持更大的场景多样性。",
+      "keywords": ["自动驾驶系统测试", "场景生成", "多头注意力", "交通法规", "风险评估"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": false,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["arXiv访问受限，URL验证失败"]
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Unified Sensor Simulation for Autonomous Driving",
+      "authors": "Nikolay Patakin, Arsenii Shirokov, Anton Konushin, Dmitry Senushkin",
+      "url": "https://arxiv.org/abs/2602.05617",
+      "arxiv_id": "2602.05617",
+      "publish_date": "2026-02-05",
+      "category": "cs.CV, cs.GR",
+      "innovation": "提出XSIM传感器仿真框架，扩展3DGUT splatting技术，为自动驾驶应用提供统一的传感器建模和渲染解决方案",
+      "application_potential": "高",
+      "abstract": "本文介绍XSIM，一个用于自动驾驶的传感器仿真框架。XSIM扩展了3DGUT splatting技术，针对自动驾驶应用提供广义的滚动快门建模。该框架提供统一且灵活的外观和几何传感器建模，支持在动态环境中渲染复杂的传感器畸变。为解决球形相机（如激光雷达）的循环投影和时间不连续性问题，提出相位建模机制。此外，引入扩展的3D高斯表示，包含两个不同的不透明度参数来解决几何和颜色分布之间的不匹配问题。在Waymo Open Dataset、Argoverse 2和PandaSet等多个自动驾驶数据集上的评估显示，该框架始终优于现有基线。",
+      "keywords": ["传感器仿真", "3DGUT splatting", "自动驾驶", "激光雷达模拟", "统一建模"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": false,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["arXiv访问受限，URL验证失败"]
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Visual Implicit Geometry Transformer for Autonomous Driving",
+      "authors": "Arsenii Shirokov, Mikhail Kuznetsov, Danila Stepochkin, Egor Evdokimov, Daniil Glazkov, Nikolay Patakin, Anton Konushin, Dmitry Senushkin",
+      "url": "https://arxiv.org/abs/2602.05573",
+      "arxiv_id": "2602.05573",
+      "publish_date": "2026-02-05",
+      "category": "cs.CV",
+      "innovation": "提出ViGT模型，实现无需标定的连续3D占据场估计，支持多数据集训练和泛化到不同传感器配置",
+      "application_potential": "高",
+      "abstract": "本文介绍视觉隐式几何Transformer（ViGT），一个从环视摄像头估计连续3D占据场的自动驾驶几何模型。ViGT代表了迈向自动驾驶基础几何模型的一步，优先考虑可扩展性、架构简单性和跨不同传感器配置的泛化能力。该方法通过无需标定的架构实现，使单个模型能够适应不同的传感器设置。与专注于像素对齐预测的通用几何基础模型不同，ViGT在鸟瞰图中估计连续3D占据场，满足特定领域需求。ViGT自然地从多摄像头视图推断几何到单一度量坐标系，为多个几何任务提供通用表示。采用自监督训练程序，利用同步的图像-激光雷达对，消除了昂贵的手动标注需求。在五个大规模自动驾驶数据集（NuScenes、Waymo、NuPlan、ONCE和Argoverse）上训练模型，在点云估计任务上实现最先进的性能。",
+      "keywords": ["隐式几何", "Transformer", "3D占据场", "自动驾驶", "多传感器融合"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": false,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["arXiv访问受限，URL验证失败"]
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model",
+      "authors": "Shuo Pei, Yong Wang, Yuanchen Zhu, Chen Sun, Qin Li, Yanan Zhao, Huachun Tan",
+      "url": "https://arxiv.org/abs/2602.04329",
+      "arxiv_id": "2602.04329",
+      "publish_date": "2026-02-04",
+      "category": "cs.RO",
+      "innovation": "提出SDD Planner扩散框架，有效协调安全约束与驾驶风格，实现实时安全且符合用户偏好的轨迹规划",
+      "application_potential": "高",
+      "abstract": "在复杂的真实世界场景中实现安全且有风格的轨迹规划仍然是自动驾驶系统的关键挑战。本文提出SDD Planner，一个基于扩散的框架，旨在实时有效协调安全约束与驾驶风格。该框架集成两个核心模块：多源风格感知编码器，采用距离敏感注意力融合动态智能体数据和环境上下文以实现异构安全-风格感知；风格引导动态轨迹生成器，自适应调制扩散去噪过程中的优先级权重以生成用户偏好且安全的轨迹。实验表明，SDD Planner在StyleDrive基准测试中将SM-PDMS指标比最强基线WoTE提高3.9%。在NuPlan Test14和Test14-hard基准测试中，SDD Planner分别以91.76和80.32的总分排名第一，优于PLUTO等领先方法。实车闭环测试进一步证实SDD Planner在保持高标准安全性的同时与预设驾驶风格保持一致。",
+      "keywords": ["轨迹规划", "扩散模型", "驾驶风格", "安全约束", "实时规划"],
+      "code_available": false,
+      "conference": "IEEE Transactions on Intelligent Transportation Systems",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": false,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["arXiv访问受限，URL验证失败"]
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-09T09:05:47Z",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "AppleVLM: End-to-end Autonomous Driving with Advanced Perception and Planning-Enhanced Vision-Language Models",
+      "authors": "Yuxuan Han, Kunyuan Wu, Qianyi Shao, Renxiang Xiao, Zilu Wang, Cansen Jiang, Yi Xiao, Liang Hu, Yunjiang Lou",
+      "url": "https://arxiv.org/abs/2602.04256",
+      "arxiv_id": "2602.04256",
+      "publish_date": "2026-02-04",
+      "category": "cs.RO",
+      "innovation": "提出AppleVLM模型，引入专用规划模态编码显式BEV空间信息，减轻导航指令中的语言偏差，提升端到端驾驶的鲁棒性",
+      "application_potential": "高",
+      "abstract": "端到端自动驾驶已成为一个有前景的范式，将感知、决策和控制集成在统一的学习框架内。视觉-语言模型（VLM）因其在多样化和未见场景中增强端到端驾驶模型的鲁棒性和泛化能力的潜力而受到关注。然而，现有的基于VLM的方法仍面临挑战，包括次优的车道感知、语言理解偏差以及处理极端情况的困难。为解决这些问题，提出AppleVLM，一个用于鲁棒端到端驾驶的先进感知和规划增强VLM模型。AppleVLM引入新颖的视觉编码器和规划策略编码器以改进感知和决策。视觉编码器使用可变形Transformer机制融合多时间步的多视角图像的时空信息，增强对摄像头变化的鲁棒性。与传统的基于VLM的方法不同，AppleVLM引入专用规划模态，编码显式的鸟瞰图空间信息，减轻导航指令中的语言偏差。最后，通过分层思维链微调的VLM解码器集成视觉、语言和规划特征，输出鲁棒的驾驶路径点。在CARLA基准测试的闭环实验中评估AppleVLM，实现最先进的驾驶性能。",
+      "keywords": ["端到端自动驾驶", "视觉-语言模型", "规划增强", "BEV感知", "鲁棒驾驶"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": false,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["arXiv访问受限，URL验证失败"]
+    }
+  }
+]
