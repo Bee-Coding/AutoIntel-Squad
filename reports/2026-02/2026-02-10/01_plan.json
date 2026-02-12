@@ -1,0 +1,92 @@
+[
+  {
+    "source": "Plan",
+    "metadata": {
+      "timestamp": "2026-02-10T20:03:16Z",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "report_type": "执行计划",
+      "report_date": "2026-02-10",
+      "sections": {
+        "plan_metadata": "计划元数据",
+        "thought_process": "思考过程",
+        "execution_plan": "执行计划详情",
+        "trigger_conditions": "触发条件"
+      },
+      "plan_id": "plan_20260210_200316",
+      "user_intent": "生成今日情报，不要使用模拟数据或训练时的数据",
+      "execution_mode": "parallel",
+      "priority": "high",
+      "time_range": {
+        "industry": "最近24小时内的最新动态",
+        "academic": "最近一周内的最新论文",
+        "open_source": "最近一周内的最新项目"
+      },
+      "thought_process": "用户要求生成今日（2026年2月10日）全维度情报，明确禁止使用模拟数据或训练时的数据，必须基于真实搜索获取最新信息。用户指令'今日情报'应理解为包含行业动态、学术论文、开源项目三个维度的完整情报收集。基于数据真实性原则，所有Agent必须使用WebFetch工具访问真实网站，确保信息来源可靠。时间范围聚焦最近24小时行业动态，学术和开源可放宽到一周内以获取足够高质量内容。执行模式选择并行执行以最大化效率，三个收集Agent同时运行，最后触发Chief_Analyst整合所有数据生成完整日报。严格遵循禁止模拟数据规则，所有信息必须附带真实来源链接和可验证日期。",
+      "execution_plan": [
+        {
+          "agent": "Industry_Watcher",
+          "task_id": "task_industry_001",
+          "description": "收集今日自动驾驶行业动态，重点关注Tesla、华为、Waymo等公司最新进展，特别是端到端自动驾驶相关动态",
+          "output_file": "./reports/2026-02/2026-02-10/02_industry.json",
+          "keywords": ["Tesla", "华为自动驾驶", "Waymo", "端到端自动驾驶", "Robotaxi", "智能驾驶芯片", "2026年2月10日"],
+          "instruction": "使用WebFetch工具访问真实新闻网站（量子位、自动驾驶之心等），搜索今日最新行业动态，确保每条信息都有真实来源链接和发布日期，禁止使用模拟数据。实施数据真实性验证，包括URL验证、日期真实性、内容一致性检查。优先使用权威媒体源，失败时切换到备用媒体。时间范围：最近24小时内。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Paper_Hunter",
+          "task_id": "task_academic_001",
+          "description": "收集近期自动驾驶学术论文，重点关注端到端自动驾驶、世界模型、扩散策略等方向的最新研究",
+          "output_file": "./reports/2026-02/2026-02-10/03_papers.json",
+          "keywords": ["autonomous driving", "end-to-end", "world model", "diffusion policy", "VLA", "arXiv", "2026"],
+          "instruction": "使用WebFetch工具访问arXiv.org真实网站，搜索近期自动驾驶相关学术论文。确保每条信息都有真实arXiv链接和上传日期，禁止使用模拟数据。优先选择有代码实现的项目。时间范围：最近一周内。实施数据真实性验证，包括arXiv ID验证、日期真实性检查。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Code_Scout",
+          "task_id": "task_opensource_001",
+          "description": "收集近期自动驾驶开源项目，重点关注仿真器、数据集、端到端算法实现、工具链等",
+          "output_file": "./reports/2026-02/2026-02-10/04_code.json",
+          "keywords": ["autonomous driving", "simulator", "dataset", "end-to-end", "github", "2026"],
+          "instruction": "使用WebFetch工具访问GitHub.com真实网站，搜索近期自动驾驶相关开源项目。确保每条信息都有真实GitHub链接和最近更新时间，禁止使用模拟数据。优先选择大厂开源项目和高星增长项目。时间范围：最近一周内。实施数据真实性验证，包括URL验证、项目信息准确性检查。",
+          "timeout": 300000,
+          "retry_count": 2
+        },
+        {
+          "agent": "Chief_Analyst",
+          "task_id": "task_analyst_001",
+          "description": "整合所有收集的情报，生成结构化日报，提供学习建议和系统优化建议",
+          "output_file": "./reports/2026-02/2026-02-10/2026-02-10_Report.md",
+          "keywords": [],
+          "instruction": "读取Industry_Watcher生成的02_industry.json、Paper_Hunter生成的03_papers.json、Code_Scout生成的04_code.json文件，进行数据验证与清洗，生成结构化日报。按照标准模板包含工业界风向标、学术界新发现、开源界新动态、技术话题演进、回顾与反思、学习建议、系统优化建议等章节。确保分析基于真实数据，禁止臆造技术趋势。若某领域无数据，如实标注。",
+          "timeout": 300000,
+          "retry_count": 1,
+          "trigger_condition": "all_data_ready"
+        }
+      ],
+      "trigger_conditions": {
+        "all_data_ready": "02_industry.json、03_papers.json、04_code.json三个文件都生成后立即触发Chief_Analyst"
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

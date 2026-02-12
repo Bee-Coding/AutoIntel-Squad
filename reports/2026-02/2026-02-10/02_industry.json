@@ -1,0 +1,83 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-10T10:00:00Z",
+      "data_source": "authoritative",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "怕了怕了！Waymo无人车美国开，“遥控器”远在菲律宾",
+      "url": "https://www.qbitai.com/2026/02/378172.html",
+      "publish_date": "2026-02-09",
+      "technical_points": [
+        "Waymo无人车依赖远程安全员（车队响应代理）处理特殊路况",
+        "远程安全员多位于菲律宾，实现成本优化和全球扩张战略",
+        "远程操作仅提供指导，不直接控制车辆动态驾驶",
+        "人车比监管要求（中国1:3）及行业运营趋势"
+      ],
+      "raw_content": "Waymo首席安全官在美参议院听证会披露，公司无人车在遇到特殊路况时会启用远程操作员，这些操作员多数位于菲律宾等海外地区。远程安全员被称为“车队响应代理”，仅在车辆遇到问题时提供指导，回答多项选择题，不直接操控车辆。此举引发参议员质疑，认为涉及关键交通基础设施的岗位外包海外可能影响公共安全。Waymo解释称这是成本优化和全球扩张的一部分，安全员上岗前需接受服务地区道路规则培训并持有驾照。文章还探讨了自动驾驶行业从车内安全员到远程安全员的发展阶段，以及Robotaxi规模化运营中的成本挑战。",
+      "search_keywords": ["Waymo", "远程安全员", "菲律宾", "Robotaxi", "自动驾驶运营"],
+      "version_info": null,
+      "event_type": "行业动态"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-10T19:50:55Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "爱芯元智",
+      "title": "清华女博士造芯，刚刚IPO市值166亿",
+      "url": "https://www.qbitai.com/2026/02/378205.html",
+      "publish_date": "2026-02-10",
+      "technical_points": [
+        "边缘AI芯片第一股上市，爱芯元智在港交所敲钟市值166亿港元",
+        "智能汽车SoC累计出货51.8万颗，成为中国第二大国产智能驾驶SoC供应商",
+        "技术平台基于爱芯通元NPU和爱芯智眸AI-ISP，支持高效边缘部署",
+        "产品覆盖视觉终端、智能汽车、边缘推理三大场景，支持L2/L2+ ADAS",
+        "新一代M97 SoC计划今年三季度发布，支持城区NOA"
+      ],
+      "raw_content": "浙江芯片独角兽爱芯元智拿下'中国边缘AI芯片第一股'，在港交所上市开盘市值约166亿港元。公司创始人为清华系海归女博士仇肖莘，拥有超20年半导体研发经验。爱芯元智从AI视觉芯片起家，已完成终端计算、智能汽车、边缘AI推理等多场景布局，位居全球中高端视觉端AI芯片出货量第一。其智能汽车SoC累计出货51.8万颗，成为第二大国产智能驾驶SoC供应商，客户包括吉利、零跑、福特等。公司技术平台围绕爱芯通元NPU和爱芯智眸AI-ISP构建，支持动态精度计算与多核异构设计，兼容Transformer、CNN等主流模型，为自动驾驶提供高性能边缘计算能力。",
+      "search_keywords": ["爱芯元智", "边缘AI芯片", "IPO", "智能驾驶SoC", "自动驾驶芯片"],
+      "version_info": null,
+      "event_type": "IPO上市"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
