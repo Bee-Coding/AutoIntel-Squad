@@ -1,0 +1,207 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13607,
+      "language": "C++",
+      "last_updated": "2026-02-26",
+      "category": "simulator",
+      "company": "carla-simulator",
+      "tech_stack": ["C++", "Unreal Engine", "Python", "ROS"],
+      "key_features": ["自动驾驶研究模拟器", "多传感器支持", "强化学习环境", "逼真城市环境"],
+      "difficulty_level": "medium",
+      "relevance_score": 95,
+      "innovation_points": ["开源自动驾驶模拟器", "支持逼真传感器模拟和环境交互"],
+      "application_value": "算法开发、测试和验证，广泛用于学术研究和工业原型开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 96,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11116,
+      "language": "Dockerfile",
+      "last_updated": "2026-02-26",
+      "category": "algorithm",
+      "company": "autowarefoundation",
+      "tech_stack": ["ROS2", "C++", "Python", "Docker", "Kubernetes"],
+      "key_features": ["全栈自动驾驶软件", "ROS2架构", "模块化设计", "云原生支持"],
+      "difficulty_level": "high",
+      "relevance_score": 96,
+      "innovation_points": ["全球领先的开源自动驾驶软件项目", "采用ROS2架构和云原生设计"],
+      "application_value": "自动驾驶系统研发、原型开发和实际部署，适合企业和研究机构构建完整自动驾驶解决方案"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 98,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "An open autonomous driving platform",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26439,
+      "language": "C++",
+      "last_updated": "2026-02-02",
+      "category": "algorithm",
+      "company": "Baidu",
+      "tech_stack": ["C++", "ROS", "Cyber RT", "Apollo Platform"],
+      "key_features": ["全栈自动驾驶平台", "量产就绪", "大规模部署"],
+      "difficulty_level": "high",
+      "relevance_score": 98,
+      "innovation_points": ["百度开源自动驾驶平台", "提供从感知到控制的完整解决方案"],
+      "application_value": "工业级自动驾驶系统开发、测试和部署，适合企业和研究机构进行大规模自动驾驶系统研发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": 4497,
+      "language": "Python",
+      "last_updated": "2025-10-29",
+      "category": "algorithm",
+      "company": "OpenDriveLab",
+      "tech_stack": ["Python", "PyTorch", "BEV感知", "Transformer"],
+      "key_features": ["规划导向自动驾驶", "端到端架构", "多任务学习", "实时性能"],
+      "difficulty_level": "medium",
+      "relevance_score": 92,
+      "innovation_points": ["CVPR 2023最佳论文", "提出规划导向的端到端自动驾驶框架"],
+      "application_value": "端到端自动驾驶算法研究和开发，适合学术研究和工业算法优化"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "End-to-end-Autonomous-Driving",
+      "full_name": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "description": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+      "stars": 3534,
+      "language": "Python",
+      "last_updated": "2025-07-02",
+      "category": "algorithm",
+      "company": "OpenDriveLab",
+      "tech_stack": ["Python", "PyTorch", "强化学习", "仿真环境"],
+      "key_features": ["端到端自动驾驶", "策略学习", "仿真训练", "完整工具链"],
+      "difficulty_level": "medium",
+      "relevance_score": 93,
+      "innovation_points": ["IEEE T-PAMI 2024论文", "提供端到端自动驾驶完整解决方案"],
+      "application_value": "端到端自动驾驶算法研究和开发，适合学术研究和工业应用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

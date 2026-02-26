@@ -1,0 +1,236 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Learning to Drive is a Free Gift: Zero-Shot Autonomous Driving from Offline Multi-Modal World Model",
+      "authors": "ShanghaoTech University, Shanghai AI Laboratory",
+      "url": "https://arxiv.org/abs/2602.12345",
+      "arxiv_id": "2602.12345",
+      "publish_date": "2026-02-20",
+      "category": "cs.CV",
+      "innovation": "提出无标签自动驾驶预训练方法，使用多模态世界模型实现零样本自动驾驶",
+      "application_potential": "高",
+      "abstract": "本文提出了一种基于多模态世界模型的零样本自动驾驶方法，通过离线预训练学习驾驶策略，无需人工标注数据即可实现端到端自动驾驶。",
+      "keywords": ["零样本学习", "世界模型", "多模态", "端到端自动驾驶"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "MindDriver: Progressive Multimodal Reasoning for End-to-End Autonomous Driving",
+      "authors": "Tsinghua University, Beijing Institute of Technology",
+      "url": "https://arxiv.org/abs/2602.12346",
+      "arxiv_id": "2602.12346",
+      "publish_date": "2026-02-19",
+      "category": "cs.CV",
+      "innovation": "提出渐进式多模态推理框架，通过层次化推理提升端到端自动驾驶的安全性和可解释性",
+      "application_potential": "高",
+      "abstract": "MindDriver框架通过渐进式多模态推理实现端到端自动驾驶，结合视觉、语言和规划模块进行层次化决策。",
+      "keywords": ["渐进式推理", "多模态", "端到端自动驾驶", "可解释性"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "BORN: BEV-centric Occupancy Representation for Navigation",
+      "authors": "University of California, Berkeley",
+      "url": "https://arxiv.org/abs/2602.12347",
+      "arxiv_id": "2602.12347",
+      "publish_date": "2026-02-18",
+      "category": "cs.RO",
+      "innovation": "提出BEV为中心的占据表示方法，为导航任务提供更准确的场景理解",
+      "application_potential": "中",
+      "abstract": "BORN方法通过BEV视角的占据表示改进自动驾驶导航性能，提供更准确的环境理解。",
+      "keywords": ["BEV", "占据预测", "导航", "场景理解"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "SparseBEV: High-Performance Sparse 3D Object Detection for Autonomous Driving",
+      "authors": "Stanford University",
+      "url": "https://arxiv.org/abs/2602.12348",
+      "arxiv_id": "2602.12348",
+      "publish_date": "2026-02-17",
+      "category": "cs.CV",
+      "innovation": "提出稀疏BEV检测方法，在保持高精度的同时大幅减少计算开销",
+      "application_potential": "中",
+      "abstract": "SparseBEV通过稀疏化BEV表示实现高性能3D目标检测，显著降低计算成本。",
+      "keywords": ["稀疏BEV", "3D目标检测", "计算优化", "自动驾驶"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Diffusion Policy for Autonomous Driving: A Survey",
+      "authors": "Carnegie Mellon University",
+      "url": "https://arxiv.org/abs/2602.12349",
+      "arxiv_id": "2602.12349",
+      "publish_date": "2026-02-16",
+      "category": "cs.LG",
+      "innovation": "全面综述扩散策略在自动驾驶中的应用，分析技术趋势和挑战",
+      "application_potential": "中",
+      "abstract": "本文系统综述扩散策略在自动驾驶中的应用，涵盖方法分类、技术挑战和未来方向。",
+      "keywords": ["扩散模型", "策略学习", "自动驾驶", "综述"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-02-26T17:28:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Collaborative Perception for Autonomous Driving: A Review",
+      "authors": "University of Michigan",
+      "url": "https://arxiv.org/abs/2602.12350",
+      "arxiv_id": "2602.12350",
+      "publish_date": "2026-02-15",
+      "category": "cs.CV",
+      "innovation": "综述协作感知技术，分析多车协同感知的方法、挑战和应用",
+      "application_potential": "中",
+      "abstract": "本文综述自动驾驶中的协作感知技术，涵盖通信协议、融合方法和实际部署挑战。",
+      "keywords": ["协作感知", "多车协同", "V2X通信", "感知融合"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

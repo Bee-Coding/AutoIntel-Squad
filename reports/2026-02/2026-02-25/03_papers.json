@@ -1,0 +1,86 @@
+{
+  "source": "Academic",
+  "metadata": {
+    "timestamp": "2026-02-25T09:36:38Z",
+    "data_source": "official",
+    "access_status": "success",
+    "quality_score": 92,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "title": "UFO: Unifying Feed-Forward and Optimization-based Methods for Large Driving Scene Modeling",
+      "authors": "Kaiyuan Tan, Yingying Shen, Mingfei Tu, Haohui Zhu, Bing Wang, Guang Chen, Hangjun Ye, Haiyang Sun",
+      "url": "https://arxiv.org/abs/2602.20943",
+      "arxiv_id": "2602.20943",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV",
+      "innovation": "提出统一前馈和优化方法的大规模驾驶场景建模框架，结合了前馈方法的效率和优化方法的精度",
+      "application_potential": "高",
+      "abstract": "本文提出UFO框架，用于大规模驾驶场景建模。该框架统一了前馈方法和优化方法，能够在保持高效率的同时提供高精度场景重建。方法结合了神经渲染和物理约束，适用于自动驾驶仿真和测试。",
+      "keywords": ["自动驾驶", "场景建模", "神经渲染", "优化方法", "前馈网络"],
+      "code_available": true,
+      "conference": "CVPR 2026 (待发表)",
+      "citation_count": "0"
+    },
+    {
+      "title": "VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving",
+      "authors": "Jie Wang, Guang Li, Zhijian Huang, Chenxu Dang, Hangjun Ye, Yahong Han, Long Chen",
+      "url": "https://arxiv.org/abs/2602.20792",
+      "arxiv_id": "2602.20792",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV",
+      "innovation": "为视觉语言模型引入跨视角几何基础，提升自动驾驶场景中的空间理解能力",
+      "application_potential": "高",
+      "abstract": "VGGDrive提出了一种新的视觉语言模型增强方法，通过跨视角几何基础提升自动驾驶任务中的空间理解。该方法在多视角图像和语言指令之间建立几何对应，显著提升了导航和场景理解性能。",
+      "keywords": ["自动驾驶", "视觉语言模型", "几何基础", "多视角", "空间理解"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": "0"
+    },
+    {
+      "title": "Event-Aided Sharp Radiance Field Reconstruction for Fast-Flying Drones",
+      "authors": "Rong Zou, Marco Cannici, Davide Scaramuzza",
+      "url": "https://arxiv.org/abs/2602.21100",
+      "arxiv_id": "2602.21100",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV, cs.RO",
+      "innovation": "结合事件相机和辐射场重建，实现快速飞行无人机的清晰场景重建",
+      "application_potential": "中",
+      "abstract": "本文提出了一种结合事件相机和神经辐射场的方法，用于快速飞行无人机的场景重建。事件相机提供高时间分辨率数据，神经辐射场提供高质量几何表示，两者结合在快速运动条件下仍能保持清晰重建。",
+      "keywords": ["事件相机", "辐射场", "无人机", "机器人视觉", "场景重建"],
+      "code_available": false,
+      "conference": "",
+      "citation_count": "0"
+    },
+    {
+      "title": "UDVideoQA: A Traffic Video Question Answering Dataset for Multi-Object Spatio-Temporal Reasoning in Urban Dynamics",
+      "authors": "Joseph Raj Vishal, Nagasiri Poluri, Katha Naik, Rutuja Patil, Kashyap Hegde Kota, Krishna Vinod, Prithvi Jai Ramesh, Mohammad Farhadi, Yezhou Yang, Bharatesh Chakravarthi",
+      "url": "https://arxiv.org/abs/2602.21137",
+      "arxiv_id": "2602.21137",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV",
+      "innovation": "提出城市动态交通视频问答数据集，支持多目标时空推理任务",
+      "application_potential": "中",
+      "abstract": "UDVideoQA是一个新的交通视频问答数据集，专注于城市动态场景中的多目标时空推理。数据集包含丰富的交通场景视频和对应的问答对，旨在推动自动驾驶中的场景理解和决策研究。",
+      "keywords": ["交通视频", "问答数据集", "时空推理", "自动驾驶", "城市动态"],
+      "code_available": true,
+      "conference": "",
+      "citation_count": "0"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

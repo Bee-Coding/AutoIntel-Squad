@@ -1,0 +1,111 @@
+{
+  "source": "OpenSource",
+  "metadata": {
+    "timestamp": "2026-02-25T09:40:03Z",
+    "data_source": "authoritative",
+    "access_status": "success",
+    "quality_score": 90,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": [
+    {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "开源自动驾驶仿真平台，支持传感器模拟、交通场景生成和自动驾驶算法测试",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": "10700",
+      "language": "C++",
+      "last_updated": "2026-02-20",
+      "category": "simulator",
+      "company": "CARLA Team",
+      "tech_stack": ["C++", "Python", "Unreal Engine", "ROS"],
+      "key_features": ["多传感器仿真", "动态交通场景", "天气系统", "地图编辑器"],
+      "difficulty_level": "intermediate",
+      "relevance_score": "95",
+      "innovation_points": ["基于游戏引擎的物理仿真", "开源自动驾驶研究标准平台"],
+      "application_value": "自动驾驶算法开发、测试和验证的标准平台"
+    },
+    {
+      "name": "Apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "百度开源自动驾驶平台，包含感知、规划、控制等完整模块",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": "23200",
+      "language": "C++",
+      "last_updated": "2026-02-18",
+      "category": "algorithm",
+      "company": "Baidu",
+      "tech_stack": ["C++", "Python", "ROS", "Cyber RT"],
+      "key_features": ["模块化架构", "实时操作系统", "高精地图", "云平台集成"],
+      "difficulty_level": "advanced",
+      "relevance_score": "98",
+      "innovation_points": ["中国首个开源自动驾驶平台", "大规模路测验证"],
+      "application_value": "工业级自动驾驶系统开发参考实现"
+    },
+    {
+      "name": "BEVFormer",
+      "full_name": "zhiqi-li/BEVFormer",
+      "description": "基于Transformer的BEV（鸟瞰图）感知模型实现，用于自动驾驶场景理解",
+      "url": "https://github.com/zhiqi-li/BEVFormer",
+      "stars": "3400",
+      "language": "Python",
+      "last_updated": "2026-01-15",
+      "category": "algorithm",
+      "company": "Individual",
+      "tech_stack": ["PyTorch", "Transformer", "Computer Vision"],
+      "key_features": ["多摄像头BEV特征提取", "时序融合", "端到端训练"],
+      "difficulty_level": "intermediate",
+      "relevance_score": "92",
+      "innovation_points": ["首个基于Transformer的BEV感知模型", "开源实现完整"],
+      "application_value": "自动驾驶视觉感知研究的重要基准模型"
+    },
+    {
+      "name": "nuScenes",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "大规模自动驾驶数据集，包含多传感器数据和丰富标注",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": "4200",
+      "language": "Python",
+      "last_updated": "2026-02-10",
+      "category": "dataset",
+      "company": "Motional",
+      "tech_stack": ["Python", "Open3D", "Matplotlib"],
+      "key_features": ["1000个驾驶场景", "多传感器同步", "3D标注", "地图数据"],
+      "difficulty_level": "beginner",
+      "relevance_score": "88",
+      "innovation_points": ["首个大规模多模态自动驾驶数据集", "精细3D标注"],
+      "application_value": "自动驾驶算法训练和评估的标准数据集"
+    },
+    {
+      "name": "Autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "开源自动驾驶系统，包含完整的自动驾驶软件栈",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": "8900",
+      "language": "C++",
+      "last_updated": "2026-02-22",
+      "category": "algorithm",
+      "company": "Autoware Foundation",
+      "tech_stack": ["ROS 2", "C++", "Python", "DDS"],
+      "key_features": ["模块化设计", "实时性保证", "云原生架构", "仿真集成"],
+      "difficulty_level": "advanced",
+      "relevance_score": "94",
+      "innovation_points": ["首个基于ROS 2的自动驾驶系统", "开源生态完善"],
+      "application_value": "自动驾驶研究和原型开发的完整参考实现"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

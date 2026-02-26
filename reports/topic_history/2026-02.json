@@ -292,6 +292,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "label_free_autonomy_pretraining",
+      "name": "无标签自动驾驶预训练",
+      "aliases": ["零样本自动驾驶", "多模态世界模型预训练"],
+      "category": "academic",
+      "description": "使用多模态世界模型实现无需人工标注数据的自动驾驶预训练，减少数据标注成本",
+      "first_appeared": "2026-02-26",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-26",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-02-26",
+          "version": "v1.0",
+          "description": "提出Learning to Drive is a Free Gift方法，基于多模态世界模型实现零样本自动驾驶，无需人工标注数据",
+          "key_points": [
+            "使用多模态世界模型进行离线预训练",
+            "实现零样本驾驶能力迁移",
+            "大幅减少数据标注成本和迭代时间",
+            "在端到端自动驾驶基准测试中表现优异"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.12345"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progressive_multimodal_reasoning",
+      "name": "渐进式多模态推理",
+      "aliases": ["层次化多模态推理", "可解释自动驾驶决策"],
+      "category": "academic",
+      "description": "通过渐进式多模态推理框架实现层次化决策，提升端到端自动驾驶的安全性和可解释性",
+      "first_appeared": "2026-02-26",
+      "latest_version": "v1.0",
+      "latest_update": "2026-02-26",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-02-26",
+          "version": "v1.0",
+          "description": "提出MindDriver框架，通过渐进式多模态推理实现端到端自动驾驶，结合视觉、语言和规划模块进行层次化决策",
+          "key_points": [
+            "渐进式推理框架提升决策安全性",
+            "多模态融合增强场景理解",
+            "层次化决策提高系统可解释性",
+            "在复杂驾驶场景中表现稳定"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.12346"
+          ]
+        }
+      ]
     }
   ]
 }

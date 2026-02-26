@@ -1,0 +1,142 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo in Chicago? Autonomous rideshare company confirms 'laying the groundwork' in The Windy City",
+      "url": "https://electrek.co/2026/02/25/waymo-chicago-autonomous-rideshare/",
+      "publish_date": "2026-02-25",
+      "technical_points": ["autonomous rideshare", "robotaxi", "driverless", "城市扩展", "自动驾驶出租车"],
+      "raw_content": "Waymo正在探索将自动驾驶打车服务扩展到芝加哥，居民发现Waymo车辆被卸载在芝加哥街道上，公司确认正在为该市部署奠定基础，但面临某些障碍。",
+      "search_keywords": ["Waymo", "Chicago", "robotaxi", "autonomous rideshare"],
+      "version_info": "",
+      "event_type": "新闻/扩张公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 65,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla, Waymo",
+      "title": "Floodgates open for Tesla lawsuits, Waymo expands, and US goes nuclear",
+      "url": "https://electrek.co/2026/02/24/floodgates-open-for-tesla-lawsuits-waymo-expands-and-us-goes-nuclear/",
+      "publish_date": "2026-02-24",
+      "technical_points": ["Tesla Autopilot", "wrongful death lawsuit", "NHTSA investigation", "autonomous driving liability", "法律诉讼"],
+      "raw_content": "Tesla因Autopilot系统在致命事故中的责任被判决2.43亿美元，同时难以向NHTSA提供相关数据。Waymo继续扩张自动驾驶服务。",
+      "search_keywords": ["Tesla Autopilot", "lawsuit", "Waymo"],
+      "version_info": "",
+      "event_type": "新闻/法律诉讼"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 61,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla launches legal war over 'Cybercab' name against seltzer company",
+      "url": "https://electrek.co/2026/02/24/tesla-files-5-count-opposition-cybercab-trademark-squatter/",
+      "publish_date": "2026-02-24",
+      "technical_points": ["Cybercab", "trademark", "autonomous taxi", "robotaxi naming", "商标争议"],
+      "raw_content": "Tesla向美国专利商标局提交正式反对，指控法国饮料批发商UNIBEV欺诈、恶意和商标稀释，涉及'Cybercab'名称，此时Tesla正计划在德克萨斯超级工厂增加Cybercab产量。",
+      "search_keywords": ["Tesla", "Cybercab", "trademark"],
+      "version_info": "",
+      "event_type": "新闻/法律诉讼"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-02-26T09:16:45Z",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo, Tesla",
+      "title": "Waymo adds 4 more cities to its robotaxi service, now 10 total (Tesla: still 0)",
+      "url": "https://electrek.co/2026/02/24/waymo-adds-4-more-cities-to-its-robotaxi-service-now-10-total-tesla-still-0/",
+      "publish_date": "2026-02-24",
+      "technical_points": ["robotaxi", "driverless operation", "autonomous cars", "city expansion", "服务对比"],
+      "raw_content": "Waymo在达拉斯、休斯顿、圣安东尼奥和奥兰多启动了无人驾驶出租车服务，现在总计10个城市。而特斯拉尽管有宏大宣称，目前在零个城市运营无人驾驶出租车。",
+      "search_keywords": ["Waymo", "robotaxi", "city expansion", "Tesla"],
+      "version_info": "",
+      "event_type": "新闻/服务扩张"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
