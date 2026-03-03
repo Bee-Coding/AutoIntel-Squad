@@ -41,7 +41,7 @@
 - **validation** (对象)：验证信息
 
 ### 2. 元数据字段 (metadata)
-- **timestamp** (字符串)：ISO 8601格式时间戳，如 `"2026-01-26T15:18:14Z"`
+- **timestamp** (字符串)：ISO 8601格式时间戳，使用北京时间 (UTC+8)，如 `"2026-01-26T23:18:14+08:00"`
 - **data_source** (字符串)：信息来源类型
   - `"official"` - 官方渠道
   - `"authoritative_media"` - 权威媒体
@@ -78,7 +78,7 @@
 {
   "source": "Industry",
   "metadata": {
-    "timestamp": "2026-01-26T15:18:14Z",
+    "timestamp": "2026-01-26T23:18:14+08:00",
     "data_source": "authoritative_media",
     "access_status": "success",
     "quality_score": 85,
@@ -117,7 +117,7 @@
 {
   "source": "Academic",
   "metadata": {
-    "timestamp": "2026-01-26T15:18:14Z",
+    "timestamp": "2026-01-26T23:18:14+08:00",
     "data_source": "official",
     "access_status": "success",
     "quality_score": 88,
@@ -152,7 +152,7 @@
 {
   "source": "OpenSource",
   "metadata": {
-    "timestamp": "2026-01-26T15:18:14Z",
+    "timestamp": "2026-01-26T23:18:14+08:00",
     "data_source": "official",
     "access_status": "success",
     "quality_score": 80,
@@ -189,7 +189,7 @@
 {
   "source": "Analysis",
   "metadata": {
-    "timestamp": "2026-01-26T15:18:14Z",
+    "timestamp": "2026-01-26T23:18:14+08:00",
     "data_source": "analysis",
     "access_status": "success",
     "quality_score": 90,
@@ -321,7 +321,7 @@ reports/
   {
     "source": "Error",
     "metadata": {
-      "timestamp": "2026-01-26T15:18:14Z",
+    "timestamp": "2026-01-26T23:18:14+08:00",
       "data_source": "error",
       "access_status": "failed",
       "quality_score": 0,

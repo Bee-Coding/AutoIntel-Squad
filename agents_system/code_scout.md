@@ -32,9 +32,9 @@
 
 ### Skill-3: 项目分类与优先级排序
 1. **项目类型分类**：
-   - 仿真器：CARLA, AirSim, NVIDIA Drive Sim等
-   - 数据集：Waymo Open Dataset, nuScenes, KITTI等
    - 算法实现：端到端模型、BEV感知、规划控制等
+   - 数据集：Waymo Open Dataset, nuScenes, KITTI等
+   - 仿真器：CARLA, AirSim, NVIDIA Drive Sim等
    - 工具链：数据标注、模型部署、测试评估工具
 2. **优先级排序**：
    - 大厂开源项目（Tesla、Waymo、NVIDIA等）优先

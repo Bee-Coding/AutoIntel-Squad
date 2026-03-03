@@ -53,7 +53,7 @@ find reports -type f -mtime +30 -delete
 ### Language
 - **Primary language**: Use Simplified Chinese for all interactions, thoughts, file generation, and logging
 - **Output style**: Professional, clear Chinese
-- **Time synchronization**: Always use current real system time from environment
+- **Time synchronization**: Always use Beijing Time (UTC+8) for all timestamps, thoughts, and file generation
 
 ### File Naming Conventions
 - **Agent definitions**: `snake_case.md` in `agents_system/` (e.g., `autointel_dispatcher.md`)
@@ -70,9 +70,9 @@ find reports -type f -mtime +30 -delete
 - **Indentation**: 2 spaces (no tabs)
 - **Quotes**: Double quotes for strings
 - **Trailing commas**: Not allowed
-- **Date format**: ISO 8601 (`YYYY-MM-DDTHH:MM:SSZ`)
+- **Date format**: ISO 8601 with Beijing Time (`YYYY-MM-DDTHH:MM:SS+08:00`)
 - **Required fields** (for agent outputs):
-  - `timestamp`: ISO 8601 timestamp
+  - `timestamp`: ISO 8601 timestamp (Beijing Time UTC+8)
   - `source`: Original source URL
   - `content`: Main content/text
   - `publish_date` or `last_updated`: For时效性 verification
@@ -284,5 +284,5 @@ curl -X POST https://www.moltbook.com/api/v1/posts \
 ## Version
 
 Created: 2026-01-21
-Updated: 2026-02-02 (Added Moltbook integration for AI agent community engagement; Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
+Updated: 2026-03-02 (Standardized all timestamps to Beijing Time UTC+8; Added Moltbook integration for AI agent community engagement; Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
 For use with agentic coding systems.
