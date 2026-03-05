@@ -1,0 +1,381 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 88,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "carla-simulator/carla",
+      "title": "carla",
+      "url": "https://github.com/carla-simulator/carla",
+      "last_updated": "4小时前",
+      "stars": "13.6k",
+      "language": "C++",
+      "description": "Open-source simulator for autonomous driving research.",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "carla",
+        "carla-simulator",
+        "computer-vision",
+        "cross-platform",
+        "deep-learning",
+        "deep-reinforcement-learning",
+        "imitation-learning",
+        "research",
+        "ros",
+        "self-driving-car",
+        "simulator",
+        "ue4",
+        "unreal-engine-4"
+      ],
+      "difficulty": "高",
+      "tech_stack": ["C++", "Unreal Engine", "Python", "ROS"],
+      "project_type": "仿真器"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "ApolloAuto/apollo",
+      "title": "apollo",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "last_updated": "5小时前",
+      "stars": "26.5k",
+      "language": "C++",
+      "description": "An open autonomous driving platform",
+      "topics": [
+        "apollo",
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "autonomy",
+        "self-driving-car"
+      ],
+      "difficulty": "高",
+      "tech_stack": ["C++", "Python", "ROS", "Cyber RT", "TensorFlow"],
+      "project_type": "工具链"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 87,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "autowarefoundation/autoware",
+      "title": "autoware",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "last_updated": "9小时前",
+      "stars": "11.1k",
+      "language": "Dockerfile",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "topics": [
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "autoware",
+        "ros",
+        "ros2"
+      ],
+      "difficulty": "高",
+      "tech_stack": ["C++", "Python", "ROS2", "Docker"],
+      "project_type": "工具链"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 85,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "OpenDriveLab/UniAD",
+      "title": "UniAD",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "last_updated": "1天前",
+      "stars": "4.5k",
+      "language": "Python",
+      "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+      "topics": [
+        "autonomous-driving",
+        "autonomous-driving-framework",
+        "bev-segmentation",
+        "end-to-end-autonomous-driving",
+        "motion-planning",
+        "motion-prediction",
+        "multi-object-tracking",
+        "occupancy-prediction",
+        "perception-prediction-planning"
+      ],
+      "difficulty": "中",
+      "tech_stack": ["Python", "PyTorch", "MMDetection", "BEVFormer"],
+      "project_type": "算法实现"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "ltp1995/GPVL",
+      "title": "GPVL",
+      "url": "https://github.com/ltp1995/GPVL",
+      "last_updated": "3小时前",
+      "stars": "52",
+      "language": "Python",
+      "description": "[AAAI 2025] Generative Planning with 3D-vision Language Pre-training for End-to-End Autonomous Driving",
+      "topics": [],
+      "difficulty": "中",
+      "tech_stack": ["Python", "PyTorch", "3D Vision-Language Models"],
+      "project_type": "算法实现"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "waymo-research/waymo-open-dataset",
+      "title": "waymo-open-dataset",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "last_updated": "4小时前",
+      "stars": "3.2k",
+      "language": "Python",
+      "description": "Waymo Open Dataset",
+      "topics": ["autonomous-driving", "dataset"],
+      "difficulty": "低",
+      "tech_stack": ["Python", "TensorFlow", "Dataset Tools"],
+      "project_type": "数据集"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "nutonomy/nuscenes-devkit",
+      "title": "nuscenes-devkit",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "last_updated": "1天前",
+      "stars": "2.7k",
+      "language": "Python",
+      "description": "The devkit of the nuScenes dataset.",
+      "topics": [],
+      "difficulty": "低",
+      "tech_stack": ["Python", "Dataset Tools"],
+      "project_type": "数据集"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 78,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "ZhengYinan-AIR/Hyper-Diffusion-Planner",
+      "title": "Hyper-Diffusion-Planner",
+      "url": "https://github.com/ZhengYinan-AIR/Hyper-Diffusion-Planner",
+      "last_updated": "9小时前",
+      "stars": "23",
+      "language": null,
+      "description": "The official implementation of \"Unleashing the Potential of Diffusion Models for End-to-End Autonomous Driving\"",
+      "topics": [
+        "autonomous-driving",
+        "diffusion-models",
+        "end-to-end-autonomous-driving",
+        "planning",
+        "reinforcement-learning"
+      ],
+      "difficulty": "中",
+      "tech_stack": ["Python", "PyTorch", "Diffusion Models"],
+      "project_type": "算法实现"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-04T17:21:15+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 75,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "project_name": "shubhambfw/perception-pipeline-bdd",
+      "title": "perception-pipeline-bdd",
+      "url": "https://github.com/shubhambfw/perception-pipeline-bdd",
+      "last_updated": "6小时前",
+      "stars": "0",
+      "language": "Jupyter Notebook",
+      "description": "End-to-end object detection pipeline on the BDD100K autonomous driving dataset — dataset auditing, YOLOv8m training, and an interactive Streamlit dashboard. Covers class imbalance analysis, spatial heatmaps, anchor profiling, annotation QA, and full model evaluation (mAP@0.5: 0.581) across 10 object classes.",
+      "topics": [],
+      "difficulty": "低",
+      "tech_stack": ["Python", "YOLOv8", "Streamlit", "Jupyter Notebook"],
+      "project_type": "工具链"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

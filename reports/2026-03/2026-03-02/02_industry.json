@@ -1,0 +1,137 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "利兹大学 & CMU",
+      "title": "利兹&CMU最新WeatherEdit：把自动驾驶天气仿真推进到 4D 高斯场（AAAI'26）",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/158563065",
+      "publish_date": "2026-03-01",
+      "technical_points": [
+        "4D高斯场天气仿真",
+        "动态粒子与背景氛围分离",
+        "跨时间多视角一致性",
+        "自动驾驶仿真真实感提升"
+      ],
+      "raw_content": "该研究提出WeatherEdit方法，将天气编辑拆解为背景氛围（2D）与动态粒子（4D）两条互补路径，在3D场景中统一合成，解决自动驾驶仿真中最棘手的真实感、可控性以及跨时间与多视角一致性问题。该方法为world model、长期闭环评测以及跨天气泛化提供了干净且可扩展的接口。",
+      "search_keywords": [
+        "自动驾驶天气仿真",
+        "4D高斯场",
+        "World Model",
+        "AAAI 2026"
+      ],
+      "version_info": "",
+      "event_type": "学术研究"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Wayve",
+      "title": "刚刚，Wayve官宣15亿美元新融资，估值突破600亿",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/158416554",
+      "publish_date": "2026-02-25",
+      "technical_points": [
+        "端到端自动驾驶",
+        "世界模型GAIA-3",
+        "机器人出租车部署",
+        "英伟达微软Uber投资"
+      ],
+      "raw_content": "英国自动驾驶初创公司Wayve宣布完成12亿美元D轮融资，投资者包括英伟达、微软和Uber，估值提升至86亿美元（约600亿人民币）。Wayve计划于2026年启动商业机器人出租车试验，2027年在消费级车辆中部署监督式自动驾驶软件。公司最新技术进展是GAIA-3世界模型，用于自动驾驶仿真和评测。",
+      "search_keywords": [
+        "Wayve融资",
+        "自动驾驶融资",
+        "端到端自动驾驶",
+        "世界模型"
+      ],
+      "version_info": "",
+      "event_type": "融资新闻"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "最新专利解析特斯拉是如何使用世界模型的？",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/158491476",
+      "publish_date": "2026-02-27",
+      "technical_points": [
+        "世界模型生成引擎",
+        "程序化矩阵模拟",
+        "物理真实仿真",
+        "统计可控训练数据"
+      ],
+      "raw_content": "特斯拉公布了一项世界模型相关专利，该专利不是单一模型，而是一个'世界模型生成引擎+完美真值制造机'，为车端模型提供'物理真实、统计可控、无限扩展'的训练世界。特斯拉正在构建'程序化矩阵'级别的模拟引擎，不再仅依赖车队真实数据，而是通过仿真生成数百万次极端场景样本。",
+      "search_keywords": [
+        "特斯拉世界模型",
+        "自动驾驶仿真",
+        "程序化矩阵",
+        "特斯拉专利"
+      ],
+      "version_info": "",
+      "event_type": "技术专利"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-03-02T09:42:21+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-03-02",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260302_094156",
+    "user_intent": "作为autointel_dispatcher，生成今日全量行业日报",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时",
+      "academic": "最近1个月",
+      "open_source": "最近1个月"
+    },
+    "thought_process": "用户请求'作为autointel_dispatcher，生成今日全量行业日报'，属于全量日报模式。根据AutoIntel-Dispatcher技能定义，全量日报模式应并行启动Industry_Watcher(A)、Paper_Hunter(B)、Code_Scout(C)三个Agent，然后由Chief_Analyst(D)进行汇总。执行模式选择并行模式以最大化效率，时间范围遵循标准：工业动态关注最近24-72小时，学术论文和开源项目关注最近1个月。计划优先级设为high，确保及时生成今日报告。",
+    "execution_plan": {
+      "tasks": [
+        {
+          "task_id": "task_A_industry",
+          "agent": "Industry_Watcher",
+          "description": "收集自动驾驶行业最新动态，重点关注Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司的最新进展，特别是端到端自动驾驶、FSD、数据驱动规划等技术方向",
+          "output_file": "02_industry.json",
+          "keywords": [
+            "Tesla FSD",
+            "华为自动驾驶",
+            "Waymo",
+            "NIO",
+            "端到端自动驾驶",
+            "数据驱动规划",
+            "BEV",
+            "Occupancy",
+            "自动驾驶 OTA"
+          ],
+          "time_range": "最近24-72小时",
+          "data_sources": [
+            "官方渠道",
+            "权威媒体",
+            "技术博客"
+          ],
+          "timeout": 300,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_B_papers",
+          "agent": "Paper_Hunter",
+          "description": "搜索自动驾驶相关学术论文，重点关注端到端自动驾驶、世界模型、扩散策略、VAD、UniAD等方向，优先选择有代码实现的论文",
+          "output_file": "03_papers.json",
+          "keywords": [
+            "end-to-end autonomous driving",
+            "world model",
+            "diffusion policy",
+            "VAD",
+            "UniAD",
+            "arXiv",
+            "CVPR",
+            "ICCV",
+            "ICRA"
+          ],
+          "time_range": "最近1个月",
+          "data_sources": [
+            "arXiv",
+            "顶会论文库"
+          ],
+          "timeout": 300,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_C_code",
+          "agent": "Code_Scout",
+          "description": "发现GitHub、Hugging Face上的自动驾驶相关开源项目，包括模拟器、数据集、工具链，关注高星增长项目和大公司开源项目",
+          "output_file": "04_code.json",
+          "keywords": [
+            "autonomous driving",
+            "simulator",
+            "dataset",
+            "toolchain",
+            "GitHub trending",
+            "Hugging Face"
+          ],
+          "time_range": "最近1个月",
+          "data_sources": [
+            "GitHub",
+            "Hugging Face"
+          ],
+          "timeout": 300,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_D_analysis",
+          "agent": "Chief_Analyst",
+          "description": "整合Industry_Watcher、Paper_Hunter、Code_Scout三个Agent的输出，生成结构化日报，包含工业界分析、学术界分析、开源界分析、话题演进、学习建议等",
+          "output_file": "2026-03-02_Report.md",
+          "dependencies": [
+            "task_A_industry",
+            "task_B_papers",
+            "task_C_code"
+          ],
+          "timeout": 600,
+          "retry_count": 1
+        }
+      ],
+      "parallel_tasks": [
+        "task_A_industry",
+        "task_B_papers",
+        "task_C_code"
+      ],
+      "sequential_tasks": [
+        "task_D_analysis"
+      ],
+      "monitoring_interval": 30
+    },
+    "trigger_conditions": {
+      "start_condition": "立即启动",
+      "parallel_completion_condition": "task_A_industry、task_B_papers、task_C_code任意一个完成即可开始数据准备",
+      "final_trigger_condition": "task_A_industry、task_B_papers、task_C_code全部完成后自动触发task_D_analysis",
+      "timeout_condition": "单个任务超时后重试2次，仍失败则继续执行可用数据",
+      "degradation_condition": "部分任务失败时，使用可用数据生成降级报告"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

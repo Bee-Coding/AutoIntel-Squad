@@ -1,0 +1,166 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-04T15:43:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "partial",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "哈啰出行",
+      "title": "独家专访哈啰Robotaxi联创于乾坤：以一段式端到端入局，冲击L4第一梯队",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/",
+      "publish_date": "2026-03-04",
+      "technical_points": [
+        "哈啰Robotaxi采用一段式端到端架构",
+        "瞄准L4级别自动驾驶第一梯队",
+        "利用成熟的上下游产业链优势",
+        "车规级芯片算力大幅提升",
+        "从低速泊车到Robotaxi的技术演进"
+      ],
+      "raw_content": "哈啰出行Robotaxi联合创始人于乾坤接受专访，详细介绍哈啰Robotaxi采用一段式端到端技术路线入局自动驾驶领域，目标是冲击L4级别自动驾驶第一梯队。哈啰希望发挥后来者的优势，利用自动驾驶发展多年以来的成熟上下游产业链，与合作伙伴开展多种形式的合作，尽快建立技术护城河。现在很多车规级芯片可以以较小的功率提供远超以前的算力，且能达到车规级要求，这是硬件上的巨大进步。",
+      "search_keywords": ["哈啰Robotaxi", "端到端自动驾驶", "L4自动驾驶", "一段式端到端"],
+      "version_info": "",
+      "event_type": "技术专访"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["URL为通用格式，需进一步验证具体文章ID"]
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-04T15:43:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "partial",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "小米汽车",
+      "title": "自动化所 × 小米！MeanFuser：极速单步多模态轨迹生成，纯规划434FPS（CVPR'26）",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/",
+      "publish_date": "2026-03-04",
+      "technical_points": [
+        "MeanFuser实现纯规划434FPS极速推理",
+        "仅使用RGB图像，无需激光雷达输入",
+        "在NAVSIM-v1上取得89.0 PDM分数",
+        "超越所有多模态（摄像头+激光雷达）竞争对手",
+        "支持多模态轨迹生成能力"
+      ],
+      "raw_content": "自动化所与小米合作提出的MeanFuser方法，实现了极速单步多模态轨迹生成，纯规划速度达到434FPS。该方法仅使用RGB图像（未用激光雷达），就在NAVSIM-v1上取得了89.0的PDM分数，超越了所有使用了多模态（摄像头+激光雷达）输入的竞争对手，证明了平均流范式本身的有效性。",
+      "search_keywords": ["小米汽车", "MeanFuser", "轨迹生成", "端到端规划", "CVPR2026"],
+      "version_info": "",
+      "event_type": "技术论文发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["URL为通用格式，需进一步验证具体文章ID"]
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-04T15:43:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "partial",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "特斯拉",
+      "title": "最新专利解析特斯拉是如何使用世界模型的？",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/",
+      "publish_date": "2026-02-28",
+      "technical_points": [
+        "特斯拉专利揭示世界模型生成引擎",
+        "程序化矩阵级别的模拟引擎",
+        "为车端模型提供物理真实、统计可控的训练世界",
+        "不再仅依赖车队真实数据",
+        "构建无限扩展的模拟训练环境"
+      ],
+      "raw_content": "特斯拉最新专利揭示其世界模型使用方式。该专利不是一个模型，而是一个'世界模型的生成引擎 + 完美真值制造机'，为车端模型提供'物理真实、统计可控、无限扩展'的训练世界。特斯拉已不再仅依赖车队真实数据，而是在构建一个'程序化矩阵'级别的模拟引擎，为自动驾驶AI提供数百万次极端场景的训练样本。",
+      "search_keywords": ["特斯拉", "世界模型", "自动驾驶模拟", "专利解析", "训练数据生成"],
+      "version_info": "",
+      "event_type": "技术专利解析"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["URL为通用格式，需进一步验证具体文章ID", "发布日期为2026-02-28，稍早但仍属有效范围"]
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-04T15:43:15+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "partial",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "天大 × 小米",
+      "title": "VGGDrive：让自动驾驶大模型拥有3D几何感知能力",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/",
+      "publish_date": "2026-03-01",
+      "technical_points": [
+        "VGGDrive为自动驾驶大模型注入3D几何感知能力",
+        "分层自适应注入机制实现3D基础模型与VLM的深度耦合",
+        "冻结3D基础模型提取多视图图像的3D几何特征",
+        "保留基础VLM在场景理解等任务的优势",
+        "补齐VLMs的空间感知短板"
+      ],
+      "raw_content": "天大与小米合作提出的VGGDrive方法，让自动驾驶大模型拥有3D几何感知能力。通过分层自适应注入机制，在不破坏原有VLM架构的前提下，实现冻结3D基础模型与VLM的深度耦合，将3D几何特征高效注入模型内部，真正打造具备跨视角3D几何建模能力的自驾VLA模型。",
+      "search_keywords": ["小米汽车", "VGGDrive", "3D几何感知", "VLA模型", "自动驾驶大模型"],
+      "version_info": "",
+      "event_type": "技术论文发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["URL为通用格式，需进一步验证具体文章ID"]
+    }
+  }
+]

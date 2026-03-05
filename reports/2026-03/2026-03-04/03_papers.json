@@ -1,0 +1,382 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling",
+      "authors": ["Alexander Prutsch", "David Schinagl", "Horst Possegger"],
+      "url": "https://arxiv.org/abs/2603.01864v1",
+      "arxiv_id": "2603.01864",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出基于端点感知建模的轻量级流式轨迹预测方法，利用历史预测的轨迹端点作为锚点提取场景上下文编码，实现低延迟连续预测。",
+      "application_potential": "高",
+      "abstract": "未来交通参与者的轨迹对自动驾驶车辆的路径规划与决策有重要影响。现有研究主要关注独立场景的预测，而真实系统需要连续实时处理。本文提出一种轻量级流式轨迹预测方法，通过端点感知建模整合历史预测信息，利用轨迹端点作为锚点提取针对性场景编码，无需迭代优化或分段解码，显著降低推理延迟，在Argoverse 2基准上达到SOTA。",
+      "keywords": ["轨迹预测", "流式处理", "端点感知", "自动驾驶", "实时系统"],
+      "code_available": true,
+      "conference": "WACV 2026"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
+      "authors": ["Fabian Schmidt", "Karol Fedurko", "Markus Enzweiler", "Abhinav Valada"],
+      "url": "https://arxiv.org/abs/2603.02035v1",
+      "arxiv_id": "2603.02035",
+      "publish_date": "2026-03-02",
+      "category": "cs.RO",
+      "innovation": "提出LAD-Drive生成框架，通过动作解码器推断概率性元动作分布，建立显式信念状态，结合动作感知扩散解码器将运动锚点细化为安全、运动学可行的轨迹。",
+      "application_potential": "高",
+      "abstract": "多模态大语言模型为自动驾驶提供高级推理能力，但将离散语义知识转化为连续轨迹仍是一个根本挑战。现有方法通常依赖于单模态规划头，限制了表示多模态驾驶行为的能力。LAD-Drive结构上解耦高层意图与低层空间规划，通过动作解码器推断概率性元动作分布，结合车辆运动学状态，条件化动作感知扩散解码器，使用截断去噪过程将学习到的运动锚点细化为安全、运动学可行的轨迹。在LangAuto基准上达到SOTA。",
+      "keywords": ["语言-轨迹桥接", "扩散变换器", "动作感知", "自动驾驶", "生成模型"],
+      "code_available": true,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "LLM-MLFFN: Multi-Level Autonomous Driving Behavior Feature Fusion via Large Language Model",
+      "authors": ["Xiangyu Li", "Tianyi Wang", "Xi Cheng", "Rakesh Chowdary Machineni", "Zhaomiao Guo", "Sikai Chen", "Junfeng Jiao", "Christian Claudel"],
+      "url": "https://arxiv.org/abs/2603.02528v1",
+      "arxiv_id": "2603.02528",
+      "publish_date": "2026-03-03",
+      "category": "cs.AI",
+      "innovation": "提出LLM-MLFFN框架，利用大语言模型增强多级特征融合，通过语义描述模块将原始数据转化为高层语义特征，结合数值特征提升自动驾驶行为分类精度。",
+      "application_potential": "中",
+      "abstract": "自动驾驶车辆驾驶行为的准确分类对安全验证、性能诊断和交通整合分析至关重要。现有方法主要依赖于数值时间序列建模，缺乏语义抽象，限制了在复杂交通环境中的可解释性和鲁棒性。本文提出LLM-MLFFN，一种LLM增强的多级特征融合网络，包含多级特征提取模块、语义描述模块和双通道多级特征融合网络，通过加权注意力机制结合数值和语义特征。在Waymo开放轨迹数据集上分类准确率超过94%。",
+      "keywords": ["自动驾驶行为分类", "大语言模型", "多级特征融合", "语义抽象", "特征提取"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Unifying Language-Action Understanding and Generation for Autonomous Driving",
+      "authors": ["Xinyang Wang", "Qian Liu", "Wenjie Ding", "Zhao Yang", "Wei Li", "Chang Liu", "Bailin Li", "Kun Zhan", "Xianpeng Lang", "Wei Chen"],
+      "url": "https://arxiv.org/abs/2603.01441v1",
+      "arxiv_id": "2603.01441",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出LinkVLA架构，通过共享离散码本统一语言和动作标记，引入辅助动作理解目标建立双向语言-动作映射，采用粗到细生成方法提升推理效率。",
+      "application_potential": "高",
+      "abstract": "视觉-语言-动作模型正成为端到端自动驾驶的有前景范式，但现有方法存在语言指令与动作输出之间的持续错位以及自回归动作生成的固有低效性问题。LinkVLA通过共享离散码本统一语言和动作标记，结构上强制跨模态一致性；引入辅助动作理解目标，训练模型从轨迹生成描述性标题，建立双向语言-动作映射；采用两阶段粗到细生成方法替代逐步生成，节省86%推理时间。在闭环驾驶基准上显示一致的指令跟随准确性和驾驶性能提升。",
+      "keywords": ["视觉-语言-动作", "端到端自动驾驶", "语言-动作统一", "共享码本", "粗到细生成"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 91,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+      "authors": ["Yuechen Luo", "Fang Li", "Shaoqing Xu", "Yang Ji", "Zehan Zhang", "Bing Wang", "Yuannan Shen", "Jianwei Cui", "Long Chen", "Guang Chen", "Hangjun Ye", "Zhi-Xin Yang", "Fuxi Wen"],
+      "url": "https://arxiv.org/abs/2603.01928v1",
+      "arxiv_id": "2603.01928",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出LaST-VLA框架，将推理范式从离散符号处理转向物理 grounded 的潜在时空思维链，通过双重特征对齐机制从3D基础模型和世界模型中提取几何约束和动态预见。",
+      "application_potential": "高",
+      "abstract": "视觉-语言-动作模型通过统一感知和规划革命了自动驾驶，但其对显式文本思维链的依赖导致语义-感知解耦和感知-符号冲突。LaST-VLA将推理范式转向潜在时空思维链，通过双重特征对齐机制从3D基础模型提取几何约束，从世界模型提取动态预见，直接注入潜在空间。结合渐进式SFT训练策略和GRPO强化学习，确保安全性和规则遵从。在NAVSIM v1/v2上创下新记录。",
+      "keywords": ["潜在时空推理", "视觉-语言-动作", "世界模型", "几何约束", "自动驾驶"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "VLMFusionOcc3D: VLM Assisted Multi-Modal 3D Semantic Occupancy Prediction",
+      "authors": ["A. Enes Doruk", "Hasan F. Ates"],
+      "url": "https://arxiv.org/abs/2603.02609v1",
+      "arxiv_id": "2603.02609",
+      "publish_date": "2026-03-03",
+      "category": "cs.CV",
+      "innovation": "提出VLMFusionOcc3D框架，利用视觉语言模型的丰富语言先验将模糊体素特征锚定到稳定语义概念，通过实例驱动的VLM注意力和天气感知自适应融合提升多模态3D语义占据预测。",
+      "application_potential": "高",
+      "abstract": "稠密3D语义占据预测是自动驾驶的关键任务，现有体素模型在稀疏几何网格中存在语义模糊性，且在恶劣天气下性能下降。VLMFusionOcc3D利用视觉语言模型的语言先验锚定模糊体素特征，提出实例驱动的VLM注意力机制，通过门控交叉注意力和LoRA适配的CLIP嵌入将高层语义和地理先验注入3D体素；引入天气感知自适应融合，动态重新加权传感器贡献；采用深度感知几何对齐损失对齐相机几何与LiDAR数据。在nuScenes和SemanticKITTI数据集上显著提升性能。",
+      "keywords": ["3D语义占据", "视觉语言模型", "多模态融合", "天气感知", "自动驾驶感知"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation",
+      "authors": ["Zhulin Jiang", "Zetao Li", "Cheng Wang", "Ziwen Wang", "Chen Xiong"],
+      "url": "https://arxiv.org/abs/2603.02542v1",
+      "arxiv_id": "2603.02542",
+      "publish_date": "2026-03-03",
+      "category": "cs.AI",
+      "innovation": "提出AnchorDrive两阶段安全关键场景生成框架，第一阶段使用LLM作为驾驶员代理在闭环模拟中生成可控场景，第二阶段利用LLM提取锚点引导扩散模型再生轨迹以提升真实性。",
+      "application_potential": "中",
+      "abstract": "自动驾驶系统需要在安全关键场景中进行全面评估以确保安全性和鲁棒性，但此类场景在真实驾驶数据中稀少且难以收集。AnchorDrive第一阶段将LLM部署为驾驶员代理，在自然语言约束下推理并输出控制命令，计划评估器提供纠正反馈，实现语义可控的场景生成；第二阶段LLM从第一阶段轨迹提取关键锚点作为引导目标，结合其他引导项引导扩散模型再生完整轨迹，在保持用户指定意图的同时提升真实性。在highD数据集上实现优越的临界性、真实性和可控性。",
+      "keywords": ["安全关键场景生成", "大语言模型", "扩散模型", "锚点引导", "自动驾驶测试"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "ModalPatch: A Plug-and-Play Module for Robust Multi-Modal 3D Object Detection under Modality Drop",
+      "authors": ["Shuangzhi Li", "Lei Ma", "Xingyu Li"],
+      "url": "https://arxiv.org/abs/2603.02481v1",
+      "arxiv_id": "2603.02481",
+      "publish_date": "2026-03-03",
+      "category": "cs.CV",
+      "innovation": "提出ModalPatch插件模块，利用传感器数据的时序特性进行感知连续性，通过基于历史的模块预测和补偿暂时不可用的特征，并引入不确定性引导的跨模态融合策略动态估计补偿特征的可靠性。",
+      "application_potential": "高",
+      "abstract": "多模态3D目标检测对自动驾驶至关重要，但硬件故障、恶劣天气或遮挡导致的模态瞬时丢失挑战了其实世界可靠性。ModalPatch无需架构更改或重新训练即可无缝集成到各种检测框架中，利用传感器数据的时序特性，通过基于历史的模块预测和补偿暂时不可用的特征；引入不确定性引导的跨模态融合策略，动态估计补偿特征的可靠性，抑制有偏信号同时增强信息性信号。实验表明ModalPatch在多种模态丢失条件下一致增强SOTA 3D目标检测器的鲁棒性和准确性。",
+      "keywords": ["多模态3D目标检测", "模态丢失", "插件模块", "不确定性引导融合", "鲁棒感知"],
+      "code_available": false,
+      "conference": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
+      "authors": ["Yutong Yang", "Katarina Popović", "Julian Wiederer", "Markus Braun", "Vasileios Belagiannis", "Bin Yang"],
+      "url": "https://arxiv.org/abs/2603.01847v1",
+      "arxiv_id": "2603.01847",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出GroupEnsemble方法，通过向Transformer解码器馈送额外的多样化对象查询组，在推理期间同时预测多个独立检测集，利用解码器的固有并行性在单次前向传播中高效估计不确定性。",
+      "application_potential": "中",
+      "abstract": "DETR及其变体在目标检测上表现强劲，但其置信度分数仅反映语义不确定性，未能捕捉同样重要的空间不确定性。GroupEnsemble通过向解码器馈送多样化查询组，每个组独立预测完整检测集，应用注意力掩码防止组间查询交互，实现可靠的基于集成的不确定性估计。利用解码器固有并行性，无需顺序重复即可高效估计不确定性。在Cityscapes和COCO数据集上的验证显示，结合MC-Dropout和GroupEnsemble的混合方法以较低成本超越Deep Ensembles。",
+      "keywords": ["不确定性估计", "DETR", "目标检测", "集成学习", "自动驾驶感知"],
+      "code_available": true,
+      "conference": "IEEE IV 2026"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-04T17:06:18+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_loaded": "exact_path"
+      }
+    },
+    "content": {
+      "title": "B$^2$F-Map: Crowd-sourced Mapping with Bayesian B-spline Fusion",
+      "authors": ["Yiping Xie", "Yuxuan Xia", "Erik Stenborg", "Junsheng Fu", "Axel Beauvisage", "Gabriel E. Garcia", "Tianyu Wu", "Gustaf Hendeby"],
+      "url": "https://arxiv.org/abs/2603.01673v1",
+      "arxiv_id": "2603.01673",
+      "publish_date": "2026-03-02",
+      "category": "cs.RO",
+      "innovation": "提出B$^2$F-Map众包地图生成框架，使用B样条表示车道线，提出贝叶斯B样条轨迹融合框架，通过高斯分布控制点 principled 处理不确定性，生成几何一致的车道级地图。",
+      "application_potential": "高",
+      "abstract": "众包地图为使用传统测量车辆创建地图提供了可扩展的替代方案。现有方法要么依赖先验高精地图，要么忽略地图融合中的不确定性。B$^2$F-Map提出完整的高精地图生成流程，仅使用单目相机、消费级GNSS和IMU的生产车辆，包括基于轻量级标准地图的云端定位、车载扩展对象轨迹PMB滤波与Gibbs采样，以及云端多驾驶优化和贝叶斯地图融合。使用B样条表示车道线，每个B样条由高斯分布控制点序列参数化，提出贝叶斯B样条轨迹融合框架，处理不同密度表示的轨迹。在大规模真实数据集上验证了方法生成几何一致车道级地图的能力。",
+      "keywords": ["众包地图", "贝叶斯融合", "B样条", "车道线建模", "高精地图"],
+      "code_available": false,
+      "conference": "ICRA 2026"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

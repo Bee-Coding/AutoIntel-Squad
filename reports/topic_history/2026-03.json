@@ -1,0 +1,263 @@
+{
+  "month": "2026-03",
+  "topics": [
+    {
+      "id": "world_model_simulation",
+      "name": "世界模型仿真技术",
+      "aliases": ["World Model仿真", "自动驾驶世界模型"],
+      "category": "industry",
+      "description": "基于世界模型的自动驾驶仿真与训练技术",
+      "first_appeared": "2026-03-02",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-02",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-02",
+          "version": "v1.0",
+          "description": "特斯拉公布世界模型相关专利，构建'世界模型生成引擎+完美真值制造机'，为车端模型提供'物理真实、统计可控、无限扩展'的训练世界",
+          "key_points": [
+            "世界模型生成引擎",
+            "程序化矩阵模拟",
+            "物理真实仿真",
+            "统计可控训练数据"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/158491476"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather_simulation_4d_gaussian",
+      "name": "4D高斯场天气仿真",
+      "aliases": ["天气仿真4D高斯场", "自动驾驶天气仿真"],
+      "category": "academic/industry",
+      "description": "基于4D高斯场的自动驾驶天气仿真技术",
+      "first_appeared": "2026-03-02",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-02",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-02",
+          "version": "v1.0",
+          "description": "利兹大学和CMU提出WeatherEdit方法，将天气编辑拆解为背景氛围（2D）与动态粒子（4D）两条互补路径，在3D场景中统一合成，解决自动驾驶仿真中最棘手的真实感、可控性以及跨时间与多视角一致性问题",
+          "key_points": [
+            "4D高斯场天气仿真",
+            "动态粒子与背景氛围分离",
+            "跨时间多视角一致性",
+            "自动驾驶仿真真实感提升"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/158563065"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "self_supervised_occupancy_flow",
+      "name": "自监督3D占据流预测",
+      "aliases": ["SelfOccFlow", "3D占据流自监督"],
+      "category": "academic",
+      "description": "无需人工标注的自监督3D占据流预测方法",
+      "first_appeared": "2026-03-02",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-02",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-02",
+          "version": "v1.0",
+          "description": "提出SelfOccFlow方法，实现自监督3D占据流预测，无需人工标注或外部流监督，通过分离静态和动态符号距离场，利用特征余弦相似度实现运动建模",
+          "key_points": [
+            "自监督3D占据流预测",
+            "无需人工标注",
+            "动态环境建模",
+            "特征余弦相似度运动建模"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.23894"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk_aware_world_model_control",
+      "name": "风险感知世界模型控制",
+      "aliases": ["风险感知自动驾驶控制", "世界模型风险控制"],
+      "category": "academic",
+      "description": "基于风险感知的世界模型自动驾驶控制方法",
+      "first_appeared": "2026-03-02",
+      "latest_version": "v1.1",
+      "latest_update": "2026-03-03",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-02",
+          "version": "v1.0",
+          "description": "提出风险感知世界模型控制框架，通过风险感知模块量化不确定性，结合世界模型预测与风险感知实现安全驾驶",
+          "key_points": [
+            "风险感知世界模型控制",
+            "不确定性量化",
+            "安全驾驶",
+            "世界模型预测结合风险感知"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.23567"
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "version": "v1.1",
+          "description": "提出Risk-Aware World Model Predictive Control (RaWMPC)框架，无需专家动作监督，通过显式风险评估处理长尾场景，实现更好的分布内/分布外泛化能力",
+          "key_points": [
+            "无需专家动作监督",
+            "显式风险评估",
+            "长尾场景处理",
+            "世界模型预测控制",
+            "分布外泛化增强"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.23259"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autonomous_driving_funding",
+      "name": "自动驾驶融资与部署",
+      "aliases": ["自动驾驶融资", "商业化部署"],
+      "category": "industry",
+      "description": "自动驾驶公司融资与商业化部署进展",
+      "first_appeared": "2026-03-02",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-02",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-03-02",
+          "version": "v1.0",
+          "description": "英国自动驾驶初创公司Wayve宣布完成12亿美元D轮融资，投资者包括英伟达、微软和Uber，估值提升至86亿美元，计划于2026年启动商业机器人出租车试验",
+          "key_points": [
+            "Wayve完成12亿美元D轮融资",
+            "估值86亿美元（约600亿人民币）",
+            "投资者包括英伟达、微软、Uber",
+            "计划2026年启动商业机器人出租车试验"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/158416554"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical_world_foundation_model",
+      "name": "物理世界大模型",
+      "aliases": ["物理世界基础模型", "物理世界大模型自动驾驶"],
+      "category": "industry/academic",
+      "description": "基于物理世界大模型的自动驾驶系统，融合物理规律与数据驱动",
+      "first_appeared": "2026-03-03",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-03",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-03",
+          "version": "v1.0",
+          "description": "小鹏汽车发布第二代VLA视觉辅助驾驶系统，基于物理世界大模型技术，本月开始推送，2026款小鹏X9纯电版首次搭载",
+          "key_points": [
+            "物理世界大模型技术",
+            "第二代VLA视觉辅助驾驶",
+            "L4级自动驾驶技术路径",
+            "端到端自动驾驶架构"
+          ],
+          "sources": [
+            "https://www.xiaopeng.com/news/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progressive_multimodal_reasoning",
+      "name": "渐进式多模态推理",
+      "aliases": ["渐进式推理", "多模态渐进推理"],
+      "category": "academic",
+      "description": "模仿人类渐进思维的多模态推理框架，语义理解→语义到物理空间想象→物理空间轨迹规划",
+      "first_appeared": "2026-03-03",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-03",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-03",
+          "version": "v1.0",
+          "description": "提出MindDriver渐进式多模态推理框架，使VLM能够模仿人类渐进思维进行自动驾驶，实现语义理解、语义到物理空间想象和物理空间轨迹规划",
+          "key_points": [
+            "渐进式多模态推理框架",
+            "语义→物理空间→轨迹规划",
+            "反馈引导自动数据标注",
+            "渐进式强化微调"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2602.21952"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diffusion_bridge_policy",
+      "name": "扩散桥策略",
+      "aliases": ["扩散桥策略", "桥策略扩散规划"],
+      "category": "academic",
+      "description": "扩散桥策略在闭环轨迹规划中的应用，增强动态环境适应能力",
+      "first_appeared": "2026-03-03",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-03",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-03",
+          "version": "v1.0",
+          "description": "提出BridgeDrive扩散桥策略框架，用于闭环轨迹规划，提高自动驾驶系统在动态环境中的适应能力",
+          "key_points": [
+            "扩散桥策略",
+            "闭环轨迹规划",
+            "实时适应能力",
+            "动态环境建模"
+          ],
+          "sources": [
+            "https://github.com/ShuLiu-ETHZ/BridgeDrive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interactive_enhanced_driving_dataset",
+      "name": "交互增强驾驶数据集",
+      "aliases": ["交互驾驶数据集", "增强交互数据集"],
+      "category": "dataset",
+      "description": "包含交互场景标注的增强驾驶数据集，支持复杂驾驶行为研究",
+      "first_appeared": "2026-03-03",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-03",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-03-03",
+          "version": "v1.0",
+          "description": "发布IEDD交互增强驾驶数据集，提供交互场景标注和增强驾驶行为数据，支持复杂驾驶行为研究和模型训练",
+          "key_points": [
+            "交互场景标注",
+            "增强驾驶行为数据",
+            "多模态数据支持",
+            "复杂行为研究"
+          ],
+          "sources": [
+            "https://github.com/egik-von/IEDD"
+          ]
+        }
+      ]
+    },
+  ]
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "VGGDrive",
+      "full_name": "WJ-CV/VGGDrive",
+      "description": "[CVPR 2026] VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving",
+      "url": "https://github.com/WJ-CV/VGGDrive",
+      "stars": 43,
+      "language": "Python",
+      "last_updated": "2026-03-03",
+      "category": "algorithm",
+      "company": "Academic",
+      "tech_stack": ["Python", "PyTorch", "Vision-Language Models"],
+      "key_features": ["Cross-view geometric grounding", "Vision-language model adaptation", "Autonomous driving perception"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["Cross-view geometric grounding for VLMs", "Multi-modal fusion for driving scenes"],
+      "application_value": "提升视觉语言模型在自动驾驶场景中的几何理解能力，增强端到端系统的感知精度"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 97,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "Hyper-Diffusion-Planner",
+      "full_name": "ZhengYinan-AIR/Hyper-Diffusion-Planner",
+      "description": "The official implementation of \"Unleashing the Potential of Diffusion Models for End-to-End Autonomous Driving\"",
+      "url": "https://github.com/ZhengYinan-AIR/Hyper-Diffusion-Planner",
+      "stars": 20,
+      "language": null,
+      "last_updated": "2026-03-03",
+      "category": "algorithm",
+      "company": "Academic",
+      "tech_stack": ["Diffusion Models", "Reinforcement Learning", "Planning"],
+      "key_features": ["Diffusion-based planning", "End-to-end autonomous driving", "Hyper-network architecture"],
+      "difficulty_level": "expert",
+      "relevance_score": 98,
+      "innovation_points": ["Hyper-network diffusion planning", "End-to-end diffusion policy learning"],
+      "application_value": "扩散模型在端到端自动驾驶规划中的创新应用，提供更鲁棒的轨迹生成能力"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "IEDD",
+      "full_name": "egik-von/IEDD",
+      "description": "This repository contains the official code for the paper \"IEDD: A Interactive Enhanced Driving Dataset for Autonomous Driving\".",
+      "url": "https://github.com/egik-von/IEDD",
+      "stars": 6,
+      "language": "Python",
+      "last_updated": "2026-02-28",
+      "category": "dataset",
+      "company": "Academic",
+      "tech_stack": ["Python", "Data Processing", "Annotation Tools"],
+      "key_features": ["Interactive driving dataset", "Enhanced annotations", "Multi-modal data"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 88,
+      "innovation_points": ["Interactive scenario annotation", "Enhanced driving behavior data"],
+      "application_value": "提供交互增强驾驶数据集，支持更复杂的驾驶行为研究和模型训练"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "DriveSimX",
+      "full_name": "ShamG1/DriveSimX",
+      "description": "A light autonomous driving simulator supporting multi-map testing",
+      "url": "https://github.com/ShamG1/DriveSimX",
+      "stars": 1,
+      "language": "C++",
+      "last_updated": "2026-03-01",
+      "category": "simulator",
+      "company": "Independent",
+      "tech_stack": ["C++", "Simulation", "Multi-map support"],
+      "key_features": ["Lightweight simulator", "Multi-map testing", "Real-time simulation"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["轻量级模拟器设计", "多地图测试支持"],
+      "application_value": "轻量级自动驾驶模拟器，便于快速原型开发和算法测试"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "apollo-map-studio",
+      "full_name": "SakuraPuare/apollo-map-studio",
+      "description": "A browser-based HD map editor for the Apollo autonomous driving platform",
+      "url": "https://github.com/SakuraPuare/apollo-map-studio",
+      "stars": 4,
+      "language": "TypeScript",
+      "last_updated": "2026-03-02",
+      "category": "tool",
+      "company": "Community",
+      "tech_stack": ["TypeScript", "React", "MapLibre", "Vite"],
+      "key_features": ["Browser-based HD map editor", "Apollo platform integration", "Lane editing", "Routing visualization"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["Web端高精地图编辑器", "Apollo生态集成"],
+      "application_value": "为Apollo自动驾驶平台提供浏览器端高精地图编辑工具，降低地图制作门槛"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 94,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "BridgeDrive",
+      "full_name": "ShuLiu-ETHZ/BridgeDrive",
+      "description": "BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving",
+      "url": "https://github.com/ShuLiu-ETHZ/BridgeDrive",
+      "stars": 4,
+      "language": null,
+      "last_updated": "2026-03-03",
+      "category": "algorithm",
+      "company": "Academic",
+      "tech_stack": ["Diffusion Models", "Trajectory Planning", "Closed-loop control"],
+      "key_features": ["Diffusion bridge policy", "Closed-loop trajectory planning", "Real-time adaptation"],
+      "difficulty_level": "expert",
+      "relevance_score": 96,
+      "innovation_points": ["扩散桥策略", "闭环轨迹规划", "实时适应能力"],
+      "application_value": "扩散桥策略在闭环轨迹规划中的应用，提高自动驾驶系统在动态环境中的适应能力"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "FlowMatchingTrajectoryAnomaly",
+      "full_name": "AntonioAlgaida/FlowMatchingTrajectoryAnomaly",
+      "description": "Unsupervised Anomaly Detection for Autonomous Driving using Manifold-Aware Conditional Flow Matching on the Waymo Open Motion Dataset",
+      "url": "https://github.com/AntonioAlgaida/FlowMatchingTrajectoryAnomaly",
+      "stars": 2,
+      "language": "Jupyter Notebook",
+      "last_updated": "2026-03-03",
+      "category": "dataset",
+      "company": "Academic",
+      "tech_stack": ["Python", "Jupyter", "Flow Matching", "Anomaly Detection"],
+      "key_features": ["Unsupervised anomaly detection", "Manifold-aware flow matching", "Waymo Open Motion Dataset"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["流匹配轨迹异常检测", "无监督学习方法", "Waymo数据集应用"],
+      "application_value": "基于流匹配的轨迹异常检测方法，提升自动驾驶系统对异常驾驶行为的识别能力"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-03T08:03:13+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "Sensor-Fusion-for-KITTI-dataset",
+      "full_name": "Farah-1/Sensor-Fusion-for-KITTI-dataset",
+      "description": "Multi-modal perception pipeline for autonomous driving, specifically designed for the KITTI Dataset. Comparative analysis between Early Fusion (Data-Level) and Late Fusion (Result-Level) strategies",
+      "url": "https://github.com/Farah-1/Sensor-Fusion-for-KITTI-dataset",
+      "stars": 1,
+      "language": "Python",
+      "last_updated": "2026-02-05",
+      "category": "tool",
+      "company": "Academic",
+      "tech_stack": ["Python", "Sensor Fusion", "KITTI Dataset", "2D/3D fusion"],
+      "key_features": ["Early vs late fusion comparison", "2D camera + 3D LiDAR fusion", "KITTI dataset pipeline"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 86,
+      "innovation_points": ["传感器融合策略比较", "多模态感知管道"],
+      "application_value": "提供KITTI数据集上的传感器融合实现，帮助研究者理解不同融合策略的优劣"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

@@ -75,7 +75,7 @@
 1. **数据读取与验证**：读取三方情报文件，执行真实性验证
 2. **话题历史维护**：读取并更新话题历史文件，识别版本延续和全新话题
 3. **7天回顾执行**：检索7天前高优先级话题，生成深度反思内容
-4. **日报内容生成**：按照标准模板生成结构化日报
+4. **日报内容生成**：按照标准模板和日报格式详细规范生成结构化日报，确保每个工业动态、学术论文、开源项目都包含可点击的来源链接，遵循强制引用要求
 5. **学习建议定制**：基于今日内容和回顾分析，生成针对性学习建议
 6. **系统优化分析**：评估今日情报质量，生成系统优化建议
 7. **文件输出保存**：保存日报到指定路径，更新话题历史文件
@@ -102,6 +102,67 @@
   ## 学习建议 (For E2E Engineer)
   ## 系统优化建议 (基于今日情报质量)
   ```
+
+- **日报格式详细规范**：
+  
+  **1. 工业界·风向标 (Industry)**
+  - 每个工业动态新闻必须包含以下元素：
+    - **标题**：新闻标题，加粗显示
+    - **来源链接**：使用Markdown链接格式 `[来源](URL)`，URL从`02_industry.json`的`content.url`字段提取
+    - **发布日期**：从`content.publish_date`提取
+    - **技术要点**：3-5个要点，从`content.technical_points`提取
+    - **公司/事件类型**：从`content.company`和`content.event_type`提取
+  - 示例格式：
+    ```
+    ### 1. [标题](URL) - {{公司}} ({{发布日期}})
+    - **技术要点**：
+      - 要点1
+      - 要点2
+      - 要点3
+    - **事件类型**：{{事件类型}}
+    ```
+
+  **2. 学术界·前沿 (Academic)**
+  - 每篇学术论文必须包含以下元素：
+    - **标题**：论文标题，加粗显示  
+    - **arXiv链接**：使用Markdown链接格式 `[arXiv:{arxiv_id}](URL)`，URL从`content.url`字段提取
+    - **提交日期**：从`content.publish_date`提取
+    - **核心创新**：从`content.innovation`提取，一句话概括
+    - **应用潜力**：从`content.application_potential`提取（高/中/低）
+    - **作者/机构**：从`content.authors`提取
+    - **代码可用性**：从`content.code_available`提取（如为true，标注"代码已开源"）
+  - 示例格式：
+    ```
+    ### 🔥 [论文标题](arXiv链接) - {{提交日期}}
+    - **核心创新**：{{innovation}}
+    - **应用潜力**：{{application_potential}}
+    - **作者**：{{authors}}
+    - **代码状态**：{{code_available ? "代码已开源" : "暂未开源"}}
+    ```
+
+  **3. 开源界·工具箱 (Open Source)**
+  - 每个开源项目必须包含以下元素：
+    - **项目名称**：从`content.project_name`提取，格式为`owner/repo`
+    - **GitHub链接**：使用Markdown链接格式 `[项目名称](URL)`，URL从`content.url`字段提取
+    - **最后更新**：从`content.last_updated`提取（如"4小时前"、"1天前"）
+    - **Star数量**：从`content.stars`提取
+    - **项目描述**：从`content.description`提取
+    - **技术栈**：从`content.tech_stack`提取
+    - **项目类型**：从`content.project_type`提取（算法实现/数据集/仿真器/工具链）
+    - **上手难度**：从`content.difficulty`提取（高/中/低）
+  - 示例格式：
+    ```
+    ### 🎮 [项目名称](GitHub链接) - {{最后更新}} · {{stars}} stars
+    - **描述**：{{description}}
+    - **技术栈**：{{tech_stack.join(", ")}}
+    - **类型**：{{project_type}} · 难度：{{difficulty}}
+    ```
+
+  **4. 强制引用要求**：
+  - 所有工业动态、学术论文、开源项目必须包含可点击的来源链接
+  - 无链接的信息不得收录到日报中
+  - 链接必须真实可访问，格式正确
+  - 交叉验证：重要信息需从多个来源验证一致性
 - **话题历史维护系统**：
   - 全局索引：`./reports/topic_history/index.json` - 话题基础信息与月份映射
   - 月度历史：`./reports/topic_history/{YYYY-MM}.json` - 当月详细话题版本历史

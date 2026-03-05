@@ -1,0 +1,188 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Unleashing the Potential of Diffusion Models for End-to-End Autonomous Driving",
+      "authors": "Yinan Zheng, Tianyi Tan, Bin Huang, Enguang Liu, Ruiming Liang, Jianlin Zhang, Jianwei Cui, Guang Chen, Kun Ma, Hangjun Ye, Long Chen, Ya-Qin Zhang, Xianyuan Zhan, Jingjing Liu",
+      "url": "https://arxiv.org/abs/2602.22801",
+      "arxiv_id": "2602.22801",
+      "publish_date": "2026-02-26",
+      "category": "cs.RO cs.AI cs.LG",
+      "innovation": "首次系统性大规模研究扩散模型作为端到端自动驾驶规划器的潜力，基于真实车辆数据和路测验证",
+      "application_potential": "高",
+      "abstract": "扩散模型已成为机器人决策任务的流行选择，最近也被考虑用于解决自动驾驶任务。本研究对扩散模型作为端到端自动驾驶规划器的潜力进行了系统性和大规模研究，基于海量真实车辆数据和道路测试。通过全面研究，我们发现了影响E2E规划性能的关键洞察：扩散损失空间、轨迹表示和数据缩放。我们还提供了一种有效的强化学习后训练策略来增强学习规划器的安全性。结果扩散模型框架HDP在真实车辆平台上部署，并在6个城市驾驶场景和200公里真实世界测试中评估，相比基础模型实现了10倍性能提升。",
+      "keywords": ["diffusion models", "end-to-end autonomous driving", "trajectory planning", "real-world testing", "reinforcement learning"],
+      "code_available": true,
+      "conference": "尚未发表",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "authors": "Jiangxin Sun, Feng Xue, Teng Long, Chang Liu, Jian-Fang Hu, Wei-Shi Zheng, Nicu Sebe",
+      "url": "https://arxiv.org/abs/2602.23259",
+      "arxiv_id": "2602.23259",
+      "publish_date": "2026-02-26",
+      "category": "cs.CV cs.AI cs.RO",
+      "innovation": "提出无需专家动作监督的风险感知世界模型预测控制框架，通过显式风险评估处理长尾场景",
+      "application_potential": "高",
+      "abstract": "随着模仿学习和大规模驾驶数据集的进步，端到端自动驾驶取得了显著进展。当前基于模仿学习的方法已成为主流范式，但它们在遇到专家演示分布之外的罕见或未见长尾场景时，由于缺乏先前经验，倾向于产生不安全的决策。我们提出了一种统一框架RaWMPC，通过鲁棒控制解决这一泛化困境，无需依赖专家演示。RaWMPC利用世界模型预测多个候选动作的后果，并通过显式风险评估选择低风险动作。我们设计了一种风险感知交互策略，系统地将世界模型暴露于危险行为中，使灾难性后果可预测从而可避免。此外，我们引入了一种自评估蒸馏方法，从训练良好的世界模型中提取风险规避能力到生成动作提议网络中。大量实验表明，RaWMPC在分布内和分布外场景中均优于最先进方法，同时提供优越的决策可解释性。",
+      "keywords": ["world model", "risk-aware", "predictive control", "end-to-end autonomous driving", "generalization"],
+      "code_available": false,
+      "conference": "尚未发表",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "LinkVLA: Unifying Language-Action Understanding and Generation for Autonomous Driving",
+      "authors": "Xinyang Wang, Qian Liu, Wenjie Ding, Zhao Yang, Wei Li, Chang Liu, Bailin Li, Kun Zhan, Xianpeng Lang, Wei Chen",
+      "url": "https://arxiv.org/abs/2603.01441",
+      "arxiv_id": "2603.01441",
+      "publish_date": "2026-03-01",
+      "category": "cs.CV cs.RO",
+      "innovation": "提出LinkVLA架构，通过共享离散码本统一语言和动作令牌，解决VLA模型中的语言-动作错位问题",
+      "application_potential": "高",
+      "abstract": "视觉-语言-动作模型正在成为端到端自动驾驶的有前景范式，因其利用世界知识和推理复杂驾驶场景的潜力而受到重视。然而，现有方法存在两个关键限制：语言指令和动作输出之间的持续错位，以及典型自回归动作生成的固有低效性。本文介绍LinkVLA，一种直接解决这些挑战以增强对齐和效率的新型架构。首先，我们通过将语言和动作令牌统一到共享离散码本中，在单个多模态模型中处理，从而建立结构链接。其次，为了创建深度语义链接，我们引入了一个辅助动作理解目标，训练模型从轨迹生成描述性标题，培养双向语言-动作映射。最后，我们用高效的两步粗到细生成方法C2F取代缓慢的逐步生成，节省86%推理时间。闭环驾驶基准测试实验显示在指令跟随准确性和驾驶性能方面持续增益，同时降低推理延迟。",
+      "keywords": ["VLA models", "vision-language-action", "end-to-end autonomous driving", "language-action alignment", "efficient inference"],
+      "code_available": false,
+      "conference": "尚未发表",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving",
+      "authors": "Lingjun Zhang, Yujian Yuan, Changjie Wu, Xinyuan Chang, Xin Cai, Shuang Zeng, Linzhe Shi, Sijin Wang, Hang Zhang, Mu Xu",
+      "url": "https://arxiv.org/abs/2602.21952",
+      "arxiv_id": "2602.21952",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV",
+      "innovation": "提出渐进式多模态推理框架，使VLM能够模仿人类渐进思维进行自动驾驶，实现语义理解、语义到物理空间想象和物理空间轨迹规划",
+      "application_potential": "高",
+      "abstract": "视觉-语言模型展现出强大的推理能力，显示出用于端到端自动驾驶系统的前景。思维链作为VLM广泛使用的推理策略，面临关键挑战。现有文本CoT在文本语义空间和轨迹物理空间之间存在巨大差距。虽然最近的方法使用未来图像替代文本作为CoT过程，但缺乏清晰的面向规划的目标指导来生成具有准确场景演变的图像。为解决这些问题，我们创新性地提出MindDriver，一种渐进式多模态推理框架，使VLM能够模仿人类渐进思维进行自动驾驶。MindDriver呈现语义理解、语义到物理空间想象和物理空间轨迹规划。为实现MindDriver中的对齐推理过程，我们开发了一个反馈引导的自动数据标注管道，以生成对齐的多模态推理训练数据。此外，我们开发了一种渐进式强化微调方法，通过渐进高级奖励学习来优化对齐。MindDriver在nuScenes开环和Bench2Drive闭环评估中均表现出优越性能。",
+      "keywords": ["progressive reasoning", "multimodal reasoning", "VLM for autonomous driving", "chain-of-thought", "trajectory planning"],
+      "code_available": true,
+      "conference": "CVPR2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "MVLAD-AD: Efficient and Explainable End-to-End Autonomous Driving via Masked Vision-Language-Action Diffusion",
+      "authors": "Jiaru Zhang, Manav Gagvani, Can Cui, Juntong Peng, Ruqi Zhang, Ziran Wang",
+      "url": "https://arxiv.org/abs/2602.20577",
+      "arxiv_id": "2602.20577",
+      "publish_date": "2026-02-24",
+      "category": "cs.CV",
+      "innovation": "提出掩码视觉-语言-动作扩散框架，通过离散动作令牌化和几何感知嵌入学习，实现高效规划与语义可解释性",
+      "application_potential": "中",
+      "abstract": "大语言模型和视觉-语言模型已成为端到端自动驾驶的有前途候选者。然而，这些模型通常在推理延迟、动作精度和可解释性方面面临挑战。现有自回归方法难以实现缓慢的逐个令牌生成，而先前的基于扩散的规划器通常依赖冗长的通用语言令牌，缺乏明确的几何结构。在这项工作中，我们提出MVLAD-AD，一种通过掩码视觉-语言-动作扩散模型连接高效规划和语义可解释性之间差距的新型框架。与强制动作进入语言空间的方法不同，我们引入了一种离散动作令牌化策略，从真实世界驾驶分布中构建运动学可行路径点的紧凑码本。此外，我们提出几何感知嵌入学习，确保潜在空间中的嵌入近似物理几何度量。最后，引入了动作优先级解码策略来优先轨迹生成。在nuScenes和衍生基准上的大量实验表明，MVLAD-AD实现了优越的效率，在规划精度方面优于最先进的自回归和扩散基线，同时提供高保真度和可解释的推理。",
+      "keywords": ["diffusion models", "masked vision-language-action", "discrete tokenization", "explainable autonomous driving", "efficient planning"],
+      "code_available": false,
+      "conference": "尚未发表",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-03T08:00:07+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving",
+      "authors": "Junli Wang, Xueyi Liu, Yinan Zheng, Zebing Xing, Pengfei Li, Guang Li, Kun Ma, Guang Chen, Hangjun Ye, Zhongpu Xia, Long Chen, Qichao Zhang",
+      "url": "https://arxiv.org/abs/2602.20060",
+      "arxiv_id": "2602.20060",
+      "publish_date": "2026-02-23",
+      "category": "cs.CV cs.RO",
+      "innovation": "提出MeanFuser框架，通过高斯混合噪声引导生成采样和MeanFlow Identity建模，实现连续轨迹空间表示，消除对离散锚词汇的依赖",
+      "application_potential": "中",
+      "abstract": "生成模型在轨迹规划中显示出巨大潜力。最近研究表明，锚引导生成模型在建模驾驶行为不确定性和提高整体性能方面是有效的。然而，这些方法依赖于离散锚词汇表，这些词汇表必须在测试期间充分覆盖轨迹分布以确保鲁棒性，从而在词汇表大小和模型性能之间引入了固有的权衡。为克服这一限制，我们提出MeanFuser，一种通过三个关键设计增强效率和鲁棒性的端到端自动驾驶方法。我们引入高斯混合噪声来引导生成采样，实现轨迹空间的连续表示，并消除对离散锚词汇表的依赖。我们采用MeanFlow Identity进行端到端规划，它建模GMN和轨迹分布之间的平均速度场，而不是vanilla flow matching方法中使用的瞬时速度场，有效消除ODE求解器的数值误差并显著加速推理。我们设计了一个轻量级自适应重建模块，使模型能够通过注意力权重隐式从所有采样提议中选择或在没有令人满意的提议时重建新轨迹。在NAVSIM闭环基准测试上的实验表明，MeanFuser在没有PDM Score监督的情况下实现了出色的性能和卓越的推理效率，为端到端自动驾驶提供了鲁棒高效的解决方案。",
+      "keywords": ["trajectory generation", "flow matching", "multi-modal planning", "end-to-end autonomous driving", "gaussian mixture noise"],
+      "code_available": true,
+      "conference": "尚未发表",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

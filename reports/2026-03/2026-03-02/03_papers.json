@@ -1,0 +1,178 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "SelfOccFlow: Towards end-to-end self-supervised 3D Occupancy Flow prediction",
+      "authors": "Xavier Timoneda, Markus Herb, Fabian Duerr, Daniel Goehring",
+      "url": "https://arxiv.org/abs/2602.23894",
+      "arxiv_id": "2602.23894",
+      "publish_date": "2026-02-27",
+      "category": "cs.CV",
+      "innovation": "提出自监督3D占据流预测方法，无需人工标注或外部流监督，通过分离静态和动态符号距离场，利用特征余弦相似度实现运动建模",
+      "application_potential": "高",
+      "abstract": "该方法估计车辆周围的3D占据和运动，实现动态环境中的态势感知。现有方法联合学习几何和运动，但依赖昂贵的3D占据和流标注、边界框的速度标签或预训练的光流模型。本文提出的自监督方法消除了对人类标注或外部流监督的需求，通过时间聚合隐式学习运动，并在SemanticKITTI、KITTI-MOT和nuScenes数据集上验证了有效性。",
+      "keywords": [
+        "3D Occupancy Flow",
+        "自监督学习",
+        "自动驾驶感知",
+        "动态环境建模"
+      ],
+      "code_available": false,
+      "conference": "IEEE Robotics and Automation Letters",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "authors": "Jiangxin Sun, Feng Xue, Teng Long, Chang Liu, Jian-Fang Hu, Wei-Shi Zheng, Nicu Sebe",
+      "url": "https://arxiv.org/abs/2602.23259",
+      "arxiv_id": "2602.23259",
+      "publish_date": "2026-02-26",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出风险感知世界模型预测控制框架，通过显式风险评估选择低风险动作，无需专家演示监督，解决端到端自动驾驶的泛化难题",
+      "application_potential": "高",
+      "abstract": "该框架利用世界模型预测多个候选动作的后果，通过显式风险评估选择低风险动作。设计了风险感知交互策略，使世界模型能够预测危险驾驶行为的结果，使灾难性结果可预测从而可避免。引入自评估蒸馏方法，从训练良好的世界模型中将风险规避能力蒸馏到生成动作提议网络中，无需专家演示。实验表明在分布内和分布外场景均优于现有方法。",
+      "keywords": [
+        "世界模型",
+        "风险感知控制",
+        "端到端自动驾驶",
+        "模型预测控制"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Unleashing the Potential of Diffusion Models for End-to-End Autonomous Driving",
+      "authors": "Yinan Zheng, Tianyi Tan, Bin Huang, Enguang Liu, Ruiming Liang, Jianlin Zhang, Jianwei Cui, Guang Chen, Kun Ma, Hangjun Ye, Long Chen, Ya-Qin Zhang, Xianyuan Zhan, Jingjing Liu",
+      "url": "https://arxiv.org/abs/2602.22801",
+      "arxiv_id": "2602.22801",
+      "publish_date": "2026-02-26",
+      "category": "cs.RO, cs.AI, cs.LG",
+      "innovation": "首次系统研究扩散模型作为端到端自动驾驶规划器的潜力，基于大规模实车数据和道路测试，提出Hyper Diffusion Planner框架",
+      "application_potential": "高",
+      "abstract": "通过全面受控研究，识别影响端到端规划性能的关键因素：扩散损失空间、轨迹表示和数据缩放。提供有效的强化学习后训练策略以增强学习规划器的安全性。提出的Hyper Diffusion Planner在真实车辆平台上部署，在6个城市驾驶场景和200公里真实世界测试中评估，相比基础模型实现10倍性能提升。",
+      "keywords": [
+        "扩散模型",
+        "端到端自动驾驶",
+        "轨迹规划",
+        "强化学习"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-02T10:10:21+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving",
+      "authors": "Lingjun Zhang, Yujian Yuan, Changjie Wu, Xinyuan Chang, Xin Cai, Shuang Zeng, Linzhe Shi, Sijin Wang, Hang Zhang, Mu Xu",
+      "url": "https://arxiv.org/abs/2602.21952",
+      "arxiv_id": "2602.21952",
+      "publish_date": "2026-02-25",
+      "category": "cs.CV",
+      "innovation": "提出渐进式多模态推理框架，使视觉语言模型能够模仿人类渐进式思维进行自动驾驶规划，包含语义理解、语义到物理空间想象和物理空间轨迹规划三阶段",
+      "application_potential": "中",
+      "abstract": "该框架提出反馈引导的自动数据标注流程生成对齐的多模态推理训练数据，开发渐进式强化微调方法通过渐进式高级奖励学习优化对齐。在nuScenes开环和Bench2Drive闭环评估中表现出优越性能。",
+      "keywords": [
+        "视觉语言模型",
+        "渐进式推理",
+        "自动驾驶规划",
+        "多模态学习"
+      ],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

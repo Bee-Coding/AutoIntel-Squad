@@ -1,0 +1,67 @@
+[
+  {
+    "source": "Analysis",
+    "metadata": {
+      "timestamp": "2026-03-02T10:55:00+08:00",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "report_type": "optimization",
+      "report_date": "2026-03-02",
+      "sections": {
+        "industry": "工业动态收集优化建议",
+        "academic": "学术论文收集优化建议",
+        "opensource": "开源项目收集优化建议",
+        "topic_evolution": "话题演进分析优化建议",
+        "review_reflection": "回顾与反思优化建议",
+        "learning_suggestions": "学习建议优化建议",
+        "optimization_suggestions": "系统优化建议"
+      },
+      "topic_history_updates": [
+        {
+          "topic_id": "world_model_simulation",
+          "topic_name": "世界模型仿真技术",
+          "version": "v1.0",
+          "update_type": "新增"
+        },
+        {
+          "topic_id": "weather_simulation_4d_gaussian",
+          "topic_name": "4D高斯场天气仿真",
+          "version": "v1.0",
+          "update_type": "新增"
+        },
+        {
+          "topic_id": "self_supervised_occupancy_flow",
+          "topic_name": "自监督3D占据流预测",
+          "version": "v1.0",
+          "update_type": "新增"
+        }
+      ],
+      "quality_assessment": {
+        "relevance": 9,
+        "technical_depth": 8,
+        "practicality": 7,
+        "timeliness": 9,
+        "coverage": 8,
+        "overall_score": 8.2
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

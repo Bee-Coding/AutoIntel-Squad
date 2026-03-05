@@ -1,0 +1,107 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-03T14:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "小鹏汽车",
+      "title": "开启L4时代的物理世界大模型！小鹏第二代VLA本月开启推送，2026款小鹏X9纯电版同步首发",
+      "url": "https://www.xiaopeng.com/news/",
+      "publish_date": "2026-03-02",
+      "technical_points": ["第二代VLA视觉辅助驾驶", "物理世界大模型", "L4级自动驾驶技术", "端到端自动驾驶"],
+      "raw_content": "小鹏汽车正式发布第二代VLA（Vision-based Lane Assistance）视觉辅助驾驶系统，基于物理世界大模型技术，本月开始向用户推送。同时，2026款小鹏X9纯电版首次搭载该技术上市，标志着小鹏在L4级自动驾驶技术上的重要进展。",
+      "search_keywords": ["小鹏汽车", "VLA", "物理世界大模型", "L4自动驾驶", "端到端"],
+      "version_info": "第二代VLA",
+      "event_type": "技术发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-03T14:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "小鹏汽车",
+      "title": "小鹏汽车2月共交付新车15,256台",
+      "url": "https://www.xiaopeng.com/news/",
+      "publish_date": "2026-03-02",
+      "technical_points": ["月度交付数据", "新能源汽车销量"],
+      "raw_content": "小鹏汽车公布2026年2月交付数据，共交付新车15,256台，同比增长。交付数据反映市场对小鹏智能电动汽车的需求。",
+      "search_keywords": ["小鹏汽车", "交付数据", "2月销量", "新能源汽车"],
+      "version_info": "2026年2月交付报告",
+      "event_type": "月度报告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-03T14:35:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "partial",
+      "quality_score": 55,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "特斯拉",
+      "title": "特斯拉Cybertruck起售价上涨1万美元",
+      "url": "https://auto.163.com/",
+      "publish_date": "2026-03-02",
+      "technical_points": ["价格调整", "电动皮卡"],
+      "raw_content": "特斯拉调整Cybertruck电动皮卡的起售价格，上涨1万美元。价格调整可能反映成本变化或市场需求。",
+      "search_keywords": ["特斯拉", "Cybertruck", "价格调整", "电动皮卡"],
+      "version_info": "价格调整",
+      "event_type": "市场动态"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": false,
+      "cross_check": false,
+      "issues": ["发布日期未明确验证"]
+    }
+  }
+]

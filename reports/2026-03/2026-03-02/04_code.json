@@ -1,0 +1,275 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-02T10:52:58+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13616,
+      "language": "C++",
+      "last_updated": "2026-03-01",
+      "category": "simulator",
+      "company": "CARLA Simulator",
+      "tech_stack": [
+        "C++",
+        "Python",
+        "C"
+      ],
+      "key_features": [
+        "自动驾驶仿真",
+        "传感器模拟",
+        "动态天气",
+        "场景生成"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 87,
+      "innovation_points": [
+        "开源自动驾驶仿真器",
+        "Unreal Engine集成",
+        "活跃研究社区",
+        "真实感渲染"
+      ],
+      "application_value": "广泛用于算法测试、验证和自动驾驶研究。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-02T10:52:58+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 100,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "An open autonomous driving platform",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26452,
+      "language": "C++",
+      "last_updated": "2026-02-28",
+      "category": "tool",
+      "company": "ApolloAuto (Baidu)",
+      "tech_stack": [
+        "C++",
+        "TypeScript",
+        "Python"
+      ],
+      "key_features": [
+        "完整自动驾驶平台",
+        "模块化架构",
+        "ROS集成",
+        "云部署"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 100,
+      "innovation_points": [
+        "工业级自动驾驶平台",
+        "大规模部署验证",
+        "开源生态系统",
+        "完整工具链"
+      ],
+      "application_value": "工业级平台，用于自动驾驶研发与部署。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-02T10:52:58+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11100,
+      "language": "Dockerfile",
+      "last_updated": "2026-03-01",
+      "category": "tool",
+      "company": "Autoware Foundation",
+      "tech_stack": [
+        "Dockerfile",
+        "C++",
+        "Python"
+      ],
+      "key_features": [
+        "完整自动驾驶平台",
+        "模块化架构",
+        "ROS集成",
+        "云部署"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 78,
+      "innovation_points": [
+        "世界领先开源自动驾驶软件",
+        "ROS2集成",
+        "模块化设计",
+        "商业化部署"
+      ],
+      "application_value": "工业级平台，用于自动驾驶研发与部署。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-02T10:52:58+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "HighwayEnv",
+      "full_name": "Farama-Foundation/HighwayEnv",
+      "description": "A minimalist environment for decision-making in autonomous driving",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "stars": 3200,
+      "language": "Python",
+      "last_updated": "2026-02-28",
+      "category": "simulator",
+      "company": "Farama Foundation",
+      "tech_stack": [
+        "Python",
+        "Jupyter Notebook"
+      ],
+      "key_features": [
+        "自动驾驶仿真",
+        "传感器模拟",
+        "动态天气",
+        "场景生成"
+      ],
+      "difficulty_level": "beginner",
+      "relevance_score": 72,
+      "innovation_points": [
+        "强化学习仿真环境",
+        "决策制定环境",
+        "简约设计",
+        "Gym兼容"
+      ],
+      "application_value": "广泛用于算法测试、验证和自动驾驶研究。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-02T10:52:58+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 68,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "AutonomousDrivingCookbook",
+      "full_name": "microsoft/AutonomousDrivingCookbook",
+      "description": "Scenarios, tutorials and demos for Autonomous Driving",
+      "url": "https://github.com/microsoft/AutonomousDrivingCookbook",
+      "stars": 2400,
+      "language": "Jupyter Notebook",
+      "last_updated": "2025-08-25",
+      "category": "tutorial",
+      "company": "Microsoft",
+      "tech_stack": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "key_features": [
+        "教程与示例",
+        "场景库",
+        "深度学习",
+        "实践指南"
+      ],
+      "difficulty_level": "beginner",
+      "relevance_score": 68,
+      "innovation_points": [
+        "自动驾驶教程集",
+        "场景与示例",
+        "微软研究",
+        "深度学习实践"
+      ],
+      "application_value": "学习自动驾驶技术的宝贵教程资源。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
