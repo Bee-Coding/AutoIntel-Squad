@@ -1,0 +1,64 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-05T15:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "TruckDrive: Long-Range Autonomous Highway Driving Dataset",
+      "authors": "Filippo Ghilotti, Edoardo Palladin, Samuel Brucker, Adam Sigal, Mario Bijelic, Felix Heide",
+      "url": "https://arxiv.org/abs/2603.02413",
+      "arxiv_id": "2603.02413",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出首个高速公路尺度多模态驾驶数据集，专为长距离感知设计，支持1000米范围内的2D检测和400米范围内的3D检测、深度估计、跟踪和规划",
+      "application_potential": "高",
+      "abstract": "重型卡车的安全高速公路自动驾驶仍然是一个开放且未解决的挑战：由于制动距离长，需要数百米的场景理解来进行预期规划和允许安全制动裕度。然而，现有的驾驶数据集主要覆盖城市场景，感知范围有效限制在仅100米内。为了填补这一空白，我们引入了TruckDrive，一个高速公路尺度的多模态驾驶数据集，使用专为长距离感知设计的传感器套件捕获：七个长距离FMCW LiDAR测量距离和径向速度，三个高分辨率短距离LiDAR，十一个不同焦距的8MP环视相机和十个4D FMCW雷达。该数据集提供475,000个样本，其中165,000帧密集标注，用于驾驶感知基准测试，支持高达1,000米的2D检测和400米的3D检测、深度估计、跟踪、规划以及高速公路速度下20秒序列的端到端驾驶。我们发现最先进的自动驾驶模型无法泛化到150米以外的范围，3D感知任务下降31%至99%，暴露了当前架构和训练信号无法弥补的系统性长距离差距。",
+      "keywords": ["autonomous driving", "dataset", "highway", "long-range perception", "LiDAR"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-05T15:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "DriveCombo: Benchmarking Compositional Traffic Rule Reasoning in Autonomous Driving",
+      "authors": "Enhui Ma, Jiahuan Zhang, Guantian Zheng, Tao Tang, Shengbo Eben Li, Yuhang Lu, Xia Zhou, Xueyang Zhang, Yifei Zhan, Kun Zhan, Zhihui Hao, Xianpeng Lang, Kaicheng Yu",
+      "url": "https://arxiv.org/abs/2603.01637",
+      "arxiv_id": "2603.01637",
+      "publish_date": "2026-03-02",
+      "category": "cs.CV",
+      "innovation": "提出首个用于组合交通规则推理的文本和视觉基准，通过五级认知阶梯评估从单规则理解到多规则集成和冲突解决的推理能力",
+      "application_potential": "高",
+      "abstract": "多模态大语言模型（MLLMs）正迅速成为端到端自动驾驶系统的智能大脑。一个关键挑战是评估MLLM是否能真正理解和遵循复杂的真实世界交通规则。然而，现有的基准主要关注单一规则场景（如交通标志识别），忽略了真实驾驶中多规则并发和冲突的复杂性。因此，模型在简单任务上表现良好，但在真实世界复杂情况下经常失败或违反规则。为了填补这一空白，我们提出了DriveCombo，一个基于文本和视觉的组合交通规则推理基准。受人类驾驶员认知发展的启发，我们提出了一个系统的五级认知阶梯，评估从单规则理解到多规则集成和冲突解决的推理能力，实现跨认知阶段的定量评估。我们进一步提出了一个Rule2Scene代理，通过规则制定和场景生成将基于语言的交通规则映射到动态驾驶场景，实现场景级交通规则视觉推理。对14个主流MLLM的评估显示，随着任务复杂性的增加，性能下降，特别是在规则冲突期间。在拆分数据集并在训练集上微调后，我们进一步观察到交通规则推理和下游规划能力的显著改善。这些结果凸显了DriveCombo在推进合规和智能自动驾驶系统方面的有效性。",
+      "keywords": ["autonomous driving", "traffic rule reasoning", "benchmark", "multimodal LLM", "compositional reasoning"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

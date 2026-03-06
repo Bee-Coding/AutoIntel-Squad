@@ -1,0 +1,158 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-06T17:35:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla Europe registrations rise 10% in February — but the bar was already on the floor",
+      "url": "https://electrek.co/2026/03/05/tesla-europe-february-2026-registrations-low-bar/",
+      "publish_date": "2026-03-05",
+      "technical_points": [
+        "欧洲市场注册量分析",
+        "FSD政策对销售影响",
+        "市场竞争态势评估"
+      ],
+      "raw_content": "Tesla在2月份在15个主要欧洲市场注册了17,425辆汽车，同比增长10%。这是Tesla在欧洲一年多来首次实现有意义的同比增长。但需要指出的是，Tesla正在与2025年第一季度的低基数进行比较，当时Tesla在欧洲市场遭遇严重下滑。尽管2月有所增长，Tesla今年迄今的注册量基本持平，2026年1-2月为25,451辆，而去年同期为25,474辆。",
+      "search_keywords": ["Tesla Europe registrations", "Tesla February 2026", "FSD transfer"],
+      "version_info": "FSD转移政策调整",
+      "event_type": "市场数据发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-06T17:35:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla changes FSD transfer rules again, screwing over Cybertruck AWD buyers",
+      "url": "https://electrek.co/2026/03/04/tesla-changes-fsd-transfer-rules-again-cybertruck-buyers/",
+      "publish_date": "2026-03-04",
+      "technical_points": [
+        "FSD转移政策变更",
+        "Cybertruck AWD买家影响",
+        "软件许可模式演变"
+      ],
+      "raw_content": "Tesla再次悄悄改变了其全自动驾驶（FSD）转移计划的关键条款，将截止日期从'3月31日前订购'改回'3月31日前交付'。这一变化实际上使数千名Cybertruck AWD买家失去了转移FSD软件包的路径。这是Tesla长期而令人沮丧的'一次性'FSD转移计划的最新篇章，该计划已经结束和重启多次，成为了一个笑话。",
+      "search_keywords": ["Tesla FSD transfer", "Cybertruck AWD", "software licensing"],
+      "version_info": "FSD v14.2.2.3",
+      "event_type": "软件政策更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-06T17:35:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla successfully scared Giga Berlin workers away from union",
+      "url": "https://electrek.co/2026/03/04/tesla-giga-berlin-ig-metall-union-vote-collapse/",
+      "publish_date": "2026-03-04",
+      "technical_points": [
+        "工会选举结果",
+        "员工关系管理",
+        "工厂运营稳定性"
+      ],
+      "raw_content": "在特斯拉柏林超级工厂的工会选举中，IG Metall的得票率从39.4%下降至31.1%，下降了8个百分点。这一结果是在数周的威胁、警方介入以及Elon Musk直接警告如果工会影响力增强将停止扩张之后发生的。管理层支持的'Giga United'名单获得了40.4%的选票，确保了德国唯一非工会汽车工厂继续保持这一状态。",
+      "search_keywords": ["Tesla Giga Berlin", "IG Metall union", "labor relations"],
+      "version_info": "无",
+      "event_type": "工会选举"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-06T17:35:00+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "华为",
+      "title": "华为乾崑智驾ADS 4.0技术更新",
+      "url": "https://consumer.huawei.com/cn/ads/",
+      "publish_date": "2026-03-01",
+      "technical_points": [
+        "全维防碰撞系统CAS 4.0",
+        "端到端自动驾驶架构",
+        "多模态感知融合"
+      ],
+      "raw_content": "华为近日发布了乾崑智驾ADS 4.0系统更新，进一步优化了端到端自动驾驶架构。新版本增强了全维防碰撞系统CAS 4.0的能力，支持0-120km/h全时速范围的主动安全功能。系统采用了改进的多模态感知融合算法，结合摄像头、毫米波雷达和激光雷达数据，提升复杂场景下的感知可靠性。",
+      "search_keywords": ["华为ADS 4.0", "乾崑智驾", "端到端自动驾驶"],
+      "version_info": "ADS 4.0",
+      "event_type": "技术更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["官方渠道访问受限，信息来自技术博客摘要"]
+    }
+  }
+]

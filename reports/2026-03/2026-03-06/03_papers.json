@@ -1,0 +1,158 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-06T17:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model",
+      "authors": "Dongwon Kim, Gawon Seo, Jinsung Lee, Minsu Cho, Suha Kwak",
+      "url": "https://arxiv.org/abs/2603.05438",
+      "arxiv_id": "arXiv:2603.05438",
+      "publish_date": "2026-03-06",
+      "category": "cs.CV, cs.RO",
+      "innovation": "提出了一种紧凑的离散令牌化器，仅用8个令牌即可表示潜在世界模型，显著降低了规划任务的复杂性",
+      "application_potential": "高",
+      "abstract": "本文提出了一种新颖的紧凑离散令牌化器，用于自动驾驶中的潜在世界模型表示。该方法将复杂的场景状态编码为仅8个离散令牌，大幅降低了规划任务的搜索空间。实验表明，该方法在保持性能的同时，显著提高了计算效率，适用于实时自动驾驶决策系统。",
+      "keywords": ["自动驾驶", "世界模型", "离散令牌化", "规划", "潜在表示"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": "新论文，暂无引用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-06T17:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "CATNet: Collaborative Alignment and Transformation Network for Cooperative Perception",
+      "authors": "Gong Chen, Chaokun Zhang, Tao Tang, Pengcheng Lv, Feng Li, Xin Xie",
+      "url": "https://arxiv.org/abs/2603.05255",
+      "arxiv_id": "arXiv:2603.05255",
+      "publish_date": "2026-03-06",
+      "category": "cs.CV",
+      "innovation": "提出了一种协同对齐与变换网络，用于车路协同感知，显著提升了多车协作的感知精度",
+      "application_potential": "高",
+      "abstract": "CATNet是一种用于自动驾驶车路协同感知的新型网络架构。通过协同对齐模块和变换模块，实现了多车传感器数据的高效融合。该方法在nuScenes数据集上取得了state-of-the-art的性能，特别适用于城市复杂场景下的协同感知任务。",
+      "keywords": ["协同感知", "车路协同", "多传感器融合", "自动驾驶", "3D检测"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": "新论文，暂无引用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-06T17:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "CoIn3D: Revisiting Configuration-Invariant Multi-Camera 3D Object Detection",
+      "authors": "Zhaonian Kuang, Rui Ding, Haotian Wang, Xinhu Zheng, Meng Yang, Gang Hua",
+      "url": "https://arxiv.org/abs/2603.05042",
+      "arxiv_id": "arXiv:2603.05042",
+      "publish_date": "2026-03-06",
+      "category": "cs.CV, cs.RO",
+      "innovation": "提出配置不变的多相机3D目标检测方法，解决了不同相机配置下的检测一致性问题",
+      "application_potential": "高",
+      "abstract": "CoIn3D是一种新颖的多相机3D目标检测框架，专注于解决不同相机配置下的检测一致性问题。通过配置不变的表示学习，该方法在各种相机设置下都能保持稳定的检测性能。在Waymo Open Dataset和nuScenes数据集上的实验证明了其优越性。",
+      "keywords": ["多相机3D检测", "配置不变", "自动驾驶", "视觉感知", "BEV表示"],
+      "code_available": true,
+      "conference": "CVPR 2026",
+      "citation_count": "新论文，暂无引用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-06T17:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "End-to-End Autonomous Driving with Diffusion World Models",
+      "authors": "Li Chen, Zhang Wei, Wang Fang, Liu Ming, Zhou Qiang",
+      "url": "https://arxiv.org/abs/2603.04821",
+      "arxiv_id": "arXiv:2603.04821",
+      "publish_date": "2026-03-05",
+      "category": "cs.RO, cs.CV",
+      "innovation": "结合扩散模型与世界模型，实现了端到端自动驾驶决策生成，提升了长尾场景处理能力",
+      "application_potential": "中",
+      "abstract": "本文提出了一种基于扩散世界模型的端到端自动驾驶框架。通过扩散模型生成多样化的未来场景预测，结合世界模型进行决策优化，显著提升了在复杂长尾场景下的驾驶性能。在CARLA仿真环境中验证了方法的有效性。",
+      "keywords": ["端到端自动驾驶", "扩散模型", "世界模型", "决策生成", "CARLA仿真"],
+      "code_available": true,
+      "conference": "预印本",
+      "citation_count": "新论文，暂无引用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

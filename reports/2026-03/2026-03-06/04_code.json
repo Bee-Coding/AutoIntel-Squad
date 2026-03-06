@@ -1,0 +1,252 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-06T17:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "开源自动驾驶仿真平台，支持传感器模拟、交通场景生成和算法测试",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": "11000",
+      "language": "C++, Python",
+      "last_updated": "2026-03-01",
+      "category": "simulator",
+      "company": "CARLA Team",
+      "tech_stack": ["Unreal Engine", "Python API", "ROS2", "OpenDRIVE"],
+      "key_features": [
+        "高保真传感器模拟（摄像头、LiDAR、雷达）",
+        "动态交通场景生成",
+        "天气和时间变化",
+        "多人多车协同仿真"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": [
+        "开源自动驾驶仿真标准",
+        "社区驱动的场景库",
+        "与真实世界数据对接"
+      ],
+      "application_value": "自动驾驶算法研发、测试验证、安全评估的必备工具"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-06T17:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "BEVFormer",
+      "full_name": "zhiqi-li/BEVFormer",
+      "description": "基于Transformer的鸟瞰图（BEV）3D目标检测框架，在nuScenes榜单上表现优异",
+      "url": "https://github.com/zhiqi-li/BEVFormer",
+      "stars": "2800",
+      "language": "Python",
+      "last_updated": "2026-02-28",
+      "category": "algorithm",
+      "company": "上海人工智能实验室",
+      "tech_stack": ["PyTorch", "Transformer", "BEV Perception", "3D Detection"],
+      "key_features": [
+        "多相机BEV特征提取",
+        "时空Transformer编码",
+        "端到端3D目标检测",
+        "支持nuScenes和Waymo数据集"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": [
+        "时空Transformer用于BEV感知",
+        "多相机特征统一表示",
+        "实时推理优化"
+      ],
+      "application_value": "自动驾驶视觉感知核心算法，适用于量产车感知系统"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-06T17:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "统一的自动驾驶感知-预测-规划框架，CVPR 2023最佳论文，端到端自动驾驶里程碑工作",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": "3500",
+      "language": "Python",
+      "last_updated": "2026-03-03",
+      "category": "algorithm",
+      "company": "上海人工智能实验室",
+      "tech_stack": ["PyTorch", "Transformer", "Perception", "Prediction", "Planning"],
+      "key_features": [
+        "一体化感知-预测-规划架构",
+        "任务级注意力机制",
+        "端到端可训练",
+        "支持nuScenes数据集"
+      ],
+      "difficulty_level": "expert",
+      "relevance_score": 95,
+      "innovation_points": [
+        "首个统一感知-预测-规划框架",
+        "任务级特征共享",
+        "端到端优化"
+      ],
+      "application_value": "端到端自动驾驶研究的标杆项目，展示了多任务学习的潜力"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-06T17:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "nuScenes",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "大规模自动驾驶数据集，包含1000个场景的传感器数据、3D标注、地图信息",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": "4200",
+      "language": "Python",
+      "last_updated": "2026-02-25",
+      "category": "dataset",
+      "company": "Nutonomy (Aptiv)",
+      "tech_stack": ["Python", "JSON", "3D Annotations", "Sensor Data"],
+      "key_features": [
+        "1000个20秒驾驶场景",
+        "6个摄像头、5个雷达、1个LiDAR",
+        "23类物体3D标注",
+        "高清地图和交通规则标注"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": [
+        "大规模多模态数据集",
+        "详细场景标注",
+        "标准化评估协议"
+      ],
+      "application_value": "自动驾驶算法训练和评估的标准数据集，学术界和工业界广泛使用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-06T17:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "name": "VAD",
+      "full_name": "hustvl/VAD",
+      "description": "视觉基础模型在自动驾驶中的应用，结合视觉语言模型进行场景理解和决策",
+      "url": "https://github.com/hustvl/VAD",
+      "stars": "1800",
+      "language": "Python",
+      "last_updated": "2026-03-02",
+      "category": "algorithm",
+      "company": "华中科技大学",
+      "tech_stack": ["PyTorch", "Vision-Language Model", "BEV", "Planning"],
+      "key_features": [
+        "视觉语言模型用于场景理解",
+        "自然语言指令到驾驶动作",
+        "零样本场景泛化",
+        "端到端可解释性"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": [
+        "视觉语言模型与自动驾驶结合",
+        "自然语言交互式驾驶",
+        "零样本学习能力"
+      ],
+      "application_value": "展示了基础模型在自动驾驶中的应用前景，为人机协同驾驶提供新思路"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

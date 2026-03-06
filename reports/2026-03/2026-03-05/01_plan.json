@@ -1,0 +1,102 @@
+[
+  {
+    "source": "Plan",
+    "metadata": {
+      "timestamp": "2026-03-05T15:00:00+08:00",
+      "data_source": "analysis",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "report_type": "执行计划",
+      "report_date": "2026-03-05",
+      "sections": {
+        "plan_metadata": "计划元数据",
+        "thought_process": "思考过程",
+        "execution_plan": "执行计划详情",
+        "trigger_conditions": "触发条件"
+      },
+      "plan_id": "plan_20260305_150000",
+      "user_intent": "用户要求作为autointel_dispatcher，生成今日行业全量日报",
+      "execution_mode": "parallel",
+      "priority": "high",
+      "time_range": {
+        "industry": "最近24-72小时（重点关注Tesla、华为、Waymo等核心厂商的最新动态）",
+        "academic": "最近1-2个月（重点关注arXiv、CVPR、ICCV等顶会中的端到端自动驾驶相关论文）",
+        "open_source": "最近1-2个月（重点关注GitHub Trending中自动驾驶相关的开源项目、数据集、工具库）"
+      },
+      "thought_process": "用户输入为'作为autointel_dispatcher，生成今日行业全量日报'，属于全量日报模式。采用并行执行策略，同时启动Industry_Watcher、Paper_Hunter、Code_Scout三个情报收集Agent，最后触发Chief_Analyst汇总生成日报。时间范围设定：工业动态关注最近24-72小时，学术论文和开源项目关注最近1-2个月。",
+      "execution_plan": [
+        {
+          "task_id": "task_a_industry",
+          "agent": "Industry_Watcher",
+          "description": "收集今日工业界动态，重点关注Tesla、华为、Waymo、NIO、XPeng、Li Auto等核心厂商的最新进展",
+          "keywords": ["Tesla FSD", "华为ADS", "Waymo", "NIO", "XPeng", "Li Auto", "自动驾驶", "端到端", "BEV", "Occupancy", "城市NOA"],
+          "time_range": "最近24-72小时",
+          "output_file": "./reports/2026-03/2026-03-05/02_industry.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_b_papers",
+          "agent": "Paper_Hunter",
+          "description": "收集最近学术论文，重点关注端到端自动驾驶、世界模型、扩散策略、VAD等相关方向",
+          "keywords": ["end-to-end autonomous driving", "world models", "diffusion policy", "VAD", "visual autonomous driving", "BEV", "occupancy", "arXiv", "CVPR", "ICCV", "ICRA"],
+          "time_range": "最近1-2个月",
+          "output_file": "./reports/2026-03/2026-03-05/03_papers.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_c_code",
+          "agent": "Code_Scout",
+          "description": "发现最近开源项目，重点关注自动驾驶仿真器、数据集、算法实现、工具链",
+          "keywords": ["autonomous driving", "self-driving", "simulator", "dataset", "end-to-end", "BEV", "occupancy", "GitHub", "Hugging Face"],
+          "time_range": "最近1-2个月",
+          "output_file": "./reports/2026-03/2026-03-05/04_code.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_d_analysis",
+          "agent": "Chief_Analyst",
+          "description": "汇总三方情报，生成结构化日报，提供技术分析和学习建议",
+          "input_files": [
+            "./reports/2026-03/2026-03-05/02_industry.json",
+            "./reports/2026-03/2026-03-05/03_papers.json",
+            "./reports/2026-03/2026-03-05/04_code.json"
+          ],
+          "output_file": "./reports/2026-03/2026-03-05/2026-03-05_Report.md",
+          "timeout": 600,
+          "retry_count": 1,
+          "dependencies": ["task_a_industry", "task_b_papers", "task_c_code"]
+        }
+      ],
+      "trigger_conditions": {
+        "parallel_start": ["task_a_industry", "task_b_papers", "task_c_code"],
+        "final_trigger": {
+          "condition": "all_tasks_completed",
+          "trigger_task": "task_d_analysis"
+        }
+      }
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

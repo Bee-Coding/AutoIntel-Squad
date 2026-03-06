@@ -1,0 +1,101 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-05T16:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "waymo-open-dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo Open Dataset: 包含大规模、高质量、多样化的自动驾驶数据，涵盖城市环境中的多模态传感器数据（LiDAR、相机）和标注",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": 2800,
+      "language": "Python",
+      "last_updated": "2026-02-15",
+      "category": "dataset",
+      "company": "Waymo",
+      "tech_stack": ["TensorFlow", "Python", "Protocol Buffers"],
+      "key_features": ["大规模城市驾驶数据", "多模态传感器同步", "3D边界框标注", "轨迹预测数据", "基准测试工具"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["高质量传感器数据", "多样化驾驶场景", "完整的基准测试套件"],
+      "application_value": "用于自动驾驶感知、预测、规划算法的研发和评估，是工业界和学术界的重要基准"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-05T16:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "nuscenes-devkit",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "nuScenes开发工具包：用于nuScenes数据集的可视化、加载和评估，包含完整的自动驾驶感知和预测基准",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": 1800,
+      "language": "Python",
+      "last_updated": "2026-01-20",
+      "category": "dataset",
+      "company": "Motional",
+      "tech_stack": ["Python", "NumPy", "Matplotlib", "Pandas"],
+      "key_features": ["多模态数据加载", "3D目标检测评估", "轨迹预测评估", "可视化工具", "基准测试排行榜"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 90,
+      "innovation_points": ["全面的场景标注", "多任务评估框架", "丰富的可视化工具"],
+      "application_value": "用于自动驾驶感知算法开发、评估和基准测试，支持3D检测、跟踪、预测等多种任务"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-05T16:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "CARLA自动驾驶仿真器：开源的自动驾驶仿真平台，支持传感器模拟、交通场景生成和算法测试",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 9500,
+      "language": "C++",
+      "last_updated": "2026-02-28",
+      "category": "simulator",
+      "company": "Intel",
+      "tech_stack": ["Unreal Engine", "C++", "Python", "ROS"],
+      "key_features": ["高保真图形渲染", "多传感器模拟", "动态交通场景", "自动驾驶API", "场景生成工具"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["逼真的物理仿真", "灵活的传感器配置", "丰富的场景库"],
+      "application_value": "用于自动驾驶算法的开发、测试和验证，支持从感知到规划的完整流程仿真"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

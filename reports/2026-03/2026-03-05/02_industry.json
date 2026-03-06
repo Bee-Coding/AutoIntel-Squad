@@ -1,0 +1,37 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-05T15:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla changes FSD transfer rules again, screwing over Cybertruck AWD buyers",
+      "url": "https://electrek.co/2026/03/04/tesla-changes-fsd-transfer-rules-again-cybertruck-buyers/",
+      "publish_date": "2026-03-04",
+      "technical_points": ["FSD transfer policy change", "Cybertruck AWD delivery timelines", "FSD subscription model transition"],
+      "raw_content": "特斯拉在1月20日将FSD转移计划的条件从'3月31日前交付'放宽为'3月31日前下单'，这吸引了大量Cybertruck AWD订单。但在2月27-28日夜间，特斯拉又悄悄将条件改回'3月31日前交付'，导致数千名Cybertruck AWD买家无法在期限内提车，失去了FSD转移资格。这是特斯拉'一次性'FSD转移计划的最新篇章，该计划已多次被复活用作需求杠杆。特斯拉已于2月14日停止销售一次性FSD套餐，全面转向订阅模式（99美元/月），这使得转移计划成为将已付费FSD许可证转移到新车的最后途径。",
+      "search_keywords": ["Tesla FSD transfer", "Cybertruck AWD", "Full Self-Driving policy"],
+      "version_info": "FSD transfer program updated February 27-28, 2026",
+      "event_type": "政策变更"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
