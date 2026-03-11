@@ -1,0 +1,94 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-03-10T14:19:17+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "fallback_inline",
+      "rules": "fallback_inline",
+      "workflow": "fallback_inline",
+      "output_format": "fallback_inline",
+      "issues": ["使用内置降级内容"],
+      "strategy_used": "inline_fallback"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-03-10",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260310_141917",
+    "user_intent": "用户要求生成今日全量行业日报，并指出昨天生成的日报技术要点过于省略，需要更多技术细节。重点强调技术要点的深度和详细程度，确保工业动态、学术论文和开源项目的技术描述更加丰富。",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时，重点关注Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司的最新动态，特别是技术更新、OTA发布、测试扩展等",
+      "academic": "最近一周内，重点关注arXiv、CVPR、ICCV等平台的端到端自动驾驶、世界模型、扩散策略、BEV感知、规划控制等方向论文",
+      "open_source": "最近一个月内，重点关注GitHub、Hugging Face等平台的自动驾驶相关开源项目，包括仿真器、数据集、算法实现、工具链等"
+    },
+    "thought_process": "用户请求全量日报，属于全量日报模式。昨天报告的技术要点过于省略，需要增强技术细节。因此，需要指示各Agent提供更详细的技术要点：\n1. Industry_Watcher：工业动态需包含具体技术参数、版本号、实现细节、影响范围\n2. Paper_Hunter：学术论文需深入分析创新点、方法论、实验结果、应用潜力\n3. Code_Scout：开源项目需详细描述技术栈、架构设计、使用难度、实际应用价值\n4. Chief_Analyst：汇总时需加强技术关联分析，提供更深入的学习建议和实践指导\n采用并行执行模式，同时启动A/B/C三个Agent，完成后自动触发D进行汇总分析。",
+    "execution_plan": {
+      "tasks": [
+        {
+          "task_id": "task_industry_20260310_141917",
+          "agent": "Industry_Watcher",
+          "description": "执行工业动态搜索，重点关注端到端自动驾驶相关公司（Tesla、华为、Waymo等）的最新动态，提供详细技术要点",
+          "instruction": "搜索最近24-72小时内的自动驾驶工业动态，重点关注Tesla FSD更新、华为ADS进展、Waymo扩展、中国造车新势力（NIO、XPeng、Li Auto）等技术新闻。技术要点需详细：包含具体技术参数（如版本号v14.2.2.3）、新功能细节、实现方法、影响范围、与其他技术的关联等。避免简单概括，追求深度技术描述。使用三级数据源搜索策略，确保数据真实性。",
+          "output_to": "./reports/2026-03/2026-03-10/02_industry.json",
+          "timeout": 180000,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_paper_20260310_141917",
+          "agent": "Paper_Hunter",
+          "description": "执行学术论文搜索，重点关注端到端自动驾驶、世界模型、扩散策略等前沿论文，提供深入技术分析",
+          "instruction": "搜索最近一周内的自动驾驶相关学术论文，重点关注arXiv平台的端到端自动驾驶、世界模型、扩散策略、BEV感知、规划控制等方向。技术分析需深入：详细描述论文创新点、方法论（模型架构、训练策略）、实验结果（具体数据）、技术贡献、应用潜力。优先选择有代码实现的论文。确保技术深度，避免表面概括。",
+          "output_to": "./reports/2026-03/2026-03-10/03_papers.json",
+          "timeout": 180000,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_code_20260310_141917",
+          "agent": "Code_Scout",
+          "description": "执行开源项目搜索，重点关注自动驾驶相关仿真器、数据集、算法实现、工具链，提供详细技术评估",
+          "instruction": "搜索最近一个月内的自动驾驶相关开源项目，重点关注GitHub、Hugging Face等平台的仿真器（CARLA、AirSim等）、数据集（nuScenes、Waymo等）、算法实现（BEVFormer、UniAD等）、工具链。技术评估需详细：描述技术栈（具体库和版本）、架构设计、使用难度、实际应用价值、性能指标、部署要求。优先选择高星增长和活跃项目。",
+          "output_to": "./reports/2026-03/2026-03-10/04_code.json",
+          "timeout": 180000,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_analysis_20260310_141917",
+          "agent": "Chief_Analyst",
+          "description": "汇总分析三个Agent的输出，生成详细技术日报，提供深度技术关联和学习建议",
+          "instruction": "读取02_industry.json、03_papers.json、04_code.json三个文件，进行综合分析。生成日报时需特别注意技术要点的深度和详细程度：\n1. 工业动态部分：强调技术细节，分析技术演进趋势\n2. 学术论文部分：深入解读创新方法，评估工业应用价值\n3. 开源项目部分：提供实用技术指导，分析项目优劣\n4. 技术话题演进：建立跨领域技术关联，识别新兴趋势\n5. 学习建议：提供具体、可操作的学习路径和实践项目\n确保报告技术内容丰富，避免过于简略的描述。",
+          "output_to": "./reports/2026-03/2026-03-10/2026-03-10_Report.md",
+          "timeout": 240000,
+          "retry_count": 2,
+          "dependencies": ["task_industry_20260310_141917", "task_paper_20260310_141917", "task_code_20260310_141917"]
+        }
+      ]
+    },
+    "trigger_conditions": {
+      "parallel_start": "立即并行启动Industry_Watcher、Paper_Hunter、Code_Scout三个Agent",
+      "final_trigger": "当所有三个Agent的输出文件（02_industry.json、03_papers.json、04_code.json）都生成且非空时，自动触发Chief_Analyst",
+      "timeout_handling": "任一Agent超时后重试2次，如仍失败则继续执行其他Agent的输出，生成降级报告",
+      "degraded_mode": "如果部分Agent无输出，Chief_Analyst基于可用数据生成报告，并明确标注数据缺失情况"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": false,
+    "issues": []
+  }
+}

@@ -24,6 +24,20 @@
           ],
           "sources": [
             "https://blog.csdn.net/cv_autobot/article/details/158491476"
+          ],
+        },
+        {
+          "date": "2026-03-09",
+          "version": "v1.1",
+          "description": "提出基于世界模型的仿真模拟方法，用于自动驾驶场景中的情境推理和反事实分析，提升安全关键场景的测试验证能力",
+          "key_points": [
+            "世界模型仿真模拟",
+            "情境推理与反事实分析",
+            "安全关键场景测试",
+            "自动驾驶测试验证"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.06426"
           ]
         }
       ]
@@ -259,5 +273,113 @@
         }
       ]
     },
+    {
+      "id": "bev_llm_fusion",
+      "name": "BEV与LLM融合技术",
+      "aliases": ["BEVLM", "BEV-LLM融合", "鸟瞰图语言模型融合"],
+      "category": "academic",
+      "description": "将大语言模型的语义知识蒸馏到鸟瞰图表示中，提升自动驾驶场景的空间一致性和语义理解能力",
+      "first_appeared": "2026-03-09",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-09",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-09",
+          "version": "v1.0",
+          "description": "提出BEVLM框架，将大语言模型的语义知识蒸馏到鸟瞰图表示中，实现空间一致性与语义理解的统一，为端到端自动驾驶提供新的感知-认知融合思路",
+          "key_points": [
+            "BEV与LLM语义知识蒸馏",
+            "空间一致性保持",
+            "跨模态对齐",
+            "感知-认知融合"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.06576"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multimodal_redundancy_modeling",
+      "name": "多模态数据冗余建模",
+      "aliases": ["多模态冗余建模", "传感器数据冗余优化"],
+      "category": "academic",
+      "description": "多源多模态数据冗余建模与测量方法，优化自动驾驶感知系统的数据效率和鲁棒性",
+      "first_appeared": "2026-03-09",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-09",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-03-09",
+          "version": "v1.0",
+          "description": "提出多源多模态数据冗余建模与测量方法，通过信息论框架量化不同传感器组合的信息增益，优化感知系统数据效率和鲁棒性",
+          "key_points": [
+            "多模态数据冗余建模",
+            "信息论框架",
+            "传感器组合优化",
+            "数据效率提升"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.06544"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3d_semantic_occupancy_robustness",
+      "name": "3D语义占用鲁棒性",
+      "aliases": ["3D语义占用噪声鲁棒性", "标签噪声下的占用预测"],
+      "category": "academic",
+      "description": "标签噪声下的3D语义占用预测可靠性问题研究，提出鲁棒性训练方法",
+      "first_appeared": "2026-03-09",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-09",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-03-09",
+          "version": "v1.0",
+          "description": "研究标签噪声下的3D语义占用预测可靠性问题，提出鲁棒性训练方法，通过不确定性估计和噪声标签校正提升模型在噪声数据下的性能",
+          "key_points": [
+            "标签噪声下的3D语义占用预测",
+            "不确定性估计",
+            "噪声标签校正",
+            "鲁棒性训练方法"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.06279"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autonomous_truck_commercialization",
+      "name": "自动驾驶卡车商业化",
+      "aliases": ["自动驾驶货运商业化", "电动自动驾驶卡车"],
+      "category": "industry",
+      "description": "自动驾驶卡车初创公司融资与商业化部署进展，电动自动驾驶卡车在货运领域的应用",
+      "first_appeared": "2026-03-09",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-09",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-03-09",
+          "version": "v1.0",
+          "description": "瑞典自动驾驶卡车初创公司Einride在公开上市前通过PIPE融资1.13亿美元，显示自动驾驶卡车在货运领域的商业化进程加速",
+          "key_points": [
+            "自动驾驶卡车融资",
+            "电动货运解决方案",
+            "SPAC上市准备",
+            "货运领域商业化"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/02/26/self-driving-truck-startup-einride-raises-113m-pipe-ahead-of-public-debut/"
+          ]
+        }
+      ]
+    }
   ]
 }

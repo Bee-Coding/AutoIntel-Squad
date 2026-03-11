@@ -1,0 +1,101 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-09T15:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "CARLA",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13600,
+      "language": "C++",
+      "last_updated": "2025-09-16",
+      "category": "simulator",
+      "company": "CARLA Simulator Community",
+      "tech_stack": ["Unreal Engine 5.5", "Python", "C++", "ROS2"],
+      "key_features": ["高保真自动驾驶仿真", "灵活传感器配置", "场景生成工具", "Python API", "ROS2集成"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["开源自动驾驶仿真平台", "支持端到端驾驶研究", "丰富的场景库和资产"],
+      "application_value": "自动驾驶算法开发、测试和验证的核心工具，广泛应用于学术界和工业界。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-09T15:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "nuScenes",
+      "full_name": "nutonomy/nuscenes-devkit",
+      "description": "The official devkit for the nuScenes dataset for autonomous driving. nuScenes is a large-scale dataset for autonomous driving with 3D object annotations and detailed scene descriptions.",
+      "url": "https://github.com/nutonomy/nuscenes-devkit",
+      "stars": 3200,
+      "language": "Python",
+      "last_updated": "2025-12-10",
+      "category": "dataset",
+      "company": "nuTonomy (Aptiv)",
+      "tech_stack": ["Python", "PyTorch", "OpenCV", "pandas"],
+      "key_features": ["大规模自动驾驶数据集", "3D物体标注", "多传感器数据", "场景描述", "评估工具"],
+      "difficulty_level": "beginner",
+      "relevance_score": 90,
+      "innovation_points": ["首个包含全传感器套件的大规模数据集", "详细的场景语义标注", "标准化评估协议"],
+      "application_value": "自动驾驶感知算法训练和评估的标准数据集，被广泛用于学术研究和工业开发。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-09T15:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "BEVFormer",
+      "full_name": "zhiqi-li/BEVFormer",
+      "description": "Official implementation of BEVFormer, a cutting-edge Bird's-Eye View (BEV) perception method for autonomous driving that uses temporal and spatial attention.",
+      "url": "https://github.com/zhiqi-li/BEVFormer",
+      "stars": 2800,
+      "language": "Python",
+      "last_updated": "2026-01-15",
+      "category": "algorithm",
+      "company": "Shanghai AI Laboratory",
+      "tech_stack": ["PyTorch", "MMDetection", "Transformer", "BEV感知"],
+      "key_features": ["时空注意力BEV感知", "端到端训练", "多相机融合", "实时推理优化"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["引入时序注意力机制", "统一的BEV表示学习", "多相机特征融合"],
+      "application_value": "先进的BEV感知算法实现，为自动驾驶环境理解提供关键技术，支持端到端感知架构。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

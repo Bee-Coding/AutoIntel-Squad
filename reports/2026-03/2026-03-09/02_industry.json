@@ -1,0 +1,110 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-09T15:10:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo to begin testing in Chicago and Charlotte",
+      "url": "https://techcrunch.com/2026/02/25/waymo-to-begin-testing-in-chicago-and-charlotte/",
+      "publish_date": "2026-02-25",
+      "technical_points": ["Robotaxi城市扩展测试", "多城市运营策略", "商业化部署进展"],
+      "raw_content": "Waymo宣布将在芝加哥和夏洛特开始自动驾驶汽车测试，这是该公司在美国扩展其Robotaxi服务的重要一步。此次扩展显示Waymo正加速商业化进程，目标是在更多城市提供无人驾驶出行服务。",
+      "search_keywords": ["Waymo robotaxi testing", "autonomous vehicle expansion", "Chicago Charlotte self-driving"],
+      "version_info": null,
+      "event_type": "测试扩展公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-09T15:10:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "Wayve",
+      "title": "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers",
+      "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "publish_date": "2026-02-24",
+      "technical_points": ["端到端自动驾驶", "AI驱动技术", "大额融资12亿美元"],
+      "raw_content": "英国自动驾驶技术初创公司Wayve成功融资12亿美元，投资方包括Nvidia、Uber和三家汽车制造商。Wayve专注于端到端自动驾驶技术，采用AI驱动的学习方法，此轮融资将加速其技术研发和商业化部署。",
+      "search_keywords": ["Wayve funding", "end-to-end autonomous driving", "Nvidia investment"],
+      "version_info": null,
+      "event_type": "融资公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-09T15:10:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo robotaxis are now operating in 10 US cities",
+      "url": "https://techcrunch.com/2026/02/24/waymo-robotaxis-are-now-operating-in-10-us-cities/",
+      "publish_date": "2026-02-24",
+      "technical_points": ["Robotaxi城市覆盖扩展", "规模化运营", "商业化里程碑"],
+      "raw_content": "Waymo宣布其Robotaxi服务现已在美国10个城市运营，标志着自动驾驶出租车服务规模化的重要里程碑。公司表示将继续扩大服务范围，提升运营效率和用户体验。",
+      "search_keywords": ["Waymo 10 cities", "robotaxi expansion", "autonomous taxi service"],
+      "version_info": null,
+      "event_type": "运营扩展公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-09T15:10:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "Einride",
+      "title": "Self-driving truck startup Einride raises $113M PIPE ahead of public debut",
+      "url": "https://techcrunch.com/2026/02/26/self-driving-truck-startup-einride-raises-113m-pipe-ahead-of-public-debut/",
+      "publish_date": "2026-02-26",
+      "technical_points": ["自动驾驶卡车", "电动货运", "SPAC上市准备"],
+      "raw_content": "瑞典自动驾驶卡车初创公司Einride在公开上市前通过PIPE融资1.13亿美元。公司专注于电动自动驾驶卡车解决方案，此轮融资将支持其技术研发和全球市场扩张。",
+      "search_keywords": ["Einride autonomous truck", "self-driving freight", "PIPE funding"],
+      "version_info": null,
+      "event_type": "融资公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

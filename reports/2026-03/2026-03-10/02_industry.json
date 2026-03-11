@@ -1,0 +1,101 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-10T14:26:38+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla 'Full Self-Driving' drives through railroad crossing barriers in viral video",
+      "url": "https://electrek.co/2026/03/09/tesla-fsd-drives-through-railroad-crossing-barriers-viral-video/",
+      "publish_date": "2026-03-09",
+      "technical_points": [
+        "FSD系统在铁路道口存在已知盲点，此前已有超过40起类似故障报告",
+        "栏杆高度与前置摄像头高度相近（约1.2米），影响视觉检测能力",
+        "系统在23mph速度下未显示任何检测或减速迹象，完全未能识别障碍物",
+        "此次事件发生在NHTSA调查FSD交通违规的截止日期当天，调查涵盖288万辆Tesla车辆",
+        "NHTSA调查要求Tesla提供每个事件前30秒的时间线数据、FSD软件版本、驾驶员警告记录"
+      ],
+      "raw_content": "一段病毒视频显示Tesla Model 3在'全自动驾驶'模式下驶过洛杉矶地区西科维纳的铁路道口栏杆，系统完全未能检测到道口栏杆。视频中车辆以23mph速度行驶，栏杆高度与Tesla前置摄像头高度相近。事件发生在NHTSA调查FSD交通违规的截止日期当天，该调查特别包括铁路道口故障。此前NBC新闻调查发现超过40起FSD在铁路道口故障的报告，包括一起Tesla Model 3在宾夕法尼亚州被火车撞击的事故。NHTSA要求Tesla提供详细数据，包括FSD软件版本、驾驶员警告记录以及是否导致事故、伤害或死亡。",
+      "search_keywords": ["Tesla FSD v14", "railroad crossing barriers", "autonomous driving safety", "NHTSA investigation", "vision only perception"],
+      "version_info": "FSD版本未明确指定，但可能为最新v14系列",
+      "event_type": "安全事故"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-10T14:26:38+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "Zoox",
+      "title": "Zoox expands robotaxi testing to Phoenix and Dallas as autonomous miles surpass 1 million",
+      "url": "https://electrek.co/2026/03/09/zoox-expands-robotaxi-testing-phoenix-dallas-autonomous/",
+      "publish_date": "2026-03-09",
+      "technical_points": [
+        "Zoox新增凤凰城和达拉斯作为robotaxi测试市场，开设新的车辆仓库和Fusion Center设施",
+        "初始阶段使用改装测试车辆进行手动地图绘制，随后部署无方向盘/踏板的专用robotaxi",
+        "累计自动驾驶里程超过100万英里，运送乘客超过30万人次（旧金山探索者计划和拉斯维加斯服务）",
+        "凤凰城提供极端高温（50°C+）和灰尘环境测试，达拉斯提供复杂道路网络和多样化天气条件测试",
+        "Fusion Center作为中央运营枢纽，提供远程指导、任务控制和乘客支持，实时协助自动驾驶车辆处理复杂场景"
+      ],
+      "raw_content": "自动驾驶出行公司Zoox正在扩展其美国测试范围，新增凤凰城和达拉斯作为robotaxi开发计划的新市场。该公司正在这两个城市开设新的robotaxi仓库和Fusion Center设施（斯科茨代尔）。初始阶段将使用改装测试车辆进行手动地图绘制，随后部署专用robotaxi（无方向盘和踏板）。Zoox累计自动驾驶里程超过100万英里，运送乘客超过30万人次。凤凰城测试将验证传感器和电池在极端高温和灰尘环境下的性能，达拉斯测试将完善AI在复杂道路网络和多样化天气条件下的表现。",
+      "search_keywords": ["Zoox robotaxi", "autonomous vehicle testing", "Phoenix Dallas expansion", "Amazon autonomous driving", "purpose-built vehicle"],
+      "version_info": null,
+      "event_type": "测试扩展公告"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-10T14:26:38+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla loses software director who built its OTA and Robotaxi infrastructure",
+      "url": "https://electrek.co/2026/03/09/tesla-loses-robotaxi-ota-director-11-years/",
+      "publish_date": "2026-03-09",
+      "technical_points": [
+        "Thomas Dmytryk离职，他领导团队构建了Tesla的OTA更新基础设施和Robotaxi叫车服务软件基础",
+        "OTA基础设施支持全球近1000万辆车辆，实现软件更新、错误修复和新功能推送",
+        "Robotaxi服务于2025年6月在奥斯汀推出安全员监督运营，2026年1月实现无监督乘坐",
+        "此次离职是Tesla过去两年高级技术人才持续流失的一部分，涉及动力总成、软件、销售、车辆设计等多个关键岗位",
+        "Cybercab项目经理在首辆生产车辆下线后几天离职，恰逢4月量产计划前夕"
+      ],
+      "raw_content": "Thomas Dmytryk，负责构建Tesla OTA更新基础设施和Robotaxi叫车服务软件基础的主任，宣布离职。他在Tesla工作11年，最初领导一个5人团队负责OTA管道、车辆连接和Tesla移动应用命令层。他的团队构建的基础设施支持全球近1000万辆车辆。在任期的后半段，他的团队承担了最重要的项目：构建Tesla Robotaxi叫车服务的软件基础设施。此次离职是Tesla过去两年高级技术人才持续流失的一部分，包括动力总成负责人、软件主管、销售主管、车辆设计师、Cybertruck项目经理等关键人员。",
+      "search_keywords": ["Tesla OTA infrastructure", "Robotaxi software", "talent exodus", "autonomous driving leadership", "Tesla executive departure"],
+      "version_info": null,
+      "event_type": "人事变动"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

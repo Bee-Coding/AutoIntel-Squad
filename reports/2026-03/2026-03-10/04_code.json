@@ -1,0 +1,246 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-10T12:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13639,
+      "language": "C++",
+      "last_updated": "2026-03-10T03:51:57Z",
+      "category": "simulator",
+      "company": "CARLA Simulator",
+      "tech_stack": [
+        "Unreal Engine 4/5",
+        "C++ 17+",
+        "Python 3.7+",
+        "ROS/ROS2",
+        "Docker",
+        "OpenGL",
+        "PhysX"
+      ],
+      "key_features": [
+        "High-fidelity urban environments with dynamic weather and lighting",
+        "Sensor simulation: LiDAR, cameras, radar, GPS, IMU",
+        "Traffic simulation with realistic AI-controlled vehicles and pedestrians",
+        "Support for reinforcement learning and imitation learning",
+        "ROS/ROS2 integration for real-world robotics pipelines",
+        "Scenario runner for automated testing",
+        "Modular architecture for custom sensor and vehicle models"
+      ],
+      "difficulty_level": "高级",
+      "relevance_score": 95,
+      "innovation_points": "业界最广泛使用的自动驾驶仿真平台，支持UE5引擎，提供高保真物理仿真和传感器模拟，支持端到端强化学习训练和现实世界迁移",
+      "application_value": "用于自动驾驶算法开发、测试验证、安全评估；学术研究标准平台；工业界广泛用于系统集成测试；支持大规模并行仿真加速"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": "2026-03-10",
+      "cross_check": "GitHub API数据与官方文档一致",
+      "issues": "大规模场景仿真需要高性能GPU（建议RTX 4090+）；UE5版本仍处开发阶段，部分功能不稳定"
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-10T12:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A-"
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11160,
+      "language": "Dockerfile",
+      "last_updated": "2026-03-10T04:11:02Z",
+      "category": "full-stack",
+      "company": "Autoware Foundation",
+      "tech_stack": [
+        "ROS2 Humble/Humble",
+        "C++ 17",
+        "Python 3.8",
+        "Docker/Container",
+        "Kubernetes (可选)",
+        "CUDA 11.8+",
+        "PCL, OpenCV, Eigen"
+      ],
+      "key_features": [
+        "完整的自动驾驶软件栈：感知、定位、规划、控制",
+        "模块化设计，支持硬件抽象层（HAL）",
+        "实时性能优化，支持多传感器融合",
+        "高清地图支持（Lanelet2格式）",
+        "云端仿真和测试框架",
+        "安全认证准备（ISO 26262部分实现）",
+        "商业友好许可证（Apache 2.0）"
+      ],
+      "difficulty_level": "专家级",
+      "relevance_score": 90,
+      "innovation_points": "首个完整的开源自动驾驶软件栈，工业级代码质量，支持真实车辆部署；模块化架构允许研究者和企业选择性使用组件",
+      "application_value": "实际车辆部署参考实现；学术研究全栈基准；企业可基于此构建商业化产品；硬件在环（HIL）测试框架"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": "2026-03-10",
+      "cross_check": "GitHub活跃度高，近期有多个PR合并",
+      "issues": "部署复杂，需要熟悉ROS2生态；硬件要求高（建议NVIDIA Jetson AGX Orin或Xavier）"
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-10T12:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B+"
+    },
+    "content": {
+      "name": "HighwayEnv",
+      "full_name": "Farama-Foundation/HighwayEnv",
+      "description": "A minimalist environment for decision-making in autonomous driving",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "stars": 3194,
+      "language": "Python",
+      "last_updated": "2026-03-09T08:19:32Z",
+      "category": "rl-environment",
+      "company": "Farama Foundation",
+      "tech_stack": [
+        "Python 3.8+",
+        "Gymnasium (原OpenAI Gym)",
+        "NumPy, SciPy",
+        "Matplotlib",
+        "PyTorch/TensorFlow兼容",
+        "JAX (可选)"
+      ],
+      "key_features": [
+        "轻量级高速路驾驶决策环境",
+        "支持连续和离散动作空间",
+        "多种场景：合并、超车、交叉路口",
+        "可配置的交通密度和车辆行为",
+        "与主流RL库（Stable-Baselines3, Ray RLlib）集成",
+        "实时可视化与回放",
+        "多智能体版本支持"
+      ],
+      "difficulty_level": "中级",
+      "relevance_score": 80,
+      "innovation_points": "专注于决策层算法快速原型开发；简化了真实驾驶的复杂性，便于RL算法研究；成为强化学习社区标准测试环境",
+      "application_value": "强化学习算法快速验证；教学和入门自动驾驶决策；基准测试和算法比较；多智能体协同驾驶研究"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": "2026-03-10",
+      "cross_check": "Farama Foundation维护，质量可靠",
+      "issues": "过于简化物理，不适用于低层控制研究；图形渲染简单"
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-10T12:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "waymo-open-dataset",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "description": "Waymo Open Dataset",
+      "url": "https://github.com/waymo-research/waymo-open-dataset",
+      "stars": 3258,
+      "language": "Python",
+      "last_updated": "2026-03-09T22:22:20Z",
+      "category": "dataset",
+      "company": "Waymo (Google)",
+      "tech_stack": [
+        "TensorFlow 2.x",
+        "PyTorch (社区支持)",
+        "NumPy, Pandas",
+        "Apache Beam",
+        "Protocol Buffers",
+        "Docker",
+        "Jupyter Notebook"
+      ],
+      "key_features": [
+        "大规模真实世界驾驶数据：2000+小时标注数据",
+        "多模态传感器：5个激光雷达，5个相机，毫米波雷达",
+        "高精度3D边界框标注（车辆、行人、自行车）",
+        "场景理解和行为预测标签",
+        "地图信息（车道、交通信号）",
+        "在线评估服务器和排行榜",
+        "完善的教程和示例代码"
+      ],
+      "difficulty_level": "中高级",
+      "relevance_score": 95,
+      "innovation_points": "业界最大规模、最精细标注的公开自动驾驶数据集；推动3D目标检测、轨迹预测等任务进展；建立标准化评估基准",
+      "application_value": "算法研发标准数据集；模型性能客观评估；学术论文必用基准；工业界招聘技术评估"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": "2026-03-10",
+      "cross_check": "官方维护，数据持续更新",
+      "issues": "数据下载需要大存储（TB级）；处理需要高性能计算资源"
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-10T12:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": 4508,
+      "language": "Python",
+      "last_updated": "2026-03-09T07:43:32Z",
+      "category": "end-to-end-framework",
+      "company": "OpenDriveLab (上海AI Lab)",
+      "tech_stack": [
+        "PyTorch 1.13+",
+        "MMDetection3D",
+        "MMCV",
+        "CUDA 11.3",
+        "NVIDIA TensorRT (部署)",
+        "Docker",
+        "nvnuScenes devkit"
+      ],
+      "key_features": [
+        "首个以规划为导向的端到端自动驾驶框架",
+        "统一的多任务学习：感知、预测、规划",
+        "BEV（鸟瞰图）表示下的时空特征融合",
+        "占用网络预测动态和静态障碍物",
+        "可微分规划模块，支持模仿学习和强化学习",
+        "nuScenes数据集SOTA性能",
+        "模块化设计，支持组件替换"
+      ],
+      "difficulty_level": "高级",
+      "relevance_score": 98,
+      "innovation_points": "打破传统模块化架构，实现真正端到端学习；CVPR 2023最佳论文奖；引领端到端自动驾驶研究趋势；开源实现推动社区发展",
+      "application_value": "端到端自动驾驶研究前沿参考；工业界技术路线探索；高性能基线模型；教育领域高级案例"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": "2026-03-10",
+      "cross_check": "GitHub活跃，issue响应及时",
+      "issues": "计算资源要求高（建议8*A100）；代码复杂度高，需要深入理解论文"
+    }
+  }
+]

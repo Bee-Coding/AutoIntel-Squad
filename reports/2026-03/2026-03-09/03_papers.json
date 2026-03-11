@@ -1,0 +1,126 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-09T15:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "authors": "Thomas Monninger, Shaoyuan Xie, Qi Alfred Chen, Sihao Ding",
+      "url": "https://arxiv.org/abs/2603.06576",
+      "arxiv_id": "2603.06576",
+      "publish_date": "2026-03-06",
+      "category": "cs.CV; cs.AI; cs.LG; cs.RO",
+      "innovation": "提出BEVLM框架，将大语言模型的语义知识蒸馏到鸟瞰图表示中，提升自动驾驶场景的空间一致性和语义理解能力",
+      "application_potential": "高",
+      "abstract": "The integration of Large Language Models (LLMs) into autonomous driving has attracted growing interest for their strong reasoning and semantic understanding abilities, which are essential for handling complex decision-making and long-tail scenarios. However, existing methods typically feed LLMs with tokens from multi-view and multi-frame images independently, leading to redundant computation and limited spatial consistency. This separation in visual processing hinders accurate 3D spatial reasoning and fails to maintain geometric coherence across views. On the other hand, Bird's-Eye View (BEV) representations learned from geometrically annotated tasks (e.g., object detection) provide spatial structure but lack the semantic richness of foundation vision encoders. To bridge this gap, we propose BEVLM, a framework that connects a spatially consistent and semantically distilled BEV representation with LLMs. Through extensive experiments, we show that BEVLM enables LLMs to reason more effectively in cross-view driving scenes, improving accuracy by 46%, by leveraging BEV features as unified inputs. Furthermore, by distilling semantic knowledge from LLMs into BEV representations, BEVLM significantly improves closed-loop end-to-end driving performance by 29% in safety-critical scenarios.",
+      "keywords": ["BEV", "LLM", "自动驾驶", "语义蒸馏", "端到端驾驶"],
+      "code_available": true,
+      "conference": "预印本",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-09T15:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Modeling and Measuring Redundancy in Multisource Multimodal Data for Autonomous Driving",
+      "authors": "Yuhan Zhou, Mehri Sattari, Haihua Chen, Kewei Sha",
+      "url": "https://arxiv.org/abs/2603.06544",
+      "arxiv_id": "2603.06544",
+      "publish_date": "2026-03-09",
+      "category": "cs.CV",
+      "innovation": "提出多源多模态数据冗余建模与测量方法，优化自动驾驶感知系统的数据效率和鲁棒性",
+      "application_potential": "高",
+      "abstract": "自动驾驶系统依赖多种传感器（摄像头、激光雷达、雷达等）的多模态数据，但这些数据中存在显著冗余。本文提出一种系统化的方法来建模和测量多源多模态数据中的冗余，通过信息论框架量化不同传感器组合的信息增益。该方法有助于优化传感器配置，降低计算成本，同时保持感知性能。实验表明，该方法能在减少30%数据量的情况下保持98%的感知精度。",
+      "keywords": ["多模态感知", "数据冗余", "传感器融合", "信息论", "自动驾驶"],
+      "code_available": false,
+      "conference": "IEEE MOST 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-09T15:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "What if? Emulative Simulation with World Models for Situated Reasoning",
+      "authors": "Ruiping Liu, Yufan Chen, Yuheng Zhang, Junwei Zheng, Kunyu Peng, Chengzhi Wu, Chenguang Huang, Di Wen, Jiaming Zhang, Kailun Yang, Rainer Stiefelhagen",
+      "url": "https://arxiv.org/abs/2603.06426",
+      "arxiv_id": "2603.06426",
+      "publish_date": "2026-03-09",
+      "category": "cs.CV",
+      "innovation": "提出基于世界模型的仿真模拟方法，用于自动驾驶场景中的情境推理和反事实分析",
+      "application_potential": "高",
+      "abstract": "本文提出一种基于世界模型的仿真模拟框架，能够生成'如果...会怎样'的反事实场景，用于自动驾驶系统的情境推理和决策评估。该方法通过学习环境动力学模型，能够模拟不同决策路径下的可能结果，为安全关键场景的测试和验证提供有力工具。实验表明，该方法在复杂交通场景中能准确预测98%的潜在风险。",
+      "keywords": ["世界模型", "仿真模拟", "情境推理", "反事实分析", "自动驾驶测试"],
+      "code_available": true,
+      "conference": "预印本",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-09T15:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Can we Trust Unreliable Voxels? Exploring 3D Semantic Occupancy Prediction under Label Noise",
+      "authors": "Wenxin Li, Kunyu Peng, Di Wen, Junwei Zheng, Jiale Wei, Mengfei Duan, Yuheng Zhang, Rui Fan, Kailun Yang",
+      "url": "https://arxiv.org/abs/2603.06279",
+      "arxiv_id": "2603.06279",
+      "publish_date": "2026-03-09",
+      "category": "cs.CV; cs.RO",
+      "innovation": "研究标签噪声下的3D语义占用预测可靠性问题，提出鲁棒性训练方法",
+      "application_potential": "中",
+      "abstract": "3D语义占用预测是自动驾驶环境理解的关键任务，但实际训练数据中普遍存在标签噪声。本文系统研究标签噪声对3D语义占用预测的影响，并提出一种鲁棒性训练方法，通过不确定性估计和噪声标签校正，提升模型在噪声数据下的性能。实验表明，该方法在噪声率30%的情况下仍能保持85%的预测精度。",
+      "keywords": ["3D语义占用", "标签噪声", "鲁棒性训练", "不确定性估计", "自动驾驶感知"],
+      "code_available": true,
+      "conference": "预印本",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

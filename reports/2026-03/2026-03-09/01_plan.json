@@ -1,0 +1,85 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-03-09T14:55:11+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-03-09",
+    "plan_id": "plan_20260309_145511",
+    "user_intent": "用户要求作为autointel_dispatcher生成今日全量行业日报，涵盖自动驾驶领域的最新工业动态、学术论文和开源项目进展，特别关注端到端自动驾驶技术发展。",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时（优先范围），可扩展至最近1个月",
+      "academic": "最近一周内论文，优先有代码实现的近期工作",
+      "open_source": "最近1个月内有更新的开源项目，重点关注高星增长"
+    },
+    "thought_process": "用户指令明确要求'作为autointel_dispatcher,生成今日全量行业日报'，属于全量日报模式。根据AutoIntel-Dispatcher的技能定义，全量日报模式应并行启动三个情报收集Agent：Industry_Watcher（工业动态）、Paper_Hunter（学术论文）、Code_Scout（开源项目），待三者完成后由Chief_Analyst汇总生成最终报告。今日重点关注端到端自动驾驶技术进展，需覆盖Tesla、华为、Waymo等核心厂商动态，以及arXiv上相关最新论文和GitHub热门开源项目。当前系统时间2026年3月9日，需确保收集今日最新信息。",
+    "execution_plan": {
+      "tasks": [
+        {
+          "task_id": "task_industry_20260309",
+          "agent": "Industry_Watcher",
+          "output_file": "reports/2026-03/2026-03-09/02_industry.json",
+          "instruction": "收集今日（2026年3月9日）自动驾驶领域工业动态，重点关注：1) Tesla FSD最新进展、OTA更新；2) 华为ADS 4.0技术动态；3) Waymo、Cruise等Robotaxi公司最新测试进展；4) 中国新势力（NIO、XPeng、Li Auto）城市NOA部署情况；5) 端到端自动驾驶技术商业化进展；6) 小米汽车、苹果汽车等新进入者动态。时间范围：最近24-72小时，可扩展至最近1个月。要求：每条信息必须有真实来源链接和发布日期，禁止模拟数据。",
+          "query_keywords": ["Tesla FSD 2026", "Huawei ADS 4.0", "Waymo robotaxi", "NIO NOP+", "XPeng XNGP 4.0", "Li Auto AD Max 3.0", "end-to-end autonomous driving 2026", "city NOA deployment", "autonomous driving update March 2026", "Xiaomi car autonomous driving", "Apple car project"],
+          "timeout": 600,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_paper_20260309",
+          "agent": "Paper_Hunter",
+          "output_file": "reports/2026-03/2026-03-09/03_papers.json",
+          "instruction": "搜索近期（最近一周）自动驾驶领域学术论文，重点关注：1) 端到端自动驾驶（End-to-End Autonomous Driving）；2) 世界模型（World Models）；3) 扩散策略（Diffusion Policy）；4) 视觉语言模型（VLM）在自动驾驶中的应用；5) 占用网络（Occupancy Networks）进展；6) 多模态感知（Multimodal Perception）；7) 规划决策一体化模型。优先选择有代码实现的项目。要求：必须提供arXiv链接、发布日期、论文摘要。",
+          "query_keywords": ["end-to-end autonomous driving", "world model autonomous driving", "diffusion policy driving", "VLM autonomous driving", "occupancy network", "multimodal perception autonomous", "arXiv cs.CV March 2026", "arXiv cs.RO March 2026", "autonomous driving paper 2026", "CVPR 2026 autonomous driving"],
+          "timeout": 600,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_code_20260309",
+          "agent": "Code_Scout",
+          "output_file": "reports/2026-03/2026-03-09/04_code.json",
+          "instruction": "发现近期（最近1个月）自动驾驶相关开源项目，重点关注：1) 仿真器（CARLA, NVIDIA Drive Sim, LGSVL等）；2) 数据集（nuScenes, Waymo Open Dataset, Argoverse 2等）；3) 算法实现（BEVFormer, UniAD, VAD, OpenLane等）；4) 工具链（模型部署、数据标注、可视化工具）；5) 端到端框架。优先选择大厂开源项目和高星增长项目。要求：必须提供GitHub链接、star数量、最后更新时间。",
+          "query_keywords": ["autonomous driving simulator", "self-driving dataset", "BEV detection", "occupancy prediction", "end-to-end driving framework", "CARLA", "nuScenes", "Waymo Open Dataset", "GitHub trending autonomous driving", "autonomous driving toolbox", "autonomous driving model zoo"],
+          "timeout": 600,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_analysis_20260309",
+          "agent": "Chief_Analyst",
+          "output_file": "reports/2026-03/2026-03-09/2026-03-09_Report.md",
+          "instruction": "读取前三个任务生成的JSON文件（02_industry.json, 03_papers.json, 04_code.json），进行去重、清洗和质量评估。生成结构化日报，包含：1) 工业界动态分析；2) 学术界论文精选；3) 开源项目推荐；4) 话题演进分析；5) 学习建议和系统优化建议。要求：遵循标准报告模板，添加技术背景说明，评估工业应用价值，特别关注端到端自动驾驶技术趋势。",
+          "dependencies": ["task_industry_20260309", "task_paper_20260309", "task_code_20260309"],
+          "timeout": 900,
+          "retry_count": 2
+        }
+      ],
+      "parallel_start": ["task_industry_20260309", "task_paper_20260309", "task_code_20260309"],
+      "final_trigger": "task_analysis_20260309"
+    },
+    "trigger_conditions": {
+      "parallel_tasks_ready": "当三个并行任务（Industry_Watcher, Paper_Hunter, Code_Scout）的输出文件都存在且可解析时",
+      "analysis_trigger": "自动触发Chief_Analyst任务，生成最终日报",
+      "fallback_condition": "如果任一并行任务失败，继续使用可用数据生成降级报告"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

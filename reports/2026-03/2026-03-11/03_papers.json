@@ -1,0 +1,110 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-11T17:55:22+08:00",
+      "data_source": "arxiv",
+      "access_status": "success",
+      "quality_score": 94,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "M²-Occ: Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs",
+      "url": "https://arxiv.org/abs/2603.09737",
+      "publish_date": "2026-03-10",
+      "authors": "Kaixin Lin, Kunyu Peng, Di Wen, Yufan Chen, Ruiping Liu, Kailun Yang",
+      "abstract": "Semantic occupancy prediction enables dense 3D geometric and semantic understanding for autonomous driving. However, existing camera-based approaches implicitly assume complete surround-view observations, an assumption that rarely holds in real-world deployment due to occlusion, hardware malfunction, or communication failures. We study semantic occupancy prediction under incomplete multi-camera inputs and introduce M²-Occ, a framework designed to preserve geometric structure and semantic coherence when views are missing. M²-Occ addresses two complementary challenges. First, a Multi-view Masked Reconstruction (MMR) module leverages the spatial overlap among neighboring cameras to recover missing-view representations directly in the feature space. Second, a Feature Memory Module (FMM) introduces a learnable memory bank that stores class-level semantic prototypes. By retrieving and integrating these global priors, the FMM refines ambiguous voxel features, ensuring semantic consistency even when observational evidence is incomplete. We introduce a systematic missing-view evaluation protocol on the nuScenes-based SurroundOcc benchmark, encompassing both deterministic single-view failures and stochastic multi-view dropout scenarios. Under the safety-critical missing back-view setting, M²-Occ improves the IoU by 4.93%. As the number of missing cameras increases, the robustness gap further widens; for instance, under the setting with five missing views, our method boosts the IoU by 5.01%. These gains are achieved without compromising full-view performance.",
+      "technical_points": [
+        "提出M²-Occ框架，解决多相机输入不完整时的3D语义占据预测问题，提升自动驾驶系统在传感器故障时的鲁棒性",
+        "创新点1：多视图掩码重建(MMR)模块，利用相邻相机空间重叠在特征空间直接恢复缺失视图表示",
+        "创新点2：特征记忆模块(FMM)，存储类别级语义原型，通过检索和集成全局先验优化模糊体素特征",
+        "在nuScenes SurroundOcc基准测试中，缺失后视图设置下IoU提升4.93%，五相机缺失时IoU提升5.01%",
+        "方法不依赖完整环视假设，更符合实际部署场景，支持硬件故障、遮挡、通信失败等真实世界情况"
+      ],
+      "innovation_score": 90,
+      "application_potential": "高 - 直接应用于自动驾驶感知系统，提升在传感器故障情况下的安全性",
+      "has_code": true,
+      "code_url": "https://github.com/qixi7up/M2-Occ",
+      "conference": "arXiv预印本",
+      "keywords": ["3D semantic occupancy", "multi-camera perception", "robust perception", "autonomous driving", "missing view reconstruction"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-11T17:55:22+08:00",
+      "data_source": "arxiv",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "StyleVLA: Driving Style-Aware Vision Language Action Model for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2603.09482",
+      "publish_date": "2026-03-10",
+      "authors": "Yuan Gao, Dengyuan Hua, Mattia Piccinini, Finn Rasmus Schäfer, Korbinian Moller, Lin Li, Johannes Betz",
+      "abstract": "Vision Language Models (VLMs) bridge visual perception and linguistic reasoning. In Autonomous Driving (AD), this synergy has enabled Vision Language Action (VLA) models, which translate high-level multimodal understanding into driving behaviors, typically represented as future trajectories. However, existing VLA models mainly generate generic collision-free trajectories. Beyond collision avoidance, adapting to diverse driving styles (e.g., sporty, comfortable) is essential for personalized driving. Moreover, many methods treat trajectory generation as naive token prediction, which can produce kinematically infeasible actions. To address these limitations, we present StyleVLA, a physics-informed VLA framework for generating diverse and physically plausible driving behaviors. We introduce a hybrid loss that combines a kinematic consistency constraint with a continuous regression head to improve trajectory feasibility. To train StyleVLA, built on Qwen3-VL-4B, we construct a large-scale instruction dataset with over 1.2k scenarios, 76k Bird's Eye View (BEV) samples, and 42k First Person View (FPV) samples, with ground-truth trajectories for five driving styles and natural-language instructions. Experiments show that our 4B-parameter StyleVLA significantly outperforms proprietary models (e.g., Gemini-3-Pro) and state-of-the-art VLA models. Using a composite driving score measuring success rate, physical feasibility, and style adherence, StyleVLA achieves 0.55 on BEV and 0.51 on FPV, versus 0.32 and 0.35 for Gemini-3-Pro. These results show that a specialized, physics-informed, lightweight model can surpass closed-source models on domain-specific tasks.",
+      "technical_points": [
+        "提出StyleVLA：首个驾驶风格感知的视觉语言动作模型，支持个性化驾驶行为生成",
+        "创新点1：混合损失函数，结合运动学一致性约束和连续回归头，提升轨迹物理可行性",
+        "创新点2：大规模指令数据集，包含1.2k场景、76k BEV样本、42k FPV样本，覆盖五种驾驶风格",
+        "基于Qwen3-VL-4B构建，仅40亿参数，在BEV和FPV评估中显著超越Gemini-3-Pro等闭源模型",
+        "驾驶风格包括：运动型、舒适型、保守型、激进型、平衡型，支持自然语言指令控制"
+      ],
+      "innovation_score": 88,
+      "application_potential": "高 - 实现个性化自动驾驶，提升用户体验和接受度",
+      "has_code": false,
+      "code_url": null,
+      "conference": "arXiv预印本",
+      "keywords": ["VLA model", "driving style", "personalized driving", "trajectory prediction", "physics-informed AI"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-11T17:55:22+08:00",
+      "data_source": "arxiv",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Open-World Motion Forecasting",
+      "url": "https://arxiv.org/abs/2603.09420",
+      "publish_date": "2026-03-10",
+      "authors": "Nicolas Schischka, Nikhil Gosala, B Ravi Kiran, Senthil Yogamani, Abhinav Valada",
+      "abstract": "Motion forecasting aims to predict the future trajectories of dynamic agents in the scene, enabling autonomous vehicles to effectively reason about scene evolution. Existing approaches operate under the closed-world regime and assume fixed object taxonomy as well as access to high-quality perception. Therefore, they struggle in real-world settings where perception is imperfect and object taxonomy evolves over time. In this work, we bridge this fundamental gap by introducing open-world motion forecasting, a novel setting in which new object classes are sequentially introduced over time and future object trajectories are estimated directly from camera images. We tackle this setting by proposing the first end-to-end class-incremental motion forecasting framework to mitigate catastrophic forgetting while simultaneously learning to forecast newly introduced classes. When a new class is introduced, our framework employs a pseudo-labeling strategy to first generate motion forecasting pseudo-labels for all known classes which are then processed by a vision-language model to filter inconsistent and over-confident predictions. Parallelly, our approach further mitigates catastrophic forgetting by using a novel replay sampling strategy that leverages query feature variance to sample previous sequences with informative motion patterns. Extensive evaluation on the nuScenes and Argoverse 2 datasets demonstrates that our approach successfully resists catastrophic forgetting and maintains performance on previously learned classes while improving adaptation to novel ones. Further, we demonstrate that our approach supports zero-shot transfer to real-world driving and naturally extends to end-to-end class-incremental planning, enabling continual adaptation of the full autonomous driving system.",
+      "technical_points": [
+        "首次提出开放世界运动预测问题，解决类别增量学习和感知不完美的现实挑战",
+        "创新点1：端到端类别增量运动预测框架，防止灾难性遗忘同时学习新类别",
+        "创新点2：伪标签生成策略，结合视觉语言模型过滤不一致和过自信预测",
+        "创新点3：基于查询特征方差的回放采样策略，选择信息丰富的运动模式序列",
+        "在nuScenes和Argoverse 2数据集上验证，支持零样本转移到真实驾驶，可扩展到端到端增量规划"
+      ],
+      "innovation_score": 87,
+      "application_potential": "高 - 解决自动驾驶系统在开放环境中的持续学习和适应问题",
+      "has_code": true,
+      "code_url": "https://omen.cs.uni-freiburg.de",
+      "conference": "arXiv预印本",
+      "keywords": ["open-world forecasting", "class-incremental learning", "motion prediction", "catastrophic forgetting", "autonomous driving"]
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

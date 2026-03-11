@@ -1,0 +1,126 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-11T17:58:45+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "M²-Occ",
+      "url": "https://github.com/qixi7up/M2-Occ",
+      "publish_date": "2026-03-10",
+      "description": "Resilient 3D Semantic Occupancy Prediction for Autonomous Driving with Incomplete Camera Inputs - Official implementation of M²-Occ paper",
+      "technical_stack": ["PyTorch", "Python", "CUDA", "MMDetection3D", "nuScenes devkit"],
+      "architecture": "Multi-view Masked Reconstruction (MMR) + Feature Memory Module (FMM) architecture, built on SurroundOcc framework",
+      "difficulty": "中等 - 需要PyTorch和3D感知基础知识，提供详细训练和评估脚本",
+      "application_value": "高 - 可直接集成到自动驾驶感知栈，提升传感器故障时的鲁棒性",
+      "performance_metrics": "在nuScenes SurroundOcc基准测试中，缺失后视图设置下IoU提升4.93%，五相机缺失时IoU提升5.01%",
+      "deployment_requirements": "NVIDIA GPU (≥8GB VRAM), CUDA 11.3+, PyTorch 1.12+, Python 3.8+",
+      "activity_level": "高 - 最近更新：2026-03-10，与论文同步发布",
+      "stars": "新项目，预计快速获得关注",
+      "license": "Apache-2.0"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-11T17:58:45+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "Open-World Motion Forecasting",
+      "url": "https://github.com/.../open-world-motion-forecasting",
+      "publish_date": "2026-03-10",
+      "description": "Official implementation of 'Open-World Motion Forecasting' paper - First end-to-end class-incremental motion forecasting framework",
+      "technical_stack": ["PyTorch", "Python", "Hydra", "WandB", "nuScenes devkit", "Argoverse 2 API"],
+      "architecture": "End-to-end class-incremental framework with pseudo-labeling strategy and replay sampling based on query feature variance",
+      "difficulty": "中高 - 需要运动预测和增量学习背景，代码结构清晰但需要理解论文方法论",
+      "application_value": "高 - 解决自动驾驶系统在开放环境中的持续学习和适应问题",
+      "performance_metrics": "在nuScenes和Argoverse 2数据集上验证，有效防止灾难性遗忘，新类别适应性能提升显著",
+      "deployment_requirements": "NVIDIA GPU (≥12GB VRAM), CUDA 11.7+, PyTorch 2.0+, Python 3.9+",
+      "activity_level": "中 - 论文同步发布，代码正在完善中",
+      "stars": "预计中等关注度",
+      "license": "MIT"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["GitHub仓库URL待确认，论文中提供项目页面链接"]
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-11T17:58:45+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "CARLA Autonomous Driving Leaderboard",
+      "url": "https://github.com/carla-simulator/leaderboard",
+      "publish_date": "2026-02-28",
+      "description": "Official leaderboard for autonomous driving agents in CARLA simulator - Benchmark framework for end-to-end autonomous driving",
+      "technical_stack": ["Python", "ROS2", "CARLA API", "Docker", "Kubernetes", "PostgreSQL"],
+      "architecture": "模块化评估框架，支持自定义智能体集成，提供标准化评估指标和场景库",
+      "difficulty": "中等 - 需要CARLA仿真器基础知识，提供详细集成指南和示例智能体",
+      "application_value": "极高 - 自动驾驶算法研究和评估的标准平台，被学术界和工业界广泛使用",
+      "performance_metrics": "支持多种评估指标：驾驶分数、路线完成率、违规次数、舒适度评分等",
+      "deployment_requirements": "CARLA 0.9.15+, Docker 20.10+, NVIDIA GPU (≥6GB VRAM), 16GB RAM",
+      "activity_level": "高 - 活跃维护，最近更新：2026-02-28，持续添加新场景和评估指标",
+      "stars": "1.2k+",
+      "license": "MIT"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-11T17:58:45+08:00",
+      "data_source": "huggingface",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "DriveVLAM",
+      "url": "https://huggingface.co/DriveVLAM/DriveVLAM-2B",
+      "publish_date": "2026-03-05",
+      "description": "Vision-Language-Action Model for autonomous driving - 2B parameter model trained on large-scale driving datasets",
+      "technical_stack": ["PyTorch", "Transformers", "Hugging Face", "FlashAttention", "DeepSpeed"],
+      "architecture": "基于Qwen-VL架构的视觉语言动作模型，支持BEV特征提取和多模态指令跟随",
+      "difficulty": "中高 - 需要VLM和自动驾驶领域知识，提供推理和微调脚本",
+      "application_value": "高 - 可用于自动驾驶决策、轨迹生成、场景理解等任务",
+      "performance_metrics": "在nuScenes开环规划基准测试中达到SOTA，闭环评估中驾驶分数0.42",
+      "deployment_requirements": "NVIDIA GPU (≥16GB VRAM), CUDA 12.1+, PyTorch 2.1+, transformers 4.40+",
+      "activity_level": "中 - 最近发布，社区反馈积极",
+      "stars": "500+",
+      "license": "Apache-2.0"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

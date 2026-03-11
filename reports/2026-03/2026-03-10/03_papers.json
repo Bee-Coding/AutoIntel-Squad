@@ -1,0 +1,157 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-10T14:30:00+08:00",
+      "data_source": "arXiv.org",
+      "access_status": "public",
+      "quality_score": 9,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "NaviDriveVLM: Decoupling High-Level Reasoning and Motion Planning for Autonomous Driving",
+      "authors": ["Ximeng Tao", "Pardis Taghavi", "Dimitar Filev", "Reza Langari", "Gaurav Pandey"],
+      "url": "https://arxiv.org/abs/2603.07901v1",
+      "arxiv_id": "2603.07901v1",
+      "publish_date": "2026-03-09T02:47:44Z",
+      "category": "cs.RO, cs.LG",
+      "innovation": "提出了解耦框架，将高级推理与动作生成分离，使用大规模导航器和轻量级可训练驱动器。这种设计保留了推理能力，降低了训练成本，并为下游规划提供了可解释的中间表示。在nuScenes基准测试中表现出色，优于大型VLM基线。",
+      "application_potential": "适用于需要复杂语义理解和精确运动规划的端到端自动驾驶系统，可提高规划准确性和解释性。",
+      "abstract": "Vision-language models (VLMs) have emerged as a promising direction for end-to-end autonomous driving (AD) by jointly modeling visual observations, driving context, and language-based reasoning. However, existing VLM-based systems face a trade-off between high-level reasoning and motion planning: large models offer strong semantic understanding but are costly to adapt for precise control, whereas small VLM models can be fine-tuned efficiently but often exhibit weaker reasoning. We propose NaviDriveVLM, a decoupled framework that separates reasoning from action generation using a large-scale Navigator and a lightweight trainable Driver. This design preserves reasoning ability, reduces training cost, and provides an explicit interpretable intermediate representation for downstream planning. Experiments on the nuScenes benchmark show that NaviDriveVLM outperforms large VLM baselines in end-to-end motion planning.",
+      "keywords": ["autonomous driving", "vision-language models", "motion planning", "reasoning", "decoupled framework"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": "arXiv API",
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-10T14:30:00+08:00",
+      "data_source": "arXiv.org",
+      "access_status": "public",
+      "quality_score": 8,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Toward Unified Multimodal Representation Learning for Autonomous Driving",
+      "authors": ["Ximeng Tao", "Dimitar Filev", "Gaurav Pandey"],
+      "url": "https://arxiv.org/abs/2603.07874v1",
+      "arxiv_id": "2603.07874v1",
+      "publish_date": "2026-03-09T01:18:50Z",
+      "category": "cs.CV, cs.LG",
+      "innovation": "提出了对比张量预训练（CTP）框架，在统一嵌入空间中同时对齐多个模态，扩展了2D相似度矩阵为多模态相似度张量，并引入张量损失实现跨所有模态的联合对比学习。构建了文本-图像-点云三元组数据集进行验证。",
+      "application_potential": "提升多模态自动驾驶系统的表征学习能力，增强跨模态对齐一致性，适用于端到端自动驾驶场景理解。",
+      "abstract": "Contrastive Language-Image Pre-training (CLIP) has shown impressive performance in aligning visual and textual representations. Recent studies have extended this paradigm to 3D vision to improve scene understanding for autonomous driving. A common strategy is to employ pairwise cosine similarity between modalities to guide the training of a 3D encoder. However, considering the similarity between individual modality pairs rather than all modalities jointly fails to ensure consistent and unified alignment across the entire multimodal space. In this paper, we propose a Contrastive Tensor Pre-training (CTP) framework that simultaneously aligns multiple modalities in a unified embedding space to enhance end-to-end autonomous driving. Compared with pairwise cosine similarity alignment, our method extends the 2D similarity matrix into a multimodal similarity tensor. Furthermore, we introduce a tensor loss to enable joint contrastive learning across all modalities. For experimental validation of our framework, we construct a text-image-point cloud triplet dataset derived from existing autonomous driving datasets. The results show that our proposed unified multimodal alignment framework achieves favorable performance for both scenarios: (i) aligning a 3D encoder with pretrained CLIP encoders, and (ii) pretraining all encoders from scratch.",
+      "keywords": ["multimodal representation learning", "contrastive learning", "autonomous driving", "CLIP", "3D vision"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": "arXiv API",
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-10T14:30:00+08:00",
+      "data_source": "arXiv.org",
+      "access_status": "public",
+      "quality_score": 9,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "FOMO-3D: Using Vision Foundation Models for Long-Tailed 3D Object Detection",
+      "authors": ["Anqi Joyce Yang", "James Tu", "Nikita Dvornik", "Enxu Li", "Raquel Urtasun"],
+      "url": "https://arxiv.org/abs/2603.08611v1",
+      "arxiv_id": "2603.08611v1",
+      "publish_date": "2026-03-09T16:57:23Z",
+      "category": "cs.CV, cs.RO",
+      "innovation": "首个利用视觉基础模型（OWLv2和Metric3Dv2）进行长尾3D检测的多模态3D检测器。采用两阶段检测范式，首先生成LiDAR和相机分支的提案，然后通过注意力机制细化，特别关注OWL的图像特征。在真实世界驾驶数据上评估显示，对于长尾3D检测有显著提升。",
+      "application_potential": "提升自动驾驶系统在稀有物体（如建筑工人）上的检测能力，增强安全性和泛化性。",
+      "abstract": "In order to navigate complex traffic environments, self-driving vehicles must recognize many semantic classes pertaining to vulnerable road users or traffic control devices. However, many safety-critical objects (e.g., construction worker) appear infrequently in nominal traffic conditions, leading to a severe shortage of training examples from driving data alone. Recent vision foundation models, which are trained on a large corpus of data, can serve as a good source of external prior knowledge to improve generalization. We propose FOMO-3D, the first multi-modal 3D detector to leverage vision foundation models for long-tailed 3D detection. Specifically, FOMO-3D exploits rich semantic and depth priors from OWLv2 and Metric3Dv2 within a two-stage detection paradigm that first generates proposals with a LiDAR-based branch and a novel camera-based branch, and refines them with attention especially to image features from OWL. Evaluations on real-world driving data show that using rich priors from vision foundation models with careful multi-modal fusion designs leads to large gains for long-tailed 3D detection. Project website is at https://waabi.ai/fomo3d/.",
+      "keywords": ["3D object detection", "long-tailed distribution", "vision foundation models", "autonomous driving", "multi-modal fusion"],
+      "code_available": true,
+      "conference": "CoRL 2025",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": "arXiv API",
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-10T14:30:00+08:00",
+      "data_source": "arXiv.org",
+      "access_status": "public",
+      "quality_score": 7,
+      "quality_grade": "B+"
+    },
+    "content": {
+      "title": "SToRM: Supervised Token Reduction for Multi-modal LLMs toward efficient end-to-end autonomous driving",
+      "authors": ["Seo Hyun Kim", "Jin Bok Park", "Do Yeon Koo", "Hogun Park", "Il Yong Chun"],
+      "url": "https://arxiv.org/abs/2602.11656v2",
+      "arxiv_id": "2602.11656v2",
+      "publish_date": "2026-03-07T08:20:29Z",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出首个用于多模态LLM的监督令牌缩减框架（SToRM），包含轻量级重要性预测器、使用辅助路径获取伪监督信号的监督训练方法，以及锚点-上下文合并模块。在LangAuto基准测试中，在相同缩减令牌预算下优于SOTA端到端驾驶MLLM，保持全令牌性能的同时将计算成本降低高达30倍。",
+      "application_potential": "适用于计算资源有限的自动驾驶车辆，实现高效的多模态LLM推理，保持性能的同时降低延迟。",
+      "abstract": "In autonomous driving, end-to-end (E2E) driving systems that predict control commands directly from sensor data have achieved significant advancements. For safe driving in unexpected scenarios, these systems may additionally rely on human interventions such as natural language instructions. Using a multi-modal large language model (MLLM) facilitates human-vehicle interaction and can improve performance in such scenarios. However, this approach requires substantial computational resources due to its reliance on an LLM and numerous visual tokens from sensor inputs, which are limited in autonomous vehicles. Many MLLM studies have explored reducing visual tokens, but often suffer end-task performance degradation compared to using all tokens. To enable efficient E2E driving while maintaining performance comparable to using all tokens, this paper proposes the first Supervised Token Reduction framework for multi-modal LLMs (SToRM). The proposed framework consists of three key elements. First, a lightweight importance predictor with short-term sliding windows estimates token importance scores. Second, a supervised training approach uses an auxiliary path to obtain pseudo-supervision signals from an all-token LLM pass. Third, an anchor-context merging module partitions tokens into anchors and context tokens, and merges context tokens into relevant anchors to reduce redundancy while minimizing information loss. Experiments on the LangAuto benchmark show that SToRM outperforms state-of-the-art E2E driving MLLMs under the same reduced-token budget, maintaining all-token performance while reducing computational cost by up to 30x.",
+      "keywords": ["token reduction", "multi-modal LLM", "efficient inference", "autonomous driving", "supervised learning"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": "arXiv API",
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-10T14:30:00+08:00",
+      "data_source": "arXiv.org",
+      "access_status": "public",
+      "quality_score": 9,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "authors": ["Jiangxin Sun", "Feng Xue", "Teng Long", "Chang Liu", "Jian-Fang Hu", "Wei-Shi Zheng", "Nicu Sebe"],
+      "url": "https://arxiv.org/abs/2602.23259v1",
+      "arxiv_id": "2602.23259v1",
+      "publish_date": "2026-02-26T17:32:30Z",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出风险感知世界模型预测控制（RaWMPC）框架，通过稳健控制解决泛化困境，无需依赖专家演示。利用世界模型预测多个候选动作的后果，并通过显式风险评估选择低风险动作。设计风险感知交互策略，使世界模型能够预测危险驾驶行为的结果。引入自评估蒸馏方法，将风险规避能力从训练好的世界模型蒸馏到生成动作提议网络中。",
+      "application_potential": "提升端到端自动驾驶系统在分布外场景中的安全性和泛化能力，适用于长尾和罕见驾驶情况。",
+      "abstract": "With advances in imitation learning (IL) and large-scale driving datasets, end-to-end autonomous driving (E2E-AD) has made great progress recently. Currently, IL-based methods have become a mainstream paradigm: models rely on standard driving behaviors given by experts, and learn to minimize the discrepancy between their actions and expert actions. However, this objective of \"only driving like the expert\" suffers from limited generalization: when encountering rare or unseen long-tail scenarios outside the distribution of expert demonstrations, models tend to produce unsafe decisions in the absence of prior experience. This raises a fundamental question: Can an E2E-AD system make reliable decisions without any expert action supervision? Motivated by this, we propose a unified framework named Risk-aware World Model Predictive Control (RaWMPC) to address this generalization dilemma through robust control, without reliance on expert demonstrations. Practically, RaWMPC leverages a world model to predict the consequences of multiple candidate actions and selects low-risk actions through explicit risk evaluation. To endow the world model with the ability to predict the outcomes of risky driving behaviors, we design a risk-aware interaction strategy that systematically exposes the world model to hazardous behaviors, making catastrophic outcomes predictable and thus avoidable. Furthermore, to generate low-risk candidate actions at test time, we introduce a self-evaluation distillation method to distill riskavoidance capabilities from the well-trained world model into a generative action proposal network without any expert demonstration. Extensive experiments show that RaWMPC outperforms state-of-the-art methods in both in-distribution and out-of-distribution scenarios, while providing superior decision interpretability.",
+      "keywords": ["world model", "predictive control", "risk awareness", "generalization", "autonomous driving"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": "arXiv API",
+      "issues": []
+    }
+  }
+]
