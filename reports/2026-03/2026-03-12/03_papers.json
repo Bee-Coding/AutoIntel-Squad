@@ -1,0 +1,103 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-13T02:56:47+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "DynVLA: Learning World Dynamics for Action Reasoning in Autonomous Driving",
+      "authors": "Shuyao Shang, Bing Zhan, Yunfei Yan, Yuqi Wang, Yingyan Li, Yasong An, Xiaoman Wang, Jierui Liu, Lu Hou, Lue Fan, Zhaoxiang Zhang, Tieniu Tan",
+      "url": "https://arxiv.org/abs/2603.11041",
+      "arxiv_id": "2603.11041",
+      "publish_date": "2026-03-11",
+      "category": "cs.CV, cs.RO",
+      "innovation": "提出了Dynamics CoT新范式，通过预测紧凑的世界动态来指导动作生成，实现更知情和物理基础的决策",
+      "application_potential": "高",
+      "abstract": "本文提出了DynVLA，一个引入新Dynamics CoT范式的驾驶VLA模型。DynVLA在动作生成前预测紧凑的世界动态，实现更知情和物理基础的决策。为获得紧凑动态表示，DynVLA引入了Dynamics Tokenizer，将未来演化压缩为一小组动态token。考虑到交互密集型驾驶场景中丰富的环境动态，DynVLA解耦自我中心和环境中心动态，产生更准确的世界动态建模。然后通过SFT和RFT训练DynVLA在动作前生成动态token，提高决策质量同时保持延迟高效推理。与缺乏细粒度时空理解的Textual CoT和由于密集图像预测引入大量冗余的Visual CoT相比，Dynamics CoT以紧凑、可解释和高效的形式捕捉世界演化。在NAVSIM、Bench2Drive和大规模内部数据集上的广泛实验表明，DynVLA consistently优于Textual CoT和Visual CoT方法，验证了Dynamics CoT的有效性和实用价值。",
+      "keywords": ["DynVLA", "世界动态", "自动驾驶", "Dynamics CoT", "动作推理"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-13T02:56:47+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "STADA: Specification-based Testing for Autonomous Driving Agents",
+      "authors": "Joy Saha, Trey Woodlief, Sebastian Elbaum, Matthew B. Dwyer",
+      "url": "https://arxiv.org/abs/2603.10940",
+      "arxiv_id": "2603.10940",
+      "publish_date": "2026-03-11",
+      "category": "cs.SE, cs.RO",
+      "innovation": "提出了基于形式化规范的自动驾驶智能体测试框架，系统生成由时态逻辑定义的所有可能场景",
+      "application_potential": "中",
+      "abstract": "基于仿真的测试已成为在真实世界部署前验证自动驾驶智能体的标准方法。高质量的验证活动需要在不同上下文中测试智能体，包括变化的静态环境（如车道、交叉口、标志）和动态元素（如车辆和行人）。为实现这一点，现有的测试生成技术依赖于基于模板的、手动构造的或随机的场景生成。当应用于验证形式化指定的安全要求时，这些方法要么需要大量人工努力，要么有可能错过与要求相关的重要行为。为填补这一空白，我们提出了STADA，一个基于规范的自动驾驶智能体测试生成框架，系统生成由时态逻辑（LTLf）表达的形式化规范定义的场景空间。给定一个规范，STADA构建所有不同的初始场景、这些场景的多样化延续空间，以及反映规范行为的仿真。在SCENEFLOW中形式化的各种LTLf规范上对STADA的评估表明，在最精细的标准上，STADA的覆盖率比最佳基线高出2倍以上，在最粗糙的标准上提高了75%。此外，它用少6倍的仿真匹配了最佳基线的覆盖率。虽然设置在自动驾驶背景下，该方法适用于其他具有丰富仿真环境的领域。",
+      "keywords": ["STADA", "规范测试", "自动驾驶测试", "形式化验证", "场景生成"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-13T02:56:47+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "title": "Evaluating randomized smoothing as a defense against adversarial attacks in trajectory prediction",
+      "authors": "Julian F. Schumann, Eduardo Figueiredo, Frederik Baymler Mathiesen, Luca Laurenti, Jens Kober, Arkady Zgonnikov",
+      "url": "https://arxiv.org/abs/2603.10821",
+      "arxiv_id": "2603.10821",
+      "publish_date": "2026-03-11",
+      "category": "cs.LG",
+      "innovation": "首次将随机平滑应用于轨迹预测模型的防御机制，提高对抗攻击下的鲁棒性",
+      "application_potential": "中",
+      "abstract": "准确和鲁棒的轨迹预测对于安全高效的自动驾驶至关重要，然而最近的工作表明，即使是最先进的预测模型也高度脆弱，容易受到对抗攻击轻微扰动的输入。虽然模型对此类攻击的脆弱性已被研究，但有效对策的工作仍然有限。在这项工作中，我们基于随机平滑开发并评估了一种新的轨迹预测模型防御机制——一种先前在其他领域成功应用的方法。我们通过一系列实验评估其提高模型鲁棒性的能力，测试随机平滑的不同策略。我们表明，我们的方法可以一致地提高多个基础轨迹预测模型在各种数据集中的预测鲁棒性，同时在不牺牲非对抗设置下的准确性。我们的结果表明，随机平滑提供了一种简单且计算成本低廉的技术，用于缓解轨迹预测中的对抗攻击。",
+      "keywords": ["随机平滑", "对抗攻击", "轨迹预测", "自动驾驶", "鲁棒性"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

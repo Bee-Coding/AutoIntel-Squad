@@ -1,0 +1,126 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-12T18:30:00+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "CARLA Simulator",
+      "url": "https://github.com/carla-simulator/carla",
+      "publish_date": "2026-03-12",
+      "description": "Open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems.",
+      "technical_stack": ["C++", "Python", "Unreal Engine 5.5", "ROS", "Docker"],
+      "architecture": "基于Unreal Engine 5.5的自动驾驶仿真平台，支持传感器模拟、场景生成、智能体训练和评估",
+      "difficulty": "中等 - 需要仿真和自动驾驶基础知识，提供完整的文档和示例",
+      "application_value": "极高 - 自动驾驶研究和开发的标准仿真平台，被学术界和工业界广泛使用",
+      "performance_metrics": "支持高保真物理仿真、多种传感器模型、动态天气和光照条件、大规模场景生成",
+      "deployment_requirements": "NVIDIA GPU (≥8GB VRAM), 16GB RAM, Ubuntu 22.04/Windows 11, Unreal Engine 5.5",
+      "activity_level": "高 - 活跃维护，最近更新频繁，社区贡献活跃",
+      "stars": "13.7k",
+      "license": "MIT"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-12T18:30:00+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 94,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "Apollo Autonomous Driving Platform",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "publish_date": "2026-03-12",
+      "description": "An open autonomous driving platform - high performance, flexible architecture which accelerates the development, testing, and deployment of Autonomous Vehicles",
+      "technical_stack": ["C++", "Python", "TypeScript", "Bazel", "Docker", "ROS", "CUDA"],
+      "architecture": "模块化自动驾驶软件栈，包含感知、预测、规划、控制、定位等完整模块，支持从L2到L4级自动驾驶",
+      "difficulty": "高 - 需要自动驾驶系统全栈知识，但提供详细的文档和示例",
+      "application_value": "极高 - 百度开源的完整自动驾驶平台，已在多款车型上部署验证",
+      "performance_metrics": "支持多传感器融合、高精度定位、实时规划控制、云端协同仿真",
+      "deployment_requirements": "NVIDIA GPU (推荐), 16GB RAM, Ubuntu 18.04/20.04/22.04, Docker 19.03+",
+      "activity_level": "高 - 活跃开发，版本迭代快速，社区庞大",
+      "stars": "26.5k",
+      "license": "Apache-2.0"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-12T18:30:00+08:00",
+      "data_source": "github",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "Autoware",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "publish_date": "2026-03-12",
+      "description": "The world's leading open-source software project for autonomous driving, built on the Robot Operating System (ROS)",
+      "technical_stack": ["C++", "Python", "ROS2", "Docker", "Ansible"],
+      "architecture": "基于ROS2的自动驾驶软件栈，包含感知、规划、控制、定位等模块，采用模块化设计",
+      "difficulty": "中高 - 需要ROS2和自动驾驶知识，提供详细的安装和使用指南",
+      "application_value": "高 - 全球领先的开源自动驾驶软件项目，被研究机构和公司广泛采用",
+      "performance_metrics": "支持多种传感器配置、实时数据处理、模块化扩展、仿真集成",
+      "deployment_requirements": "Ubuntu 22.04, ROS2 Humble, Docker, 8GB RAM (最低要求)",
+      "activity_level": "高 - 活跃维护，最近发布v1.7.1版本，社区贡献积极",
+      "stars": "11.2k",
+      "license": "Apache-2.0"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-12T18:30:00+08:00",
+      "data_source": "huggingface",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "nuScenes Dataset",
+      "url": "https://huggingface.co/datasets/nuscenes/nuscenes",
+      "publish_date": "2026-03-10",
+      "description": "Large-scale autonomous driving dataset with 3D bounding box annotations, collected in Boston and Singapore",
+      "technical_stack": ["Python", "PyTorch", "Hugging Face Datasets", "nuscenes-devkit"],
+      "architecture": "大规模自动驾驶数据集，包含相机、LiDAR、雷达、GPS/IMU等多模态数据，提供完整的标注和评估工具",
+      "difficulty": "低 - 提供简单的数据加载接口，与Hugging Face生态系统集成",
+      "application_value": "极高 - 自动驾驶感知和预测研究的标准基准数据集",
+      "performance_metrics": "1000个驾驶场景，140万张图像，39万帧LiDAR点云，140万个3D边界框标注",
+      "deployment_requirements": "Python 3.8+, 100GB+存储空间，建议使用SSD",
+      "activity_level": "中 - 数据集已稳定，工具链持续更新",
+      "stars": "1.2k+",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

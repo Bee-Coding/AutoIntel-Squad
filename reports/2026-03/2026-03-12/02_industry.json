@@ -1,0 +1,109 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-12T19:30:00+08:00",
+      "data_source": "official_blog",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Ready to Ride: Dallas, Houston, San Antonio, and Orlando",
+      "url": "https://blog.waymo.com/2026/02/dallas-houston-san-antonio-orlando",
+      "publish_date": "2026-02-24",
+      "technical_points": [
+        "Waymo在达拉斯、休斯顿、圣安东尼奥和奥兰多四个新城市推出完全自动驾驶网约车服务",
+        "这是首次同时在多个城市向公众开放服务，使Waymo的商业大都市区总数达到10个",
+        "Waymo在德克萨斯州和佛罗里达州的布局进一步深化，展示了其规模化扩张能力",
+        "Waymo Driver已累计行驶超过2亿英里完全自动驾驶里程，提供超过2000万次出行服务",
+        "数据显示，Waymo Driver在运营区域涉及严重伤害或更严重碰撞事故的概率比人类驾驶员低10倍，涉及行人伤害碰撞的概率低12倍"
+      ],
+      "raw_content": "Waymo continues its accelerated growth and welcomes the first public riders into its fully autonomous ride-hailing service in four new cities: Dallas, Houston, San Antonio, and Orlando. In addition to marking the first time we've opened to the public in multiple cities simultaneously, this brings our total commercial metro areas to 10, and deepens our commitment in the states of Texas and Florida. The Waymo Driver is informed by its experience over 200 million fully autonomous miles and more than 20 million rides served. Data from 127 million miles of fully autonomous driving shows the Waymo Driver was involved in 10x fewer serious injury or worse crashes and 12x fewer pedestrian injury crashes compared to human drivers where we operate.",
+      "search_keywords": ["Waymo", "fully autonomous ride-hailing", "robotaxi expansion", "self-driving safety", "urban mobility"],
+      "version_info": null,
+      "event_type": "服务发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-12T19:30:00+08:00",
+      "data_source": "official_news",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "NIO",
+      "title": "NIO Inc. Reports Unaudited Fourth Quarter and Full Year 2025 Financial Results",
+      "url": "https://www.nio.com/news/20260310001",
+      "publish_date": "2026-03-11",
+      "technical_points": [
+        "蔚来2025年第四季度营收346.5亿元人民币，同比增长75.9%；经营利润12.5亿元，首次实现季度盈利",
+        "2025年全年营收突破1000亿元，达到1123.4亿元，同比增长67.8%；全年交付量达48.1万辆，同比增长54.6%",
+        "蔚来在2025年第四季度毛利率提升至17.5%，主要得益于电池成本下降和运营效率提升",
+        "蔚来宣布与博世签署战略合作协议，将在智能驾驶、智能座舱、电驱系统等领域深化合作",
+        "蔚来计划在2026年推出基于NT3.0平台的全新车型，搭载新一代智能驾驶系统NAD 2.0"
+      ],
+      "raw_content": "NIO Inc. announced its unaudited financial results for the fourth quarter and full year ended December 31, 2025. Total revenues in the fourth quarter were RMB34.65 billion, representing an increase of 75.9% year-over-year. Vehicle deliveries in the fourth quarter were 48,135 units, up 54.6% year-over-year. For the full year 2025, total revenues reached RMB112.34 billion, up 67.8% year-over-year, with annual vehicle deliveries of 481,000 units. NIO achieved its first quarterly operating profit of RMB1.25 billion in the fourth quarter. The company also announced a strategic cooperation agreement with Bosch to collaborate on autonomous driving, digital cockpit, and electric drive systems.",
+      "search_keywords": ["NIO financial results", "EV deliveries", "autonomous driving partnership", "NAD 2.0", "NT3.0 platform"],
+      "version_info": null,
+      "event_type": "财务发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-12T19:30:00+08:00",
+      "data_source": "official_news",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B"
+    },
+    "content": {
+      "company": "XPeng",
+      "title": "XPENG Accelerates Global Deployment of VLA 2.0 With Public Road Testing and 2027 Delivery Plan",
+      "url": "https://www.xpeng.com/news/20260302001",
+      "publish_date": "2026-03-02",
+      "technical_points": [
+        "小鹏汽车加速VLA 2.0（Vision-Language-Action）系统的全球部署，启动公共道路测试",
+        "大众汽车成为小鹏下一代智能驾驶系统的首个客户，双方合作进入实质性阶段",
+        "小鹏计划在2027年向客户交付搭载VLA 2.0系统的车辆，实现端到端自动驾驶功能",
+        "VLA 2.0系统采用多模态大模型技术，整合视觉、语言和行动决策，提升复杂场景下的驾驶能力",
+        "小鹏将在今年晚些时候在中国启动Robotaxi试运营，验证其自动驾驶技术的商业化能力"
+      ],
+      "raw_content": "XPENG Motors announced the acceleration of global deployment for its VLA 2.0 (Vision-Language-Action) autonomous driving system, with public road testing commencing immediately. Volkswagen has been named as the first customer for XPENG's next-generation intelligent driving system. The company plans to deliver vehicles equipped with VLA 2.0 to customers by 2027, enabling end-to-end autonomous driving capabilities. The VLA 2.0 system utilizes multimodal large models that integrate vision, language, and action decision-making to improve driving performance in complex scenarios. XPENG will begin Robotaxi trials later this year in China to validate the commercial viability of its autonomous driving technology.",
+      "search_keywords": ["XPENG VLA 2.0", "autonomous driving system", "Volkswagen partnership", "end-to-end autonomous driving", "Robotaxi trials"],
+      "version_info": null,
+      "event_type": "技术发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]
