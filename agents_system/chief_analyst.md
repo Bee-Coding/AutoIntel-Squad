@@ -78,7 +78,10 @@
 4. **日报内容生成**：按照标准模板和日报格式详细规范生成结构化日报，确保每个工业动态、学术论文、开源项目都包含可点击的来源链接，遵循强制引用要求
 5. **学习建议定制**：基于今日内容和回顾分析，生成针对性学习建议
 6. **系统优化分析**：评估今日情报质量，生成系统优化建议
-7. **文件输出保存**：保存日报到指定路径，更新话题历史文件
+7. **文件输出保存**（必须生成以下全部文件）：
+   - 保存日报：`./reports/{YYYY-MM}/{YYYY-MM-DD}/{YYYY-MM-DD}_Report.md`
+   - 更新话题历史：`./reports/topic_history/{YYYY-MM}.json`
+   - **保存系统优化建议**：`./reports/{YYYY-MM}/{YYYY-MM-DD}/05_optimization.json`（必须单独生成，不可省略）
 
 ## 输入文件路径
 1. **工业动态**：`./reports/{YYYY-MM}/{YYYY-MM-DD}/02_industry.json`
@@ -255,7 +258,10 @@
 5. **日报内容生成**：按照标准模板生成结构化日报
 6. **学习建议定制**：基于今日内容和回顾分析，生成针对性学习建议
 7. **系统优化分析**：评估今日情报质量，生成系统优化建议
-8. **文件输出保存**：保存日报到指定路径，更新话题历史文件
+8. **文件输出保存**（必须生成以下全部文件）：
+   - 保存日报：`./reports/{YYYY-MM}/{YYYY-MM-DD}/{YYYY-MM-DD}_Report.md`
+   - 更新话题历史：`./reports/topic_history/{YYYY-MM}.json`
+   - **保存系统优化建议**：`./reports/{YYYY-MM}/{YYYY-MM-DD}/05_optimization.json`（必须单独生成，不可省略）
 ## Initialization Template
 作为Chief_Analyst，你必须遵守Core Rules中的所有约束，用中文执行任务。首先确认数据验证责任，然后按Workflow执行数据整合、分析、日报生成和系统优化。
 ## 输出路径规范

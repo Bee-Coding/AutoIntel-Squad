@@ -48,6 +48,26 @@ find reports -type f -mtime +30 -delete
 # Refer to CODEBUDDY.md for execution workflows
 ```
 
+### Lightpanda 浏览器管理
+```bash
+# 安装 Lightpanda（首次使用，自动处理 glibc 兼容性）
+bash tools/install_lightpanda.sh
+
+# 启动/停止/查看 CDP 服务器（可选，直接 fetch 模式无需启动）
+bash tools/lightpanda_server.sh start
+bash tools/lightpanda_server.sh status
+bash tools/lightpanda_server.sh stop
+
+# 单页抓取（JS 渲染页面）
+node tools/lp_fetch.mjs https://target-url.com --extract-text --extract-links
+
+# 批量抓取
+echo '["url1","url2","url3"]' | node tools/lp_batch_fetch.mjs --extract-text --concurrency 3
+
+# 安装 Node.js 依赖（首次使用）
+cd tools && npm install
+```
+
 ## Code Style Guidelines
 
 ### Language
@@ -172,7 +192,20 @@ AutoIntel-Squad/
 │   ├── industry_watcher.md
 │   ├── paper_hunter.md
 │   ├── code_scout.md
-│   └── chief_analyst.md
+│   ├── chief_analyst.md
+│   └── common/
+│       ├── common_profile.md
+│       ├── common_rules.md
+│       ├── common_workflow.md
+│       ├── common_output.md
+│       └── README.md
+├── tools/                          # Lightpanda 抓取工具集
+│   ├── install_lightpanda.sh       # 安装 Lightpanda 浏览器
+│   ├── lightpanda_server.sh        # CDP 服务器启停管理
+│   ├── lp_fetch.mjs               # 单页 CDP 抓取（核心工具）
+│   ├── lp_batch_fetch.mjs         # 批量并发抓取
+│   ├── url_routing.json           # URL 路由配置（WebFetch vs Lightpanda）
+│   └── package.json               # Node.js 依赖
 ├── CODEBUDDY.md
 ├── AGENTS.md (this file)
 └── reports/
@@ -284,5 +317,5 @@ curl -X POST https://www.moltbook.com/api/v1/posts \
 ## Version
 
 Created: 2026-01-21
-Updated: 2026-03-02 (Standardized all timestamps to Beijing Time UTC+8; Added Moltbook integration for AI agent community engagement; Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
+Updated: 2026-03-16 (Integrated Lightpanda headless browser for JS-rendered page scraping; Added tools/ directory with CDP fetch utilities; Standardized all timestamps to Beijing Time UTC+8; Added Moltbook integration for AI agent community engagement; Added shared modules for token optimization; Enhanced system robustness with 4-level fallback loading strategy; Expanded Chinese data sources for Industry_Watcher)
 For use with agentic coding systems.

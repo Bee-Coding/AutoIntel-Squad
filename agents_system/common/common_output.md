@@ -64,6 +64,16 @@
   - **output_format** (字符串)：Output格式模块加载状态 `"success"|"fallback_inline"|"fallback_hardcoded"|"failed"`
   - **issues** (数组)：模块加载问题描述列表
   - **strategy_used** (字符串)：最终使用的加载策略 `"exact_path"|"alternate_path"|"inline_fallback"|"hardcoded"`
+- **fetch_method** (字符串，可选)：实际使用的抓取方式
+  - `"webfetch"` - 使用 WebFetch 工具直接获取（默认）
+  - `"lightpanda"` - 使用 Lightpanda 无头浏览器 JS 渲染后获取
+  - `"github_api"` - 使用 GitHub REST API 获取 JSON
+  - `"cache"` - 使用本地缓存数据
+- **fetch_detail** (对象，可选)：抓取详情
+  - **tool_command** (字符串)：实际执行的抓取命令
+  - **render_time_ms** (数字)：页面渲染耗时（仅 Lightpanda）
+  - **fallback_used** (布尔)：是否使用了降级策略
+  - **fallback_reason** (字符串)：降级原因（如 `"lightpanda_unavailable"`, `"timeout"`）
 
 ### 3. 验证字段 (validation)
 - **url_verified** (布尔)：URL验证状态
@@ -283,6 +293,7 @@ reports/
 - **摘要**：不超过300字符
 - **技术点**：每个不超过50字符，总数不超过5个
 - **关键词**：每个不超过30字符，总数不超过5个
+- **每类情报条目上限**：最多5条（按 quality_score 降序排列取最优）
 
 ## 验证规则
 

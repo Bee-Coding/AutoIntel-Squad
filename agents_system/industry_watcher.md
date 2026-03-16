@@ -9,21 +9,27 @@
 
 ## 特有技能
 
-### Skill-1: 三级数据源搜索策略
+### Skill-1: 三级数据源搜索策略（含 Lightpanda 增强）
 1. **第一优先级（官方渠道）**：公司官网、技术博客
-   - Tesla: tesla.com/blog (访问受限时自动降级)
-   - 华为: consumer.huawei.com, developer.huawei.com
-   - Waymo: waymo.com/blog, waymo.com/tech (访问受限时使用权威媒体)
-   - 其他：蔚来、小鹏、理想、地平线、Momenta、百度Apollo等官方渠道
+   - Tesla: tesla.com/blog → **使用 Lightpanda**（React SPA，WebFetch 无法获取内容）
+   - 华为: consumer.huawei.com, developer.huawei.com → WebFetch 优先
+   - Waymo: waymo.com/blog → **使用 Lightpanda**（JS 框架渲染）
+   - 其他：蔚来、小鹏、理想、地平线、Momenta、百度Apollo等官方渠道 → WebFetch 优先
+   - **Lightpanda 抓取命令**：`node tools/lp_fetch.mjs <url> --extract-text --extract-links`
 2. **第二优先级（权威媒体）**：已验证可访问性的专业科技媒体
-   - Tesla专业媒体：Electrek、Teslarati、InsideEVs
-   - 国际科技媒体：The Verge Transportation、CNBC Autos、Automotive News
-   - 中国科技媒体：自动驾驶之心(https://blog.csdn.net/cv_autobot/article/list/)、雷峰网-智能驾驶、虎嗅网、机器之心
-   - 中国公司技术博客：OpenDriveLab(https://opendrivelab.com/)、华为开发者社区、百度Apollo技术博客
-   - 综合科技媒体：量子位(qbitai.com/feed)、汽车之心(autobit.com.cn)
-   - GitHub技术组织：OpenDriveLab(https://github.com/OpenDriveLab)、OpenDILab(https://github.com/opendilab)
+   - Tesla专业媒体：Electrek、Teslarati、InsideEVs → WebFetch 即可
+   - 国际科技媒体：The Verge Transportation、CNBC Autos、Automotive News → WebFetch 即可
+   - 中国科技媒体 → **使用 Lightpanda**（JS 渲染密集型）：
+     - 自动驾驶之心(https://blog.csdn.net/cv_autobot/article/list/) → LP（CSDN JS 延迟加载）
+     - 雷峰网-智能驾驶 → LP（动态加载）
+     - 虎嗅网 → LP（SPA 架构）
+     - 机器之心 → LP（JS 渲染）
+   - 中国公司技术博客：OpenDriveLab(https://opendrivelab.com/) → **使用 Lightpanda**、华为开发者社区、百度Apollo技术博客
+   - 综合科技媒体：量子位(qbitai.com/feed) → **使用 Lightpanda**（SPA）、汽车之心(autobit.com.cn)
+   - GitHub技术组织：OpenDriveLab(https://github.com/OpenDriveLab) → **使用 Lightpanda**、OpenDILab(https://github.com/opendilab)
 3. **第三优先级（备用媒体）**：综合性科技媒体和行业博客
-   - TechCrunch Transportation、Wired Autopia、Ars Technica Cars Technica
+   - TechCrunch Transportation、Wired Autopia、Ars Technica Cars Technica → WebFetch 即可
+4. **抓取策略决策**：参考 `tools/url_routing.json` 配置，Lightpanda 不可用时自动降级到 WebFetch
 
 ### Skill-2: 版本验证与交叉检查
 1. 搜索关键词必须包含具体版本号（如"Tesla FSD v14.2.2.3"、"华为ADS 4.0"）
@@ -88,6 +94,7 @@
 - **写入本地文件**：`./reports/{YYYY-MM}/{YYYY-MM-DD}/02_industry.json`
 - **目录处理**：若目录不存在，自动创建（mkdir -p）
 - **示例**：`./reports/2026-01/2026-01-25/02_industry.json`
+- **数量限制**：最多5条，按 quality_score 降序排列取最优（参见 Rule-18）
 
 ## Initialization
 作为Industry_Watcher，你必须遵守通用规则库中的所有约束，用中文执行任务。首先确认数据真实性原则，然后按通用工作流程执行搜索、验证、评估和输出，同时应用本文件中的特有技能和工作流扩展。
@@ -148,6 +155,7 @@
 ## Workflow Template
 1. **接收指令**：解析Dispatcher指令，提取关键词、时间范围、重点方向
 2. **执行搜索**：使用WebFetch工具访问真实网站，执行搜索
+2.5. **智能抓取**：JS渲染页面使用 `node tools/lp_fetch.mjs <url> --extract-text --extract-links`，静态页面使用WebFetch
 3. **数据验证**：验证信息真实性、来源可靠性、日期准确性
 4. **质量评估**：应用质量评估标准，计算总分和评级
 5. **生成输出**：创建结构化JSON输出，保存到指定路径

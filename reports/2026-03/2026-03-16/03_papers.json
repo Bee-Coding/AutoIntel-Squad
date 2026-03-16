@@ -1,0 +1,192 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-16T11:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "title": "Open-World Motion Forecasting",
+      "authors": "Nicolas Schischka, Nikhil Gosala, B Ravi Kiran, Senthil Yogamani, Abhinav Valada",
+      "url": "https://arxiv.org/abs/2603.09420",
+      "arxiv_id": "2603.09420",
+      "publish_date": "2026-03-10",
+      "category": "cs.CV cs.AI cs.RO",
+      "innovation": "提出开放世界运动预测新设置，引入首个端到端类增量运动预测框架，缓解灾难性遗忘同时学习预测新引入类别",
+      "application_potential": "高",
+      "abstract": "运动预测旨在预测场景中动态智能体的未来轨迹，使自动驾驶汽车能够有效推理场景演变。现有方法在封闭世界机制下运行，假设固定的对象分类法和高质量的感知访问。因此，在感知不完美且对象分类法随时间演变的真实世界设置中，这些方法表现不佳。本文通过引入开放世界运动预测来弥合这一基本差距，这是一种新的设置，其中新对象类别随时间顺序引入，未来对象轨迹直接从相机图像估计。通过提出首个端到端类增量运动预测框架来解决这一设置，该框架在缓解灾难性遗忘的同时学习预测新引入的类别。当新类别引入时，该框架采用伪标记策略为所有已知类别生成运动预测伪标签，然后通过视觉语言模型处理以过滤不一致和过度自信的预测。",
+      "keywords": [
+        "开放世界运动预测",
+        "类增量学习",
+        "灾难性遗忘",
+        "端到端自动驾驶",
+        "运动预测"
+      ],
+      "code_available": true,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-16T11:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "title": "Zero-Shot Cross-City Generalization in End-to-End Autonomous Driving: Self-Supervised versus Supervised Representations",
+      "authors": "Fatemeh Naeinian, Ali Hamza, Haoran Zhu, Anna Choromanska",
+      "url": "https://arxiv.org/abs/2603.11417",
+      "arxiv_id": "2603.11417",
+      "publish_date": "2026-03-11",
+      "category": "cs.CV cs.LG",
+      "innovation": "研究端到端自动驾驶模型的零样本跨城市泛化能力，比较自监督与监督表示学习在跨城市转移中的表现",
+      "application_potential": "高",
+      "abstract": "端到端自动驾驶模型通常使用基于ImageNet预训练的监督主干网络在多城市数据集上进行训练，但其对未见城市的泛化能力尚未得到充分研究。本文研究了端到端轨迹规划中的零样本跨城市泛化问题，探讨自监督视觉表示是否能改善跨城市转移。通过将自监督主干网络集成到规划框架中，在nuScenes（开环评估）和NAVSIM（闭环评估）上进行严格地理划分的评估。实验表明，依赖传统监督主干网络的模型在具有不同道路拓扑和驾驶习惯的城市间转移时存在显著的泛化差距，特别是从右侧驾驶环境转移到左侧驾驶环境时。自监督表示学习可以减少这一差距。在开环评估中，监督主干网络从波士顿转移到新加坡时出现严重性能下降，而特定领域的自监督预训练将这一差距显著减小。",
+      "keywords": [
+        "跨城市泛化",
+        "自监督学习",
+        "零样本学习",
+        "端到端自动驾驶",
+        "表示学习"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-16T11:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "title": "A Neuro-Symbolic Framework Combining Inductive and Deductive Reasoning for Autonomous Driving Planning",
+      "authors": "Hongyan Wei, Wael AbdAlmageed",
+      "url": "https://arxiv.org/abs/2603.12421",
+      "arxiv_id": "2603.12421",
+      "publish_date": "2026-03-12",
+      "category": "cs.CV",
+      "innovation": "提出结合归纳推理和演绎推理的神经符号轨迹规划框架，利用LLM动态提取场景规则和ASP求解器进行逻辑仲裁",
+      "application_potential": "高",
+      "abstract": "现有端到端自动驾驶模型主要依赖纯数据驱动的归纳推理，导致在复杂长尾场景中缺乏可解释性和绝对安全保障。本文提出一种新颖的神经符号轨迹规划框架，将严格的演绎推理无缝集成到端到端神经网络中。具体而言，该框架利用大型语言模型动态提取场景规则，并使用答案集编程求解器进行确定性逻辑仲裁，生成安全且可追溯的离散驾驶决策。通过引入决策条件解码机制将高级逻辑决策转换为可学习的嵌入向量，同时约束规划查询和物理初始速度。在nuScenes基准测试中，该方法全面优于最先进的基线MomAD，将L2平均误差降至0.57米，碰撞率降至0.075%，轨迹预测一致性优化至0.47米。",
+      "keywords": [
+        "神经符号推理",
+        "自动驾驶规划",
+        "大型语言模型",
+        "答案集编程",
+        "轨迹规划"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-16T11:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "title": "NaviDriveVLM: Decoupling High-Level Reasoning and Motion Planning for Autonomous Driving",
+      "authors": "Ximeng Tao, Pardis Taghavi, Dimitar Filev, Reza Langari, Gaurav Pandey",
+      "url": "https://arxiv.org/abs/2603.07901",
+      "arxiv_id": "2603.07901",
+      "publish_date": "2026-03-08",
+      "category": "cs.RO cs.LG",
+      "innovation": "提出NaviDriveVLM解耦框架，分离推理与动作生成，使用大规模导航器和轻量级可训练驾驶器，保留推理能力同时降低训练成本",
+      "application_potential": "高",
+      "abstract": "视觉语言模型已成为端到端自动驾驶的一个有前景方向，通过联合建模视觉观察、驾驶上下文和基于语言的推理。然而，现有的基于VLM的系统面临高级推理与运动规划之间的权衡：大型模型提供强大的语义理解但适应精确控制的成本高昂，而小型VLM模型可以高效微调但通常表现出较弱的推理能力。本文提出NaviDriveVLM，一个解耦框架，使用大规模导航器和轻量级可训练驾驶器将推理与动作生成分离。这种设计保留了推理能力，降低了训练成本，并为下游规划提供了显式可解释的中间表示。在nuScenes基准测试上的实验表明，NaviDriveVLM在端到端运动规划方面优于大型VLM基线。",
+      "keywords": [
+        "视觉语言模型",
+        "自动驾驶规划",
+        "解耦架构",
+        "运动规划",
+        "端到端学习"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-16T11:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+      "authors": "Thomas Monninger, Shaoyuan Xie, Qi Alfred Chen, Sihao Ding",
+      "url": "https://arxiv.org/abs/2603.06576",
+      "arxiv_id": "2603.06576",
+      "publish_date": "2026-03-06",
+      "category": "cs.CV cs.AI cs.LG cs.RO",
+      "innovation": "提出BEVLM框架，将LLM的语义知识蒸馏到鸟瞰图表示中，连接空间一致的BEV表示与LLM",
+      "application_potential": "高",
+      "abstract": "将大型语言模型集成到自动驾驶中因其强大的推理和语义理解能力而受到越来越多的关注，这对于处理复杂决策和长尾场景至关重要。然而，现有方法通常将多视图和多帧图像的标记独立地馈送到LLM中，导致冗余计算和有限的空间一致性。这种视觉处理的分离阻碍了准确的3D空间推理，并无法保持跨视图的几何一致性。另一方面，从几何注释任务学习的鸟瞰图表示提供空间结构但缺乏基础视觉编码器的语义丰富性。为了弥合这一差距，本文提出BEVLM框架，将空间一致且语义蒸馏的BEV表示与LLM连接起来。通过大量实验表明，BEVLM使LLM能够更有效地在跨视图驾驶场景中进行推理，通过利用BEV特征作为统一输入，准确率提高了46%。",
+      "keywords": [
+        "鸟瞰图表示",
+        "大型语言模型",
+        "知识蒸馏",
+        "自动驾驶推理",
+        "语义理解"
+      ],
+      "code_available": false,
+      "conference": "",
+      "citation_count": 0
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

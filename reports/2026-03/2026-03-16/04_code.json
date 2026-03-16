@@ -1,0 +1,247 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "fetch_method": "github_api"
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13673,
+      "language": "C++",
+      "last_updated": "2026-03-16",
+      "category": "simulator",
+      "company": "CARLA Team (Intel Labs / CVC)",
+      "tech_stack": [
+        "C++",
+        "Python",
+        "Unreal Engine 5",
+        "ROS"
+      ],
+      "key_features": [
+        "高保真城市驾驶模拟环境",
+        "支持多种传感器模拟（LiDAR、Camera、Radar）",
+        "灵活的API接口支持Python/C++",
+        "支持多agent协同仿真",
+        "内置天气和光照动态变化系统"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": [
+        "基于UE5的高保真渲染引擎升级",
+        "业界标准的自动驾驶仿真平台",
+        "支持端到端模型的闭环评测"
+      ],
+      "application_value": "自动驾驶算法开发和验证的核心仿真平台，几乎所有端到端驾驶研究都依赖CARLA进行闭环测试，是工业界和学术界的标准工具"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 93,
+      "quality_grade": "A",
+      "fetch_method": "github_api"
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11265,
+      "language": "Dockerfile",
+      "last_updated": "2026-03-14",
+      "category": "tool",
+      "company": "Autoware Foundation",
+      "tech_stack": [
+        "ROS2",
+        "C++",
+        "Python",
+        "Docker"
+      ],
+      "key_features": [
+        "全栈自动驾驶软件平台",
+        "模块化感知-规划-控制架构",
+        "基于ROS2的分布式通信",
+        "支持真实车辆部署",
+        "活跃的全球开发者社区"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": [
+        "全球最大的开源自动驾驶全栈方案",
+        "工业级ROS2架构设计",
+        "支持L4级自动驾驶功能"
+      ],
+      "application_value": "面向量产的开源自动驾驶全栈解决方案，适合企业级自动驾驶系统开发和部署，已被多家公司用于实际道路测试"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "fetch_method": "github_api"
+    },
+    "content": {
+      "name": "HighwayEnv",
+      "full_name": "Farama-Foundation/HighwayEnv",
+      "description": "A minimalist environment for decision-making in autonomous driving",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "stars": 3200,
+      "language": "Python",
+      "last_updated": "2026-03-06",
+      "category": "simulator",
+      "company": "Farama Foundation",
+      "tech_stack": [
+        "Python",
+        "Gymnasium",
+        "NumPy",
+        "Pygame"
+      ],
+      "key_features": [
+        "轻量级自动驾驶决策环境",
+        "兼容Gymnasium标准接口",
+        "多种驾驶场景（高速、交叉路口、停车等）",
+        "支持强化学习算法快速验证",
+        "可配置的交通场景参数"
+      ],
+      "difficulty_level": "beginner",
+      "relevance_score": 82,
+      "innovation_points": [
+        "极简设计降低RL研究门槛",
+        "标准化Gymnasium接口",
+        "丰富的预设驾驶场景"
+      ],
+      "application_value": "自动驾驶决策算法的快速原型验证工具，特别适合强化学习方向的研究者进行算法开发和对比实验"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "fetch_method": "github_api"
+    },
+    "content": {
+      "name": "Senna",
+      "full_name": "hustvl/Senna",
+      "description": "Bridging Large Vision-Language Models and End-to-End Autonomous Driving",
+      "url": "https://github.com/hustvl/Senna",
+      "stars": 538,
+      "language": "Python",
+      "last_updated": "2026-03-15",
+      "category": "algorithm",
+      "company": "华中科技大学视觉学习实验室 (HUSTVL)",
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "Transformers"
+      ],
+      "key_features": [
+        "将大型视觉语言模型(VLM)与端到端驾驶结合",
+        "利用VLM的场景理解能力增强驾驶决策",
+        "端到端可训练的驾驶框架",
+        "Apache 2.0开源协议",
+        "配套arXiv论文 (2410.22313)"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": [
+        "首次系统性地将VLM融入端到端驾驶pipeline",
+        "VLM场景理解与驾驶规划的桥接机制",
+        "在nuScenes等基准上取得优异性能"
+      ],
+      "application_value": "代表了VLM+端到端驾驶的前沿方向，对于研究如何利用大模型能力提升自动驾驶系统的场景理解和决策能力具有重要参考价值"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "fetch_method": "github_api"
+    },
+    "content": {
+      "name": "recogdrive",
+      "full_name": "xiaomi-research/recogdrive",
+      "description": "[ICLR 2026] ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving",
+      "url": "https://github.com/xiaomi-research/recogdrive",
+      "stars": 470,
+      "language": "Python",
+      "last_updated": "2026-03-13",
+      "category": "algorithm",
+      "company": "小米研究院 (Xiaomi Research)",
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "Diffusion Policy",
+        "VLM"
+      ],
+      "key_features": [
+        "ICLR 2026录用论文的官方代码",
+        "强化认知框架用于端到端驾驶",
+        "结合扩散策略和强化学习",
+        "支持NAVSIM基准评测",
+        "视觉-语言-动作(VLA)架构"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 93,
+      "innovation_points": [
+        "强化学习+认知框架的端到端驾驶新范式",
+        "扩散策略在驾驶规划中的应用",
+        "ICLR 2026顶会论文，代表最新研究水平",
+        "小米研究院出品，具有工业落地潜力"
+      ],
+      "application_value": "ICLR 2026顶会工作，展示了强化认知框架在端到端驾驶中的潜力，对于研究扩散策略和VLA架构的工程师具有重要参考价值"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

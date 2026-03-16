@@ -88,6 +88,31 @@
 - **默认**：并行模式（Agent A/B/C同时执行 → Agent D汇总）
 - **控制**：使用任务依赖关系实现智能调度
 
+### Rule-18: 情报数量控制与质量优选
+- **原则**：每类情报（工业动态/学术论文/开源项目）最多收录5条，按质量评分从高到低排序取最优
+- **执行流程**：
+  1. 搜索阶段：正常搜索，不限制数量
+  2. 评估阶段：对所有搜索结果进行质量评分（准确性30分+深度30分+实用性20分+时效性20分）
+  3. 排序阶段：按 `quality_score` 降序排列
+  4. 截取阶段：取前5条写入输出文件，其余丢弃
+- **例外**：若搜索结果不足5条，全部保留，不补充低质量内容
+- **目的**：减少 token 消耗，提升日报信噪比，聚焦高价值情报
+
+### Rule-17: 智能抓取策略（Lightpanda 集成）
+- **原则**：根据目标 URL 特征自动选择最优抓取方式
+- **策略选择**：
+  - **WebFetch 优先**：静态页面、API 端点（arxiv.org, api.github.com, electrek.co 等）
+  - **Lightpanda 优先**：JS 渲染密集型页面（GitHub Trending/Search, CSDN, 量子位, 机器之心, 虎嗅, Tesla/Waymo 博客等）
+  - **参考配置**：`tools/url_routing.json` 中定义的 URL 模式映射
+- **降级机制**：
+  - Lightpanda 不可用时 → 自动降级到 WebFetch
+  - WebFetch 也失败时 → 记录 `access_status: "restricted"` 并跳过
+- **使用方式**（直接 fetch 模式，无需启动服务）：
+  - 单页抓取：`node tools/lp_fetch.mjs <url> --extract-text --extract-links`
+  - 批量抓取：`echo '["url1","url2"]' | node tools/lp_batch_fetch.mjs --extract-text --concurrency 3`
+  - 安装：`bash tools/install_lightpanda.sh`（首次使用，自动处理 glibc 兼容性）
+- **数据真实性**：Lightpanda 抓取的数据同样适用 Rule-1 至 Rule-6 的所有真实性约束
+
 ## 引用方式
 在Agent提示词中使用以下格式引用本规则库：
 ```

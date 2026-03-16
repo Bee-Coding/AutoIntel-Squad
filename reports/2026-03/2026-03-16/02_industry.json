@@ -1,0 +1,192 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla Terafab set for launch: Inside the $20B AI chip factory that will reshape the auto industry",
+      "url": "https://www.teslarati.com/tesla-terafab-ai-chip-factory/",
+      "publish_date": "2026-03-16",
+      "technical_points": [
+        "Terafab芯片工厂",
+        "AI芯片自研",
+        "垂直整合制造"
+      ],
+      "raw_content": "Tesla即将启动Terafab项目：一个垂直整合的芯片制造工厂，结合逻辑处理、存储和先进封装技术。该项目投资约200亿美元，旨在为Tesla的自动驾驶和AI业务提供自研芯片支持，标志着Tesla在AI硬件领域的重大战略布局。",
+      "search_keywords": [
+        "Tesla",
+        "Terafab",
+        "AI chip",
+        "芯片制造",
+        "自动驾驶"
+      ],
+      "version_info": "Terafab Project",
+      "event_type": "产业投资"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "fetch_method": "lightpanda"
+    },
+    "content": {
+      "company": "Wayve/Qualcomm",
+      "title": "Wayve和高通宣布达成自动驾驶技术合作",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/158951408",
+      "publish_date": "2026-03-11",
+      "technical_points": [
+        "Wayve AI Driver",
+        "高通Snapdragon Ride",
+        "端到端AI驾驶"
+      ],
+      "raw_content": "Wayve与高通宣布达成自动驾驶技术合作，将Wayve AI Driver作为端到端的AI驾驶智能层，集成到高通的高性能自动驾驶计算平台上。这一合作将加速端到端自动驾驶方案在量产车上的落地。",
+      "search_keywords": [
+        "Wayve",
+        "Qualcomm",
+        "端到端",
+        "AI Driver",
+        "自动驾驶"
+      ],
+      "version_info": "Wayve AI Driver",
+      "event_type": "技术合作"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "company": "Nvidia",
+      "title": "Nvidia's head of autonomous driving opens up about his plan to beat Waymo and Tesla",
+      "url": "https://www.theverge.com/tech/892395/nvidia-autonomous-vehicle-xinzhou-wu-interview",
+      "publish_date": "2026-03-11",
+      "technical_points": [
+        "DRIVE Hyperion平台",
+        "自动驾驶芯片",
+        "端到端AI驾驶"
+      ],
+      "raw_content": "Nvidia自动驾驶负责人Xinzhou Wu接受The Verge专访，详细阐述了Nvidia在自动驾驶领域的战略规划，目标是通过DRIVE Hyperion平台超越Waymo和Tesla。Nvidia正在将其GPU计算优势转化为自动驾驶全栈解决方案，为汽车制造商提供从芯片到软件的完整自动驾驶技术栈。",
+      "search_keywords": [
+        "Nvidia",
+        "autonomous driving",
+        "DRIVE Hyperion",
+        "Waymo",
+        "Tesla"
+      ],
+      "version_info": "DRIVE Hyperion",
+      "event_type": "战略规划"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla Cybercab production line is targeting hundreds of vehicles weekly",
+      "url": "https://www.teslarati.com/tesla-cybercab-line-targeting-hundreds-weekly-report/",
+      "publish_date": "2026-03-12",
+      "technical_points": [
+        "Cybercab量产",
+        "无人驾驶出租车",
+        "Austin工厂产线"
+      ],
+      "raw_content": "据报道，Tesla一直在其Austin工厂增加员工和安装新设备，为Cybercab无人驾驶出租车的量产做准备。生产线目标是每周生产数百辆Cybercab。这标志着Tesla在自动驾驶商业化方面迈出了关键一步。",
+      "search_keywords": [
+        "Tesla",
+        "Cybercab",
+        "Robotaxi",
+        "量产",
+        "Austin"
+      ],
+      "version_info": "Cybercab Production",
+      "event_type": "量产进展"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-16T17:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "fetch_method": "webfetch"
+    },
+    "content": {
+      "company": "Uber/Zoox",
+      "title": "Uber + Zoox: Amazon-owned robotaxi joins Uber platform",
+      "url": "https://www.theverge.com/transportation/892877/uber-zoox",
+      "publish_date": "2026-03-11",
+      "technical_points": [
+        "Robotaxi平台合作",
+        "无人驾驶出租车",
+        "Las Vegas商业运营"
+      ],
+      "raw_content": "Uber与Amazon旗下的Zoox达成合作，Uber用户如果表示愿意乘坐无人驾驶车辆，可能会被匹配到Zoox的Robotaxi。合作将于今年夏天在Las Vegas启动，随后于2027年中扩展到Los Angeles。Zoox也将继续通过自己的App提供服务。",
+      "search_keywords": [
+        "Uber",
+        "Zoox",
+        "Robotaxi",
+        "Amazon",
+        "Las Vegas"
+      ],
+      "version_info": "",
+      "event_type": "商业合作"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

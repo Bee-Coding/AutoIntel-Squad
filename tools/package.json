@@ -1,0 +1,13 @@
+{
+  "name": "autointel-lightpanda-tools",
+  "version": "1.0.0",
+  "description": "AutoIntel-Squad Lightpanda CDP 抓取工具集",
+  "type": "module",
+  "scripts": {
+    "fetch": "node lp_fetch.mjs",
+    "batch": "node lp_batch_fetch.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

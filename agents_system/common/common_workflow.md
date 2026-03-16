@@ -23,6 +23,14 @@
    - 使用WebFetch工具访问真实网站
    - 构造搜索查询：公司名+技术关键词+年份/时间限定
    - 执行搜索，记录访问状态
+   2.5 **智能抓取策略选择**（Lightpanda 集成）：
+      - 检查目标 URL 是否匹配 `tools/url_routing.json` 中的 `lightpanda_required` 模式
+      - 若匹配：
+        a. 使用 `node tools/lp_fetch.mjs <url> --extract-text --extract-links` 抓取
+        b. 解析返回的 JSON，提取 `content` 和 `links` 字段
+        c. 无需预先启动服务，工具自动调用 Lightpanda 直接 fetch 模式
+      - 若不匹配或 Lightpanda 不可用：使用 WebFetch 工具（原有流程）
+      - 记录实际使用的抓取方式到 `metadata.fetch_method: "lightpanda"|"webfetch"`
 3. **失败处理**：
    - 官方渠道返回403或超时，立即切换到权威媒体
    - 记录每个数据源访问状态（success/partial/restricted/timeout）
@@ -130,6 +138,12 @@
 - 关键词优化：包含具体版本号和年份
 - 时间过滤：使用平台日期筛选器（"Updated this week"）
 - 结果限制：控制返回数量，避免过多低质量结果
+
+### Lightpanda 优化
+- 服务复用：一次任务执行期间保持 Lightpanda 服务运行，避免反复启停
+- 批量抓取：多个 URL 使用 lp_batch_fetch.mjs 并发获取，减少总耗时
+- 超时控制：JS 渲染页面默认 30 秒超时，复杂页面可调整 --timeout 参数
+- 内容提取：优先使用 --extract-text 获取纯文本，减少后续处理开销
 
 ### 验证优化
 - 批量验证：多个URL同时验证

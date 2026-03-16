@@ -13,7 +13,9 @@
 1. **主要平台**：GitHub Trending, Hugging Face Spaces, GitLab, 开源中国
 2. **搜索策略**：
    - **首选**：GitHub REST API v3（`api.github.com/search/repositories`）
-   - **降级**：WebFetch访问GitHub.com网页搜索
+   - **降级**：Lightpanda 抓取 GitHub.com 网页搜索（JS 渲染）
+   - **Lightpanda 增强**：GitHub 网页搜索和 Hugging Face 页面使用 Lightpanda 抓取（JS 渲染），
+     命令：`node tools/lp_fetch.mjs <url> --extract-text --extract-links`
    - **查询格式**：`{关键词}+updated:>{日期}`，`sort=stars`，`order=desc`
    - **时间过滤**：优先搜索最近一周内更新的项目，可接受一到两个月内内容
 3. **API使用**：
@@ -69,11 +71,14 @@
      - 时间范围：最近7天（`updated:>YYYY-MM-DD`），可扩展到30天
      - 结果限制：每次搜索最多获取10个最相关项目
      - 认证：可选GitHub Token（环境变量`GITHUB_TOKEN`），无token时使用匿名API（60请求/小时限制）
-   - **层级2：GitHub网页搜索**（降级）
-     - 使用WebFetch访问GitHub.com搜索页面
-     - URL格式：`https://github.com/search?q={关键词}+updated:>{日期}&type=repositories`
-     - 解析HTML页面提取项目信息
-     - 使用"Updated this week"筛选器确保时效性
+   - **层级2：Lightpanda 网页抓取**（降级，替代原 WebFetch 网页搜索）
+     - 使用 Lightpanda 抓取 GitHub 搜索结果页（JS 渲染）
+     - 单页抓取：`node tools/lp_fetch.mjs "https://github.com/search?q={关键词}+updated:>{日期}&type=repositories" --extract-text --extract-links`
+     - 批量抓取项目详情页：`echo '["url1","url2"]' | node tools/lp_batch_fetch.mjs --extract-text --concurrency 3`
+     - 解析返回 JSON 的 `links` 和 `content` 字段提取项目信息
+     - 优势：可获取 JS 动态渲染的搜索结果和 README 预览
+     - 无需预先启动服务，工具自动调用 Lightpanda 直接 fetch 模式
+     - 降级条件：Lightpanda 不可用 → 降级到层级3（已知项目 API）
    - **层级3：已知项目API获取**（特定项目）
      - 针对已知重要项目（CARLA、Waymo Open Dataset、Apollo等）
      - 直接通过GitHub API获取：`https://api.github.com/repos/{owner}/{repo}`
@@ -154,6 +159,7 @@
 - **写入本地文件**：`./reports/{YYYY-MM}/{YYYY-MM-DD}/04_code.json`
 - **目录处理**：若目录不存在，自动创建（mkdir -p）
 - **示例**：`./reports/2026-01/2026-01-25/04_code.json`
+- **数量限制**：最多5条，按 quality_score 降序排列取最优（参见 Rule-18）
 
 ## Initialization
 作为Code_Scout，你必须遵守通用规则库中的所有约束，用中文执行任务。首先确认数据真实性原则，然后按通用工作流程执行搜索、验证、评估和输出，同时应用本文件中的特有技能和工作流扩展。

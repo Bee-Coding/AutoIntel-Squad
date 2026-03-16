@@ -1,0 +1,109 @@
+{
+  "_comment": "AutoIntel-Squad URL 路由配置 — 决定使用 WebFetch 还是 Lightpanda",
+  "_updated": "2026-03-16",
+  "lightpanda_required": {
+    "_comment": "这些 URL 模式必须使用 Lightpanda（JS 渲染密集型）",
+    "patterns": [
+      {
+        "domain": "github.com/trending",
+        "reason": "GitHub Trending 页面依赖 JS 动态加载",
+        "agent": "Code_Scout"
+      },
+      {
+        "domain": "github.com/search",
+        "reason": "GitHub 搜索结果页 JS 渲染",
+        "agent": "Code_Scout"
+      },
+      {
+        "domain": "huggingface.co",
+        "reason": "Hugging Face 页面重度 JS 框架",
+        "agent": "Code_Scout"
+      },
+      {
+        "domain": "blog.csdn.net",
+        "reason": "CSDN 博客内容 JS 延迟加载",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "qbitai.com",
+        "reason": "量子位 SPA 架构",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "jiqizhixin.com",
+        "reason": "机器之心 JS 渲染",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "leiphone.com",
+        "reason": "雷峰网动态加载",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "huxiu.com",
+        "reason": "虎嗅网 SPA",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "opendrivelab.com",
+        "reason": "OpenDriveLab 项目页 JS 渲染",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "tesla.com/blog",
+        "reason": "Tesla 博客 React SPA",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "waymo.com/blog",
+        "reason": "Waymo 博客 JS 框架",
+        "agent": "Industry_Watcher"
+      },
+      {
+        "domain": "cvpr*.thecvf.com",
+        "reason": "CVPR 会议页面 JS 渲染论文列表",
+        "agent": "Paper_Hunter"
+      }
+    ]
+  },
+  "webfetch_preferred": {
+    "_comment": "这些 URL 模式用 WebFetch 即可（静态或 API 返回 JSON）",
+    "patterns": [
+      {
+        "domain": "arxiv.org",
+        "reason": "arXiv 页面基本为静态 HTML"
+      },
+      {
+        "domain": "api.github.com",
+        "reason": "GitHub REST API 返回 JSON，无需浏览器"
+      },
+      {
+        "domain": "electrek.co",
+        "reason": "Electrek 静态文章页"
+      },
+      {
+        "domain": "teslarati.com",
+        "reason": "Teslarati WordPress 静态页"
+      },
+      {
+        "domain": "insideevs.com",
+        "reason": "InsideEVs 静态文章页"
+      },
+      {
+        "domain": "theverge.com",
+        "reason": "The Verge 文章页基本可用"
+      }
+    ]
+  },
+  "fallback_strategy": {
+    "_comment": "当 Lightpanda 不可用时的降级策略",
+    "order": [
+      "lightpanda",
+      "webfetch",
+      "skip_with_note"
+    ],
+    "lightpanda_health_check": "bash tools/lightpanda_server.sh status",
+    "auto_start": true,
+    "auto_start_command": "bash tools/lightpanda_server.sh start"
+  }
+}
