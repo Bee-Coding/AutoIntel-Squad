@@ -1,0 +1,182 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-01T10:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving+language:python&sort=stars&order=desc&per_page=5",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": 4546,
+      "language": "Python",
+      "last_updated": "2026-04-01",
+      "category": "algorithm",
+      "company": "OpenDriveLab",
+      "tech_stack": ["PyTorch", "BEV", "Occupancy Prediction", "Motion Planning"],
+      "key_features": ["End-to-end autonomous driving", "Perception-prediction-planning integration", "Unified framework", "CVPR 2023 Best Paper"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["Planning-oriented architecture", "Unified multi-task learning", "Real-time performance", "SOTA on nuScenes"],
+      "application_value": "工业级端到端自动驾驶框架，适合研究和工业应用"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-01T10:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "BEVFormer",
+      "full_name": "fundamentalvision/BEVFormer",
+      "description": "[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation.",
+      "url": "https://github.com/fundamentalvision/BEVFormer",
+      "stars": 4395,
+      "language": "Python",
+      "last_updated": "2026-04-01",
+      "category": "algorithm",
+      "company": "fundamentalvision",
+      "tech_stack": ["PyTorch", "Transformer", "BEV", "Camera-only perception"],
+      "key_features": ["Camera-only 3D perception", "BEV representation", "Multi-camera fusion", "Real-time inference"],
+      "difficulty_level": "advanced",
+      "relevance_score": 92,
+      "innovation_points": ["Pure vision BEV perception", "Temporal fusion", "Multi-view geometry", "ECCV 2022"],
+      "application_value": "纯视觉BEV感知SOTA方案，适合低成本自动驾驶系统开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-01T10:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "HighwayEnv",
+      "full_name": "Farama-Foundation/HighwayEnv",
+      "description": "A minimalist environment for decision-making in autonomous driving",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "stars": 3208,
+      "language": "Python",
+      "last_updated": "2026-03-31",
+      "category": "simulator",
+      "company": "Farama-Foundation",
+      "tech_stack": ["Gym", "Reinforcement Learning", "Simulation", "Decision Making"],
+      "key_features": ["Minimalist driving environment", "Reinforcement learning compatible", "Customizable scenarios", "Realistic physics"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 88,
+      "innovation_points": ["Lightweight simulation", "Decision-making focus", "RL benchmarking", "OpenAI Gym interface"],
+      "application_value": "自动驾驶决策研究的标准仿真环境，适合强化学习和模仿学习算法开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-01T10:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "transfuser",
+      "full_name": "autonomousvision/transfuser",
+      "description": "[PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving",
+      "url": "https://github.com/autonomousvision/transfuser",
+      "stars": 1528,
+      "language": "Python",
+      "last_updated": "2026-04-01",
+      "category": "algorithm",
+      "company": "autonomousvision",
+      "tech_stack": ["PyTorch", "Transformer", "Sensor Fusion", "Imitation Learning"],
+      "key_features": ["Transformer-based sensor fusion", "Camera-LiDAR integration", "End-to-end driving", "CARLA simulator"],
+      "difficulty_level": "advanced",
+      "relevance_score": 85,
+      "innovation_points": ["Multi-modal transformer", "Imitation learning", "Sensor fusion architecture", "PAMI 2023"],
+      "application_value": "基于Transformer的多模态传感器融合框架，适合传感器融合研究和端到端驾驶"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-01T10:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "TPVFormer",
+      "full_name": "wzzheng/TPVFormer",
+      "description": "[CVPR 2023] An academic alternative to Tesla's occupancy network for autonomous driving.",
+      "url": "https://github.com/wzzheng/TPVFormer",
+      "stars": 1337,
+      "language": "Python",
+      "last_updated": "2026-03-30",
+      "category": "algorithm",
+      "company": "wzzheng",
+      "tech_stack": ["PyTorch", "Occupancy Network", "3D Perception", "BEV"],
+      "key_features": ["Occupancy prediction", "3D scene understanding", "Tesla occupancy network alternative", "Academic implementation"],
+      "difficulty_level": "advanced",
+      "relevance_score": 83,
+      "innovation_points": ["Academic occupancy network", "3D scene completion", "BEV representation", "CVPR 2023"],
+      "application_value": "Tesla Occupancy Network的学术替代方案，适合3D场景理解和占据网格预测研究"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

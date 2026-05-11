@@ -1,0 +1,98 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-01T10:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/guides/tesla/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla expands unsupervised 'Robotaxi' area in Austin with only a handful of cars",
+      "url": "https://electrek.co/2026/03/31/tesla-expands-unsupervised-robotaxi-service-area-still-only-handful-vehicles/",
+      "publish_date": "2026-03-31",
+      "technical_points": [
+        "Robotaxi geofence expansion in Austin",
+        "4-8 Model Y vehicles operating without safety monitor",
+        "Remote supervision still required",
+        "245 square mile service area (12x original size)",
+        "Competitive gap with Waymo's 500,000 weekly rides"
+      ],
+      "raw_content": "Tesla has expanded the geofence for its unsupervised 'Robotaxi' service in Austin, Texas, growing the area where vehicles can operate without a safety monitor inside the car. Social media sightings indicate only 4-8 Model Ys are actually running without human safety monitors, and even those still operate under remote supervision from Tesla. The unsupervised fleet consists of fewer than a dozen vehicles, with the total Austin fleet at 37-42 vehicles. Waymo comparison shows Tesla's competitive gap: Waymo delivers 500,000 paid robotaxi rides per week across 10 U.S. cities fully driverless.",
+      "search_keywords": ["Tesla FSD 2026", "Robotaxi Austin 2026", "autonomous driving Tesla"],
+      "version_info": "Robotaxi pilot v2.1",
+      "event_type": "技术更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-01T10:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/2026/03/31/tesla-irgc-target-list-gulf-operations-threat/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla named on Iran's 18-company target list threatening Gulf operations",
+      "url": "https://electrek.co/2026/03/31/tesla-irgc-target-list-gulf-operations-threat/",
+      "publish_date": "2026-03-31",
+      "technical_points": [
+        "Iran IRGC threat to Tesla Gulf operations",
+        "Tesla expansion in UAE, Saudi Arabia, Qatar",
+        "30+ Supercharger stations in Gulf region",
+        "Free Supercharging activated during crisis",
+        "Physical infrastructure vulnerability"
+      ],
+      "raw_content": "Iran's Islamic Revolutionary Guard Corps has named Tesla among 18 US companies whose Middle East operations it is threatening to attack in retaliation for killings of Iranian military leaders. Tesla has been rapidly expanding across the Gulf with showrooms, service centers, and more than 30 Supercharger stations in UAE, Saudi Arabia, and Qatar. The company activated free Supercharging across all Gulf stations as a crisis-response measure. Unlike tech companies with defense contracts, Tesla's Gulf presence is entirely commercial but highly visible.",
+      "search_keywords": ["Tesla Gulf operations 2026", "Tesla Middle East 2026", "autonomous driving security"],
+      "version_info": null,
+      "event_type": "安全事件"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

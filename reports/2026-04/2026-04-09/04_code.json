@@ -1,0 +1,242 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-09T20:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "github_api",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving&sort=stars&order=desc&per_page=10",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "An open autonomous driving platform",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26537,
+      "language": "C++",
+      "last_updated": "2026-04-09",
+      "category": "tool",
+      "company": "Baidu",
+      "tech_stack": ["C++", "ROS", "CUDA", "TensorRT", "Cyber RT"],
+      "key_features": ["Modular architecture", "HD map support", "Perception, prediction, planning modules", "Simulation tools", "Cloud services integration"],
+      "difficulty_level": "expert",
+      "relevance_score": 98,
+      "innovation_points": ["开放自动驾驶平台", "模块化设计", "云端一体化", "高精度地图支持", "实时操作系统"],
+      "application_value": "百度Apollo是全球领先的开放自动驾驶平台，提供从感知、预测、规划到控制的完整解决方案，支持多种传感器配置和车辆平台，广泛应用于Robotaxi、无人配送、矿山港口等场景。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-09T20:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "github_api",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving&sort=stars&order=desc&per_page=10",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13820,
+      "language": "C++",
+      "last_updated": "2026-04-09",
+      "category": "simulator",
+      "company": "Intel (CARLA team)",
+      "tech_stack": ["C++", "Unreal Engine", "Python API", "ROS/ROS2", "Docker"],
+      "key_features": ["Photorealistic rendering", "Dynamic weather and lighting", "Traffic simulation", "Sensor simulation (LiDAR, camera, radar)", "Scenario generation", "OpenDRIVE support"],
+      "difficulty_level": "advanced",
+      "relevance_score": 96,
+      "innovation_points": ["开源自动驾驶仿真器", "逼真视觉效果", "灵活的场景编辑", "多传感器模拟", "支持大规模交通流"],
+      "application_value": "CARLA是学术界和工业界广泛使用的自动驾驶仿真平台，提供高度可配置的环境用于算法开发、测试和验证，支持从感知到规划的完整闭环仿真，大幅降低实车测试成本和风险。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-09T20:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "github_api",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving&sort=stars&order=desc&per_page=10",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "autoware",
+      "full_name": "autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "stars": 11350,
+      "language": "Dockerfile",
+      "last_updated": "2026-04-09",
+      "category": "tool",
+      "company": "Autoware Foundation",
+      "tech_stack": ["ROS/ROS2", "C++", "Python", "Docker", "Kubernetes"],
+      "key_features": ["Modular architecture", "ROS-based middleware", "Perception, localization, planning, control modules", "HD map tools", "Simulation integration"],
+      "difficulty_level": "advanced",
+      "relevance_score": 94,
+      "innovation_points": ["世界领先的开源自动驾驶软件", "模块化架构", "ROS/ROS2支持", "商业化部署友好", "生态系统丰富"],
+      "application_value": "Autoware是自动驾驶领域最成熟的开源软件栈之一，提供从感知到控制的完整解决方案，被多家车企和初创公司用于产品开发和原型验证，特别适合基于ROS的自动驾驶系统开发。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-09T20:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "github_api",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving&sort=stars&order=desc&per_page=10",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": 4563,
+      "language": "Python",
+      "last_updated": "2026-04-09",
+      "category": "algorithm",
+      "company": "Shanghai AI Laboratory",
+      "tech_stack": ["Python", "PyTorch", "MMDetection", "BEV perception", "Transformer"],
+      "key_features": ["Unified architecture for perception, prediction, planning", "BEV representation", "Multi-task learning", "End-to-end trainable", "State-of-the-art performance on nuScenes"],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": ["规划导向的端到端自动驾驶框架", "统一感知-预测-规划架构", "BEV特征表示", "多任务联合优化", "CVPR 2023最佳论文"],
+      "application_value": "UniAD是端到端自动驾驶领域的标志性工作，首次提出规划导向的统一架构，在nuScenes等基准测试上取得领先性能，为后续VLA/VGA模型发展奠定基础，具有重要的学术和工程参考价值。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-09T20:20:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "github_api",
+      "fetch_detail": {
+        "tool_command": "webfetch https://api.github.com/search/repositories?q=autonomous+driving&sort=stars&order=desc&per_page=10",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "BEVFormer",
+      "full_name": "fundamentalvision/BEVFormer",
+      "description": "[ECCV 2022] This is the official implementation of BEVFormer, a camera-only framework for autonomous driving perception, e.g., 3D object detection and semantic map segmentation.",
+      "url": "https://github.com/fundamentalvision/BEVFormer",
+      "stars": 4416,
+      "language": "Python",
+      "last_updated": "2026-04-09",
+      "category": "algorithm",
+      "company": "Shanghai AI Laboratory",
+      "tech_stack": ["Python", "PyTorch", "Transformer", "BEV representation", "Temporal fusion"],
+      "key_features": ["Camera-only 3D perception", "BEV (Bird's Eye View) representation", "Temporal attention mechanism", "Multi-view feature fusion", "State-of-the-art on nuScenes"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 92,
+      "innovation_points": ["纯视觉BEV感知框架", "时序注意力机制", "多视角特征融合", "ECCV 2022", "开源实现完整"],
+      "application_value": "BEVFormer是纯视觉BEV感知的代表性工作，通过Transformer实现多视角图像到BEV空间的映射，支持3D目标检测和语义地图分割，为低成本自动驾驶感知方案提供重要技术路径。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

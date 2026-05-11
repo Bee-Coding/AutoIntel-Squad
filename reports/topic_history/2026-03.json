@@ -24,7 +24,7 @@
           ],
           "sources": [
             "https://blog.csdn.net/cv_autobot/article/details/158491476"
-          ],
+          ]
         },
         {
           "date": "2026-03-09",
@@ -377,6 +377,93 @@
           ],
           "sources": [
             "https://techcrunch.com/2026/02/26/self-driving-truck-startup-einride-raises-113m-pipe-ahead-of-public-debut/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vla_driving_paradigm",
+      "name": "VLA驾驶范式",
+      "aliases": ["视觉语言动作驾驶", "VLA自动驾驶", "Vision-Language-Action Driving"],
+      "category": "academic",
+      "description": "视觉语言动作（VLA）模型在端到端自动驾驶中的应用，统一感知-推理-动作于单一模型",
+      "first_appeared": "2026-03-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-23",
+          "version": "v1.0",
+          "description": "VLA驾驶范式进入爆发期，AAAI 2026、ICLR 2026、NeurIPS 2025多篇顶会论文集中开源，DriveVLM-RL提出部署时移除VLM的实用方案",
+          "key_points": [
+            "OpenDriveVLA (AAAI 2026) 开源",
+            "ReCogDrive (ICLR 2026) 小米研究院出品",
+            "AutoVLA (NeurIPS 2025) UCLA自适应推理",
+            "DriveVLM-RL 离线训练VLM+部署移除方案"
+          ],
+          "sources": [
+            "https://github.com/DriveVLA/OpenDriveVLA",
+            "https://github.com/xiaomi-research/recogdrive",
+            "https://github.com/ucla-mobility/AutoVLA",
+            "https://arxiv.org/abs/2603.18315"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waymo_scale_deployment",
+      "name": "Waymo规模化商业部署",
+      "aliases": ["Waymo扩张", "Waymo Robotaxi"],
+      "category": "industry",
+      "description": "Waymo全自动驾驶出行服务的规模化商业部署进展",
+      "first_appeared": "2026-03-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-23",
+          "version": "v1.0",
+          "description": "Waymo发布170万英里安全数据（严重伤亡减少92%），第6代Driver商业运营城市扩展至10个，每周行驶400万英里提供40万次出行",
+          "key_points": [
+            "1.7亿英里全自动驾驶里程",
+            "严重伤亡事故减少92%",
+            "商业运营城市达10个",
+            "第6代Driver多车型平台部署"
+          ],
+          "sources": [
+            "https://waymo.com/blog/shorts/waymo-safety-impact-update-170m/",
+            "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2e_closed_loop_rl",
+      "name": "端到端闭环强化学习",
+      "aliases": ["闭环RL驾驶", "E2E RL Planning"],
+      "category": "academic",
+      "description": "解决端到端驾驶开环训练与闭环执行gap的强化学习方法",
+      "first_appeared": "2026-03-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-03-23",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-03-23",
+          "version": "v1.0",
+          "description": "BevAD（CVPR Findings 2026）系统分析闭环架构，PaIR-Drive并行IL+RL框架NAVSIM达91.2 PDMS，TakeVLA利用接管数据后训练安全裕度提升11.76%",
+          "key_points": [
+            "BevAD CVPR Findings 2026",
+            "PaIR-Drive并行IL+RL",
+            "TakeVLA接管数据后训练",
+            "Bench2Drive/NAVSIM标准评测"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.15185",
+            "https://arxiv.org/abs/2603.13842",
+            "https://arxiv.org/abs/2603.14972"
           ]
         }
       ]

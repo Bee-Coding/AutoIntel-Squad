@@ -1,0 +1,177 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-13T16:54:47+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "上海交通大学",
+      "title": "VLA 在微调之后，能遗忘到什么程度？上交CVPR'26的工作给出了答案",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/160034977",
+      "publish_date": "2026-04-10",
+      "technical_points": ["视觉语言模型", "灾难性遗忘", "持续学习", "VLA驾驶"],
+      "raw_content": "上海交通大学CVPR'26论文研究VLA在自动驾驶数据集微调后的灾难性遗忘问题。研究发现，将典型VL模型在专属自驾数据集上微调后，原本能轻松识别的简单场景（如道路中的牛）模型反而丧失判别能力。论文提出新方法在保持驾驶性能的同时显著缓解遗忘问题。",
+      "search_keywords": ["VLA", "灾难性遗忘", "CVPR2026"],
+      "version_info": null,
+      "event_type": "学术论文"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-13T16:54:47+08:00",
+      "data_source": "backup_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "行业分析",
+      "title": "智驾公司生死线 | 端到端是面子，含模量是里子",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/160063971",
+      "publish_date": "2026-04-11",
+      "technical_points": ["端到端自动驾驶", "模块化架构", "世界模型", "VLA驾驶"],
+      "raw_content": "文章深入分析端到端自动驾驶的技术本质，指出端到端是表象，真正的核心竞争力在于'含模量'——即模型中包含的世界知识、物理理解和推理能力。讨论了特斯拉FSD的模块化设计、VLA架构中的快慢脑协同，以及如何通过梯度回传实现驾驶策略的持续优化。",
+      "search_keywords": ["端到端自动驾驶", "含模量", "世界模型"],
+      "version_info": null,
+      "event_type": "技术分析"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-13T16:54:47+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla's FSD Is Finally Approved In Europe. Only Not Everywhere Yet",
+      "url": "https://insideevs.com/news/792715/tesla-fsd-approved-the-netherlands/",
+      "publish_date": "2026-04-12",
+      "technical_points": ["FSD监管批准", "欧洲市场准入", "UN R-171法规"],
+      "raw_content": "荷兰车辆管理局RDW已批准特斯拉的'全自动驾驶'监督系统在荷兰使用，这是首个正式批准该驾驶辅助技术的欧洲国家。该批准基于UN R-171驾驶员控制辅助系统法规，目前仅限荷兰有效。其他欧盟成员国可以选择在国家层面认可，但这一过程并非自动。",
+      "search_keywords": ["Tesla FSD", "欧洲批准", "荷兰RDW"],
+      "version_info": "FSD Supervised",
+      "event_type": "监管批准"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-13T16:54:47+08:00",
+      "data_source": "backup_media",
+      "access_status": "success",
+      "quality_score": 75,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "轻舟智航, 元戎启行, Momenta",
+      "title": "轻舟、元戎秘交上市资料，和Momenta冲刺港股IPO",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/160091640",
+      "publish_date": "2026-04-12",
+      "technical_points": ["自动驾驶IPO", "港股上市", "融资策略"],
+      "raw_content": "轻舟智航、元戎启行已秘密递交上市资料，Momenta也在冲刺港股IPO。智驾赛道经历2019年寒冬、2021年疯狂、2024年量产拉锯战后，竞争格局已十分明确。留在牌桌上的玩家都手握多家车企的量产订单，估值梯度反映公司体量与市场地位。",
+      "search_keywords": ["自动驾驶IPO", "港股", "轻舟智航"],
+      "version_info": null,
+      "event_type": "融资动态"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-13T16:54:47+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 66,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Podcast: Tesla's cheaper EV model comes and goes, FSD v15, Rivian R2 EPA numbers, and more",
+      "url": "https://electrek.co/2026/04/10/podcast-teslas-cheaper-ev-model-comes-and-goes-fsd-v15-rivian-r2-epa-numbers-and-more/",
+      "publish_date": "2026-04-10",
+      "technical_points": ["FSD v15", "OTA更新", "特斯拉廉价车型"],
+      "raw_content": "Electrek播客讨论特斯拉廉价EV车型的传闻变化、FSD v15的进展、Rivian R2的EPA续航数据等。其中提到FSD v15版本可能包含重要改进，但具体细节未披露。",
+      "search_keywords": ["Tesla FSD v15", "OTA", "播客"],
+      "version_info": "FSD v15",
+      "event_type": "播客讨论"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

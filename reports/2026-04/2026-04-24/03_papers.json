@@ -1,0 +1,143 @@
+{
+  "source": "Academic",
+  "metadata": {
+    "timestamp": "2026-04-24T13:41:00+08:00",
+    "data_source": "official",
+    "access_status": "success",
+    "quality_score": 92,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    },
+    "search_summary": {
+      "keywords_used": [
+        "end-to-end autonomous driving",
+        "world model autonomous driving",
+        "diffusion policy driving",
+        "BEV perception autonomous driving",
+        "VLA driving"
+      ],
+      "total_results_scanned": "5 searches, ~50 results each",
+      "papers_within_window": 15,
+      "top5_selected": true
+    }
+  },
+  "content": [
+    {
+      "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+      "authors": "Jinghui Lu, Jiayi Guan, Zhijian Huang, Jinlong Li, Guang Li, Lingdong Kong, Yingyan Li, Han Wang, Shaoqing Xu, Yuechen Luo, Fang Li et al. (Xiaomi)",
+      "url": "https://arxiv.org/abs/2604.18486",
+      "arxiv_id": "2604.18486",
+      "publish_date": "2026-04-20",
+      "category": "cs.CV",
+      "innovation": "首个隐式CoT方法超越显式CoT：统一VLA与World Model框架，通过双辅助解码器（语言+视觉世界模型）监督压缩隐式推理token，推理时丢弃辅助解码器实现单步并行推理，速度与answer-only预测持平",
+      "application_potential": "高",
+      "abstract": "提出OneVL，一个统一的VLA和World Model框架，通过紧凑隐式token进行推理，由双辅助解码器监督。语言解码器重建文本CoT，视觉世界模型解码器预测未来帧token，强制隐空间内化道路几何、智能体运动和环境变化的因果动力学。三项基准上首个超越显式CoT的隐式CoT方法，达到answer-only延迟下的SOTA准确率。",
+      "keywords": [
+        "Vision-Language-Action",
+        "World Model",
+        "Latent Chain-of-Thought",
+        "End-to-End Autonomous Driving",
+        "Trajectory Prediction"
+      ],
+      "code_available": false,
+      "conference": "Technical Report",
+      "citation_count": "N/A"
+    },
+    {
+      "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
+      "authors": "Zewei Zhou, Ruining Yang, Xuewei Qi, Yiluan Guo, Sherry X. Chen, Tao Feng, Kateryna Pistunova, Yishan Shen, Lili Su, Jiaqi Ma",
+      "url": "https://arxiv.org/abs/2604.19710",
+      "arxiv_id": "2604.19710",
+      "publish_date": "2026-04-21",
+      "category": "cs.CV",
+      "innovation": "VLA模型结合flow-matching动作专家实现低延迟轨迹规划；提出GRPO后训练方法让模型从负样本中学习避障和恢复行为；构建mReasoning推理数据集聚焦复杂场景和负样本恢复",
+      "application_potential": "高",
+      "abstract": "提出SpanVLA端到端自动驾驶框架，集成自回归推理与flow-matching动作专家。通过高效的桥梁机制利用VLM的视觉和推理指导，基于历史轨迹初始化进行flow-matching策略规划。提出GRPO后训练方法使VLA模型从正负驾驶样本中学习。在NAVSIM v1和v2上取得有竞争力的性能。",
+      "keywords": [
+        "Vision-Language-Action",
+        "Flow Matching",
+        "GRPO",
+        "End-to-End Autonomous Driving",
+        "Negative-Recovery Learning"
+      ],
+      "code_available": false,
+      "conference": "Technical Report",
+      "citation_count": "N/A"
+    },
+    {
+      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
+      "authors": "Yiwei Zhang, Xuesong Chen, Jin Gao, Hanshi Wang, Fudong Ge, Weiming Hu, Shaoshuai Shi, Zhipeng Zhang",
+      "url": "https://arxiv.org/abs/2604.17915",
+      "arxiv_id": "2604.17915",
+      "publish_date": "2026-04-20",
+      "category": "cs.CV",
+      "innovation": "在单一Transformer解码器中统一异构解码行为（自回归语言生成+并行目标检测+轨迹回归），证明预训练VLM注意力机制超越纯语言建模的强迁移性",
+      "application_potential": "高",
+      "abstract": "提出基于预训练VLM的统一自动驾驶框架，在单一Transformer解码器中协调异构解码行为。视觉和结构化查询token在单一因果解码器中组织，使文本和结构化输出共享共同注意力骨干。在nuScenes上达到0.28 L2和0.18碰撞率，NAVSIM闭环86.8 PDMS，高效推理模式延迟降低约40%。代码已开源。",
+      "keywords": [
+        "Vision-Language-Action",
+        "Unified Decoder",
+        "Multi-Task Learning",
+        "End-to-End Autonomous Driving",
+        "Trajectory Planning"
+      ],
+      "code_available": true,
+      "conference": "Technical Report",
+      "citation_count": "N/A"
+    },
+    {
+      "title": "MISTY: High-Throughput Motion Planning via Mixer-based Single-step Drifting",
+      "authors": "Yining Xing, Zehong Ke, Yiqian Tu, Zhiyuan Liu, Wenhao Yu, Jianqiang Wang",
+      "url": "https://arxiv.org/abs/2604.21489",
+      "arxiv_id": "2604.21489",
+      "publish_date": "2026-04-23",
+      "category": "cs.RO",
+      "innovation": "纯单步推理的高吞吐生成式运动规划器：VAE压缩专家轨迹到32维隐空间，MLP-Mixer解码器消除二次注意力复杂度，隐空间漂移损失将分布演化转移到训练阶段，实现99 FPS推理速度",
+      "application_potential": "高",
+      "abstract": "提出MISTY高吞吐生成式运动规划器，实现纯单步推理的SOTA闭环性能。集成向量化子图编码器、VAE压缩专家轨迹到32维隐流形、超轻量MLP-Mixer解码器。引入隐空间漂移损失使模型能合成主动超车等新颖机动。在nuPlan Test14-hard上达到80.32/82.21综合分数，99+ FPS，10.1ms延迟。",
+      "keywords": [
+        "Motion Planning",
+        "Diffusion Planner",
+        "Single-Step Inference",
+        "MLP-Mixer",
+        "Generative Planning"
+      ],
+      "code_available": false,
+      "conference": "Submitted to IEEE RA-L",
+      "citation_count": "N/A"
+    },
+    {
+      "title": "Infrastructure-Centric World Models: Bridging Temporal Depth and Spatial Breadth for Roadside Perception",
+      "authors": "Siyuan Meng, Chengbo Ai",
+      "url": "https://arxiv.org/abs/2604.17651",
+      "arxiv_id": "2604.17651",
+      "publish_date": "2026-04-19",
+      "category": "cs.CV",
+      "innovation": "首次提出基础设施视角的世界模型(I-WM)：利用路侧传感器的时间深度优势积累长尾安全关键事件分布，提出三层架构框架和Infrastructure VLA (I-VLA)概念",
+      "application_potential": "中",
+      "abstract": "论证基础设施中心世界模型(I-WM)提供车辆视角无法替代的互补能力：路侧传感器的鸟瞰多传感器持续视角。提出三阶段愿景：(I)带质量感知不确定性传播的生成式场景理解，(II)物理信息预测动力学与多智能体反事实推理，(III)通过隐空间对齐的V2X协作世界模型。提出I-VLA统一路侧感知、语言命令和交通控制动作。",
+      "keywords": [
+        "World Models",
+        "Infrastructure Perception",
+        "V2X",
+        "Autonomous Driving",
+        "Infrastructure VLA"
+      ],
+      "code_available": false,
+      "conference": "Vision Paper",
+      "citation_count": "N/A"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

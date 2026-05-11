@@ -1,0 +1,92 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-04-09T19:40:48+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 100,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-04-09",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260409_194048",
+    "user_intent": "生成今日全量行业日报，关注端到端自动驾驶、数据驱动规划、视觉语言模型、工业部署，特别添加MoE架构、VLM模型、VLA模型",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时（2026-04-07至2026-04-09）",
+      "academic": "最近一周（2026-04-02至2026-04-09）",
+      "open_source": "最近一个月（2026-03-09至2026-04-09）"
+    },
+    "thought_process": "用户请求今日全量日报，属于全量日报模式。根据AutoIntel-Dispatcher的意图识别能力，需并行启动三个情报收集Agent（Industry_Watcher、Paper_Hunter、Code_Scout）获取工业动态、学术论文和开源项目情报，最后触发Chief_Analyst进行汇总分析生成日报。用户特别关注MoE架构、VLM模型和VLA模型，已在关键词中扩展。",
+    "execution_plan": [
+      {
+        "task_id": "task_industry_watcher",
+        "agent": "Industry_Watcher",
+        "description": "收集Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司最新工业动态，重点关注端到端自动驾驶、数据驱动规划、视觉语言模型、工业部署等方向，特别关注MoE架构、VLM模型、VLA模型",
+        "keywords": ["Tesla", "华为", "Waymo", "NIO", "XPeng", "Li Auto", "端到端自动驾驶", "数据驱动规划", "BEV", "Occupancy", "FSD", "城市NOA", "MoE架构", "VLM模型", "VLA模型"],
+        "time_range": "最近24-72小时",
+        "output_file": "./reports/2026-04/2026-04-09/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_paper_hunter",
+        "agent": "Paper_Hunter",
+        "description": "搜集arXiv、CVPR、ICCV、ICRA等顶会的最新论文，聚焦端到端自动驾驶、世界模型、扩散策略、VAD等前沿方向，特别关注Mixture of Experts、Vision Language Model、Vision Language Action相关研究",
+        "keywords": ["end-to-end autonomous driving", "world model", "diffusion policy", "VAD", "UniAD", "BEVFormer", "Occupancy Network", "Mixture of Experts", "Vision Language Model", "Vision Language Action"],
+        "time_range": "最近一周",
+        "output_file": "./reports/2026-04/2026-04-09/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_code_scout",
+        "agent": "Code_Scout",
+        "description": "发现GitHub Trending、Hugging Face上的开源项目、数据集、工具库，重点关注大公司开源项目和高星增长项目，特别关注MoE、VLM相关实现",
+        "keywords": ["autonomous driving", "end-to-end", "simulator", "dataset", "toolchain", "Tesla", "Waymo", "nuScenes", "CARLA", "MoE", "VLM"],
+        "time_range": "最近一个月",
+        "output_file": "./reports/2026-04/2026-04-09/04_code.json",
+        "timeout": 300,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_chief_analyst",
+        "agent": "Chief_Analyst",
+        "description": "整合三方情报，进行去重、清洗、质量评级，添加技术背景分析，评估工业应用价值，生成结构化日报和学习建议",
+        "dependencies": ["task_industry_watcher", "task_paper_hunter", "task_code_scout"],
+        "trigger_condition": "所有依赖任务完成后自动触发",
+        "output_file": "./reports/2026-04/2026-04-09/2026-04-09_Report.md",
+        "timeout": 600,
+        "retry_count": 1
+      }
+    ],
+    "trigger_conditions": {
+      "parallel_tasks": ["task_industry_watcher", "task_paper_hunter", "task_code_scout"],
+      "final_task": "task_chief_analyst",
+      "dependency_mode": "all_success",
+      "fallback_strategy": "partial_success"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": false,
+    "issues": []
+  }
+}

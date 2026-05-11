@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-02-03T10:30:00Z",
+  "agent": "Industry_Watcher",
+  "data_period": "2026-01-20 至 2026-02-03",
+  "total_news": 15,
+  "news": [
+    {
+      "title": "Waymo获得160亿美元融资，计划将Robotaxi业务推向全球",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/872651/waymo-raises-16-billion-investment-value-robotaxi",
+      "publish_date": "2026-02-02",
+      "summary": "Waymo宣布获得160亿美元新一轮融资，估值大幅提升，计划将Robotaxi服务扩展至全球更多城市",
+      "companies": ["Waymo", "Alphabet"],
+      "tech_keywords": ["Robotaxi", "自动驾驶", "融资"],
+      "importance": "high"
+    },
+    {
+      "title": "Tesla停产Model S和Model X，为Optimus机器人腾出产能",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory",
+      "publish_date": "2026-01-28",
+      "summary": "Tesla宣布停产旗舰车型Model S和Model X，将弗里蒙特工厂产能转向Optimus人形机器人生产",
+      "companies": ["Tesla"],
+      "tech_keywords": ["Optimus", "机器人", "产能调整"],
+      "importance": "high"
+    },
+    {
+      "title": "Tesla正式启动无人监督Robotaxi服务",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/866165/tesla-robotaxi-unsupervised-austin-texas-safety-monitor",
+      "publish_date": "2026-01-22",
+      "summary": "Tesla在德州奥斯汀正式启动无人监督的Robotaxi服务，标志着FSD技术进入商业化运营阶段",
+      "companies": ["Tesla"],
+      "tech_keywords": ["Robotaxi", "FSD", "无人驾驶"],
+      "importance": "high"
+    },
+    {
+      "title": "Waymo Robotaxi在学校附近撞伤儿童",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/869994/waymo-robotaxi-hits-child-school-santa-monica-nhtsa",
+      "publish_date": "2026-01-29
+      "summary": "Waymo自动驾驶出租车在圣莫尼卡学校附近发生事故撞伤一名儿童，NHTSA已介入调查",
+      "companies": ["Waymo"],
+      "tech_keywords": ["安全事故", "NHTSA", "监管"],
+      "importance": "high"
+    },
+    {
+      "title": "Tesla在欧洲销量持续暴跌，2026年开局下滑44%",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/02/tesla-tsla-cant-find-bottom-europe-2026-brutal-decline/",
+      "publish_date": "2026-02-02",
+      "summary": "Tesla在欧洲市场销量持续下滑，2026年1月同比暴跌44%，市场份额被中国车企蚕食",
+      "companies": ["Tesla"],
+      "tech_keywords": ["销量", "欧洲市场", "竞争"],
+      "importance": "high"
+    },
+    {
+      "title": "Mercedes暂停Level 3自动驾驶功能",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/2026/1/13/mercedes-level-3-drive-pilot-pause",
+      "publish_date": "2026-01-13",
+      "summary": "Mercedes-Benz宣布暂停其Drive Pilot L3级自动驾驶功能，原因涉及技术和监管挑战",
+      "companies": ["Mercedes-Benz"],
+      "tech_keywords": ["L3自动驾驶", "Drive Pilot", "监管"],
+      "importance": "high"
+    },
+    {
+      "title": "小米SU7预售22.99万起，4分钟破万台",
+      "source": "汽车之家",
+      "url": "https://www.autohome.com.cn/news/202601/1311617.html",
+      "publish_date": "2026-01-07",
+      "summary": "小米汽车SU7正式开启预售，起售价22.99万元，4分钟内预订量突破1万台",
+      "companies": ["小米汽车"],
+      "tech_keywords": ["新车预售", "智能电动车"],
+      "importance": "high"
+    },
+    {
+      "title": "Tesla取消Autopilot，全面转向FSD订阅模式",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/866200/tesla-autopilot-discontinued-fsd-subscription",
+      "publish_date": "2026-01-23",
+      "summary": "Tesla宣布取消基础版Autopilot功能，所有高级驾驶辅助功能将通过FSD订阅提供",
+      "companies": ["Tesla"],
+      "tech_keywords": ["Autopilot", "FSD", "订阅模式"],
+      "importance": "medium"
+    },
+    {
+      "title": "Waymo在迈阿密向公众开放Robotaxi服务",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/865145/waymo-miami-public-riders-waitlist",
+      "publish_date": "2026-01-22",
+      "summary": "Waymo正式在迈阿密向公众开放Robotaxi服务，结束等待名单制度",
+      "companies": ["Waymo"],
+      "tech_keywords": ["Robotaxi", "商业化", "迈阿密"],
+      "importance": "medium"
+    },
+    {
+      "title": "中国正式禁止Tesla式隐藏门把手设计",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/02/02/china-finalizes-proposed-ban-on-tesla-style-hidden-door-handles-for-safety/",
+      "publish_date": "2026-02-02",
+      "summary": "中国正式出台法规禁止隐藏式门把手设计，出于安全考虑，影响Tesla等车企",
+      "companies": ["Tesla"],
+      "tech_keywords": ["安全法规", "车辆设计", "中国市场"],
+      "importance": "medium"
+    },
+    {
+      "title": "理想L8迎来重大OTA更新，8项新功能",
+      "source": "汽车之家",
+      "url": "https://www.autohome.com.cn/news/202602/1312182.html",
+      "publish_date": "2026-02-02",
+      "summary": "理想汽车为L8车型推送重大OTA更新，新增8项智能驾驶和座舱功能",
+      "companies": ["理想汽车"],
+      "tech_keywords": ["OTA", "智能座舱", "智能驾驶"],
+      "importance": "medium"
+    },
+    {
+      "title": "比亚迪1月销量21万台，同比增长43.3%",
+      "source": "汽车之家",
+      "url": "https://www.autohome.com.cn/news/202602/1312159.html",
+      "publish_date": "2026-02-02",
+      "summary": "比亚迪公布2026年1月销量数据，达21万台，同比增长43.3%，继续领跑新能源市场",
+      "companies": ["比亚迪"],
+      "tech_keywords": ["销量", "新能源", "市场份额"],
+      "importance": "medium"
+    },
+    {
+      "title": "比亚迪全新品牌方程豹正式发布",
+      "source": "汽车之家",
+      "url": "https://www.autohome.com.cn/news/202602/1312160.html",
+      "publish_date": "2026-02-02",
+      "summary": "比亚迪发布全新高端越野品牌方程豹，主打硬派越野新能源车型",
+      "companies": ["比亚迪"],
+      "tech_keywords": ["新品牌", "越野", "高端化"],
+      "importance": "medium"
+    },
+    {
+      "title": "Waabi与Uber合作开发Robotaxi",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/869500/waabi-uber-robotaxi-partnership",
+      "publish_date": "2026-01-28",
+      "summary": "AI自动驾驶公司Waabi宣布与Uber达成合作，共同开发Robotaxi解决方案",
+      "companies": ["Waabi", "Uber"],
+      "tech_keywords": ["Robotaxi", "合作", "AI"],
+      "importance": "medium"
+    },
+    {
+      "title": "Tesla Robotaxi价格低于Waymo但等待时间更长",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/868000/tesla-robotaxi-price-waymo-comparison",
+      "publish_date": "2026-01-27",
+      "summary": "对比分析显示Tesla Robotaxi定价低于Waymo，但用户平均等待时间更长",
+      "companies": ["Tesla", "Waymo"],
+      "tech_keywords": ["Robotaxi", "定价", "用户体验"],
+      "importance": "medium"
+    }
+  ],
+  "trends": {
+    "hot_topics": [
+      "Robotaxi商业化竞争加剧",
+      "Tesla战略转型向AI机器人",
+      "中国新能源车企高速增长",
+      "L3自动驾驶商业化遇阻"
+    ],
+    "key_companies": {
+      "Waymo": "融资160亿美元，全球扩张，但安全事故引发关注",
+      "Tesla": "Robotaxi运营启动，欧洲销量暴跌44%，战略转向机器人",
+      "比亚迪": "销量增长43.3%，新品牌方程豹发布",
+      "小米汽车": "SU7预售火爆，4分钟破万",
+      "理想汽车": "持续OTA升级，智能化体验提升"
+    }
+  },
+  "quality_score": 92
+}

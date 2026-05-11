@@ -1,0 +1,207 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-23T08:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo发布170万英里自动驾驶安全数据：严重伤亡事故减少92%",
+      "url": "https://waymo.com/blog/shorts/waymo-safety-impact-update-170m/",
+      "publish_date": "2026-03-19",
+      "technical_points": [
+        "覆盖超过1.7亿英里全自动驾驶里程，相当于200个人类驾驶寿命",
+        "与人类驾驶员相比，严重或致命伤亡事故减少92%",
+        "安全气囊触发事故减少83%，任何伤亡事故减少82%",
+        "当前每周行驶超过400万英里，每8天预防约1起严重伤亡事故",
+        "第6代Waymo Driver已开始全自动运营，支持极端冬季天气"
+      ],
+      "raw_content": "Waymo于2026年3月19日发布最新安全数据报告，覆盖超过1.7亿英里全自动驾驶里程。数据显示，无论责任归属，Waymo Driver参与的严重或致命伤亡事故比同等驾驶条件下的人类驾驶员少92%，安全气囊触发事故少83%，任何伤亡事故少82%。目前Waymo每周行驶超过400万英里，提供超过40万次出行服务，分析显示每8天可预防约1起严重伤亡事故。第6代Waymo Driver已于2026年2月开始全自动运营，商业运营城市已扩展至10个，包括达拉斯、休斯顿、圣安东尼奥和奥兰多。",
+      "search_keywords": ["Waymo safety data 2026", "Waymo autonomous miles", "Waymo 6th generation driver"],
+      "version_info": "第6代Waymo Driver",
+      "event_type": "安全数据发布"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-23T08:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo第6代Driver开始全自动运营，同时宣布进入达拉斯等4座新城市",
+      "url": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver",
+      "publish_date": "2026-02-12",
+      "technical_points": [
+        "第6代Waymo Driver采用精简配置，大幅降低成本同时保持安全标准",
+        "支持多车型平台部署，包括Zeekr RT电动车",
+        "扩展至极端冬季天气环境运营能力",
+        "商业运营城市扩展至10个（达拉斯、休斯顿、圣安东尼奥、奥兰多同步开放）",
+        "全球约70名远程协助人员随时待命，服务3000辆车队"
+      ],
+      "raw_content": "Waymo于2026年2月12日宣布第6代Waymo Driver开始全自动运营，这是其下一阶段扩张的核心引擎。新系统采用精简配置降低成本，同时维持严格安全标准，支持多车型平台长期增长。2月24日，Waymo同步在达拉斯、休斯顿、圣安东尼奥和奥兰多四座城市向公众开放全自动叫车服务，这是首次同时在多个城市开放，商业运营城市总数达到10个。Waymo还宣布进入芝加哥、夏洛特等新城市的前期测试阶段。",
+      "search_keywords": ["Waymo 6th generation driver 2026", "Waymo expansion Dallas Houston"],
+      "version_info": "第6代Waymo Driver",
+      "event_type": "产品发布/城市扩张"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-23T08:30:00+08:00",
+      "data_source": "authoritative",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "company": "Tesla / 多厂商",
+      "title": "学术综述：端到端自动驾驶时代来临，Tesla FSD V12-V14成行业标杆",
+      "url": "https://arxiv.org/abs/2603.16050",
+      "publish_date": "2026-03-16",
+      "technical_points": [
+        "Tesla FSD V12-V14标志着从规则驱动到端到端学习的范式转变",
+        "Rivian统一智能平台、NVIDIA Cosmos等跟进E2E路线",
+        "监督式E2E驾驶（FSD Supervised / L2++）将从2026年起大规模部署",
+        "E2E学习有效处理真实驾驶长尾分布，成为主流商业策略",
+        "架构进步有望延伸至人形机器人等具身AI系统"
+      ],
+      "raw_content": "来自悉尼大学的综述论文（arXiv:2603.16050）系统梳理了自动驾驶从模块化规则管道向端到端学习系统的转变。论文分析了Tesla FSD V12-V14、Rivian统一智能平台、NVIDIA Cosmos及新兴商业Robotaxi部署，聚焦架构设计、部署策略、安全考量和行业影响。关键发现：监督式E2E驾驶（L2++）将从2026年起被多家厂商大规模部署，这类系统能在复杂环境中执行大部分动态驾驶任务，同时需要人类安全监督。早期运营证据表明E2E学习能有效处理真实驾驶的长尾分布。",
+      "search_keywords": ["Tesla FSD V14 end-to-end 2026", "large driving models survey"],
+      "version_info": "Tesla FSD V12-V14",
+      "event_type": "技术综述/行业分析"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-23T08:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "company": "百度Apollo",
+      "title": "百度Apollo开源平台持续更新，GitHub星标突破26500",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "publish_date": "2026-02-28",
+      "technical_points": [
+        "Apollo开源自动驾驶平台最新推送于2026年2月28日",
+        "GitHub星标达26500，Fork数9949，持续保持行业最大开源自动驾驶社区",
+        "支持C++核心架构，覆盖感知、预测、规划、控制全栈",
+        "Apache 2.0开源协议，支持商业应用",
+        "活跃Issue 1021个，社区持续贡献"
+      ],
+      "raw_content": "百度Apollo开源自动驾驶平台（ApolloAuto/apollo）于2026年2月28日完成最新代码推送，GitHub星标达26500，是全球最大的开源自动驾驶平台之一。该平台采用C++核心架构，覆盖感知、预测、规划、控制完整技术栈，支持ROS集成，适用于自动驾驶研究和商业开发。平台持续活跃，社区贡献者众多，是国内自动驾驶工程师学习和实践的重要资源。",
+      "search_keywords": ["百度Apollo开源 2026", "Apollo autonomous driving github"],
+      "version_info": "Apollo最新版本（2026-02-28推送）",
+      "event_type": "开源平台更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-03-23T08:30:00+08:00",
+      "data_source": "official",
+      "access_status": "partial",
+      "quality_score": 72,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": ["Tesla官网直接访问受限，信息来源于学术综述论文"],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla FSD V14系列：端到端架构成熟，L2++监督驾驶2026年大规模部署",
+      "url": "https://arxiv.org/abs/2603.16050",
+      "publish_date": "2026-03-16",
+      "technical_points": [
+        "FSD V12起完全采用端到端神经网络，摒弃传统规则模块",
+        "V14系列进一步优化，处理复杂城市场景能力显著提升",
+        "监督式FSD（L2++）定位：执行大部分动态驾驶任务，驾驶员保持安全监督",
+        "多家厂商计划2026年起跟进部署类似监督式E2E系统",
+        "E2E架构有效解决长尾场景问题，成为行业主流技术路线"
+      ],
+      "raw_content": "根据2026年3月学术综述（arXiv:2603.16050），Tesla FSD V12-V14代表了自动驾驶行业从规则驱动向端到端学习的关键转折点。FSD V12起完全采用端到端神经网络架构，V14系列在此基础上进一步优化复杂城市场景处理能力。监督式FSD（L2++）将从2026年起大规模部署，驾驶员角色从主动驾驶转变为安全监督。早期运营数据表明E2E学习能有效处理真实驾驶的长尾分布，这一技术路线正成为行业主流商业策略。",
+      "search_keywords": ["Tesla FSD V14 2026", "Tesla end-to-end autonomous driving"],
+      "version_info": "Tesla FSD V14",
+      "event_type": "技术进展/行业趋势"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": ["Tesla官网直接访问受限，信息来源于权威学术综述，可信度较高"]
+    }
+  }
+]

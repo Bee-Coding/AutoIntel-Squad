@@ -1,0 +1,137 @@
+{
+  "source": "Industry",
+  "metadata": {
+    "timestamp": "2026-04-24T13:50:00+08:00",
+    "data_source": "authoritative",
+    "access_status": "success",
+    "quality_score": 90,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    },
+    "search_summary": {
+      "sources_fetched": [
+        "techcrunch.com/transportation",
+        "techcrunch.com/article-tesla-hw3-upgrade-2026-04-22",
+        "techcrunch.com/article-tesla-capex-25b-2026-04-22",
+        "techcrunch.com/article-tesla-robotaxi-dallas-houston-2026-04-18",
+        "techcrunch.com/article-wayve-chipmaker-investment-2026-04-15",
+        "techcrunch.com/article-tesla-q1-earnings-2026-04-22"
+      ],
+      "total_results_scanned": 15,
+      "top5_selected": true
+    }
+  },
+  "content": [
+    {
+      "company": "Tesla",
+      "title": "Elon Musk确认数百万HW3车主需硬件升级才能使用无监督FSD",
+      "url": "https://techcrunch.com/2026/04/22/elon-musk-admits-millions-of-tesla-owners-need-upgrades-for-true-full-self-driving/",
+      "publish_date": "2026-04-22",
+      "technical_points": [
+        "Hardware 3（2019-2023年车型）无法支持无监督FSD，需更换计算机和摄像头",
+        "特斯拉计划在主要都市区建设'micro-factories'进行大规模升级",
+        "CFO Taneja曾在2025年10月表示HW3可能仍可适配，Musk此次明确否定",
+        "此声明可能引发车主集体法律诉讼"
+      ],
+      "raw_content": "Musk在Q1财报电话会上明确表示，搭载Hardware 3（2019-2023年生产）的特斯拉车辆需要更换新的计算机和摄像头才能运行未来的无监督FSD版本。特斯拉计划在大都市区建立微型工厂以应对升级需求，避免服务中心拥堵。这一表态与特斯拉多年来'只需一次软件更新即可实现自动驾驶'的承诺相悖，可能面临法律挑战。",
+      "search_keywords": [
+        "Tesla Hardware 3 upgrade FSD",
+        "Tesla unsupervised FSD HW3"
+      ],
+      "version_info": "FSD (Supervised) v14 / Hardware 3",
+      "event_type": "财报电话会",
+      "quality_score": 95
+    },
+    {
+      "company": "Tesla",
+      "title": "特斯拉2026年资本支出飙升至250亿美元，重点投向AI和机器人",
+      "url": "https://techcrunch.com/2026/04/22/tesla-just-increased-its-capex-to-25b-heres-where-the-money-is-going/",
+      "publish_date": "2026-04-22",
+      "technical_points": [
+        "2026年资本支出250亿美元，是历史水平（约85亿/年）的3倍",
+        "资金投向：AI训练基础设施、芯片设计、机器人出租车运营、Austin半导体Fab",
+        "Fremont工厂将停止Model S/X生产，转向Optimus人形机器人量产",
+        "CFO警告全年剩余时间将出现负自由现金流"
+      ],
+      "raw_content": "Tesla在Q1财报中宣布2026年资本支出将达到250亿美元，是此前年均85亿美元的3倍。资金将用于AI训练计算基础设施、芯片设计、机器人出租车运营，以及在Austin建设半导体研究Fab。Fremont工厂将停止Model S/X生产，开始规模化生产Optimus人形机器人。公司一季度末持有447亿美元现金储备。CFO Taneja表示公司全年剩余时间将出现负自由现金流。",
+      "search_keywords": [
+        "Tesla capex 2026 25 billion",
+        "Tesla AI investment"
+      ],
+      "version_info": "Capex 2026: $25B",
+      "event_type": "财报",
+      "quality_score": 92
+    },
+    {
+      "company": "Tesla",
+      "title": "特斯拉Q1营收增长，FSD订阅量达128万同比增长51%",
+      "url": "https://techcrunch.com/2026/04/22/tesla-q1-revenue-rises-driven-by-ev-sales-and-fsd-subscriptions/",
+      "publish_date": "2026-04-22",
+      "technical_points": [
+        "Q1营收223.8亿美元，同比增长16%",
+        "FSD活跃订阅量达128万，同比增长51%",
+        "净利润4.77亿美元，同比增长16.6%",
+        "自由现金流14.4亿美元，超市场预期一倍"
+      ],
+      "raw_content": "特斯拉公布2026年Q1财报：营收223.8亿美元（同比+16%），汽车营收162亿美元。FSD（Supervised）订阅量达128万，同比增长51%，成为服务收入增长重要驱动力。净利润4.77亿美元。虽然交付量35.8万辆略低于预期的36.8万辆，但较高的平均售价、FSD订阅和一次性收益（关税/保修调整）支撑了业绩。",
+      "search_keywords": [
+        "Tesla Q1 2026 earnings FSD subscriptions"
+      ],
+      "version_info": "Q1 2026 Financial Results",
+      "event_type": "财报",
+      "quality_score": 90
+    },
+    {
+      "company": "Tesla",
+      "title": "特斯拉Robotaxi服务扩展至达拉斯和休斯顿",
+      "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+      "publish_date": "2026-04-18",
+      "technical_points": [
+        "德州三城覆盖：奥斯汀（2025年启动）→ 达拉斯、休斯顿（2026年4月）",
+        "2026年1月起已实现无安全驾驶员的完全无人驾驶运营",
+        "奥斯汀运营以来涉及14起碰撞事故",
+        "第三方监测显示新城市当前仅各1辆运营车辆，远少于奥斯汀的46辆"
+      ],
+      "raw_content": "特斯拉将Robotaxi服务从奥斯汀扩展到达拉斯和休斯顿。公司自2026年1月起已在奥斯汀提供无安全驾驶员的全无人驾驶服务，但第三方监测平台Robotaxi Tracker显示当前奥斯汀有46辆活跃车辆，达拉斯和休斯顿各仅1辆。2月NHTSA文件披露奥斯汀Robotaxi累计涉及14起碰撞事故。",
+      "search_keywords": [
+        "Tesla robotaxi Dallas Houston expansion"
+      ],
+      "version_info": "Robotaxi Service v1.0",
+      "event_type": "服务扩展",
+      "quality_score": 88
+    },
+    {
+      "company": "Wayve",
+      "title": "AMD、Arm、高通向端到端自动驾驶公司Wayve追加6000万美元投资",
+      "url": "https://techcrunch.com/2026/04/15/chipmakers-amd-arm-and-qualcomm-are-all-investing-in-this-buzzy-self-driving-tech-startup/",
+      "publish_date": "2026-04-15",
+      "technical_points": [
+        "AMD、Arm和高通风投向Wayve投资6000万美元，作为12亿美元D轮扩展",
+        "Wayve的端到端系统不依赖特定传感器、芯片或高精地图",
+        "Wayve的AI Driver可在任意OEM现有芯片平台上运行",
+        "日产（2027年量产）、奔驰、Stellantis已签约采用Wayve技术"
+      ],
+      "raw_content": "英国端到端自动驾驶公司Wayve获得AMD、Arm和高通风投的6000万美元追加投资。此前D轮已募资12亿美元，投资方包括奔驰、日产、Stellantis、Nvidia、微软、Uber和软银。Wayve的核心技术是基于端到端神经网络的AI Driver，不依赖高精地图和特定芯片。日产计划2027年量产搭载Wayve技术的ADAS系统。",
+      "search_keywords": [
+        "Wayve Series D AMD Arm Qualcomm investment"
+      ],
+      "version_info": "Wayve AI Driver",
+      "event_type": "融资",
+      "quality_score": 85
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": false,
+    "issues": [
+      "Wayve投资新闻日期为2026-04-15，略超出7天窗口（11天），但与端到端自动驾驶高度相关，予以收录"
+    ]
+  }
+}

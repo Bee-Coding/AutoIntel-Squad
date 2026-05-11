@@ -1,0 +1,103 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-04-10T14:44:09+0800",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    },
+    "fetch_method": "webfetch",
+    "fetch_detail": {
+      "tool_command": "AutoIntel-Dispatcher 内部调度",
+      "render_time_ms": 0,
+      "fallback_used": false,
+      "fallback_reason": ""
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-04-10",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260410_144410",
+    "user_intent": "生成今日全量行业日报，覆盖过去24小时最新动态",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "过去24小时内",
+      "academic": "过去24小时内",
+      "open_source": "过去24小时内"
+    },
+    "thought_process": "用户请求生成今日全量行业日报。根据关键词\"今日\"和\"全量\"，识别为全量日报模式。采用并行执行策略：同时启动Industry_Watcher、Paper_Hunter、Code_Scout三个Agent收集情报，完成后触发Chief_Analyst汇总分析。时间范围设定为过去24小时（北京时区），重点关注端到端自动驾驶、数据驱动规划、视觉语言模型等方向。遵循数据真实性第一原则，所有信息必须附带真实来源链接。",
+    "execution_plan": {
+      "tasks": [
+        {
+          "task_id": "task_industry_watcher",
+          "agent": "Industry_Watcher",
+          "description": "追踪Tesla、华为、Waymo等公司过去24小时工业动态",
+          "instruction": "搜索Tesla FSD、华为ADS、Waymo、NIO、XPeng等公司最新技术进展、OTA更新、发布会动态。重点关注端到端自动驾驶、BEV感知、Occupancy预测、城市NOA等方向。使用三级数据源搜索策略：官方渠道优先（Tesla/Waymo博客使用Lightpanda抓取），权威媒体次之。每条信息必须附带真实来源链接和发布日期。时间范围：过去24小时内。最多收录5条高质量情报。",
+          "output_path": "./reports/2026-04/2026-04-10/02_industry.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_paper_hunter",
+          "agent": "Paper_Hunter",
+          "description": "搜索arXiv、顶会论文中过去24小时上传的端到端自动驾驶相关论文",
+          "instruction": "搜索arXiv（CS.CV, CS.RO）最近24小时上传的论文，重点关注End-to-End Autonomous Driving、World Models、Diffusion Policy、BEV Perception、Planning等方向。优先选择有\"Project Page\"或\"Code Available\"标记的论文。每条信息必须附带arXiv链接和实际上传日期。时间范围：过去24小时内。最多收录5篇高质量论文。",
+          "output_path": "./reports/2026-04/2026-04-10/03_papers.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_code_scout",
+          "agent": "Code_Scout",
+          "description": "发现GitHub、Hugging Face等平台过去24小时更新的开源项目",
+          "instruction": "搜索GitHub Trending、Hugging Face Spaces上最近24小时更新的自动驾驶相关项目。重点关注仿真器（CARLA、AirSim）、数据集（Waymo Open Dataset、nuScenes）、SOTA算法复现、工具链等。优先大厂开源项目（Tesla、Waymo、NVIDIA等）和高星增长项目。使用GitHub API优先，失败时降级到Lightpanda抓取。每条信息必须附带GitHub链接和真实更新时间。时间范围：过去24小时内。最多收录5个高质量项目。",
+          "output_path": "./reports/2026-04/2026-04-10/04_code.json",
+          "timeout": 300,
+          "retry_count": 2,
+          "dependencies": []
+        },
+        {
+          "task_id": "task_chief_analyst",
+          "agent": "Chief_Analyst",
+          "description": "整合三方情报，生成今日日报和系统优化建议",
+          "instruction": "读取三个情报文件（02_industry.json, 03_papers.json, 04_code.json），执行数据验证与清洗。维护话题历史，识别版本延续和全新话题。执行7天回顾（检索7天前高优先级话题，生成深度反思）。按照标准模板生成结构化日报。基于今日情报质量生成系统优化建议。输出：日报文件（2026-04-10_Report.md）、更新话题历史（topic_history/2026-04.json）、系统优化建议文件（05_optimization.json）。",
+          "output_path": "./reports/2026-04/2026-04-10/2026-04-10_Report.md",
+          "timeout": 600,
+          "retry_count": 1,
+          "dependencies": ["task_industry_watcher", "task_paper_hunter", "task_code_scout"]
+        }
+      ],
+      "parallel_start": ["task_industry_watcher", "task_paper_hunter", "task_code_scout"],
+      "final_trigger": "task_chief_analyst"
+    },
+    "trigger_conditions": {
+      "condition_parallel": "当task_industry_watcher、task_paper_hunter、task_code_scout全部进入completed状态时，自动触发task_chief_analyst",
+      "condition_timeout": "任何任务超时（industry:300s, paper:300s, code:300s, analyst:600s）时记录超时状态，继续执行其他任务",
+      "condition_fallback": "部分任务失败时，继续执行可用数据，生成降级报告",
+      "condition_success": "所有任务成功完成，生成完整日报和系统优化建议"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

@@ -1,0 +1,1235 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-27T10:00:00+08:00",
+    "month": "2026-04",
+    "topics_count": 38,
+    "generated_by": "Chief_Analyst",
+    "update_type": "daily_merge"
+  },
+  "topics": [
+    {
+      "id": "autonomous_driving_security_threat",
+      "name": "自动驾驶安全威胁",
+      "aliases": [
+        "特斯拉安全威胁",
+        "地缘政治风险",
+        "基础设施安全"
+      ],
+      "category": "industry",
+      "description": "特斯拉被列入伊朗IRGC目标名单，威胁中东地区自动驾驶基础设施安全",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "伊朗伊斯兰革命卫队将特斯拉列入18家美国公司目标名单，威胁其中东业务。特斯拉在海湾地区快速扩张，拥有30多个超级充电站，已激活免费充电作为危机应对措施。",
+          "key_points": [
+            "伊朗IRGC威胁特斯拉海湾地区业务",
+            "特斯拉在海湾地区有30+超级充电站",
+            "已激活免费充电作为危机应对",
+            "凸显自动驾驶基础设施的地缘政治风险"
+          ],
+          "sources": [
+            "https://electrek.co/2026/03/31/tesla-irgc-target-list-gulf-operations-threat/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autovla_grpo",
+      "name": "AutoVLA GRPO强化微调",
+      "aliases": [
+        "AutoVLA",
+        "VLA+GRPO",
+        "自适应推理驾驶"
+      ],
+      "category": "opensource",
+      "description": "NeurIPS 2025，VLA模型结合GRPO强化学习微调的端到端驾驶方案，根据场景复杂度自适应推理，已开源524 stars",
+      "first_appeared": "2026-04-27",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-27",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-27",
+          "version": "v1.0",
+          "description": "AutoVLA（ucla-mobility/AutoVLA）NeurIPS 2025论文开源，VLA结合GRPO强化微调，自适应推理机制根据场景复杂度调节计算量，524 stars。与SpanVLA的GRPO后训练形成技术呼应。",
+          "key_points": [
+            "NeurIPS 2025",
+            "VLA+GRPO强化微调",
+            "自适应推理",
+            "524 stars"
+          ],
+          "sources": [
+            "https://github.com/ucla-mobility/AutoVLA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autoware_vision_pilot",
+      "name": "Autoware Vision Pilot端到端项目",
+      "aliases": [
+        "autoware_vision_pilot",
+        "端到端自动驾驶开源项目"
+      ],
+      "category": "opensource",
+      "first_appeared": "2026-04-22",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-22",
+      "priority": "high",
+      "description": "Autoware基金会全新纯视觉端到端自动驾驶开源项目，集成端到端机器学习管道和基础模型",
+      "history": [
+        {
+          "date": "2026-04-22",
+          "version": "v1.0",
+          "description": "Autoware Foundation推出纯视觉端到端驾驶项目，集成端到端机器学习管道和基础模型。代表开源自动驾驶从模块化向端到端架构迁移的重要趋势。",
+          "key_points": [
+            "纯视觉端到端方案",
+            "集成端到端机器学习管道",
+            "基础模型集成",
+            "开源ADAS+端到端"
+          ],
+          "sources": [
+            "https://github.com/autowarefoundation/autoware_vision_pilot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commonsense_world_trajectory_planning",
+      "name": "常识世界轨迹规划",
+      "aliases": [
+        "C-TRAIL框架",
+        "LLM常识推理轨迹规划",
+        "信任机制轨迹规划"
+      ],
+      "category": "academic",
+      "description": "C-TRAIL框架基于常识世界耦合LLM常识推理与信任机制指导轨迹规划，实现安全关键的自动驾驶决策",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出C-TRAIL框架，基于常识世界耦合LLM常识推理与信任机制指导轨迹规划，通过闭环Recall-Plan-Update循环实现安全关键的自动驾驶决策。在Highway-env仿真和real-world levelXData数据集上实验显示优于SOTA基线，平均减少ADE 40.2%、FDE 51.7%，提高SR 16.9个百分点。",
+          "key_points": [
+            "基于常识世界的轨迹规划框架",
+            "耦合LLM常识推理与双信任机制",
+            "通过闭环Recall-Plan-Update循环实现安全决策",
+            "实验显示显著性能提升"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.29908v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross_stage_driving_vqa",
+      "name": "Cross-Stage Driving VQA一致性",
+      "aliases": [
+        "跨阶段VQA一致性",
+        "DriveLM上下文传递",
+        "门控上下文投影器"
+      ],
+      "category": "academic",
+      "description": "跨阶段上下文传递确保DriveLM中感知→预测→规划三级推理一致性，NLI矛盾率降低34%",
+      "first_appeared": "2026-04-24",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-24",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-24",
+          "version": "v1.0",
+          "description": "在DriveLM-nuScenes上进行跨阶段上下文传递比较研究。显式变体通过三种提示基条件策略减少NLI矛盾达42.6%；隐式变体引入门控上下文投影器，仅更新0.5%参数即实现规划阶段NLI矛盾降低34%，CIDEr提升30.3%。",
+          "key_points": [
+            "显式提示和隐式门控投影器两种方法",
+            "NLI矛盾率降低34%",
+            "仅更新0.5%参数",
+            "DriveLM基准上的方法论贡献"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.22560"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diffusiondrive_opensource",
+      "name": "DiffusionDrive开源项目",
+      "aliases": [
+        "DiffusionDrive",
+        "截断扩散模型实时驾驶"
+      ],
+      "category": "opensource",
+      "description": "CVPR 2025 Highlight，截断扩散模型实现实时端到端自动驾驶，已开源1371 stars",
+      "first_appeared": "2026-04-27",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-27",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-27",
+          "version": "v1.0",
+          "description": "DiffusionDrive（hustvl/DiffusionDrive）CVPR 2025 Highlight论文开源，截断扩散策略减少去噪步数实现实时端到端自动驾驶，1371 stars。技术栈：Python, PyTorch, Diffusion Models, Transformer。",
+          "key_points": [
+            "CVPR 2025 Highlight",
+            "截断扩散模型",
+            "实时端到端规划",
+            "1371 stars"
+          ],
+          "sources": [
+            "https://github.com/hustvl/DiffusionDrive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end_to_end_essence",
+      "name": "端到端自动驾驶本质分析",
+      "aliases": [
+        "含模量分析",
+        "端到端技术本质"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "high",
+      "description": "分析端到端自动驾驶的技术本质，指出'含模量'（世界知识、物理理解、推理能力）是核心竞争力",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "文章深入分析端到端自动驾驶的技术本质，指出端到端是表象，真正的核心竞争力在于'含模量'——即模型中包含的世界知识、物理理解和推理能力。讨论了特斯拉FSD的模块化设计、VLA架构中的快慢脑协同，以及如何通过梯度回传实现驾驶策略的持续优化。",
+          "key_points": [
+            "端到端自动驾驶的技术本质在于'含模量'",
+            "特斯拉FSD采用模块化设计，VLA架构中的快慢脑协同",
+            "通过梯度回传实现驾驶策略的持续优化",
+            "世界模型在端到端系统中的核心作用"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/160063971"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fsd_subscription_1_28m",
+      "name": "FSD订阅量达128万",
+      "aliases": [
+        "FSD活跃订阅",
+        "FSD subscriber growth"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-22",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-22",
+      "priority": "medium",
+      "description": "特斯拉Q1财报显示FSD（Supervised）活跃订阅量128万，同比增长51%，成为服务收入重要驱动力",
+      "history": [
+        {
+          "date": "2026-04-22",
+          "version": "v1.0",
+          "description": "特斯拉Q1财报：FSD活跃订阅量128万，同比增长51%。Q1总营收223.8亿美元（同比+16%），净利润4.77亿美元。自由现金流14.4亿美元超预期。",
+          "key_points": [
+            "FSD订阅量128万同比增长51%",
+            "营收223.8亿美元同比增长16%",
+            "自由现金流14.4亿美元超预期"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/04/22/tesla-q1-revenue-rises-driven-by-ev-sales-and-fsd-subscriptions/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fsdrive_spatiotemporal_cot",
+      "name": "FSDrive时空CoT推理驾驶",
+      "aliases": [
+        "FSDrive",
+        "FutureSightDrive",
+        "时空链式思维"
+      ],
+      "category": "opensource",
+      "description": "NeurIPS 2025 Spotlight，时空链式思维推理驾驶框架，将视觉推理引入端到端决策，已开源716 stars",
+      "first_appeared": "2026-04-26",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-26",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-26",
+          "version": "v1.0",
+          "description": "FSDrive（MIV-XJTU/FSDrive）NeurIPS 2025 Spotlight论文开源，提出时空链式思维推理框架，通过VLM backbone实现视觉思考到驾驶决策的端到端推理，716 stars。与OneVL等隐式CoT方案形成对比。",
+          "key_points": [
+            "NeurIPS 2025 Spotlight",
+            "时空链式思维推理",
+            "VLM backbone",
+            "716 stars"
+          ],
+          "sources": [
+            "https://github.com/MIV-XJTU/FSDrive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horizon_star_chip",
+      "name": "地平线星空芯片与HSD V1.6",
+      "aliases": [
+        "星空6P",
+        "KaKaClaw咖咖虾",
+        "地平线舱驾融合",
+        "Horizon Robotics Star Chip"
+      ],
+      "category": "industry",
+      "description": "地平线发布中国首款5nm舱驾融合芯片星空6P（650 TOPS），一颗芯片取代智驾+座舱两套系统，成本降低1500-4000元/车，同时发布整车智能体操作系统KaKaClaw和HSD V1.6",
+      "first_appeared": "2026-04-22",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-22",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-22",
+          "version": "v1.0",
+          "description": "地平线在北京车展发布星空6P芯片（5nm, 650 TOPS, 273 GB/s），首创城堡安全物理隔离架构（座舱/智驾隔离，智驾域ASIL-D）。同步发布整车智能体操作系统KaKaClaw（支持自然语言跨域并行调度）和HSD V1.6端到端智驾系统（新增遥控泊车、离车泊入）。Q3量产落地iCAR V27。",
+          "key_points": [
+            "5nm车规级650 TOPS舱驾融合芯片",
+            "硬件成本降低1500-4000元/车",
+            "城堡安全架构实现物理隔离",
+            "KaKaClaw OS + HSD V1.6同步发布"
+          ],
+          "sources": [
+            "https://www.d1ev.com/carnews/xinche/296398"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huawei_ads_5",
+      "name": "华为乾崑ADS 5",
+      "aliases": [
+        "华为ADS 5",
+        "乾崑智驾",
+        "鸿蒙座舱6",
+        "896线激光雷达"
+      ],
+      "category": "industry",
+      "description": "华为发布乾崑ADS 5，云端算力60 EFLOPS，896线激光雷达下放至23万级，公布L3时间表（2026试点→2027商用→2028 Robotaxi），2026年ADS研发超180亿元",
+      "first_appeared": "2026-04-24",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-24",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-24",
+          "version": "v1.0",
+          "description": "华为在北京车展发布乾崑ADS 5智驾系统，云端算力60 EFLOPS，896线激光雷达下放至23万级车型。ADS车辆已达170万辆（年底预计300万），辅助驾驶事故率757万公里/次（全国平均4.2倍）。L3时间表：2026申请试点→2027规模商用→2028 Robotaxi商用。2026年ADS研发投入超180亿元，五年累计700-800亿元。",
+          "key_points": [
+            "云端算力60 EFLOPS",
+            "896线激光雷达下放23万级",
+            "ADS车辆170万辆",
+            "L3时间表明确"
+          ],
+          "sources": [
+            "https://www.d1ev.com/news/shichang/296568"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hybrid_rule_language_planning",
+      "name": "混合规则-语言规划",
+      "aliases": [
+        "RAD-LAD",
+        "实时语言-动作规划器",
+        "基于规则规划器"
+      ],
+      "category": "academic",
+      "description": "RAD-LAD结合基于规则的规划器和实时语言-动作规划器，实现可靠且自适应的决策",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出LAD实时语言-动作规划器和RAD基于规则的规划器，结合两者实现混合规划，规则支持可靠机动，语言支持自适应可解释决策。LAD具有可中断架构，在单次前向传递中产生运动计划(~20 Hz)或生成文本推理与运动计划(~10 Hz)。在nuPlan Test14-Hard和InterPlan上实现SOTA性能。",
+          "key_points": [
+            "实时语言-动作规划器（LAD）可中断架构",
+            "基于规则规划器（RAD）解决结构限制",
+            "混合规划结合规则可靠性和语言自适应性",
+            "在nuPlan Test14-Hard和InterPlan上实现SOTA"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.28522v2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i_wm_infrastructure_world_model",
+      "name": "基础设施世界模型(I-WM)",
+      "aliases": [
+        "Infrastructure World Model",
+        "I-WM",
+        "I-VLA"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-19",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-19",
+      "priority": "medium",
+      "description": "首次提出基础设施视角的世界模型，利用路侧传感器积累长尾安全事件，提出I-VLA概念",
+      "history": [
+        {
+          "date": "2026-04-19",
+          "version": "v1.0",
+          "description": "论证I-WM提供车辆视角无法替代的互补能力。提出三阶段愿景：生成式场景理解、物理信息预测动力学与多智能体反事实推理、V2X协作世界模型。提出I-VLA统一路侧感知、语言命令和交通控制动作。",
+          "key_points": [
+            "基础设施视角世界模型",
+            "路侧传感器互补能力",
+            "V2X协作世界模型",
+            "I-VLA概念"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.17651"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lgfa_bev_augmentation",
+      "name": "LG-FA BEV前景增强模块",
+      "aliases": [
+        "LG-FA",
+        "定位引导前景增强",
+        "BEV全局向量层"
+      ],
+      "category": "academic",
+      "description": "定位引导的即插即用BEV前景增强模块，通过增量构建稀疏全局向量层和类别约束几何对齐提升感知几何完整性和时间稳定性",
+      "first_appeared": "2026-04-21",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-21",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-21",
+          "version": "v1.0",
+          "description": "提出LG-FA轻量级即插即用推理模块，通过增量式从逐帧BEV预测构建稀疏全局向量层，利用类别约束几何对齐估计自车位姿并补全缺失局部拓扑，将增强前景重投影到统一全局帧以改进逐帧预测。在nuScenes上验证了BEV表示的几何完整性和时间稳定性提升。",
+          "key_points": [
+            "即插即用推理模块",
+            "稀疏全局向量层",
+            "类别约束几何对齐",
+            "不修改backbone"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.18940"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lidar_place_recognition",
+      "name": "LiDAR Place Recognition",
+      "aliases": [
+        "LiDAR地点识别",
+        "地点重识别"
+      ],
+      "category": "localization",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "high",
+      "description": "基于LiDAR的地点识别Transformer网络，用于自动驾驶定位与建图",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "多视图金字塔Transformer融合网络论文发表，提升LiDAR地点识别性能",
+          "key_points": [
+            "多视图金字塔Transformer",
+            "LiDAR地点识别",
+            "定位与建图"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04511"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llm_generative_world_fusion",
+      "name": "LLM与生成世界模型融合",
+      "aliases": [
+        "LMGenDrive",
+        "多模态理解与生成统一"
+      ],
+      "category": "academic",
+      "description": "LMGenDrive首次结合LLM多模态理解与生成世界模型，实现统一的理解与生成，通过视频预测改善时空场景建模",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "提出LMGenDrive，首个结合LLM多模态理解与生成世界模型的端到端驾驶框架。给定多视角相机输入和自然语言指令，LMGenDrive同时生成未来驾驶视频和控制信号。视频预测改善时空场景建模，LLM提供语义先验和指令grounding。",
+          "key_points": [
+            "首次结合LLM理解与生成世界模型",
+            "同时生成未来视频和控制信号",
+            "视频预测改善时空场景建模",
+            "LLM提供语义先验和指令grounding"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.08719"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misty_high_throughput_planner",
+      "name": "MISTY高吞吐运动规划",
+      "aliases": [
+        "MISTY",
+        "MLP-Mixer运动规划"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-23",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-23",
+      "priority": "high",
+      "description": "纯单步推理的高吞吐生成式运动规划器，VAE压缩轨迹到32维隐空间，MLP-Mixer实现99 FPS",
+      "history": [
+        {
+          "date": "2026-04-23",
+          "version": "v1.0",
+          "description": "提出MISTY，VAE压缩专家轨迹到32维隐流形，MLP-Mixer解码器消除二次注意力复杂度。引入隐空间漂移损失合成新颖机动。nuPlan Test14-hard上80.32/82.21综合分数，99+ FPS，10.1ms延迟。",
+          "key_points": [
+            "VAE压缩到32维隐空间",
+            "MLP-Mixer解码器高效",
+            "99 FPS推理速度",
+            "nuPlan SOTA性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.21489"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "momenta_r7_rl_world_model",
+      "name": "Momenta R7强化学习世界模型",
+      "aliases": [
+        "Momenta R7",
+        "RL世界模型量产",
+        "曹旭东智驾供应商格局"
+      ],
+      "category": "industry",
+      "description": "Momenta R7强化学习世界模型量产首发，全球首发搭载上汽大众ID.ERA 9X，三层架构（预训练→仿真→RL），累计定点超200款车型、搭载80万台覆盖10国",
+      "first_appeared": "2026-04-27",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-27",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-27",
+          "version": "v1.0",
+          "description": "Momenta在北京车展发布R7强化学习世界模型，为全球首个量产的RL世界模型方案，搭载于上汽大众ID.ERA 9X。三层架构：世界模型预训练→仿真→强化学习，按L4级标准打造。累计定点超200款车型（量产70余款），搭载方案突破80万台，覆盖10个国家。宝马iX3搭载Momenta L2领航辅助，奥迪E7X将率先应用L3级。CEO曹旭东判断中国仅2-3家、全球3-4家智驾供应商将快速胜出。",
+          "key_points": [
+            "全球首个量产RL世界模型",
+            "三层架构（预训练→仿真→RL）",
+            "累计搭载80万台覆盖10国",
+            "智驾供应商格局收敛判断"
+          ],
+          "sources": [
+            "https://www.d1ev.com/news/shichang/297092"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multi_vehicle_zero_shot_adaptation",
+      "name": "多车辆零样本适配",
+      "aliases": [
+        "MVAdapt",
+        "物理条件适配",
+        "零样本车辆迁移"
+      ],
+      "category": "academic",
+      "description": "MVAdapt框架通过物理条件适配实现多车辆端到端驾驶的零样本迁移，解决车辆域差距问题",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "提出MVAdapt物理条件适配框架，通过冻结的场景编码器、轻量级物理编码器和跨注意力模块，实现多车辆端到端驾驶的零样本迁移和少样本校准。在CARLA Leaderboard 1.0上超越基线方法，支持零样本迁移和少样本校准两种模式。",
+          "key_points": [
+            "解决车辆域差距问题",
+            "物理条件适配框架",
+            "支持零样本迁移和少样本校准",
+            "在CARLA Leaderboard上表现优异"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.11854"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multimodal_sensor_fusion",
+      "name": "Multimodal Sensor Fusion",
+      "aliases": [
+        "多模态传感器融合",
+        "相机LiDAR融合"
+      ],
+      "category": "perception",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "high",
+      "description": "相机与LiDAR多模态融合的注意力机制，提升自动驾驶感知鲁棒性",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "混合注意力机制论文发表（CVPR 2026），有效融合相机与LiDAR数据",
+          "key_points": [
+            "混合注意力机制",
+            "相机与LiDAR融合",
+            "提升感知鲁棒性"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04797"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "navigation_understanding_e2e",
+      "name": "导航理解在端到端驾驶中的重要性",
+      "aliases": [
+        "SNG框架",
+        "序列导航引导",
+        "全局导航理解"
+      ],
+      "category": "academic",
+      "description": "SNG框架揭示端到端驾驶系统过度依赖局部场景理解而忽略全局导航信息的问题，提出序列导航引导高效表示导航路径和实时转向信息",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "提出序列导航引导（SNG）框架，通过导航路径和实时转向信息的高效表示，解决端到端驾驶系统过度依赖局部场景理解、忽略全局导航信息的问题。构建SNG-QA数据集和SNG-VLA模型，实现全局与局部规划的协同。",
+          "key_points": [
+            "揭示端到端系统忽略全局导航信息的问题",
+            "提出序列导航引导（SNG）高效表示",
+            "构建SNG-QA数据集对齐全局与局部规划",
+            "SNG-VLA模型实现SOTA性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.12208"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onedrive_unified_decoder",
+      "name": "OneDrive统一异构解码器",
+      "aliases": [
+        "OneDrive",
+        "统一多范式驾驶"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "high",
+      "description": "在单一Transformer解码器中统一异构解码行为（语言生成+目标检测+轨迹回归），代码已开源",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "提出基于预训练VLM的统一自动驾驶框架，在单一Transformer解码器中协调异构解码行为。nuScenes上达到0.28 L2和0.18碰撞率，NAVSIM闭环86.8 PDMS，高效推理模式延迟降低约40%。代码已开源。",
+          "key_points": [
+            "统一不同解码行为",
+            "预训练VLM注意力强迁移性",
+            "延迟降低约40%",
+            "代码已开源"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.17915"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onevl_latent_vla_world_model",
+      "name": "OneVL隐式VLA+World Model",
+      "aliases": [
+        "OneVL",
+        "隐式CoT自动驾驶"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "high",
+      "description": "首个隐式CoT方法超越显式CoT：统一VLA与World Model框架，通过双辅助解码器监督实现单步并行推理",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "提出OneVL，统一VLA和World Model框架，通过紧凑隐式token进行推理。语言解码器重建文本CoT，视觉世界模型解码器预测未来帧token。三项基准上首个超越显式CoT的隐式CoT方法，达到answer-only延迟下的SOTA准确率。",
+          "key_points": [
+            "隐式CoT超越显式CoT",
+            "VLA+World Model统一框架",
+            "双辅助解码器监督",
+            "Xiaomi团队出品"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.18486"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotaxi_geofence_expansion",
+      "name": "Robotaxi地理围栏扩展",
+      "aliases": [
+        "Tesla Robotaxi扩展",
+        "无人监督Robotaxi",
+        "地理围栏扩展"
+      ],
+      "category": "industry",
+      "description": "Tesla在奥斯汀、达拉斯、休斯顿三城扩展无人监督Robotaxi服务",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.2",
+      "latest_update": "2026-04-18",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "Tesla在奥斯汀扩展无人监督Robotaxi服务的地理围栏至245平方英里（原始面积的12倍），但仅有4-8辆Model Y在实际运行，且仍需远程监控。与Waymo相比存在竞争差距：Waymo每周完成50万次付费全无人驾驶行程。",
+          "key_points": [
+            "Robotaxi地理围栏扩展至245平方英里",
+            "仅有4-8辆Model Y在无人监督模式下运行",
+            "仍需远程监控，非完全自主",
+            "与Waymo的规模化差距明显"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/01/22/tesla-launches-robotaxi-rides-in-austin-with-no-human-safety-driver/",
+            "https://electrek.co/2026/03/31/tesla-expands-unsupervised-robotaxi-service-area-still-only-handful-vehicles/"
+          ]
+        },
+        {
+          "date": "2026-04-18",
+          "version": "v1.2",
+          "description": "Tesla Robotaxi扩展至达拉斯和休斯顿，现覆盖德州三城。第三方监测显示新城市各仅1辆运营车辆，奥斯汀有46辆。奥斯汀运营以来涉及14起碰撞事故。",
+          "key_points": [
+            "扩展至达拉斯和休斯顿",
+            "覆盖德州三城",
+            "车队规模极小",
+            "累计14起碰撞事故"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/"
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "version": "v1.1",
+          "description": "Tesla Robotaxi扩展至达拉斯和休斯顿，但地理围栏面积小（12-35平方英里），可用性低（0-2%），安全监控员仍占主导地位。事故率比人类驾驶员高3-4倍，服务在雨天关闭。与Waymo完全无人驾驶运营形成对比。",
+          "key_points": [
+            "扩展至达拉斯和休斯顿两个新城市",
+            "地理围栏面积小，可用性极低",
+            "事故率比人类驾驶员高3-4倍",
+            "雨天限制运营",
+            "与Waymo规模化运营对比明显"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/19/tesla-robotaxi-expansion-dallas-houston-stock-pump-earnings/",
+            "https://electrek.co/2026/04/18/tesla-robotaxi-launches-dallas-houston-small-geofences/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring_based_end_to_end_driving",
+      "name": "评分式端到端驾驶",
+      "aliases": [
+        "SparseDriveV2",
+        "可扩展词汇表示",
+        "分解评分策略"
+      ],
+      "category": "academic",
+      "description": "SparseDriveV2通过可扩展词汇表示和分解评分策略推动基于评分规划的端到端自动驾驶性能边界",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出SparseDriveV2，通过可扩展词汇表示和分解评分策略推动基于评分规划的端到端自动驾驶性能边界，实现组合动作空间覆盖。在NAVSIM上达到92.0 PDMS和90.1 EPDMS，在Bench2Drive上达到89.15 Driving Score和70.00 Success Rate。",
+          "key_points": [
+            "可扩展词汇表示（几何路径+速度剖面）",
+            "分解评分策略（粗粒度+细粒度）",
+            "实现组合动作空间覆盖",
+            "在NAVSIM和Bench2Drive上达到SOTA性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.29163v1"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "version": "v1.1",
+          "description": "地平线发布SparseDrivev2技术博客，阐述其在端到端自动驾驶中的工业应用思路，进一步优化稀疏感知和规划算法，体现学术成果向工业界的转化加速。",
+          "key_points": [
+            "地平线SparseDrivev2技术博客发布",
+            "稀疏感知与规划算法优化",
+            "学术成果工业应用转化",
+            "软硬协同趋势"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/159934421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spanvla_flow_matching_grpo",
+      "name": "SpanVLA Flow Matching + GRPO",
+      "aliases": [
+        "SpanVLA",
+        "负样本恢复学习"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-21",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-21",
+      "priority": "high",
+      "description": "VLA模型结合flow-matching动作专家和GRPO后训练，从负样本学习避障和恢复行为",
+      "history": [
+        {
+          "date": "2026-04-21",
+          "version": "v1.0",
+          "description": "提出SpanVLA，集成自回归推理与flow-matching动作专家。通过桥梁机制利用VLM指导flow-matching策略规划。GRPO后训练使VLA从正负驾驶样本中学习，在NAVSIM v1/v2上取得有竞争力性能。",
+          "key_points": [
+            "Flow-matching动作专家",
+            "GRPO强化学习后训练",
+            "负样本恢复学习",
+            "NAVSIM有竞争力性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.19710"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sparsedrive_opensource",
+      "name": "SparseDrive开源项目",
+      "aliases": [
+        "SparseDrive",
+        "稀疏场景表示端到端"
+      ],
+      "category": "opensource",
+      "description": "全稀疏场景表示的端到端驾驶框架，去除密集BEV特征降低计算开销，已开源927 stars",
+      "first_appeared": "2026-04-24",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-24",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-24",
+          "version": "v1.0",
+          "description": "SparseDrive（swc-17/SparseDrive）全稀疏场景表示端到端驾驶框架开源，统一感知-预测-规划稀疏pipeline，去除密集BEV特征降低计算开销，927 stars。与地平线SparseDriveV2论文同源。",
+          "key_points": [
+            "全稀疏场景表示",
+            "统一感知-预测-规划pipeline",
+            "去除密集BEV特征",
+            "927 stars"
+          ],
+          "sources": [
+            "https://github.com/swc-17/SparseDrive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_capex_25b_ai",
+      "name": "Tesla 250亿美元AI/机器人投资",
+      "aliases": [
+        "Tesla capex $25B",
+        "Tesla AI投资",
+        "Optimus量产"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-22",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-22",
+      "priority": "high",
+      "description": "特斯拉宣布2026年资本支出250亿美元，是历史水平3倍，重点投向AI训练、芯片设计、机器人出租车和Optimus量产",
+      "history": [
+        {
+          "date": "2026-04-22",
+          "version": "v1.0",
+          "description": "特斯拉在Q1财报中宣布2026年资本支出250亿美元（历史年均85亿美元的3倍），投向AI训练计算基础设施、芯片设计、机器人出租车运营、Austin半导体Fab。Fremont工厂将停止Model S/X生产，开始规模化生产Optimus人形机器人。CFO警告全年剩余时间负自由现金流。",
+          "key_points": [
+            "资本支出250亿美元历史新高",
+            "AI训练基础设施和芯片设计",
+            "机器人出租车和Optimus量产",
+            "全年负自由现金流"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/04/22/tesla-just-increased-its-capex-to-25b-heres-where-the-money-is-going/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_fsd_security_crackdown",
+      "name": "Tesla FSD安全打击",
+      "aliases": [
+        "FSD破解设备打击",
+        "CAN总线黑客打击"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-10",
+      "latest_version": "v1",
+      "latest_update": "2026-04-10",
+      "priority": "medium",
+      "description": "Tesla打击未经授权解锁FSD功能的灰色市场设备，远程禁用受影响车辆的FSD访问权限",
+      "history": [
+        {
+          "date": "2026-04-10",
+          "version": "v1",
+          "description": "Tesla远程检测并禁用使用未经授权CAN总线设备解锁FSD功能的车辆，在韩国等地区将此类行为定为刑事犯罪",
+          "key_points": [
+            "CAN总线黑客设备",
+            "远程禁用FSD访问",
+            "地理围栏绕过",
+            "区域软件锁"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/09/tesla-cracks-down-fsd-hack-devices-remotely-disables-access/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_fsd_v15_safety_claim",
+      "name": "Tesla FSD v15安全承诺",
+      "aliases": [
+        "FSD v15安全承诺",
+        "Musk安全承诺"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-10",
+      "latest_version": "v1.1",
+      "latest_update": "2026-04-13",
+      "priority": "medium",
+      "description": "Elon Musk再次承诺FSD v15将远超人类安全水平，延续v12/v14类似承诺模式，引发对版本演进实质进展的讨论",
+      "history": [
+        {
+          "date": "2026-04-10",
+          "version": "v1",
+          "description": "Musk在X上承诺FSD v15将'远超人类安全水平'，但他在2023年对v12和2025年对v14也做出过几乎相同的承诺，引发对版本演进实质进展的讨论",
+          "key_points": [
+            "FSD v15安全承诺",
+            "版本演进模式重复",
+            "缺乏同行评审安全数据",
+            "监管对比"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/09/elon-musk-tesla-fsd-v15-safer-than-humans-same-claim-every-version/"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "version": "v1.1",
+          "description": "播客讨论提及FSD v15可能包含重要改进，延续Musk对v15安全性的承诺，但具体技术细节仍未公开。讨论涉及特斯拉廉价EV车型传闻、Rivian R2续航数据等。",
+          "key_points": [
+            "FSD v15可能包含重要改进",
+            "具体技术细节未公开",
+            "涉及OTA更新讨论",
+            "延续版本安全承诺模式"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/10/podcast-teslas-cheaper-ev-model-comes-and-goes-fsd-v15-rivian-r2-epa-numbers-and-more/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_hw3_upgrade",
+      "name": "Tesla HW3硬件升级",
+      "aliases": [
+        "Hardware 3升级",
+        "HW3 upgrade",
+        "FSD无监督硬件要求"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-22",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-22",
+      "priority": "high",
+      "description": "Elon Musk在Q1财报会上确认Hardware 3车辆需要更换计算机和摄像头才能运行无监督FSD",
+      "history": [
+        {
+          "date": "2026-04-22",
+          "version": "v1.0",
+          "description": "Musk在Q1财报电话会上明确：Hardware 3（2019-2023年车型）无法支持无监督FSD，需更换新计算机和摄像头。特斯拉计划在主要都市区建设微型工厂进行大规模升级。此声明与特斯拉多年承诺'只需软件更新'相悖，可能引发法律挑战。",
+          "key_points": [
+            "HW3无法支持无监督FSD",
+            "需更换计算机和摄像头",
+            "计划建设微型工厂升级",
+            "可能引发车主集体诉讼"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/04/22/elon-musk-admits-millions-of-tesla-owners-need-upgrades-for-true-full-self-driving/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_smart_summon",
+      "name": "Tesla Smart Summon",
+      "aliases": [
+        "Tesla智能召唤",
+        "Actually Smart Summon"
+      ],
+      "category": "regulatory_safety",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "medium",
+      "description": "特斯拉智能召唤功能监管调查进展，涉及NHTSA调查、OTA更新、安全评估",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "NHTSA结束调查，记录159起事件，通过6次OTA更新解决，无召回",
+          "key_points": [
+            "Tesla Smart Summon 功能调查结束",
+            "159起事件，均为轻微财产损失",
+            "零伤亡记录",
+            "通过6次OTA更新解决问题"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/06/nhtsa-closes-tesla-smart-summon-probe/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univlt_transportation_fm",
+      "name": "UniVLT交通基础模型",
+      "aliases": [
+        "UniVLT",
+        "LTD数据集",
+        "交通VQA"
+      ],
+      "category": "academic",
+      "description": "首个统一微观AD推理与宏观城市交通分析的交通基础模型，基于11.6K VQA对的LTD数据集训练，支持多目标定位、多图像选择及风险分析",
+      "first_appeared": "2026-04-24",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-24",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-24",
+          "version": "v1.0",
+          "description": "提出UniVLT交通基础模型和LTD数据集（11.6K高质量VQA pairs），通过课程知识迁移统一微观AD推理和宏观交通分析。支持多目标定位、多图像相机选择和多图像风险分析。无开源代码。",
+          "key_points": [
+            "统一微观AD与宏观交通分析",
+            "LTD数据集11.6K VQA pairs",
+            "多目标定位和风险分析",
+            "无开源代码"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.22260"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vla_catastrophic_forgetting",
+      "name": "VLA灾难性遗忘",
+      "aliases": [
+        "视觉语言模型灾难性遗忘",
+        "VLA微调遗忘"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "medium",
+      "description": "视觉语言模型在自动驾驶数据集微调后出现的灾难性遗忘问题，上海交通大学CVPR'26论文提出缓解方法",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "上海交通大学CVPR'26论文研究VLA在自动驾驶数据集微调后的灾难性遗忘问题。研究发现，将典型VL模型在专属自驾数据集上微调后，原本能轻松识别的简单场景（如道路中的牛）模型反而丧失判别能力。论文提出新方法在保持驾驶性能的同时显著缓解遗忘问题。",
+          "key_points": [
+            "视觉语言模型在自动驾驶数据集微调后出现灾难性遗忘",
+            "简单场景识别能力丧失",
+            "提出持续学习方法缓解遗忘",
+            "保持驾驶性能的同时减少遗忘"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/160034977"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vla_world_models",
+      "name": "VLA世界模型",
+      "aliases": [
+        "视觉-语言-动作世界模型",
+        "VLA-World"
+      ],
+      "category": "academic",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "high",
+      "description": "VLA-World结合预测想象和反思推理的视觉-语言-动作世界模型，提高自动驾驶预见性",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "提出VLA-World，一个简单而有效的VLA世界模型，它将预测想象与反思推理相结合，以提高驾驶预见性。VLA-World首先使用动作导出的可行轨迹来指导下一帧图像的生成，捕捉描述周围环境如何演变的丰富空间和时间线索。然后，模型对这个自生成的未来想象帧进行推理，以细化预测的轨迹，实现更高的性能和更好的可解释性。",
+          "key_points": [
+            "结合预测想象与反思推理的VLA世界模型",
+            "使用动作导出的可行轨迹指导下一帧图像生成",
+            "对自生成的未来想象帧进行推理以细化轨迹",
+            "提高驾驶预见性和可解释性"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.09059"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlm_security",
+      "name": "VLM Security",
+      "aliases": [
+        "视觉语言模型安全",
+        "多模态后门攻击"
+      ],
+      "category": "security",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "medium",
+      "description": "视觉语言模型在自动驾驶中的安全攻击，包括涂鸦和跨语言触发后门攻击",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "多模态后门攻击论文发表，针对自动驾驶VLMs的安全威胁",
+          "key_points": [
+            "多模态后门攻击",
+            "涂鸦和跨语言触发",
+            "自动驾驶视觉语言模型安全"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04630"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "version": "v1.1",
+          "description": "多模态后门攻击论文（GLA）正式发表于Pattern Analysis and Applications，研究针对自动驾驶视觉语言模型的涂鸦和跨语言触发后门攻击方法，隐蔽性和稳定性进一步提升。",
+          "key_points": [
+            "论文正式发表于Pattern Analysis and Applications",
+            "涂鸦式视觉触发器和跨语言文本触发器",
+            "仅需10%中毒比例达到90%攻击成功率",
+            "后门不削弱模型干净任务性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04630v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waymo_ridership_growth",
+      "name": "Waymo客运量增长",
+      "aliases": [
+        "Waymo ridership growth",
+        "Waymo规模化运营"
+      ],
+      "category": "industry",
+      "description": "Waymo周客运量在不到一年内翻倍，达到50万次付费无人驾驶行程，目标2026年底达到100万次，扩展至达拉斯、休斯顿等新城市",
+      "first_appeared": "2026-04-20",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-20",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-20",
+          "version": "v1.0",
+          "description": "Waymo宣布每周完成50万次付费无人驾驶行程，覆盖美国10个城市，周客运量在不到一年内翻倍（从2025年4月的25万次）。2026年2月扩展至达拉斯、休斯顿、圣安东尼奥、奥兰多。车队多元化，即将加入Zeekr货车和现代Ioniq 5车型，目标到2026年底达到每周100万次行程。",
+          "key_points": [
+            "周客运量50万次，一年内翻倍",
+            "覆盖10个美国城市，近期扩展至达拉斯、休斯顿等",
+            "车队多元化计划",
+            "目标2026年底达到100万次周客运量"
+          ],
+          "sources": [
+            "https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wayve_end_to_end_funding",
+      "name": "Wayve端到端融资扩展",
+      "aliases": [
+        "Wayve Series D",
+        "Wayve芯片投资"
+      ],
+      "category": "industry",
+      "first_appeared": "2026-04-15",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-15",
+      "priority": "medium",
+      "description": "AMD、Arm、高通向端到端自动驾驶公司Wayve追加6000万美元投资",
+      "history": [
+        {
+          "date": "2026-04-15",
+          "version": "v1.0",
+          "description": "AMD、Arm、高通风投向Wayve投资6000万美元（12亿美元D轮扩展）。Wayve端到端系统不依赖特定传感器/芯片/高精地图。日产计划2027年量产搭载其技术。",
+          "key_points": [
+            "芯片三巨头投资6000万美元",
+            "端到端不依赖特定传感器/芯片/高精地图",
+            "日产2027年量产应用"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/04/15/chipmakers-amd-arm-and-qualcomm-are-all-investing-in-this-buzzy-self-driving-tech-startup/"
+          ]
+        }
+      ]
+    }
+  ]
+}

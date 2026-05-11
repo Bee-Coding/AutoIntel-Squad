@@ -1,0 +1,152 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Towards Safe Mobility: A Unified Transportation Foundation Model enabled by Open-Ended Vision-Language Dataset",
+      "authors": "Wenhui Huang, Songyan Zhang, Collister Chua, Yang Liang, Zhiqi Mao, Heng Yang, Chen Lv",
+      "url": "https://arxiv.org/abs/2604.22260",
+      "arxiv_id": "2604.22260",
+      "publish_date": "2026-04-24",
+      "category": "cs.CV",
+      "innovation": "提出UniVLT——首个统一微观AD推理与宏观城市交通分析的交通基础模型，基于11.6K高质量VQA对的LTD数据集训练，支持多目标定位、多图像相机选择及多图像风险分析",
+      "application_potential": "高",
+      "abstract": "提出Land Transportation Dataset (LTD)，包含11.6K高质量VQA pairs，覆盖多样化道路几何、交通参与者、光照和恶劣天气。在此基础上构建UniVLT交通基础模型，通过课程知识迁移统一微观AD推理和宏观交通分析，在开放推理任务上达到SOTA性能。",
+      "keywords": ["transportation foundation model", "VQA", "autonomous driving", "multi-view reasoning", "vision-language model"],
+      "code_available": false,
+      "conference": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Cross-Stage Coherence in Hierarchical Driving VQA: Explicit Baselines and Learned Gated Context Projectors",
+      "authors": "Gautam Kumar Jain, Carsten Markgraf, Julian Stähler",
+      "url": "https://arxiv.org/abs/2604.22560",
+      "arxiv_id": "2604.22560",
+      "publish_date": "2026-04-24",
+      "category": "cs.CV",
+      "innovation": "提出显式提示策略和隐式门控上下文投影器两种跨阶段上下文传递方法，确保DriveLM中感知→预测→规划三级推理的一致性，NLI矛盾率降低34%",
+      "application_potential": "高",
+      "abstract": "在DriveLM-nuScenes上进行跨阶段上下文传递比较研究。显式变体通过三种提示基条件策略减少NLI矛盾达42.6%；隐式变体引入门控上下文投影器，仅更新0.5%参数即实现规划阶段NLI矛盾降低34%，CIDEr提升30.3%。",
+      "keywords": ["driving VQA", "VLM", "cross-stage reasoning", "DriveLM", "consistency"],
+      "code_available": false,
+      "conference": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
+      "authors": "Yanjiao Liu, Jiawei Liu, Xun Gong, Zifei Nie",
+      "url": "https://arxiv.org/abs/2604.21479",
+      "arxiv_id": "2604.21479",
+      "publish_date": "2026-04-23",
+      "category": "cs.CV",
+      "innovation": "使用冻结LLM作为推理引擎进行车辆轨迹预测，通过交通编码器提取空间特征、CNN编码HD地图，结合重编程适配器将场景特征映射为LLM兼容token",
+      "application_potential": "中",
+      "abstract": "提出一个利用冻结LLM作为推理引擎的车辆轨迹预测框架。通过交通编码器提取动态智能体的空间级场景特征，轻量级CNN编码局部HD地图，重编程适配器将提取的场景特征转化为LLM兼容token，使用线性解码器输出未来轨迹。在IEEE IV 2026发表。",
+      "keywords": ["LLM", "trajectory prediction", "autonomous driving", "HD map", "frozen LLM"],
+      "code_available": false,
+      "conference": "IEEE Intelligent Vehicles Symposium 2026"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Localization-Guided Foreground Augmentation in Autonomous Driving",
+      "authors": "Jiawei Yong, Deyuan Qu, Qi Chen, Kentaro Oguchi, Shintaro Fukushima",
+      "url": "https://arxiv.org/abs/2604.18940",
+      "arxiv_id": "2604.18940",
+      "publish_date": "2026-04-21",
+      "category": "cs.CV",
+      "innovation": "提出LG-FA模块，通过增量构建稀疏全局向量层和类别约束几何对齐，在线增强BEV前景感知，无需修改backbone即可提升几何完整性和时间稳定性",
+      "application_potential": "高",
+      "abstract": "提出Localization-Guided Foreground Augmentation (LG-FA)轻量级即插即用推理模块。通过增量式从逐帧BEV预测构建稀疏全局向量层，利用类别约束几何对齐估计自车位姿并补全缺失局部拓扑，将增强前景重投影到统一全局帧以改进逐帧预测。在nuScenes上验证了BEV表示的几何完整性和时间稳定性提升。",
+      "keywords": ["BEV perception", "foreground augmentation", "localization", "autonomous driving", "sparse global vector"],
+      "code_available": false,
+      "conference": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "A"
+    },
+    "content": {
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "authors": "Byounggun Park, Soonmin Hwang",
+      "url": "https://arxiv.org/abs/2604.21249",
+      "arxiv_id": "2604.21249",
+      "publish_date": "2026-04-23",
+      "category": "cs.RO",
+      "innovation": "提出基于VLM的非结构化越野轨迹规划框架，通过动作对齐标注重构和偏好优化策略，将平均轨迹误差从1.01m降至0.97m，高程不一致性从0.428降至0.322",
+      "application_potential": "中",
+      "abstract": "针对VLM在越野场景中的应用，提出语言精炼框架将标注重构为动作对齐对，使VLM从单张图像生成精细场景描述和3D未来轨迹。引入偏好优化策略构建几何感知负样本并显式惩罚与局部高程不一致的轨迹。在ORAD-3D基准上验证了可通行性合规和高程一致性的提升。",
+      "keywords": ["VLM", "off-road driving", "trajectory planning", "preference optimization", "traversability"],
+      "code_available": false,
+      "conference": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

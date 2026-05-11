@@ -1,0 +1,130 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-04-01T10:00:00+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "plan_id": "plan_20260401_100000",
+    "user_intent": "全量行业日报 - 自动驾驶技术情报全面收集与分析",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "report_date": "2026-04-01",
+    "time_range": {
+      "industry": "最近7天，可接受1-2个月",
+      "academic": "最近7天，可接受1-2个月",
+      "open_source": "最近7天，可接受1-2个月"
+    },
+    "thought_process": {
+      "intent_analysis": "用户请求全量行业日报，触发全量日报模式：并行启动A/B/C三个Agent，完成后触发D汇总",
+      "mode_selection": "parallel - 三个情报Agent同时执行，最大化效率",
+      "focus_areas": [
+        "端到端自动驾驶最新进展",
+        "Tesla FSD / 华为ADS / Waymo最新动态",
+        "世界模型、扩散策略、VLA驾驶前沿论文",
+        "GitHub高星自动驾驶开源项目",
+        "BEV感知、Occupancy预测、规划控制新成果"
+      ],
+      "risk_assessment": "部分官方渠道可能访问受限，已配置降级策略"
+    },
+    "execution_plan": {
+      "parallel_tasks": [
+        {
+          "task_id": "task_A_industry",
+          "agent": "Industry_Watcher",
+          "output_to": "reports/2026-04/2026-04-01/02_industry.json",
+          "query_keywords": [
+            "Tesla FSD 2026",
+            "华为ADS 3.0 2026",
+            "Waymo autonomous driving 2026",
+            "小鹏XNGP 2026",
+            "理想AD Max 2026",
+            "蔚来NOP+ 2026",
+            "端到端自动驾驶 2026",
+            "自动驾驶OTA更新 2026年4月"
+          ],
+          "instruction": "搜索2026年4月自动驾驶工业界最新动态，重点关注Tesla FSD、华为ADS、Waymo、国内新势力OTA更新和技术发布，优先官方渠道，降级到权威媒体",
+          "time_range": "2026-03-01 至 2026-04-01",
+          "max_results": 5,
+          "timeout": 300,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_B_papers",
+          "agent": "Paper_Hunter",
+          "output_to": "reports/2026-04/2026-04-01/03_papers.json",
+          "query_keywords": [
+            "end-to-end autonomous driving arxiv 2026",
+            "world model driving 2026",
+            "diffusion policy autonomous driving 2026",
+            "BEV perception 2026",
+            "vision language model driving 2026",
+            "occupancy prediction 2026",
+            "neural planning autonomous driving 2026"
+          ],
+          "instruction": "搜索arXiv最新自动驾驶相关论文，重点关注端到端、世界模型、扩散策略、BEV感知方向，优先有代码实现的论文",
+          "time_range": "2026-03-01 至 2026-04-01",
+          "max_results": 5,
+          "timeout": 300,
+          "retry_count": 2
+        },
+        {
+          "task_id": "task_C_code",
+          "agent": "Code_Scout",
+          "output_to": "reports/2026-04/2026-04-01/04_code.json",
+          "query_keywords": [
+            "autonomous driving 2026 github",
+            "end-to-end driving github 2026",
+            "BEV perception github 2026",
+            "world model driving github",
+            "autonomous driving dataset 2026",
+            "self-driving simulation 2026"
+          ],
+          "instruction": "搜索GitHub最新自动驾驶开源项目，重点关注端到端模型、仿真器、数据集、工具链，优先大厂开源和高星增长项目",
+          "time_range": "2026-03-01 至 2026-04-01",
+          "max_results": 5,
+          "timeout": 300,
+          "retry_count": 2
+        }
+      ],
+      "final_task": {
+        "task_id": "task_D_analyst",
+        "agent": "Chief_Analyst",
+        "depends_on": ["task_A_industry", "task_B_papers", "task_C_code"],
+        "input_files": [
+          "reports/2026-04/2026-04-01/02_industry.json",
+          "reports/2026-04/2026-04-01/03_papers.json",
+          "reports/2026-04/2026-04-01/04_code.json"
+        ],
+        "output_files": [
+          "reports/2026-04/2026-04-01/2026-04-01_Report.md",
+          "reports/topic_history/2026-04.json",
+          "reports/2026-04/2026-04-01/05_optimization.json"
+        ],
+        "instruction": "整合三方情报，执行数据验证清洗，维护话题历史，生成7天回顾，输出完整日报和系统优化建议"
+      }
+    },
+    "trigger_conditions": {
+      "parallel_start": "立即并行启动 task_A, task_B, task_C",
+      "final_trigger": "task_A AND task_B AND task_C 全部完成（或超时）后触发 task_D",
+      "timeout_policy": "单任务超时300秒后标记为partial，继续执行其他任务"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": false,
+    "issues": []
+  }
+}

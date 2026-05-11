@@ -1,0 +1,232 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-10T09:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=ti:autonomous+driving&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
+      "authors": "Simon Gerstenecker, Andreas Geiger, Katrin Renz",
+      "url": "https://arxiv.org/abs/2604.08535v1",
+      "arxiv_id": "2604.08535v1",
+      "publish_date": "2026-04-09",
+      "category": "cs.RO, cs.CV",
+      "innovation": "提出首个用于闭环自动驾驶泛化评估的配对路线基准，通过匹配分布内和分布外路线来隔离分布偏移效应，包含200条路线和17种新场景类别，能够量化诊断模型失败模式。",
+      "application_potential": "高",
+      "abstract": "分布偏移下的泛化能力仍然是闭环自动驾驶的核心瓶颈。现有仿真基准通常重用训练场景进行测试，导致成功可能反映的是记忆而非鲁棒驾驶行为。Fail2Drive引入了CARLA中首个配对路线基准，包含200条路线和17种新场景类别，涵盖外观、布局、行为和鲁棒性偏移。每条偏移路线都与分布内路线配对，隔离偏移效应并将定性失败转化为定量诊断。评估多个最先进模型显示一致性能下降，平均成功率下降22.8%。分析揭示了意外失败模式，如忽略LiDAR清晰可见的物体以及未能学习自由空间和占用空间的基本概念。",
+      "keywords": ["闭环驾驶", "泛化基准", "CARLA仿真", "分布偏移"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-10T09:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=ti:autonomous+driving&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning",
+      "authors": "Rui Gan, Junyi Ma, Pei Li, Xingyou Yang, Kai Chen, Sikai Chen, Bin Ran",
+      "url": "https://arxiv.org/abs/2604.08457v1",
+      "arxiv_id": "2604.08457v1",
+      "publish_date": "2026-04-09",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出首个基于路侧摄像头的事故理解视觉语言基准，采用两层级分类法评估场景上下文视觉基础和高级推理能力，包括事故机制、因果归因、时间进展和事故后结果。",
+      "application_potential": "高",
+      "abstract": "协同自动驾驶需要从车辆和基础设施双重视角理解交通场景。现有基准主要关注自我车辆视角，对安全关键场景中视觉语言模型的性能评估不足。CrashSight是一个大规模视觉语言基准，使用真实世界路侧摄像头数据进行道路事故理解。数据集包含250个事故视频，标注了13K个多项选择题-答案对，组织在两层级分类法下。第一层级评估场景上下文和相关方的视觉基础，第二层级探究高级推理，包括事故机制、因果归因、时间进展和事故后结果。我们基准测试了8个最先进的视觉语言模型，结果显示尽管具有强大的场景描述能力，当前模型在安全关键场景中的时间和因果推理方面仍存在困难。",
+      "keywords": ["事故理解", "路侧感知", "视觉语言基准", "协同自动驾驶"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-10T09:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=all:diffusion+AND+all:%22autonomous+driving%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Geo-EVS: Geometry-Conditioned Extrapolative View Synthesis for Autonomous Driving",
+      "authors": "Yatong Lan, Rongkui Tang, Lei He",
+      "url": "https://arxiv.org/abs/2604.07250v1",
+      "arxiv_id": "2604.07250v1",
+      "publish_date": "2026-04-08",
+      "category": "cs.CV",
+      "innovation": "提出几何条件外推视图合成框架，通过几何感知重投影和伪影引导潜在扩散，在稀疏监督下解决轨迹外视图合成中的几何支持不足问题。",
+      "application_potential": "中",
+      "abstract": "外推新颖视图合成可以通过从异构传感器生成标准化虚拟视图来减少自动驾驶中对相机阵列的依赖。现有方法在记录轨迹之外性能下降，因为外推姿势提供弱几何支持且无密集目标视图监督。关键是在训练期间明确将模型暴露于轨迹外条件缺陷。我们提出了Geo-EVS，一种稀疏监督下的几何条件框架。Geo-EVS有两个组件：几何感知重投影使用微调的VGGT重建彩色点云并将其重投影到观测和虚拟目标姿势，产生几何条件图；伪影引导潜在扩散在训练期间注入重投影导出的伪影掩码，使模型学习在缺失支持情况下恢复结构。在Waymo上，Geo-EVS提高了稀疏视图合成质量和几何准确性，特别是在高角度和低覆盖设置中，同时改善了下游3D检测性能。",
+      "keywords": ["视图合成", "几何条件", "外推视图", "自动驾驶"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-10T09:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=all:diffusion+AND+all:%22autonomous+driving%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Fast-dVLM: Efficient Block-Diffusion VLM via Direct Conversion from Autoregressive VLM",
+      "authors": "Chengyue Wu, Shiyi Lan, Yonggan Fu, Sensen Gao, Jin Wang, Jincheng Yu, Jose M. Alvarez, Pavlo Molchanov, Ping Luo, Song Han, Ligeng Zhu, Enze Xie",
+      "url": "https://arxiv.org/abs/2604.06832v1",
+      "arxiv_id": "2604.06832v1",
+      "publish_date": "2026-04-08",
+      "category": "cs.CL",
+      "innovation": "提出块扩散视觉语言模型，通过直接转换自回归VLM实现KV缓存兼容的并行解码和推测块解码，在物理AI场景中实现推理加速。",
+      "application_potential": "中",
+      "abstract": "视觉语言模型主要依赖自回归解码，逐个生成令牌，从根本上限制了推理吞吐量。这一限制在物理AI场景（如机器人和自动驾驶）中尤为严重，其中VLM在批量大小为1的边缘设备上部署，使自回归解码受内存带宽限制且硬件并行性未充分利用。虽然块级离散扩散在并行文本生成方面显示潜力，但将其扩展到VLM仍然具有挑战性，因为需要同时处理连续视觉表示和离散文本令牌，同时保留预训练的多模态能力。我们提出了Fast-dVLM，一种基于块扩散的VLM，支持KV缓存兼容的并行解码和推测块解码以实现推理加速。我们系统比较了两种自回归到扩散转换策略：两阶段方法首先通过仅文本扩散微调适应LLM主干，再进行多模态训练；直接方法在一个阶段中转换完整的自回归VLM。在可比较的训练预算下，直接转换通过利用已经多模态对齐的VLM证明更为高效。我们在11个多模态基准测试上的广泛实验显示Fast-dVLM在生成质量上匹配其自回归对应物。通过SGLang集成和FP8量化，Fast-dVLM实现了超过6倍的端到端推理加速。",
+      "keywords": ["块扩散", "视觉语言模型", "并行解码", "推理加速"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-10T09:35:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=all:diffusion+AND+all:%22autonomous+driving%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Multimodal Backdoor Attack on VLMs for Autonomous Driving via Graffiti and Cross-Lingual Triggers",
+      "authors": "Jiancheng Wang, Lidan Liang, Yong Wang, Zengzhen Su, Haifeng Xia, Yuanting Yan, Wei Wang",
+      "url": "https://arxiv.org/abs/2604.04630v1",
+      "arxiv_id": "2604.04630v1",
+      "publish_date": "2026-04-06",
+      "category": "cs.CV",
+      "innovation": "提出针对自动驾驶视觉语言模型的多模态后门攻击方法GLA，使用涂鸦式视觉触发器和跨语言文本触发器，实现隐蔽且稳定的攻击通道。",
+      "application_potential": "中",
+      "abstract": "视觉语言模型正迅速集成到安全关键系统如自动驾驶中，使其成为潜在后门攻击的重要攻击面。现有后门攻击主要依赖单模态、显式且易于检测的触发器，难以在自动驾驶场景中构建隐蔽且稳定的攻击通道。GLA引入了两种自然主义触发器：通过稳定扩散修复生成的涂鸦式视觉模式，无缝融入城市场景；以及跨语言文本触发器，引入分布偏移同时保持语义一致性以构建鲁棒的语言侧触发信号。在DriveVLM上的实验显示，GLA仅需10%的中毒比例即可达到90%的攻击成功率和0%的误报率。更隐蔽的是，后门不会削弱模型在干净任务上的性能，反而提高了BLEU-1等指标，使传统的基于性能下降的检测方法难以识别攻击。这项研究揭示了自动驾驶VLM中被低估的安全威胁，并为安全关键多模态系统中的后门评估提供了新的攻击范式。",
+      "keywords": ["后门攻击", "视觉语言模型", "自动驾驶安全", "多模态触发器"],
+      "code_available": false,
+      "conference": "Pattern Analysis and Applications",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

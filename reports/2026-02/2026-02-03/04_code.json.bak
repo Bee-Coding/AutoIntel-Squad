@@ -1,0 +1,224 @@
+{
+  "timestamp": "2026-02-03T10:30:00Z",
+  "agent": "Code_Scout",
+  "collection_period": "近30天活跃项目",
+  "total_projects": 25,
+  "projects": [
+    {
+      "name": "UniAD",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "description": "[CVPR 2023 Best Paper] Planning-oriented Autonomous Driving - 统一自动驾驶框架",
+      "stars": 4500,
+      "language": "Python",
+      "last_updated": "2025-10-29",
+      "tech_category": "端到端",
+      "topics": ["motion-planning", "autonomous-driving", "end-to-end"]
+    },
+    {
+      "name": "VAD",
+      "url": "https://github.com/hustvl/VAD",
+      "description": "[ICCV 2023 & ICLR 2026] VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+      "stars": 1200,
+      "language": "Python",
+      "last_updated": "2026-02-01",
+      "tech_category": "端到端",
+      "topics": ["end-to-end", "autonomous-driving"]
+    },
+    {
+      "name": "OpenDriveVLA",
+      "url": "https://github.com/DriveVLA/OpenDriveVLA",
+      "description": "[AAAI 2026] End-to-end Autonomous Driving with Large Vision Language Action Model",
+      "stars": 601,
+      "language": "Python",
+      "last_updated": "2025-11-30",
+      "tech_category": "VLA",
+      "topics": ["autonomous-driving", "vision-language-action-model"]
+    },
+    {
+      "name": "Awesome-VLA4AD",
+      "url": "https://github.com/JohnsonJiang1996/Awesome-VLA4AD",
+      "description": "Vision-Language-Action models for Autonomous Driving 资源汇总",
+      "stars": 529,
+      "language": "Markdown",
+      "last_updated": "2025-11-20",
+      "tech_category": "VLA",
+      "topics": ["vla", "autonomous-driving", "survey"]
+    },
+    {
+      "name": "AutoVLA",
+      "url": "https://github.com/ucla-mobility/AutoVLA",
+      "description": "[NeurIPS 2025] Vision-Language-Action Model with Adaptive Reasoning and Reinforcement Fine-Tuning",
+      "stars": 376,
+      "language": "Python",
+      "last_updated": "2025-12-02",
+      "tech_category": "VLA",
+      "topics": ["autonomous-driving", "vision-language-action", "reinforcement-finetuning"]
+    },
+    {
+      "name": "SimLingo",
+      "url": "https://github.com/RenzKa/simlingo",
+      "description": "[CVPR 2025 Spotlight] Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment",
+      "stars": 343,
+      "language": "Python",
+      "last_updated": "2025-08-25",
+      "tech_category": "VLA",
+      "topics": ["autonomous-driving", "vla", "vlm", "carla"]
+    },
+    {
+      "name": "CoReVLA",
+      "url": "https://github.com/FanGShiYuu/CoReVLA",
+      "description": "Dual-Stage End-to-End Autonomous Driving Framework for Long-Tail Scenarios",
+      "stars": 29,
+      "language": "Python",
+      "last_updated": "2026-02-02",
+      "tech_category": "VLA",
+      "topics": ["end-to-end", "autonomous-driving", "long-tail"]
+    },
+    {
+      "name": "LEAD",
+      "url": "https://github.com/autonomousvision/lead",
+      "description": "TransFuser v6 - Minimizing Learner-Expert Asymmetry for CARLA",
+      "stars": 100,
+      "language": "Python",
+      "last_updated": "2026-02-03",
+      "tech_category": "端到端",
+      "topics": ["self-driving-car", "imitation-learning", "carla-simulator"]
+    },
+    {
+      "name": "Awesome-World-Model",
+      "url": "https://github.com/LMD0311/Awesome-World-Model",
+      "description": "World Models for Autonomous Driving papers collection",
+      "stars": 1800,
+      "language": "Markdown",
+      "last_updated": "2026-02-01",
+      "tech_category": "世界模型",
+      "topics": ["autonomous-driving", "world-model"]
+    },
+    {
+      "name": "Vista",
+      "url": "https://github.com/OpenDriveLab/Vista",
+      "description": "[NeurIPS 2024] A Generalizable World Model for Autonomous Driving",
+      "stars": 847,
+      "language": "Python",
+      "last_updated": "2025-07-02",
+      "tech_category": "世界模型",
+      "topics": ["autonomous-driving", "video-generation", "world-model"]
+    },
+    {
+      "name": "FSDrive",
+      "url": "https://github.com/MIV-XJTU/FSDrive",
+      "description": "[NeurIPS 2025 Spotlight] Thinking Visually with Spatio-Temporal CoT",
+      "stars": 586,
+      "language": "Python",
+      "last_updated": "2025-09-28",
+      "tech_category": "世界模型",
+      "topics": ["autonomous-driving", "vla", "cot", "world-model"]
+    },
+    {
+      "name": "ReCogDrive",
+      "url": "https://github.com/xiaomi-research/recogdrive",
+      "description": "[ICLR 2026] Reinforced Cognitive Framework for End-to-End Autonomous Driving - 小米研究院",
+      "stars": 432,
+      "language": "Python",
+      "last_updated": "2026-01-26",
+      "tech_category": "Diffusion",
+      "topics": ["reinforcement-learning", "autonomous-driving", "diffusion-policy"]
+    },
+    {
+      "name": "DiffusionDrive",
+    "url": "https://github.com/hustvl/DiffusionDrive",
+      "description": "Truncated Diffusion Model for End-to-End Autonomous Driving",
+      "stars": 380,
+      "language": "Python",
+      "last_updated": "2026-01-28",
+      "tech_category": "Diffusion",
+      "topics": ["diffusion-model", "end-to-end", "trajectory-planning"]
+    },
+    {
+      "name": "UniDWM",
+      "url": "https://github.com/Say2L/UniDWM",
+      "description": "Unified Driving World Model via Multifaceted Representation Learning",
+      "stars": 156,
+      "language": "Python",
+      "last_updated": "2026-02-01",
+      "tech_category": "世界模型",
+      "topics": ["world-model", "trajectory-planning", "4d-reconstruction"]
+    },
+    {
+      "name": "PythonRobotics",
+      "url": "https://github.com/AtsushiSakai/PythonRobotics",
+      "description": "Python sample codes for robotics algorithms",
+      "stars": 28500,
+      "language": "Python",
+      "last_updated": "2026-02-03",
+      "tech_category": "其他",
+      "topics": ["python", "robotics", "path-planning", "slam"]
+    },
+    {
+      "name": "Apollo",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "description": "百度Apollo开放自动驾驶平台",
+      "stars": 26400,
+      "language": "C++",
+      "last_updated": "2026-02-02",
+      "tech_category": "其他",
+      "topics": ["apollo", "self-driving-car", "autonomous-driving"]
+    },
+    {
+      "name": "CARLA",
+      "url": "https://github.com/carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research",
+      "stars": 13500,
+      "language": "C++",
+      "last_updated": "2026-02-03",
+      "tech_category": "其他",
+      "topics": ["simulator", "autonomous-driving", "carla-simulator"]
+    },
+    {
+      "name": "Autoware",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "description": "World's leading open-source software for autonomous driving",
+      "stars": 11000,
+      "language": "Dockerfile",
+      "last_updated": "2026-02-03",
+      "tech_category": "其他",
+      "topics": ["ros", "autonomous-driving", "ros2", "autoware"]
+    },
+    {
+      "name": "BEVFormer",
+      "url": "https://github.com/fundamentalvision/BEVFormer",
+      "description": "[ECCV 2022] Camera-only frameworkautonomous driving perception",
+      "stars": 4300,
+      "language": "Python",
+      "last_updated": "2024-08-15",
+      "tech_category": "端到端",
+      "topics": ["computer-vision", "object-detection", "autonomous-driving"]
+    },
+    {
+      "name": "End-to-end-Autonomous-Driving",
+      "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+      "description": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving",
+      "stars": 3500,
+      "language": "Markdown",
+      "last_updated": "2025-07-02",
+      "tech_category"端到端",
+      "topics": ["simulation", "autonomous-driving", "end-to-end"]
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "端到端": 6,
+      "VLA": 7,
+      "世界模型": 5,
+      "Diffusion": 3,
+      "其他": 4
+    },
+    "top_trending": [
+      "CoReVLA - VLA双阶段端到端框架(长尾场景)",
+      "LEAD - TransFuser v6 CARLA研究框架",
+      "ReCogDrive - 小米ICLR 2026强化认知框架",
+      "UniDWM - 统一驾驶世界模型"
+    ]
+  },
+  "quality_score": 90
+}

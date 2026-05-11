@@ -1,0 +1,126 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-01T10:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://export.arxiv.org/api/query?search_query=ti:%22autonomous+driving%22+OR+ti:%22self-driving%22+OR+ti:%22BEV%22+OR+ti:%22end-to-end+driving%22",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "C-TRAIL: A Commonsense World Framework for Trajectory Planning in Autonomous Driving",
+      "authors": "Zhihong Cui, Haoran Tang, Tianyi Li, Yushuai Li, Peiyuan Guan, Amir Taherkordi, Tor Skeie",
+      "url": "https://arxiv.org/abs/2603.29908v1",
+      "arxiv_id": "2603.29908v1",
+      "publish_date": "2026-03-31",
+      "category": "cs.AI",
+      "innovation": "提出C-TRAIL框架，基于常识世界耦合LLM常识推理与信任机制指导轨迹规划，通过闭环Recall-Plan-Update循环实现安全关键的自动驾驶决策",
+      "application_potential": "高",
+      "abstract": "自动驾驶轨迹规划越来越多地利用大语言模型进行常识推理，但LLM输出本质不可靠，在安全关键应用中存在风险。C-TRAIL框架建立在常识世界上，通过双信任机制量化语义关系可靠性，将信任加权常识注入蒙特卡洛树搜索。在Highway-env仿真场景和real-world levelXData数据集上实验显示优于SOTA基线，平均减少ADE 40.2%、FDE 51.7%，提高SR 16.9个百分点。",
+      "keywords": ["autonomous driving", "trajectory planning", "LLM commonsense reasoning", "trust mechanism", "MCTS"],
+      "code_available": true,
+      "conference": "Preprint",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-01T10:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
+      "authors": "Wenchao Sun, Xuewu Lin, Keyu Chen, Zixiang Pei, Xiang Li, Yining Shi, Sifa Zheng",
+      "url": "https://arxiv.org/abs/2603.29163v1",
+      "arxiv_id": "2603.29163v1",
+      "publish_date": "2026-03-31",
+      "category": "cs.CV",
+      "innovation": "提出SparseDriveV2，通过可扩展词汇表示和分解评分策略推动基于评分规划的端到端自动驾驶性能边界，实现组合动作空间覆盖",
+      "application_potential": "高",
+      "abstract": "端到端多模态规划广泛采用评分候选轨迹并选择最优方法。现有方法分为评分大型静态轨迹词汇或评分小型动态生成提案。SparseDriveV2通过两种互补创新推动基于评分规划的性能边界：1) 可扩展词汇表示，将轨迹分解为几何路径和速度剖面；2) 可扩展评分策略，对路径和速度剖面进行粗粒度分解评分，然后对少量组合轨迹进行细粒度评分。在NAVSIM上达到92.0 PDMS和90.1 EPDMS，在Bench2Drive上达到89.15 Driving Score和70.00 Success Rate。",
+      "keywords": ["end-to-end autonomous driving", "trajectory scoring", "sparse planning", "BEV perception", "motion planning"],
+      "code_available": true,
+      "conference": "Preprint",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-01T10:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "title": "RAD-LAD: Rule and Language Grounded Autonomous Driving in Real-Time",
+      "authors": "Anurag Ghosh, Srinivasa Narasimhan, Manmohan Chandraker, Francesco Pittaluga",
+      "url": "https://arxiv.org/abs/2603.28522v2",
+      "arxiv_id": "2603.28522v2",
+      "publish_date": "2026-03-30",
+      "category": "cs.RO",
+      "innovation": "提出LAD实时语言-动作规划器和RAD基于规则的规划器，结合两者实现混合规划，规则支持可靠机动，语言支持自适应可解释决策",
+      "application_potential": "高",
+      "abstract": "LAD是实时语言-动作规划器，具有可中断架构，在单次前向传递中产生运动计划(~20 Hz)或生成文本推理与运动计划(~10 Hz)。速度足够实时闭环部署，延迟比先前驾驶语言模型低约3倍。RAD是基于规则的规划器，解决PDM-Closed的结构限制。在nuPlan Test14-Hard和InterPlan上实现SOTA性能。结合RAD和LAD实现混合规划，捕获两种方法的优势：规则支持可靠机动，语言支持自适应可解释决策。",
+      "keywords": ["real-time planning", "language-action planner", "rule-based planning", "autonomous driving", "hybrid planning"],
+      "code_available": false,
+      "conference": "Preprint",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

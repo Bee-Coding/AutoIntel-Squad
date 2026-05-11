@@ -1,0 +1,212 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-09T19:45:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 98,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://blog.csdn.net/cv_autobot/article/list/\" --extract-text --extract-links",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "地平线",
+      "title": "地平线最新的SparseDrivev2，还是很有自己做端到端的想法......",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/159934421",
+      "publish_date": "2026-04-07",
+      "technical_points": ["端到端自动驾驶", "SparseDrivev2", "规划算法", "多模态不确定性"],
+      "raw_content": "两年时间里，端到端自动驾驶走得很快：从UniAD、到VADv2，这类方法在显式建模多模态planning的分布，再到 SparseDrive 、GoalFlow 和 DiffusionDriveV2 这些工作，持续在推进“怎么生成更合理的候选轨迹”和“怎么处理多模态不确定性”。目前行业的主流做法，已经很自然地偏向另一边：既然驾驶行为天然是多模态的，既然复杂路口里“唯一正确轨迹”根本不存在，那规划器就该是多模态的形式，自然而然想到了生成类的方法。",
+      "search_keywords": ["地平线", "端到端自动驾驶", "SparseDrivev2", "规划"],
+      "version_info": "SparseDrivev2",
+      "event_type": "技术博客"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-09T19:45:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 96,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla FSD v14.3 rolls out with MLIR rewrite, 20% faster reactions",
+      "url": "https://electrek.co/2026/04/07/tesla-fsd-14-3-rolling-out-mlir-lattner/",
+      "publish_date": "2026-04-07",
+      "technical_points": ["MLIR编译器重写", "反应速度提升20%", "FSD v14.3版本"],
+      "raw_content": "Tesla has started rolling out Full Self-Driving (Supervised) v14.3 to HW4 vehicles, and the headline change is under the hood: Tesla rewrote the AI compiler and runtime from scratch on MLIR, which the automaker says delivers a 20% faster reaction time. The update also brings a new parking spot pin on the map, better behavior around emergency vehicles and school buses.",
+      "search_keywords": ["Tesla", "FSD", "MLIR", "端到端自动驾驶"],
+      "version_info": "FSD v14.3",
+      "event_type": "OTA更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-09T19:45:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://blog.csdn.net/cv_autobot/article/list/\" --extract-text --extract-links",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "毫末智行",
+      "title": "毫末梦碎：背靠长城的盛名、枷锁与崩塌",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/159969532",
+      "publish_date": "2026-04-08",
+      "technical_points": ["自动驾驶公司", "内部管理", "源代码共享"],
+      "raw_content": "让魏建军震怒的，并不只是毫末智行内部管理的混乱，更在于一个他难以接受的事实——毫末北京、上海的研发团队，长期未向保定团队共享软件源代码，此事成为毫末失去长城信任的导火索。在长城汽车将中高阶辅助驾驶项目全部交由其他自动驾驶公司负责后，所有股东已经清楚认识到毫末智行难以扭转局面。",
+      "search_keywords": ["毫末智行", "长城汽车", "自动驾驶", "内部管理"],
+      "version_info": null,
+      "event_type": "公司动态"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-09T19:45:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 76,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://insideevs.com/news/category/autonomous-vehicles/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Volkswagen",
+      "title": "The Volkswagen ID. Buzz Robotaxi Is Hitting LA Streets",
+      "url": "https://insideevs.com/news/792355/volkswagen-id-buzz-robotaxi-testing-los-angeles/",
+      "publish_date": "2026-04-08",
+      "technical_points": ["Robotaxi", "自动驾驶测试", "ID. Buzz"],
+      "raw_content": "On-road testing of VW’s fully autonomous ID. Buzz minivans is now underway in Los Angeles. The ID. Buzz robotaxis are equipped with Waymo's self-driving technology and will be tested on public roads as part of Volkswagen's mobility services expansion.",
+      "search_keywords": ["Volkswagen", "Robotaxi", "自动驾驶", "ID Buzz"],
+      "version_info": null,
+      "event_type": "路测"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-09T19:45:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 74,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Musk falsely claims Tesla FSD is 10X safer than humans, complains about lawsuits",
+      "url": "https://electrek.co/2026/04/08/musk-tesla-fsd-10x-safer-claim-doesnt-hold-up/",
+      "publish_date": "2026-04-08",
+      "technical_points": ["FSD安全声称", "法律诉讼", "数据真实性"],
+      "raw_content": "Elon Musk claimed this week that Tesla’s “Full Self-Driving” is so much safer than human drivers that it could save 90% of the roughly one million lives lost in car crashes globally each year — a 10X improvement in safety. The problem is that Tesla has never released the data that would support anything close to that claim.",
+      "search_keywords": ["Tesla", "FSD", "安全", "法律"],
+      "version_info": null,
+      "event_type": "高管声明"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

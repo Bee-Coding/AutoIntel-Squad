@@ -1,0 +1,56 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "NHTSA closes Tesla Smart Summon probe after 159 incidents",
+      "url": "https://electrek.co/2026/04/06/nhtsa-closes-tesla-smart-summon-probe/",
+      "publish_date": "2026-04-06",
+      "technical_points": ["Tesla Smart Summon", "NHTSA investigation", "159 incidents", "property damage", "OTA updates"],
+      "raw_content": "NHTSA has closed its investigation into Tesla's 'Actually Smart Summon' feature after documenting 159 incidents, all involving minor property damage. The agency found zero injuries and zero fatalities linked to the feature, and determined that Tesla's six over-the-air software updates adequately addressed the issues. No recall was issued.",
+      "search_keywords": ["Tesla", "Smart Summon", "NHTSA", "investigation"],
+      "version_info": "Actually Smart Summon",
+      "event_type": "regulatory update"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Xiaomi poaches Tesla's delivery operations manager in Europe ahead of 2027 launch",
+      "url": "https://electrek.co/2026/04/06/xiaomi-poaches-tesla-delivery-operations-manager-europe/",
+      "publish_date": "2026-04-06",
+      "technical_points": ["Xiaomi", "Tesla", "delivery operations", "Europe", "2027 launch"],
+      "raw_content": "Xiaomi has hired Dieter Lorenz, Tesla's Senior Manager of Delivery Operations for Central Europe, as its new Head of Delivery & Logistics Europe. The move signals that Xiaomi is aggressively building an operations infrastructure on the ground in Europe well ahead of its confirmed 2027 market entry.",
+      "search_keywords": ["Tesla", "Xiaomi", "delivery operations", "Europe"],
+      "version_info": "",
+      "event_type": "personnel movement"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

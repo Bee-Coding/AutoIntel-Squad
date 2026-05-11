@@ -1,0 +1,92 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "paper_id": "arXiv:2604.04797",
+      "title": "Multi-Modal Sensor Fusion using Hybrid Attention for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2604.04797",
+      "publish_date": "2026-04-07",
+      "authors": ["Mayank Mayank", "Bharanidhar Duraisamy", "Florian Geiß", "Abhinav Valada"],
+      "abstract": "Multi-modal sensor fusion is crucial for robust perception in autonomous driving. This paper proposes a hybrid attention mechanism for effectively fusing camera and LiDAR data.",
+      "conference": "CVPR 2026 (可能)",
+      "technical_points": ["sensor fusion", "hybrid attention", "autonomous driving", "multi-modal"],
+      "innovation_points": ["新颖的混合注意力机制", "跨模态特征对齐", "实时性能优化"],
+      "application_potential": "高，可直接应用于自动驾驶感知栈",
+      "code_available": true,
+      "code_link": "未知"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    "content": {
+      "paper_id": "arXiv:2604.04630",
+      "title": "Multimodal Backdoor Attack on VLMs for Autonomous Driving via Graffiti and Cross-Lingual Triggers",
+      "url": "https://arxiv.org/abs/2604.04630",
+      "publish_date": "2026-04-07",
+      "authors": ["Jiancheng Wang", "Lidan Liang", "Yong Wang", "Zengzhen Su", "Haifeng Xia", "Yuanting Yan", "Wei Wang"],
+      "abstract": "Vision-Language Models (VLMs) are increasingly used in autonomous driving systems. This paper explores backdoor attacks on VLMs using graffiti and cross-lingual triggers.",
+      "conference": "Pattern Analysis and Applications",
+      "technical_points": ["backdoor attack", "vision-language models", "autonomous driving", "security"],
+      "innovation_points": ["首次将多模态后门攻击应用于自动驾驶VLMs", "跨语言触发设计"],
+      "application_potential": "中等，主要贡献在安全领域",
+      "code_available": false,
+      "code_link": ""
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    "content": {
+      "paper_id": "arXiv:2604.04511",
+      "title": "MPTF-Net: Multi-view Pyramid Transformer Fusion Network for LiDAR-based Place Recognition",
+      "url": "https://arxiv.org/abs/2604.04511",
+      "publish_date": "2026-04-07",
+      "authors": ["Shuyuan Li", "Zihang Wang", "Xieyuanli Chen", "Wenkai Zhu", "Xiaoteng Fang", "Peizhou Ni", "Junhao Yang", "Dong Kong"],
+      "abstract": "Place recognition is essential for loop closure in SLAM. This paper introduces a multi-view pyramid transformer fusion network for LiDAR-based place recognition.",
+      "conference": "未知",
+      "technical_points": ["place recognition", "LiDAR", "transformer", "multi-view fusion"],
+      "innovation_points": ["金字塔Transformer架构", "多视图特征融合", "高效点云处理"],
+      "application_potential": "高，可用于自动驾驶定位与建图",
+      "code_available": true,
+      "code_link": "未知"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

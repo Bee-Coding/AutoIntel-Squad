@@ -1,0 +1,111 @@
+{
+  "source": "OpenSource",
+  "metadata": {
+    "timestamp": "2026-04-24T13:41:00+08:00",
+    "data_source": "official",
+    "access_status": "success",
+    "quality_score": 88,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "github_api_search"
+    }
+  },
+  "content": [
+    {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": "13876",
+      "language": "C++",
+      "last_updated": "2026-04-23",
+      "category": "simulator",
+      "company": "Carla Simulator",
+      "tech_stack": ["C++", "Unreal Engine 5", "Python API", "ROS"],
+      "key_features": ["高保真自动驾驶仿真环境", "多传感器模拟（相机/LiDAR/雷达）", "支持端到端驾驶算法评估", "UE5迁移持续开发中"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 95,
+      "innovation_points": ["ue5-dev分支持续迭代，提升渲染真实度", "支持大规模场景生成和传感器套件定制", "广泛用于端到端算法（TransFuser/InterFuser等）训练验证"],
+      "application_value": "自动驾驶端到端算法最核心的仿真验证平台，几乎所有学术端到端工作都基于CARLA进行评估"
+    },
+    {
+      "name": "autoware_vision_pilot",
+      "full_name": "autowarefoundation/autoware_vision_pilot",
+      "description": "Free self-driving car stack - fully open-source ADAS and autonomous driving system",
+      "url": "https://github.com/autowarefoundation/autoware_vision_pilot",
+      "stars": "507",
+      "language": "C++",
+      "last_updated": "2026-04-22",
+      "category": "algorithm",
+      "company": "Autoware Foundation",
+      "tech_stack": ["C++", "ROS 2", "PyTorch", "Deep Learning", "Computer Vision"],
+      "key_features": ["纯视觉端到端自动驾驶方案", "集成端到端机器学习管道", "基础模型集成", "ADAS全栈功能"],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": ["Autoware基金会全新端到端视觉驾驶项目", "从传统模块化架构向端到端转型的重要标志", "开源ADAS与端到端结合，降低实车部署门槛"],
+      "application_value": "代表开源自动驾驶从模块化向端到端架构迁移的重要趋势，适合实车部署验证"
+    },
+    {
+      "name": "Awesome-LLM4AD",
+      "full_name": "Thinklab-SJTU/Awesome-LLM4AD",
+      "description": "A curated list of awesome LLM/VLM/VLA/World Model for Autonomous Driving resources (continually updated)",
+      "url": "https://github.com/Thinklab-SJTU/Awesome-LLM4AD",
+      "stars": "1794",
+      "language": "N/A (Paper List)",
+      "last_updated": "2026-04-23",
+      "category": "tool",
+      "company": "Thinklab-SJTU",
+      "tech_stack": ["Large Language Models", "Vision-Language Models", "Vision-Language-Action Models", "World Models"],
+      "key_features": ["持续更新的LLM/VLM/VLA/World Model for AD论文列表", "研究方向覆盖端到端驾驶、World Model、VLA"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 88,
+      "innovation_points": ["系统整理LLM/VLM在自动驾驶中的应用论文", "覆盖World Model分支，与端到端范式紧密相关", "更新活跃，反映领域最新进展"],
+      "application_value": "端到端自动驾驶研究者的重要文献索引资源，快速了解LLM+World Model前沿方向"
+    },
+    {
+      "name": "Awesome-World-Models",
+      "full_name": "leofan90/Awesome-World-Models",
+      "description": "A comprehensive list of papers for World Models for Video Generation, Embodied AI, and Autonomous Driving",
+      "url": "https://github.com/leofan90/Awesome-World-Models",
+      "stars": "1553",
+      "language": "N/A (Paper List)",
+      "last_updated": "2026-04-23",
+      "category": "tool",
+      "company": "Community",
+      "tech_stack": ["World Models", "Video Generation", "Embodied AI", "Autonomous Driving"],
+      "key_features": ["World Model全面论文列表", "涵盖视频生成、具身AI、自动驾驶三大方向"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["World Model定义及应用的系统性整理", "包含代码链接和相关网站", "自动驾驶World Model分支的权威参考"],
+      "application_value": "了解自动驾驶World Model研究全景的重要入口，包含DriveDreamer/Vista等代表性工作的引用"
+    },
+    {
+      "name": "asset-harvester",
+      "full_name": "NVIDIA/asset-harvester",
+      "description": "Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation",
+      "url": "https://github.com/NVIDIA/asset-harvester",
+      "stars": "151",
+      "language": "Python",
+      "last_updated": "2026-04-23",
+      "category": "tool",
+      "company": "NVIDIA",
+      "tech_stack": ["Python", "PyTorch", "3D Reconstruction", "NeRF", "Gaussian Splatting"],
+      "key_features": ["从自动驾驶日志中提取3D资产", "用于仿真场景重建", "NVIDIA自动驾驶仿真管线组件"],
+      "difficulty_level": "advanced",
+      "relevance_score": 82,
+      "innovation_points": ["NVIDIA官方出品，解决真实日志到仿真资产的自动转换", "填补真实数据与仿真环境之间的资产鸿沟", "提升仿真场景的真实度和多样性"],
+      "application_value": "为端到端自动驾驶训练提供更真实的仿真场景数据，缩短sim-to-real gap"
+    }
+  ],
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

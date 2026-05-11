@@ -1,0 +1,86 @@
+{
+  "source": "Analysis",
+  "metadata": {
+    "timestamp": "2026-04-13T16:17:23+08:00",
+    "data_source": "analysis",
+    "access_status": "success",
+    "quality_score": 95,
+    "quality_grade": "A",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-04-13",
+    "sections": {
+      "plan_metadata": "AutoIntel-Dispatcher生成的今日全量日报执行计划",
+      "thought_process": "用户输入'作为autointel_dispatcher，生成今日全量行业日报'，识别为全量日报模式，需并行启动Industry_Watcher(A)、Paper_Hunter(B)、Code_Scout(C)三个情报收集Agent，最后触发Chief_Analyst(D)进行汇总分析生成日报。",
+      "execution_plan": "并行执行模式，Agent A/B/C同时启动，Agent D等待所有任务完成后自动触发",
+      "trigger_conditions": "parallel_start列表中所有任务完成后自动触发final_task"
+    },
+    "plan_id": "plan_20260413_161743",
+    "user_intent": "生成今日全量行业日报，覆盖自动驾驶领域工业动态、学术论文、开源项目最新进展",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近24-72小时",
+      "academic": "最近一周内",
+      "open_source": "最近一个月内（重点关注近期更新项目）"
+    },
+    "tasks": [
+      {
+        "agent": "Industry_Watcher",
+        "task_id": "task_a_20260413_001",
+        "instruction": "追踪Tesla、华为、Waymo、NIO、XPeng、Li Auto等自动驾驶公司最新工业动态，重点关注端到端技术进展、OTA更新、技术发布会、高管技术推文等。时间范围：最近24-72小时。关键词：Tesla FSD, 华为ADS, Waymo Driver, NIO NAD, XPeng XNGP, Li Auto AD Max, 端到端自动驾驶, BEV, Occupancy, 城市NOA。",
+        "output_to": "./reports/2026-04/2026-04-13/02_industry.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "max_items": 5,
+        "quality_threshold": 70
+      },
+      {
+        "agent": "Paper_Hunter",
+        "task_id": "task_b_20260413_001",
+        "instruction": "搜集arXiv、CVPR、ICCV、ICRA等顶会最新论文，专注端到端自动驾驶、世界模型、扩散策略、视觉语言模型方向。优先收录有代码实现的项目。时间范围：最近一周内。关键词：end-to-end autonomous driving, world models, diffusion policy, VAD, vision language models, BEV, occupancy prediction。",
+        "output_to": "./reports/2026-04/2026-04-13/03_papers.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "max_items": 5,
+        "quality_threshold": 70
+      },
+      {
+        "agent": "Code_Scout",
+        "task_id": "task_c_20260413_001",
+        "instruction": "发现GitHub Trending、Hugging Face等平台最新开源项目，关注自动驾驶仿真器、数据集、算法实现、工具链。优先大厂开源项目和高星增长项目。时间范围：最近一个月内。关键词：autonomous driving simulator, dataset, algorithm implementation, toolchain, Tesla, Waymo, NVIDIA, Apollo。",
+        "output_to": "./reports/2026-04/2026-04-13/04_code.json",
+        "timeout": 300,
+        "retry_count": 2,
+        "max_items": 5,
+        "quality_threshold": 70
+      },
+      {
+        "agent": "Chief_Analyst",
+        "task_id": "task_d_20260413_001",
+        "instruction": "整合三方情报（工业动态、学术论文、开源项目），进行去重、清洗、质量评级，添加技术背景分析，评估工业应用价值，生成结构化日报报告。执行7天回顾分析，识别话题演进趋势。",
+        "output_to": "./reports/2026-04/2026-04-13/2026-04-13_Report.md",
+        "dependencies": ["task_a_20260413_001", "task_b_20260413_001", "task_c_20260413_001"],
+        "timeout": 600,
+        "retry_count": 1
+      }
+    ],
+    "parallel_start": ["task_a_20260413_001", "task_b_20260413_001", "task_c_20260413_001"],
+    "final_task": "task_d_20260413_001"
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": true,
+    "issues": []
+  }
+}

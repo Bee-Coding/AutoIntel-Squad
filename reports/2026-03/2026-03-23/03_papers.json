@@ -1,0 +1,197 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-23T08:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "title": "X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving",
+      "authors": "Chaoda Zheng, Sean Li, Jinhao Deng et al.",
+      "url": "https://arxiv.org/abs/2603.19979",
+      "arxiv_id": "2603.19979",
+      "publish_date": "2026-03-20",
+      "category": "cs.CV cs.AI",
+      "innovation": "提出动作条件多摄像头生成世界模型X-World，直接在视频空间模拟未来多视角观测，支持可控场景编辑和可重现评估，解决E2E驾驶评估依赖真实道路测试的瓶颈",
+      "application_potential": "高",
+      "abstract": "X-World是一个动作条件多摄像头生成世界模型，给定同步多视角摄像头历史和未来动作序列，生成遵循指令动作的未来多摄像头视频流。支持对动态交通智能体和静态道路元素的可选控制，保留文本提示接口用于外观级控制（如天气和时间）。核心是多视角潜在视频生成器，显式鼓励跨视角几何一致性和时序连贯性。实验表明X-World实现高质量多视角视频生成，具备强视角一致性、稳定时序动态和高可控性。",
+      "keywords": ["world model", "multi-camera", "video generation", "end-to-end driving", "controllable simulation"],
+      "code_available": false,
+      "conference": "Technical Report",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-23T08:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "title": "BevAD: What Matters for Scalable and Robust Learning in End-to-End Driving Planners?",
+      "authors": "David Holtz, Niklas Hanselmann, Simon Doll, Marius Cordts, Bernt Schiele",
+      "url": "https://arxiv.org/abs/2603.15185",
+      "arxiv_id": "2603.15185",
+      "publish_date": "2026-03-16",
+      "category": "cs.RO cs.AI cs.CV",
+      "innovation": "系统重新审视常见架构模式对闭环性能的影响，提出轻量级高可扩展端到端驾驶架构BevAD，在Bench2Drive基准上达到72.7%成功率，展示强数据扩展能力",
+      "application_potential": "高",
+      "abstract": "端到端自动驾驶因其在交互场景中学习鲁棒行为和数据扩展潜力而受到广泛关注。本文系统重新审视常见架构模式对闭环性能的影响：高分辨率感知表示、解耦轨迹表示和生成式规划。分析揭示了意外局限性和未充分探索的协同效应。基于这些洞察，提出BevAD，在Bench2Drive基准上达到72.7%成功率，展示强数据扩展行为。代码和模型已公开。",
+      "keywords": ["end-to-end driving", "BEV", "closed-loop", "scalable learning", "imitation learning"],
+      "code_available": true,
+      "conference": "CVPR Findings 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-23T08:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "title": "WorldDrive: Bridging Scene Generation and Planning via Unifying Vision and Motion Representation",
+      "authors": "Xingtai Gui, Meijie Zhang, Tianyi Yan, Wencheng Han et al.",
+      "url": "https://arxiv.org/abs/2603.14948",
+      "arxiv_id": "2603.14948",
+      "publish_date": "2026-03-16",
+      "category": "cs.CV",
+      "innovation": "提出WorldDrive框架，通过统一视觉和运动表示耦合场景生成与实时规划，引入轨迹感知驾驶世界模型和未来感知奖励器，在NAVSIM、NAVSIM-v2和nuScenes基准上达到领先规划性能",
+      "application_potential": "高",
+      "abstract": "WorldDrive是一个整体框架，通过统一视觉和运动表示耦合场景生成与实时规划。引入轨迹感知驾驶世界模型，以轨迹词汇表为条件确保视觉动态与运动意图的一致性。将视觉和运动编码器迁移到下游多模态规划器，确保驾驶策略在预优化表示上运行。提出未来感知奖励器，从冻结世界模型中提炼未来潜在表示以实时评估和选择最优轨迹。代码已开源。",
+      "keywords": ["world model", "motion planning", "scene generation", "vision-motion representation", "NAVSIM"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-23T08:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "title": "CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention",
+      "authors": "Jiacheng Tang, Zhiyuan Zhou, Zhuolin He, Jia Zhang, Kai Zhang, Jian Pu",
+      "url": "https://arxiv.org/abs/2603.18561",
+      "arxiv_id": "2603.18561",
+      "publish_date": "2026-03-19",
+      "category": "cs.CV cs.LG",
+      "innovation": "提出因果干预去混淆训练框架CausalVAD，通过稀疏因果干预方案（SCIS）实现后门调整理论在神经网络中的实例化，消除数据集偏差导致的虚假关联，在nuScenes上达到SOTA规划精度",
+      "application_potential": "高",
+      "abstract": "规划导向的端到端驾驶模型学习统计相关性而非真正因果关系，导致因果混淆问题。CausalVAD提出去混淆训练框架，利用因果干预解决此问题。核心是稀疏因果干预方案（SCIS），一个轻量级即插即用模块，在神经网络中实例化后门调整理论。SCIS构建代表潜在驾驶上下文的原型字典，对模型的稀疏向量化查询进行干预，主动消除混淆因素引起的虚假关联。在nuScenes等基准上实验表明CausalVAD达到SOTA规划精度和安全性。",
+      "keywords": ["causal intervention", "end-to-end driving", "de-confounding", "nuScenes", "CVPR 2026"],
+      "code_available": false,
+      "conference": "CVPR 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-03-23T08:45:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "title": "DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving",
+      "authors": "Zilin Huang, Zihao Sheng, Zhengyang Wan, Yansong Qu et al.",
+      "url": "https://arxiv.org/abs/2603.18315",
+      "arxiv_id": "2603.18315",
+      "publish_date": "2026-03-18",
+      "category": "cs.RO cs.AI cs.CV",
+      "innovation": "提出神经科学启发的双通路框架DriveVLM-RL，将VLM集成到RL中用于安全可部署自动驾驶，VLM组件仅在离线训练中使用，部署时完全移除，确保实时可行性",
+      "application_potential": "高",
+      "abstract": "DriveVLM-RL提出神经科学启发框架，通过双通路架构将VLM集成到RL中。静态通路使用CLIP对比语言目标进行连续空间安全评估，动态通路使用轻量级检测器和大型VLM进行注意力门控多帧语义风险推理。层次奖励合成机制融合语义信号与车辆状态，异步训练管道将昂贵的VLM推理与环境交互解耦。所有VLM组件仅在离线训练中使用，部署时移除，确保实时可行性。CARLA仿真实验显示碰撞避免、任务成功率和泛化能力显著提升。代码和演示已开源。",
+      "keywords": ["VLM", "reinforcement learning", "dual-pathway", "CARLA", "safe driving", "deployable"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

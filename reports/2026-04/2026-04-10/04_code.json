@@ -1,0 +1,242 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-10T09:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://github.com/search?q=autonomous+driving&type=repositories&s=stars&o=desc\" --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "apollo",
+      "full_name": "ApolloAuto/apollo",
+      "description": "An open autonomous driving platform",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 26500,
+      "language": "C++",
+      "last_updated": "2026-02-28",
+      "category": "platform",
+      "company": "Baidu Apollo",
+      "tech_stack": ["C++", "ROS", "CUDA", "TensorRT", "Cyber RT"],
+      "key_features": ["高精地图", "感知模块", "规划控制", "仿真平台", "V2X通信"],
+      "difficulty_level": "expert",
+      "relevance_score": 95,
+      "innovation_points": ["开源自动驾驶平台", "模块化架构", "工业级部署"],
+      "application_value": "提供完整的自动驾驶软件栈，适合研究和工业部署，支持从仿真到实车的全流程开发。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-10T09:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://github.com/search?q=autonomous+driving&type=repositories&s=stars&o=desc\" --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "Open-source simulator for autonomous driving research.",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13800,
+      "language": "C++",
+      "last_updated": "2026-03-15",
+      "category": "simulator",
+      "company": "CARLA Simulator",
+      "tech_stack": ["C++", "Unreal Engine", "Python", "ROS"],
+      "key_features": ["真实城市场景", "多传感器模拟", "交通流生成", "天气变化", "可编程API"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 92,
+      "innovation_points": ["开源自动驾驶仿真器", "高度可定制", "支持端到端训练"],
+      "application_value": "为自动驾驶算法研究提供高质量的仿真环境，支持感知、规划、控制等模块的测试与验证。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-10T09:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://github.com/search?q=autonomous+driving&type=repositories&s=stars&o=desc\" --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "UniAD",
+      "full_name": "OpenDriveLab/UniAD",
+      "description": "Unified end-to-end autonomous driving framework",
+      "url": "https://github.com/OpenDriveLab/UniAD",
+      "stars": 4600,
+      "language": "Python",
+      "last_updated": "2026-03-20",
+      "category": "algorithm",
+      "company": "OpenDriveLab",
+      "tech_stack": ["Python", "PyTorch", "CUDA", "ONNX"],
+      "key_features": ["端到端架构", "多任务统一", "占用预测", "运动规划", "轨迹生成"],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": ["统一端到端自动驾驶框架", "多任务联合优化", "占用栅格预测"],
+      "application_value": "提供先进的端到端自动驾驶算法实现，适合研究人员探索多任务联合学习和端到端规划控制。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-10T09:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://github.com/search?q=autonomous+driving&type=repositories&s=stars&o=desc\" --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "End-to-end-Autonomous-Driving",
+      "full_name": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "description": "End-to-end autonomous driving research platform",
+      "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+      "stars": 3600,
+      "language": "Python",
+      "last_updated": "2026-03-10",
+      "category": "algorithm",
+      "company": "OpenDriveLab",
+      "tech_stack": ["Python", "PyTorch", "Gym", "CARLA"],
+      "key_features": ["强化学习", "模仿学习", "仿真环境集成", "策略学习", "评估工具"],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": ["端到端自动驾驶研究平台", "强化学习与模仿学习结合", "仿真环境无缝集成"],
+      "application_value": "为端到端自动驾驶研究提供完整的代码库和实验环境，支持从仿真到实车的算法验证。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-10T09:40:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs \"https://github.com/search?q=autonomous+driving&type=repositories&s=stars&o=desc\" --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "name": "HighwayEnv",
+      "full_name": "Farama-Foundation/HighwayEnv",
+      "description": "A minimalist environment for autonomous driving decision-making",
+      "url": "https://github.com/Farama-Foundation/HighwayEnv",
+      "stars": 3200,
+      "language": "Python",
+      "last_updated": "2026-03-05",
+      "category": "simulator",
+      "company": "Farama Foundation",
+      "tech_stack": ["Python", "Gym", "NumPy", "Matplotlib"],
+      "key_features": ["轻量级环境", "强化学习接口", "交通流模拟", "多车道场景", "连续/离散动作"],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": ["轻量级自动驾驶决策环境", "标准Gym接口", "快速原型开发"],
+      "application_value": "为自动驾驶决策算法提供快速实验环境，适合强化学习研究和教学使用。"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

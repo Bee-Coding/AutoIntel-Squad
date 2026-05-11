@@ -1,0 +1,146 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-20T04:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/2026/04/19/tesla-robotaxi-expansion-dallas-houston-stock-pump-earnings/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla’s ‘Robotaxi’ expansion looks like another stock pump before earnings",
+      "url": "https://electrek.co/2026/04/19/tesla-robotaxi-expansion-dallas-houston-stock-pump-earnings/",
+      "publish_date": "2026-04-19",
+      "technical_points": [
+        "Robotaxi service expansion to Dallas and Houston with minimal availability (0-2%)",
+        "Small geofences (12-15 sq mi in Houston, 30-35 sq mi in Dallas)",
+        "Safety monitors still predominant; crash rate 4x worse than human drivers",
+        "Highway navigation issues reported in new markets",
+        "Earnings call timing suggests strategic announcement pattern"
+      ],
+      "raw_content": "Tesla launched its Robotaxi service in Dallas and Houston, but data shows 0-2% availability with only brief spikes. The geofenced areas are small, and the expansion appears timed ahead of Q1 2026 earnings. The article highlights ongoing safety concerns, with crash rates 4 times worse than human drivers and incidents of vehicles struggling on highways. Tesla's Austin operation still relies heavily on safety monitors, and the new expansions have virtually no unsupervised vehicles.",
+      "search_keywords": ["Tesla", "Robotaxi", "FSD", "autonomous driving", "earnings"],
+      "version_info": null,
+      "event_type": "OTA更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-20T04:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/2026/04/18/tesla-robotaxi-launches-dallas-houston-small-geofences/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla launches ‘Robotaxi’ in Houston and Dallas with tiny geofences",
+      "url": "https://electrek.co/2026/04/18/tesla-robotaxi-launches-dallas-houston-small-geofences/",
+      "publish_date": "2026-04-18",
+      "technical_points": [
+        "Houston geofence ~25 sq mi, Dallas zone around Highland Park",
+        "Fleet size undisclosed; most vehicles still have safety monitors",
+        "Comparison with Waymo's fully driverless operations in same cities",
+        "Crash rate 3-4x worse than human drivers per Tesla's own data",
+        "Service shuts down during rain, limiting Houston operations"
+      ],
+      "raw_content": "Tesla announced Robotaxi expansion to Houston and Dallas with small geofences. The company did not disclose fleet size or whether rides are supervised. The article contrasts Tesla's limited, monitor-dependent service with Waymo's fully driverless, scaled operations in the same cities. Safety data shows crash rates 3-4 times worse than human drivers, and the service cannot operate in rain.",
+      "search_keywords": ["Tesla", "Robotaxi", "geofence", "Waymo", "safety"],
+      "version_info": null,
+      "event_type": "技术发布会"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-20T04:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 70,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Waymo",
+      "title": "Waymo Has Doubled Its Weekly Ridership In Under A Year",
+      "url": "https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/",
+      "publish_date": "2026-03-26",
+      "technical_points": [
+        "500,000 paid driverless rides per week across 10 U.S. cities",
+        "Weekly ridership doubled in under a year (from 250,000 in April 2025)",
+        "Expansion to Dallas, Houston, San Antonio, Orlando in February 2026",
+        "Fleet diversification with Zeekr vans and Hyundai Ioniq 5s upcoming",
+        "Target of 1 million weekly rides by end of 2026"
+      ],
+      "raw_content": "Waymo announced it now handles 500,000 paid driverless rides per week, doubling its weekly ridership in under a year. The company has expanded to 10 U.S. cities, including recent launches in Dallas, Houston, San Antonio, and Orlando. Waymo plans to integrate Zeekr vans and Hyundai Ioniq 5s into its fleet and aims for 1 million weekly rides by year-end 2026.",
+      "search_keywords": ["Waymo", "robotaxi", "ridership", "autonomous vehicles", "expansion"],
+      "version_info": null,
+      "event_type": "运营数据更新"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

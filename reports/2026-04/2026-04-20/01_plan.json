@@ -1,0 +1,97 @@
+{
+  "source": "Plan",
+  "metadata": {
+    "timestamp": "2026-04-20T11:51:04+08:00",
+    "data_source": "analysis",
+    "access_status": "pending",
+    "quality_score": 0,
+    "quality_grade": "pending",
+    "module_loading": {
+      "profile": "success",
+      "rules": "success",
+      "workflow": "success",
+      "output_format": "success",
+      "issues": [],
+      "strategy_used": "exact_path"
+    }
+  },
+  "content": {
+    "report_type": "执行计划",
+    "report_date": "2026-04-20",
+    "sections": {
+      "plan_metadata": "计划元数据",
+      "thought_process": "思考过程",
+      "execution_plan": "执行计划详情",
+      "trigger_conditions": "触发条件"
+    },
+    "plan_id": "plan_20260420_115104",
+    "user_intent": "生成今日全量行业日报，覆盖自动驾驶行业动态、学术论文、开源代码",
+    "execution_mode": "parallel",
+    "priority": "high",
+    "time_range": {
+      "industry": "最近72小时（可扩展至1-2个月）",
+      "academic": "最近一周内（优先arXiv和顶会论文）",
+      "open_source": "最近一个月内（GitHub Trending高星项目）"
+    },
+    "thought_process": "用户请求今日全量行业日报，识别为全量日报模式。采用标准并行执行方案：同时启动Agent A (Industry_Watcher)、Agent B (Paper_Hunter)、Agent C (Code_Scout)，全部完成后自动触发Agent D (Chief_Analyst)。重点覆盖端到端自动驾驶、FSD V12、世界模型、扩散策略等技术方向。",
+    "execution_plan": [
+      {
+        "task_id": "task_a_industry",
+        "agent": "Industry_Watcher",
+        "description": "追踪Tesla、华为、Waymo、NIO、XPeng、Li Auto等公司最新动态",
+        "keywords": ["端到端自动驾驶", "FSD", "V12", "Occupancy网络", "Tesla", "华为", "Waymo"],
+        "time_range": "最近72小时",
+        "output_file": "./reports/2026-04/2026-04-20/02_industry.json",
+        "timeout_minutes": 30,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_b_papers",
+        "agent": "Paper_Hunter",
+        "description": "搜集arXiv、CVPR、ICCV、ICRA等顶会最新论文",
+        "keywords": ["端到端自动驾驶", "世界模型", "扩散策略", "VAD", "end-to-end autonomous driving"],
+        "time_range": "最近一周内",
+        "output_file": "./reports/2026-04/2026-04-20/03_papers.json",
+        "timeout_minutes": 30,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_c_code",
+        "agent": "Code_Scout",
+        "description": "发现GitHub Trending、Hugging Face开源项目",
+        "keywords": ["自动驾驶", "仿真器", "数据集", "工具链", "autonomous driving", "simulator"],
+        "time_range": "最近一个月内",
+        "output_file": "./reports/2026-04/2026-04-20/04_code.json",
+        "timeout_minutes": 30,
+        "retry_count": 2
+      },
+      {
+        "task_id": "task_d_analysis",
+        "agent": "Chief_Analyst",
+        "description": "整合三方情报，生成日报+学习建议+系统优化建议",
+        "dependencies": ["task_a_industry", "task_b_papers", "task_c_code"],
+        "trigger_condition": "当02_industry.json、03_papers.json、04_code.json全部存在且可解析时自动执行",
+        "output_files": [
+          "./reports/2026-04/2026-04-20/2026-04-20_Report.md",
+          "./reports/2026-04/2026-04-20/05_optimization.json"
+        ],
+        "additional_outputs": [
+          "./reports/topic_history/2026-04.json"
+        ],
+        "timeout_minutes": 30
+      }
+    ],
+    "trigger_conditions": {
+      "parallel_start": "任务A/B/C同时启动",
+      "final_trigger": "任务A/B/C全部完成后自动触发任务D",
+      "timeout_handling": "任何任务超时则记录状态，继续执行其他任务",
+      "partial_failure": "部分失败时继续执行可用数据，生成降级报告"
+    }
+  },
+  "validation": {
+    "url_verified": true,
+    "date_verified": true,
+    "cross_check": false,
+    "issues": []
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-23T09:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "name": "OpenDriveVLA",
+      "full_name": "DriveVLA/OpenDriveVLA",
+      "description": "[AAAI 2026] 面向端到端自动驾驶的大型视觉语言动作模型，将VLA范式引入自动驾驶领域",
+      "url": "https://github.com/DriveVLA/OpenDriveVLA",
+      "stars": 649,
+      "language": "Python",
+      "last_updated": "2026-02-16",
+      "category": "algorithm",
+      "company": "DriveVLA",
+      "tech_stack": ["Python", "PyTorch", "Vision-Language-Action", "Transformer"],
+      "key_features": [
+        "AAAI 2026收录，端到端VLA自动驾驶框架",
+        "大型视觉语言动作模型直接映射感知到驾驶动作",
+        "支持多模态输入（视觉+语言指令）",
+        "提供完整训练和推理代码"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": [
+        "首个AAAI 2026收录的端到端VLA驾驶框架",
+        "将大型语言模型的推理能力引入驾驶动作生成",
+        "统一视觉理解与动作规划于单一模型"
+      ],
+      "application_value": "高度相关，代表VLA驾驶范式的前沿实现，适合研究端到端驾驶与大模型融合的工程师学习"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-23T09:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "name": "ReCogDrive",
+      "full_name": "xiaomi-research/recogdrive",
+      "description": "[ICLR 2026] 小米研究院出品，强化认知框架用于端到端自动驾驶，结合扩散策略与强化学习",
+      "url": "https://github.com/xiaomi-research/recogdrive",
+      "stars": 484,
+      "language": "Python",
+      "last_updated": "2026-03-13",
+      "category": "algorithm",
+      "company": "小米研究院 (Xiaomi Research)",
+      "tech_stack": ["Python", "PyTorch", "Diffusion Policy", "Reinforcement Learning", "VLA"],
+      "key_features": [
+        "ICLR 2026收录，小米研究院出品",
+        "强化认知框架结合扩散策略与强化学习",
+        "在NAVSIM基准上验证",
+        "支持视觉语言动作模型微调"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 93,
+      "innovation_points": [
+        "国内大厂（小米）ICLR 2026顶会成果开源",
+        "将扩散策略与强化学习结合用于端到端驾驶",
+        "强化认知框架提升驾驶决策的推理能力"
+      ],
+      "application_value": "高价值，国内大厂顶会成果，代表扩散策略+RL在端到端驾驶的最新进展"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-23T09:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "name": "DriveTransformer",
+      "full_name": "Thinklab-SJTU/DriveTransformer",
+      "description": "[ICLR 2025] 上海交大出品，统一Transformer架构用于可扩展端到端自动驾驶，近期持续更新",
+      "url": "https://github.com/Thinklab-SJTU/DriveTransformer",
+      "stars": 198,
+      "language": "Python",
+      "last_updated": "2026-03-21",
+      "category": "algorithm",
+      "company": "上海交通大学 Thinklab",
+      "tech_stack": ["Python", "PyTorch", "Transformer", "End-to-End"],
+      "key_features": [
+        "ICLR 2025收录，2026年3月仍在持续更新",
+        "统一Transformer架构处理感知、预测、规划",
+        "可扩展设计支持大规模数据训练",
+        "上海交大顶级实验室出品"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": [
+        "统一Transformer架构消除模块间信息损失",
+        "可扩展设计适应不同规模数据集",
+        "2026年3月仍在活跃更新，持续改进"
+      ],
+      "application_value": "高价值，顶会成果持续维护，适合深入学习端到端Transformer驾驶架构"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-23T09:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "name": "AutoVLA",
+      "full_name": "ucla-mobility/AutoVLA",
+      "description": "[NeurIPS 2025] UCLA出品，视觉语言动作模型用于端到端自动驾驶，支持自适应推理和强化微调",
+      "url": "https://github.com/ucla-mobility/AutoVLA",
+      "stars": 460,
+      "language": "Python",
+      "last_updated": "2026-02-03",
+      "category": "algorithm",
+      "company": "UCLA Mobility Lab",
+      "tech_stack": ["Python", "PyTorch", "VLA", "GRPO", "Reinforcement Fine-tuning"],
+      "key_features": [
+        "NeurIPS 2025收录，UCLA出品",
+        "自适应推理机制根据场景复杂度调整计算",
+        "GRPO强化微调提升驾驶决策质量",
+        "支持端到端训练和推理"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 87,
+      "innovation_points": [
+        "自适应推理：复杂场景深度思考，简单场景快速响应",
+        "GRPO强化微调优化驾驶奖励",
+        "VLA范式统一场景理解与动作生成"
+      ],
+      "application_value": "高价值，NeurIPS顶会成果，自适应推理机制对实际部署有重要参考价值"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-03-23T09:00:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 83,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "fallback_inline",
+        "rules": "fallback_inline",
+        "workflow": "fallback_inline",
+        "output_format": "fallback_inline",
+        "issues": [],
+        "strategy_used": "inline_fallback"
+      }
+    },
+    "content": {
+      "name": "carla",
+      "full_name": "carla-simulator/carla",
+      "description": "自动驾驶研究开源仿真器，基于UE5开发，2026年3月仍在活跃更新",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 13718,
+      "language": "C++",
+      "last_updated": "2026-03-22",
+      "category": "simulator",
+      "company": "CARLA Simulator (开源社区)",
+      "tech_stack": ["C++", "Python", "Unreal Engine 5", "ROS", "深度强化学习"],
+      "key_features": [
+        "2026年3月22日最新推送，持续活跃维护",
+        "基于UE5的高保真自动驾驶仿真环境",
+        "支持多传感器模拟（摄像头、激光雷达、雷达）",
+        "广泛用于端到端驾驶算法验证（CARLA Leaderboard）"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": [
+        "UE5升级带来更高保真度的视觉渲染",
+        "CARLA Leaderboard是端到端驾驶算法标准评测平台",
+        "开源社区活跃，持续添加新场景和传感器模型"
+      ],
+      "application_value": "必备工具，端到端驾驶算法验证的标准仿真平台，BevAD、DriveVLM-RL等论文均在此验证"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-20T20:10:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/search/?query=end-to-end+autonomous+driving&searchtype=all&date-year=&date-filter=date_range&date-year_from=&date-year_to=&date=20260413_to_20260420",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving",
+      "authors": "Baoyun Wang, Zhuoren Li, Ming Liu, Xinrui Zhang, Bo Leng, Lu Xiong",
+      "url": "https://arxiv.org/abs/2604.12656",
+      "arxiv_id": "2604.12656",
+      "publish_date": "2026-04-14",
+      "category": "cs.RO, cs.LG",
+      "innovation": "提出轨迹中心的扩散规划方法，通过自适应曲率约束训练、可行驶区域引导和可行性感知GRPO后训练，显著提升轨迹空间物理可行性",
+      "application_potential": "高",
+      "abstract": "End-to-end diffusion planning has shown strong potential for autonomous driving, but the physical feasibility of generated trajectories remains insufficiently addressed. In particular, generated trajectories may exhibit local geometric irregularities, violate trajectory-level kinematic constraints, or deviate from the drivable area, indicating that the commonly used noise-centric formulation in diffusion planning is not yet well aligned with the trajectory space where feasibility is more naturally characterized. To address this issue, we propose FeaXDrive, a feasibility-aware trajectory-centric diffusion planning method for end-to-end autonomous driving. The core idea is to treat the clean trajectory as the unified object for feasibility-aware modeling throughout the diffusion process. Built on this trajectory-centric formulation, FeaXDrive integrates adaptive curvature-constrained training to improve intrinsic geometric and kinematic feasibility, drivable-area guidance within reverse diffusion sampling to enhance consistency with the drivable area, and feasibility-aware GRPO post-training to further improve planning performance while balancing trajectory-space feasibility. Experiments on the NAVSIM benchmark show that FeaXDrive achieves strong closed-loop planning performance while substantially improving trajectory-space feasibility. These findings highlight the importance of explicitly modeling trajectory-space feasibility in end-to-end diffusion planning and provide a step toward more reliable and physically grounded autonomous driving planners.",
+      "keywords": ["diffusion planning", "trajectory feasibility", "end-to-end autonomous driving", "kinematic constraints", "drivable area guidance"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-20T20:10:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/search/?query=end-to-end+autonomous+driving&searchtype=all&date-year=&date-filter=date_range&date-year_from=&date-year_to=&date=20260413_to_20260420",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving",
+      "authors": "Zhihua Hua, Junli Wang, Pengfei LI, Qihao Jin, Bo Zhang, Kehua Sheng, Yilun Chen, Zhongxue Gan, Wenchao Ding",
+      "url": "https://arxiv.org/abs/2604.12208",
+      "arxiv_id": "2604.12208",
+      "publish_date": "2026-04-13",
+      "category": "cs.RO, cs.AI",
+      "innovation": "提出序列导航引导（SNG）框架，通过导航路径和实时转向信息的高效表示，解决端到端驾驶系统过度依赖局部场景理解、忽略全局导航信息的问题",
+      "application_potential": "高",
+      "abstract": "Global navigation information and local scene understanding are two crucial components of autonomous driving systems. However, our experimental results indicate that many end-to-end autonomous driving systems tend to over-rely on local scene understanding while failing to utilize global navigation information. These systems exhibit weak correlation between their planning capabilities and navigation input, and struggle to perform navigation-following in complex scenarios. To overcome this limitation, we propose the Sequential Navigation Guidance (SNG) framework, an efficient representation of global navigation information based on real-world navigation patterns. The SNG encompasses both navigation paths for constraining long-term trajectories and turn-by-turn (TBT) information for real-time decision-making logic. We constructed the SNG-QA dataset, a visual question answering (VQA) dataset based on SNG that aligns global and local planning. Additionally, we introduce an efficient model SNG-VLA that fuses local planning with global planning. The SNG-VLA achieves state-of-the-art performance through precise navigation information modeling without requiring auxiliary loss functions from perception tasks. Project page: SNG-VLA",
+      "keywords": ["navigation understanding", "sequential navigation guidance", "end-to-end autonomous driving", "global planning", "visual question answering"],
+      "code_available": true,
+      "conference": "ICRA 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-20T20:10:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 87,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/search/?query=end-to-end+autonomous+driving&searchtype=all&date-year=&date-filter=date_range&date-year_from=&date-year_to=&date=20260413_to_20260420",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "MVAdapt: Zero-Shot Multi-Vehicle Adaptation for End-to-End Autonomous Driving",
+      "authors": "Haesung Oh, Jaeheung Park",
+      "url": "https://arxiv.org/abs/2604.11854",
+      "arxiv_id": "2604.11854",
+      "publish_date": "2026-04-13",
+      "category": "cs.RO, cs.AI",
+      "innovation": "提出物理条件适配框架，通过冻结的场景编码器、轻量级物理编码器和跨注意力模块，实现多车辆端到端驾驶的零样本迁移和少样本校准",
+      "application_potential": "高",
+      "abstract": "End-to-End (E2E) autonomous driving models are usually trained and evaluated with a fixed ego-vehicle, even though their driving policy is implicitly tied to vehicle dynamics. When such a model is deployed on a vehicle with different size, mass, or drivetrain characteristics, its performance can degrade substantially; we refer to this problem as the vehicle-domain gap. To address it, we propose MVAdapt, a physics-conditioned adaptation framework for multi-vehicle E2E driving. MVAdapt combines a frozen TransFuser++ scene encoder with a lightweight physics encoder and a cross-attention module that conditions scene features on vehicle properties before waypoint decoding. In the CARLA Leaderboard 1.0 benchmark, MVAdapt improves over naive transfer and multi-embodiment adaptation baselines on both in-distribution and unseen vehicles. We further show two complementary behaviors: strong zero-shot transfer on many unseen vehicles, and data-efficient few-shot calibration for severe physical outliers. These results suggest that explicitly conditioning E2E driving policies on vehicle physics is an effective step toward more transferable autonomous driving models. All codes are available at https://github.com/hae-sung-oh/MVAdapt",
+      "keywords": ["multi-vehicle adaptation", "zero-shot transfer", "physics-conditioned", "end-to-end autonomous driving", "domain gap"],
+      "code_available": true,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-20T20:10:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 89,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/search/?query=end-to-end+autonomous+driving&searchtype=all&date-year=&date-filter=date_range&date-year_from=&date-year_to=&date=20260413_to_20260420",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
+      "authors": "Guoqing Wang, Pin Tang, Xiangxuan Ren, Guodongfang Zhao, Bailan Feng, Chao Ma",
+      "url": "https://arxiv.org/abs/2604.09059",
+      "arxiv_id": "2604.09059",
+      "publish_date": "2026-04-10",
+      "category": "cs.CV, cs.AI",
+      "innovation": "提出VLA-World模型，将预测性想象与反思性推理相结合，通过动作驱动的可行轨迹引导下一帧图像生成，提升驾驶预见性和安全性",
+      "application_potential": "高",
+      "abstract": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we present VLA-World, a simple yet effective VLA world model that unifies predictive imagination with reflective reasoning to improve driving foresight. VLA-World first uses an action-derived feasible trajectory to guide the generation of the next-frame image, capturing rich spatial and temporal cues that describe how the surrounding environment evolves. The model then reasons over this self-generated future imagined frame to refine the predicted trajectory, achieving higher performance and better interpretability. To support this pipeline, we curate nuScenes-GR-20K, a generative reasoning dataset derived from nuScenes, and employ a three-stage training strategy that includes pretraining, supervised fine-tuning, and reinforcement learning. Extensive experiments demonstrate that VLA-World consistently surpasses state-of-the-art VLA and world-model baselines on both planning and future-generation benchmarks. Project page: https://vlaworld.github.io",
+      "keywords": ["vision-language-action", "world models", "predictive imagination", "end-to-end autonomous driving", "generative reasoning"],
+      "code_available": true,
+      "conference": "CVPR 2026 findings",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-20T20:10:09+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/search/?query=end-to-end+autonomous+driving&searchtype=all&date-year=&date-filter=date_range&date-year_from=&date-year_to=&date=20260413_to_20260420",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving",
+      "authors": "Hao Shao, Letian Wang, Yang Zhou, Yuxuan Hu, Zhuofan Zong, Steven L. Waslander, Wei Zhan, Hongsheng Li",
+      "url": "https://arxiv.org/abs/2604.08719",
+      "arxiv_id": "2604.08719",
+      "publish_date": "2026-04-09",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "提出首个结合LLM多模态理解与生成世界模型的端到端驾驶框架，通过视频预测改善时空场景建模，LLM提供语义先验和指令 grounding，实现统一的理解与生成",
+      "application_potential": "高",
+      "abstract": "Recent years have seen remarkable progress in autonomous driving, yet generalization to long-tail and open-world scenarios remains a major bottleneck for large-scale deployment. To address this challenge, some works use LLMs and VLMs for vision-language understanding and reasoning, enabling vehicles to interpret rare and safety-critical situations when generating actions. Others study generative world models to capture the spatio-temporal evolution of driving scenes, allowing agents to imagine possible futures before acting. Inspired by human intelligence, which unifies understanding and imagination, we explore a unified model for autonomous driving. We present LMGenDrive, the first framework that combines LLM-based multimodal understanding with generative world models for end-to-end closed-loop driving. Given multi-view camera inputs and natural-language instructions, LMGenDrive generates both future driving videos and control signals. This design provides complementary benefits: video prediction improves spatio-temporal scene modeling, while the LLM contributes strong semantic priors and instruction grounding from large-scale pretraining. We further propose a progressive three-stage training strategy, from vision pretraining to multi-step long-horizon driving, to improve stability and performance. LMGenDrive supports both low-latency online planning and autoregressive offline video generation. Experiments show that it significantly outperforms prior methods on challenging closed-loop benchmarks, with clear gains in instruction following, spatio-temporal understanding, and robustness to rare scenarios. These results suggest that unifying multimodal understanding and generation is a promising direction for more generalizable and robust embodied decision-making systems.",
+      "keywords": ["multimodal understanding", "generative world models", "LLM-based planning", "end-to-end autonomous driving", "video prediction"],
+      "code_available": null,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

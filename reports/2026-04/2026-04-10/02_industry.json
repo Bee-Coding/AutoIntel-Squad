@@ -1,0 +1,212 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-10T09:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/2026/04/09/elon-musk-tesla-fsd-v15-safer-than-humans-same-claim-every-version/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Musk says Tesla FSD v15 will 'far exceed' human safety — he said the same about v12 and v14",
+      "url": "https://electrek.co/2026/04/09/elon-musk-tesla-fsd-v15-safer-than-humans-same-claim-every-version/",
+      "publish_date": "2026-04-09",
+      "technical_points": ["FSD v15", "安全承诺", "端到端自动驾驶", "版本演进"],
+      "raw_content": "Elon Musk再次承诺特斯拉全自动驾驶软件v15将'远超人类安全水平'，但他在2023年对v12和2025年对v14也做出过几乎相同的承诺。文章分析了 Musk 在 X 上的发言时间线，指出每个版本都被宣传为'突破性'版本，但实际交付的仍是需要监督的 L2 系统。文章对比了 Waymo 已发布的同行评审安全数据，指出特斯拉从未发布过同行评审的安全研究，且面临多项 NHTSA 调查。",
+      "search_keywords": ["Tesla FSD v15", "Elon Musk safety claim", "autonomous driving safety"],
+      "version_info": "FSD v15",
+      "event_type": "技术博客"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-10T09:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://electrek.co/2026/04/09/tesla-cracks-down-fsd-hack-devices-remotely-disables-access/",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "Tesla cracks down on FSD hacking devices, remotely shuts down access",
+      "url": "https://electrek.co/2026/04/09/tesla-cracks-down-fsd-hack-devices-remotely-disables-access/",
+      "publish_date": "2026-04-09",
+      "technical_points": ["FSD 破解设备", "CAN总线黑客", "远程禁用", "地理围栏"],
+      "raw_content": "特斯拉正在打击未经授权解锁全自动驾驶功能的灰色市场设备，远程禁用受影响车辆上的 FSD 功能。这些设备通过 CAN 总线绕过区域软件锁，在欧洲、韩国、中国和土耳其等地区激活未获监管批准的 FSD。特斯拉远程唤醒车辆，检测到未经授权的 CAN 总线设备后，永久撤销 FSD 访问权限，将车辆恢复为基础 Autopilot。韩国将使用此类设备定为刑事犯罪，最高可判处两年监禁。",
+      "search_keywords": ["Tesla FSD hacking", "CAN bus device", "remote disable"],
+      "version_info": null,
+      "event_type": "安全措施"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-10T09:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 80,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs https://blog.csdn.net/cv_autobot/article/list/ --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "理想汽车",
+      "title": "理想汽车又孵化一家具身公司",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/160000136",
+      "publish_date": "2026-04-09",
+      "technical_points": ["具身智能", "VLA基座模型", "AI首席科学家", "创业孵化"],
+      "raw_content": "理想汽车前AI首席科学家陈伟联合理想汽车前产品线总裁张骁创办的杭州斜跃智能科技有限公司已获天使轮融资。陈伟曾历任理想汽车AI首席科学家及基座模型负责人，主导理想同学及VLA基座模型研发落地，是理想AI从数字走向物理的重要推动者之一。",
+      "search_keywords": ["理想汽车", "具身智能", "VLA基座模型"],
+      "version_info": null,
+      "event_type": "创业孵化"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-10T09:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 82,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs https://blog.csdn.net/cv_autobot/article/list/ --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "地平线",
+      "title": "地平线最新的SparseDrivev2，还是很有自己做端到端的想法",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/159934421",
+      "publish_date": "2026-04-07",
+      "technical_points": ["SparseDrivev2", "端到端自动驾驶", "稀疏感知", "规划算法"],
+      "raw_content": "地平线最新推出的 SparseDrivev2 延续了其在端到端自动驾驶方向上的探索。该方法在稀疏感知的基础上，进一步优化规划模块，试图在算力预算有限的情况下提升性能。文章分析了端到端自动驾驶近年来的发展脉络，从 UniAD、VADv2 到 SparseDrive、GoalFlow 和 DiffusionDriveV2，指出行业主流已转向多模态规划生成方法。",
+      "search_keywords": ["地平线", "SparseDrivev2", "端到端自动驾驶"],
+      "version_info": "SparseDrivev2",
+      "event_type": "技术博客"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-10T09:30:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 78,
+      "quality_grade": "C",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "lightpanda",
+      "fetch_detail": {
+        "tool_command": "node tools/lp_fetch.mjs https://blog.csdn.net/cv_autobot/article/list/ --extract-text --extract-links",
+        "render_time_ms": 1200,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "company": "毫末智行",
+      "title": "毫末梦碎：背靠长城的盛名、枷锁与崩塌",
+      "url": "https://blog.csdn.net/cv_autobot/article/details/159969532",
+      "publish_date": "2026-04-08",
+      "technical_points": ["毫末智行", "长城汽车", "供应链关系", "管理问题"],
+      "raw_content": "毫末智行作为长城汽车孵化的自动驾驶公司，近期陷入困境。报道指出，毫末北京、上海研发团队长期未向保定团队共享软件源代码，导致长城汽车失去信任。长城已将中高阶辅助驾驶项目交由其他自动驾驶公司负责，股东希望尽快退出。文章分析了毫末智行在技术、管理和供应链关系上面临的多重挑战。",
+      "search_keywords": ["毫末智行", "长城汽车", "自动驾驶公司"],
+      "version_info": null,
+      "event_type": "行业分析"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]

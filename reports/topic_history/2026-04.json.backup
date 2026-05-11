@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-13T18:30:00+08:00",
+    "month": "2026-04",
+    "topics_count": 21,
+    "generated_by": "Chief_Analyst",
+    "update_type": "daily_merge"
+  },
+  "topics": [
+    {
+      "id": "robotaxi_geofence_expansion",
+      "name": "Robotaxi地理围栏扩展",
+      "aliases": ["Tesla Robotaxi扩展", "无人监督Robotaxi", "地理围栏扩展"],
+      "category": "industry",
+      "description": "Tesla在奥斯汀扩展无人监督Robotaxi服务的地理围栏，但车队规模有限，仍需远程监控",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "Tesla在奥斯汀扩展无人监督Robotaxi服务的地理围栏至245平方英里（原始面积的12倍），但仅有4-8辆Model Y在实际运行，且仍需远程监控。与Waymo相比存在竞争差距：Waymo每周完成50万次付费全无人驾驶行程。",
+          "key_points": [
+            "Robotaxi地理围栏扩展至245平方英里",
+            "仅有4-8辆Model Y在无人监督模式下运行",
+            "仍需远程监控，非完全自主",
+            "与Waymo的规模化差距明显"
+          ],
+          "sources": [
+            "https://electrek.co/2026/03/31/tesla-expands-unsupervised-robotaxi-service-area-still-only-handful-vehicles/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autonomous_driving_security_threat",
+      "name": "自动驾驶安全威胁",
+      "aliases": ["特斯拉安全威胁", "地缘政治风险", "基础设施安全"],
+      "category": "industry",
+      "description": "特斯拉被列入伊朗IRGC目标名单，威胁中东地区自动驾驶基础设施安全",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "伊朗伊斯兰革命卫队将特斯拉列入18家美国公司目标名单，威胁其中东业务。特斯拉在海湾地区快速扩张，拥有30多个超级充电站，已激活免费充电作为危机应对措施。",
+          "key_points": [
+            "伊朗IRGC威胁特斯拉海湾地区业务",
+            "特斯拉在海湾地区有30+超级充电站",
+            "已激活免费充电作为危机应对",
+            "凸显自动驾驶基础设施的地缘政治风险"
+          ],
+          "sources": [
+            "https://electrek.co/2026/03/31/tesla-irgc-target-list-gulf-operations-threat/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commonsense_world_trajectory_planning",
+      "name": "常识世界轨迹规划",
+      "aliases": ["C-TRAIL框架", "LLM常识推理轨迹规划", "信任机制轨迹规划"],
+      "category": "academic",
+      "description": "C-TRAIL框架基于常识世界耦合LLM常识推理与信任机制指导轨迹规划，实现安全关键的自动驾驶决策",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出C-TRAIL框架，基于常识世界耦合LLM常识推理与信任机制指导轨迹规划，通过闭环Recall-Plan-Update循环实现安全关键的自动驾驶决策。在Highway-env仿真和real-world levelXData数据集上实验显示优于SOTA基线，平均减少ADE 40.2%、FDE 51.7%，提高SR 16.9个百分点。",
+          "key_points": [
+            "基于常识世界的轨迹规划框架",
+            "耦合LLM常识推理与双信任机制",
+            "通过闭环Recall-Plan-Update循环实现安全决策",
+            "实验显示显著性能提升"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.29908v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring_based_end_to_end_driving",
+      "name": "评分式端到端驾驶",
+      "aliases": ["SparseDriveV2", "可扩展词汇表示", "分解评分策略"],
+      "category": "academic",
+      "description": "SparseDriveV2通过可扩展词汇表示和分解评分策略推动基于评分规划的端到端自动驾驶性能边界",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "high",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出SparseDriveV2，通过可扩展词汇表示和分解评分策略推动基于评分规划的端到端自动驾驶性能边界，实现组合动作空间覆盖。在NAVSIM上达到92.0 PDMS和90.1 EPDMS，在Bench2Drive上达到89.15 Driving Score和70.00 Success Rate。",
+          "key_points": [
+            "可扩展词汇表示（几何路径+速度剖面）",
+            "分解评分策略（粗粒度+细粒度）",
+            "实现组合动作空间覆盖",
+            "在NAVSIM和Bench2Drive上达到SOTA性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.29163v1"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "version": "v1.1",
+          "description": "地平线发布SparseDrivev2技术博客，阐述其在端到端自动驾驶中的工业应用思路，进一步优化稀疏感知和规划算法，体现学术成果向工业界的转化加速。",
+          "key_points": [
+            "地平线SparseDrivev2技术博客发布",
+            "稀疏感知与规划算法优化",
+            "学术成果工业应用转化",
+            "软硬协同趋势"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/159934421"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hybrid_rule_language_planning",
+      "name": "混合规则-语言规划",
+      "aliases": ["RAD-LAD", "实时语言-动作规划器", "基于规则规划器"],
+      "category": "academic",
+      "description": "RAD-LAD结合基于规则的规划器和实时语言-动作规划器，实现可靠且自适应的决策",
+      "first_appeared": "2026-04-01",
+      "latest_version": "v1.0",
+      "latest_update": "2026-04-01",
+      "priority": "medium",
+      "history": [
+        {
+          "date": "2026-04-01",
+          "version": "v1.0",
+          "description": "提出LAD实时语言-动作规划器和RAD基于规则的规划器，结合两者实现混合规划，规则支持可靠机动，语言支持自适应可解释决策。LAD具有可中断架构，在单次前向传递中产生运动计划(~20 Hz)或生成文本推理与运动计划(~10 Hz)。在nuPlan Test14-Hard和InterPlan上实现SOTA性能。",
+          "key_points": [
+            "实时语言-动作规划器（LAD）可中断架构",
+            "基于规则规划器（RAD）解决结构限制",
+            "混合规划结合规则可靠性和语言自适应性",
+            "在nuPlan Test14-Hard和InterPlan上实现SOTA"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2603.28522v2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_smart_summon",
+      "name": "Tesla Smart Summon",
+      "aliases": ["Tesla智能召唤", "Actually Smart Summon"],
+      "category": "regulatory_safety",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "medium",
+      "description": "特斯拉智能召唤功能监管调查进展，涉及NHTSA调查、OTA更新、安全评估",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "NHTSA结束调查，记录159起事件，通过6次OTA更新解决，无召回",
+          "key_points": [
+            "Tesla Smart Summon 功能调查结束",
+            "159起事件，均为轻微财产损失",
+            "零伤亡记录",
+            "通过6次OTA更新解决问题"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/06/nhtsa-closes-tesla-smart-summon-probe/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "multimodal_sensor_fusion",
+      "name": "Multimodal Sensor Fusion",
+      "aliases": ["多模态传感器融合", "相机LiDAR融合"],
+      "category": "perception",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "high",
+      "description": "相机与LiDAR多模态融合的注意力机制，提升自动驾驶感知鲁棒性",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "混合注意力机制论文发表（CVPR 2026），有效融合相机与LiDAR数据",
+          "key_points": [
+            "混合注意力机制",
+            "相机与LiDAR融合",
+            "提升感知鲁棒性"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04797"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlm_security",
+      "name": "VLM Security",
+      "aliases": ["视觉语言模型安全", "多模态后门攻击"],
+      "category": "security",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "medium",
+      "description": "视觉语言模型在自动驾驶中的安全攻击，包括涂鸦和跨语言触发后门攻击",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "多模态后门攻击论文发表，针对自动驾驶VLMs的安全威胁",
+          "key_points": [
+            "多模态后门攻击",
+            "涂鸦和跨语言触发",
+            "自动驾驶视觉语言模型安全"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04630"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "version": "v1.1",
+          "description": "多模态后门攻击论文（GLA）正式发表于Pattern Analysis and Applications，研究针对自动驾驶视觉语言模型的涂鸦和跨语言触发后门攻击方法，隐蔽性和稳定性进一步提升。",
+          "key_points": [
+            "论文正式发表于Pattern Analysis and Applications",
+            "涂鸦式视觉触发器和跨语言文本触发器",
+            "仅需10%中毒比例达到90%攻击成功率",
+            "后门不削弱模型干净任务性能"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04630v1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lidar_place_recognition",
+      "name": "LiDAR Place Recognition",
+      "aliases": ["LiDAR地点识别", "地点重识别"],
+      "category": "localization",
+      "first_seen": "2026-04-07",
+      "last_updated": "2026-04-07",
+      "priority": "high",
+      "description": "基于LiDAR的地点识别Transformer网络，用于自动驾驶定位与建图",
+      "history": [
+        {
+          "date": "2026-04-07",
+          "version": "v1",
+          "description": "多视图金字塔Transformer融合网络论文发表，提升LiDAR地点识别性能",
+          "key_points": [
+            "多视图金字塔Transformer",
+            "LiDAR地点识别",
+            "定位与建图"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.04511"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_fsd_v15_safety_claim",
+      "name": "Tesla FSD v15安全承诺",
+      "aliases": ["FSD v15安全承诺", "Musk安全承诺"],
+      "category": "industry",
+      "first_appeared": "2026-04-10",
+      "latest_version": "v1.1",
+      "latest_update": "2026-04-13",
+      "priority": "medium",
+      "description": "Elon Musk再次承诺FSD v15将远超人类安全水平，延续v12/v14类似承诺模式，引发对版本演进实质进展的讨论",
+      "history": [
+        {
+          "date": "2026-04-10",
+          "version": "v1",
+          "description": "Musk在X上承诺FSD v15将'远超人类安全水平'，但他在2023年对v12和2025年对v14也做出过几乎相同的承诺，引发对版本演进实质进展的讨论",
+          "key_points": [
+            "FSD v15安全承诺",
+            "版本演进模式重复",
+            "缺乏同行评审安全数据",
+            "监管对比"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/09/elon-musk-tesla-fsd-v15-safer-than-humans-same-claim-every-version/"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "version": "v1.1",
+          "description": "播客讨论提及FSD v15可能包含重要改进，延续Musk对v15安全性的承诺，但具体技术细节仍未公开。讨论涉及特斯拉廉价EV车型传闻、Rivian R2续航数据等。",
+          "key_points": [
+            "FSD v15可能包含重要改进",
+            "具体技术细节未公开",
+            "涉及OTA更新讨论",
+            "延续版本安全承诺模式"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/10/podcast-teslas-cheaper-ev-model-comes-and-goes-fsd-v15-rivian-r2-epa-numbers-and-more/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla_fsd_security_crackdown",
+      "name": "Tesla FSD安全打击",
+      "aliases": ["FSD破解设备打击", "CAN总线黑客打击"],
+      "category": "industry",
+      "first_appeared": "2026-04-10",
+      "latest_version": "v1",
+      "latest_update": "2026-04-10",
+      "priority": "medium",
+      "description": "Tesla打击未经授权解锁FSD功能的灰色市场设备，远程禁用受影响车辆的FSD访问权限",
+      "history": [
+        {
+          "date": "2026-04-10",
+          "version": "v1",
+          "description": "Tesla远程检测并禁用使用未经授权CAN总线设备解锁FSD功能的车辆，在韩国等地区将此类行为定为刑事犯罪",
+          "key_points": [
+            "CAN总线黑客设备",
+            "远程禁用FSD访问",
+            "地理围栏绕过",
+            "区域软件锁"
+          ],
+          "sources": [
+            "https://electrek.co/2026/04/09/tesla-cracks-down-fsd-hack-devices-remotely-disables-access/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vla_catastrophic_forgetting",
+      "name": "VLA灾难性遗忘",
+      "aliases": ["视觉语言模型灾难性遗忘", "VLA微调遗忘"],
+      "category": "academic",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "medium",
+      "description": "视觉语言模型在自动驾驶数据集微调后出现的灾难性遗忘问题，上海交通大学CVPR'26论文提出缓解方法",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "上海交通大学CVPR'26论文研究VLA在自动驾驶数据集微调后的灾难性遗忘问题。研究发现，将典型VL模型在专属自驾数据集上微调后，原本能轻松识别的简单场景（如道路中的牛）模型反而丧失判别能力。论文提出新方法在保持驾驶性能的同时显著缓解遗忘问题。",
+          "key_points": [
+            "视觉语言模型在自动驾驶数据集微调后出现灾难性遗忘",
+            "简单场景识别能力丧失",
+            "提出持续学习方法缓解遗忘",
+            "保持驾驶性能的同时减少遗忘"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/160034977"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end_to_end_essence",
+      "name": "端到端自动驾驶本质分析",
+      "aliases": ["含模量分析", "端到端技术本质"],
+      "category": "industry",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "high",
+      "description": "分析端到端自动驾驶的技术本质，指出'含模量'（世界知识、物理理解、推理能力）是核心竞争力",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "文章深入分析端到端自动驾驶的技术本质，指出端到端是表象，真正的核心竞争力在于'含模量'——即模型中包含的世界知识、物理理解和推理能力。讨论了特斯拉FSD的模块化设计、VLA架构中的快慢脑协同，以及如何通过梯度回传实现驾驶策略的持续优化。",
+          "key_points": [
+            "端到端自动驾驶的技术本质在于'含模量'",
+            "特斯拉FSD采用模块化设计，VLA架构中的快慢脑协同",
+            "通过梯度回传实现驾驶策略的持续优化",
+            "世界模型在端到端系统中的核心作用"
+          ],
+          "sources": [
+            "https://blog.csdn.net/cv_autobot/article/details/160063971"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vla_world_models",
+      "name": "VLA世界模型",
+      "aliases": ["视觉-语言-动作世界模型", "VLA-World"],
+      "category": "academic",
+      "first_appeared": "2026-04-13",
+      "latest_version": "v1",
+      "latest_update": "2026-04-13",
+      "priority": "high",
+      "description": "VLA-World结合预测想象和反思推理的视觉-语言-动作世界模型，提高自动驾驶预见性",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "version": "v1",
+          "description": "提出VLA-World，一个简单而有效的VLA世界模型，它将预测想象与反思推理相结合，以提高驾驶预见性。VLA-World首先使用动作导出的可行轨迹来指导下一帧图像的生成，捕捉描述周围环境如何演变的丰富空间和时间线索。然后，模型对这个自生成的未来想象帧进行推理，以细化预测的轨迹，实现更高的性能和更好的可解释性。",
+          "key_points": [
+            "结合预测想象与反思推理的VLA世界模型",
+            "使用动作导出的可行轨迹指导下一帧图像生成",
+            "对自生成的未来想象帧进行推理以细化轨迹",
+            "提高驾驶预见性和可解释性"
+          ],
+          "sources": [
+            "https://arxiv.org/abs/2604.09059"
+          ]
+        }
+      ]
+    }
+  ]
+}

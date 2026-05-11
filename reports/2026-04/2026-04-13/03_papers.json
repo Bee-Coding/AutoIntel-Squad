@@ -1,0 +1,232 @@
+[
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-13T16:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 94,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/abs/2604.09059",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
+      "authors": "Guoqing Wang, Pin Tang, Xiangxuan Ren, Guodongfang Zhao, Bailan Feng, Chao Ma",
+      "url": "https://arxiv.org/abs/2604.09059",
+      "arxiv_id": "2604.09059",
+      "publish_date": "2026-04-10",
+      "category": "cs.CV, cs.AI",
+      "innovation": "提出VLA-World，一个结合预测想象和反思推理的视觉-语言-动作世界模型，提高自动驾驶预见性",
+      "application_potential": "高",
+      "abstract": "视觉-语言-动作(VLA)模型通过将感知、推理和控制整合到统一的多模态框架中，在端到端自动驾驶方面取得了显著进展。然而，它们往往缺乏对时间动态和全局世界一致性的显式建模，这限制了其预见性和安全性。相比之下，世界模型可以模拟合理的未来场景，但通常难以推理或评估它们生成的想象未来。在这项工作中，我们提出了VLA-World，一个简单而有效的VLA世界模型，它将预测想象与反思推理相结合，以提高驾驶预见性。VLA-World首先使用动作导出的可行轨迹来指导下一帧图像的生成，捕捉描述周围环境如何演变的丰富空间和时间线索。然后，模型对这个自生成的未来想象帧进行推理，以细化预测的轨迹，实现更高的性能和更好的可解释性。",
+      "keywords": ["vision-language-action", "world models", "autonomous driving", "end-to-end", "foresight"],
+      "code_available": true,
+      "conference": "CVPR 2026 findings",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-13T16:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 91,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/abs/2604.08719",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "LMGenDrive: Bridging Multimodal Understanding and Generative World Modeling for End-to-End Driving",
+      "authors": "Hao Shao, Letian Wang, Yang Zhou, Yuxuan Hu, Zhuofan Zong, Steven L. Waslander, Wei Zhan, Hongsheng Li",
+      "url": "https://arxiv.org/abs/2604.08719",
+      "arxiv_id": "2604.08719",
+      "publish_date": "2026-04-09",
+      "category": "cs.CV, cs.AI, cs.RO",
+      "innovation": "首次将基于LLM的多模态理解与生成世界模型结合用于端到端闭环驾驶，同时生成未来驾驶视频和控制信号",
+      "application_potential": "高",
+      "abstract": "近年来自动驾驶取得了显著进展，但泛化到长尾和开放世界场景仍然是大规模部署的主要瓶颈。为了解决这一挑战，一些工作使用LLM和VLM进行视觉语言理解和推理，使车辆能够在生成动作时解释罕见和安全关键的情况。其他人研究生成世界模型来捕捉驾驶场景的时空演化，允许代理在行动前想象可能的未来。受到人类智能统一理解和想象的启发，我们探索了一个用于自动驾驶的统一模型。我们提出了LMGenDrive，这是第一个将基于LLM的多模态理解与生成世界模型相结合的框架，用于端到端闭环驾驶。给定多视角摄像头输入和自然语言指令，LMGenDrive同时生成未来驾驶视频和控制信号。",
+      "keywords": ["LLM", "world models", "end-to-end driving", "video prediction", "multimodal understanding"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-13T16:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 91,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/abs/2604.08366",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
+      "authors": "Tolga Dimlioglu, Nadine Chang, Maying Shen, Rafid Mahmood, Jose M. Alvarez",
+      "url": "https://arxiv.org/abs/2604.08366",
+      "arxiv_id": "2604.08366",
+      "publish_date": "2026-04-09",
+      "category": "cs.LG, cs.AI, cs.CV",
+      "innovation": "提出MOSAIC，一个通用的数据选择框架，通过神经缩放定律优化数据混合，用于端到端自动驾驶系统",
+      "application_potential": "高",
+      "abstract": "用于物理AI应用的大规模深度学习模型依赖于多样化的训练数据收集工作。这些模型以及相应的训练数据必须解决不同的评估标准，这些标准对于模型在现实世界环境中部署是必要的。数据选择策略可以指导训练集的开发，但当前的框架没有考虑数据点如何影响不同指标的模糊性。在这项工作中，我们提出了Mixture Optimization via Scaling-Aware Iterative Collection (MOSAIC)，一个通用的数据选择框架，通过以下方式操作：(i)将数据集划分为域；(ii)从每个数据域到评估指标拟合神经缩放定律；(iii)通过迭代添加来自最大化指标变化的域的数据来优化数据混合。我们将MOSAIC应用于自动驾驶，其中端到端规划器模型在扩展预测驾驶员模型分数上进行评估，这是驾驶规则合规性指标的聚合。",
+      "keywords": ["data selection", "scaling laws", "end-to-end autonomous driving", "MOSAIC", "EPDMS"],
+      "code_available": false,
+      "conference": "CVPR 2026",
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-13T16:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/abs/2604.03581",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+      "authors": "Wenhao Yao, Xinglong Sun, Zhenxin Li, Shiyi Lan, Zi Wang, Jose M. Alvarez, Zuxuan Wu",
+      "url": "https://arxiv.org/abs/2604.03581",
+      "arxiv_id": "2604.03581",
+      "publish_date": "2026-04-04",
+      "category": "cs.RO, cs.CV",
+      "innovation": "提出分层扩散策略与度量解耦策略优化(MDPO)，将规划分解为粗到细过程，实现结构化RL优化",
+      "application_potential": "高",
+      "abstract": "端到端规划已成为自动驾驶的主导范式，其中最近的模型通常采用评分-选择框架从大量候选轨迹中选择，基于扩散的解码显示出强大的潜力。然而，直接从整个候选空间中选择仍然难以优化，扩散中使用的高斯扰动通常会引入不现实的轨迹，使去噪过程复杂化。此外，对于训练这些模型，强化学习已经显示出潜力，但现有的端到端RL方法通常依赖于单一耦合奖励而没有结构化信号，限制了优化效果。为了解决这些挑战，我们提出了HAD，一个具有分层扩散策略的端到端规划框架，将规划分解为粗到细的过程。为了改进轨迹生成，我们引入了结构保留轨迹扩展，产生现实的候选轨迹同时保持运动学结构。对于策略学习，我们开发了度量解耦策略优化，以支持跨多个驾驶目标的结构化RL优化。",
+      "keywords": ["hierarchical diffusion", "reinforcement learning", "end-to-end driving", "MDPO", "trajectory generation"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Academic",
+    "metadata": {
+      "timestamp": "2026-04-13T16:30:00+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      },
+      "fetch_method": "webfetch",
+      "fetch_detail": {
+        "tool_command": "webfetch https://arxiv.org/abs/2604.05449",
+        "render_time_ms": null,
+        "fallback_used": false,
+        "fallback_reason": null
+      }
+    },
+    "content": {
+      "title": "Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning",
+      "authors": "Kang Ding, Hongsong Wang, Jie Gui, Lei He",
+      "url": "https://arxiv.org/abs/2604.05449",
+      "arxiv_id": "2604.05449",
+      "publish_date": "2026-04-07",
+      "category": "cs.CV",
+      "innovation": "提出风险优先游戏规划概念和GameAD框架，将端到端自动驾驶建模为风险感知游戏问题",
+      "application_potential": "中",
+      "abstract": "端到端自动驾驶不在于感知和规划的集成，而在于统一表示空间内的动态多智能体游戏。大多数现有的端到端模型平等对待所有智能体，阻碍了从复杂背景中解耦真实碰撞威胁。为了解决这个问题，我们引入了风险优先游戏规划的概念，并提出了GameAD，一个将端到端自动驾驶建模为风险感知游戏问题的新框架。GameAD整合了风险感知拓扑锚定、战略负载适配器、最小最大风险感知稀疏注意力和风险一致均衡稳定化，以实现具有风险优先交互的博弈论决策。我们还提出了规划风险暴露指标，量化长期规划轨迹的累积风险强度，以实现安全的自动驾驶。",
+      "keywords": ["game theory", "risk-aware planning", "multi-agent", "autonomous driving", "safety"],
+      "code_available": false,
+      "conference": null,
+      "citation_count": null
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

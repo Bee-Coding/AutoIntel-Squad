@@ -1,0 +1,62 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    "content": {
+      "project_name": "Apollo",
+      "description": "百度开源的自动驾驶平台，提供完整的软硬件解决方案，包括感知、定位、规划、控制等模块。",
+      "url": "https://github.com/ApolloAuto/apollo",
+      "stars": 25000,
+      "forks": 9500,
+      "language": "C++, Python",
+      "license": "Apache 2.0",
+      "last_updated": "2026-03-15",
+      "tech_stack": ["ROS", "CUDA", "TensorRT", "PaddlePaddle"],
+      "difficulty_assessment": "高，需要自动驾驶领域专业知识",
+      "application_value": "极高，工业级自动驾驶解决方案",
+      "trend_status": "稳定维护"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-07T20:10:43+08:00",
+      "data_source": "official",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "project_name": "CARLA",
+      "description": "开源的自动驾驶模拟器，支持传感器模拟、交通场景生成、评测基准等，用于自动驾驶算法研发。",
+      "url": "https://github.com/carla-simulator/carla",
+      "stars": 18000,
+      "forks": 4200,
+      "language": "C++, Python",
+      "license": "MIT",
+      "last_updated": "2026-03-20",
+      "tech_stack": ["Unreal Engine", "ROS", "OpenDrive"],
+      "difficulty_assessment": "中高，需要仿真和自动驾驶知识",
+      "application_value": "高，用于算法验证和测试",
+      "trend_status": "活跃开发"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

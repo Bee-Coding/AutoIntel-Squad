@@ -1,0 +1,213 @@
+[
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "特斯拉Q1财报：营收223.8亿美元超预期，资本支出飙至250亿美元，马斯克承认HW3车主需硬件升级才能实现无监督FSD",
+      "url": "https://techcrunch.com/2026/04/22/tesla-q1-revenue-rises-driven-by-ev-sales-and-fsd-subscriptions/",
+      "publish_date": "2026-04-22",
+      "technical_points": [
+        "Q1营收223.8亿美元，同比增16%，超分析师预期",
+        "FSD订阅量达128万，同比增51%",
+        "资本支出飙至250亿美元（历史3倍），投向AI训练、芯片设计、机器人出租车运营、奥斯汀半导体Fab",
+        "马斯克确认HW3（2019-2023年车型）无法实现无监督FSD，需更换电脑和摄像头",
+        "计划在主要都市区建立微型工厂进行硬件升级",
+        "Optimus人形机器人在弗里蒙特工厂启动生产，计划明年对外销售",
+        "自由现金流意外转正至14.4亿美元，但CFO警告下半年现金流将转负"
+      ],
+      "raw_content": "特斯拉发布了2026年Q1财报，营收223.8亿美元同比增长16%，FSD订阅量达到128万同比增长51%。马斯克在财报电话会上首次明确承认，搭载Hardware 3的车辆（2019-2023年生产）无法实现无监督FSD，需要更换新计算机和摄像头，公司计划在主要都市区设立微型工厂进行改造。特斯拉将2026年资本支出提升至250亿美元，为历史支出的3倍，重点投向AI训练基础设施、芯片设计、机器人出租车运营以及奥斯汀半导体制造工厂。Q1交付35.8万辆，低于预期的36.8万辆，但自由现金流意外转正至14.4亿美元。公司同时宣布在弗里蒙特工厂启动Optimus人形机器人生产。",
+      "search_keywords": ["Tesla Q1 2026 earnings", "FSD HW3 upgrade", "Tesla capital expenditure 25B", "Elon Musk HW3 admission"],
+      "version_info": "FSD Supervised订阅量128万；HW3确认无法升级至无监督FSD",
+      "event_type": "财报"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "地平线 (Horizon Robotics)",
+      "title": "地平线发布中国首款舱驾融合整车智能体芯片「星空系列」及整车智能体操作系统KaKaClaw咖咖虾",
+      "url": "https://www.d1ev.com/carnews/xinche/296398",
+      "publish_date": "2026-04-22",
+      "technical_points": [
+        "发布中国首款舱驾融合芯片「地平线星空6P」，5nm车规级制程，算力650 TOPS，内存带宽273 GB/s",
+        "一颗芯片取代传统智驾+座舱两套系统，硬件成本降低1500-4000元/车",
+        "首创城堡（Fortress）安全物理隔离架构，座舱、智驾物理隔离独立运行，智驾域达ASIL-D最高等级",
+        "发布中国首个整车智能体操作系统KaKaClaw咖咖虾，支持自然语言跨域并行调度",
+        "发布HSD V1.6端到端智驾系统，新增遥控泊车、离车泊入、倒车紧急制动等功能",
+        "星空6P将于Q3量产落地iCAR V27车型"
+      ],
+      "raw_content": "4月22日，地平线发布中国首款舱驾融合整车智能体芯片「地平线星空」及中国首个整车智能体操作系统KaKaClaw咖咖虾。星空6P芯片采用5nm车规级制程，算力650 TOPS，一颗芯片即可取代传统智驾与座舱两套系统，综合成本降低1500-4000元/车，研发周期从18个月缩短至8个月。芯片内置城堡安全架构实现座舱智驾物理隔离，智驾域达ASIL-D最高等级。同步发布的HSD V1.6端到端智驾系统新增遥控泊车、离车泊入等功能。星空6P将于2026年Q3量产落地iCAR V27车型。",
+      "search_keywords": ["地平线星空芯片", "舱驾融合", "Horizon Robotics", "KaKaClaw", "HSD V1.6"],
+      "version_info": "星空6P芯片（5nm, 650 TOPS）；HSD V1.6",
+      "event_type": "发布会"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 90,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "华为 (Huawei)",
+      "title": "华为乾崑ADS 5与鸿蒙座舱6北京车展发布，云端算力60 EFLOPS，896线激光雷达下放23万级",
+      "url": "https://www.d1ev.com/news/shichang/296568",
+      "publish_date": "2026-04-24",
+      "technical_points": [
+        "华为乾崑ADS 5发布，云端算力达60 EFLOPS",
+        "896线激光雷达下放至23万级车型",
+        "ADS系统车辆已达170万辆，年底预计增至300万辆",
+        "ADS辅助驾驶模式下事故率为757万公里/次（全国平均水平4.2倍）",
+        "华为公布L3时间表：2026年申请部分城市L3试点，2027年L3规模商用，2028年Robotaxi部分城市商用",
+        "2026年ADS研发投入预计超180亿元，五年累计研发投入700-800亿元",
+        "鸿蒙座舱6同步发布"
+      ],
+      "raw_content": "华为在2026北京车展期间发布乾崑ADS 5智驾系统，云端算力达60 EFLOPS，896线激光雷达下放至23万级车型。引望智能驾驶产品线总裁李文广披露ADS安全数据：开启辅助驾驶模式时事故率757万公里/次，为全国平均水平的4.2倍。搭载ADS系统车辆已达170万辆，年底预计增至300万辆。华为给出自动驾驶时间表：2026年申请L3试点，2027年L3规模商用，2028年Robotaxi部分城市商用。2026年ADS研发投入预计超180亿元，五年累计研发投入700-800亿元。",
+      "search_keywords": ["华为ADS 5", "乾崑智驾", "鸿蒙座舱6", "896线激光雷达", "L3自动驾驶"],
+      "version_info": "华为乾崑ADS 5；鸿蒙座舱6",
+      "event_type": "发布会"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Momenta",
+      "title": "Momenta R7强化学习世界模型量产首发，搭载上汽大众ID.ERA 9X；CEO曹旭东称智驾供应商将快速收敛至全球3-4家",
+      "url": "https://www.d1ev.com/news/shichang/297092",
+      "publish_date": "2026-04-27",
+      "technical_points": [
+        "Momenta R7强化学习世界模型实现量产首发，全球首发搭载于上汽大众ID.ERA 9X",
+        "技术架构三层：世界模型预训练、世界模型仿真、世界模型中强化学习",
+        "累计定点合作车型超200款，已交付量产70余款，搭载方案车型突破80万台",
+        "覆盖10个国家，北京车展期间超20个品牌60余款车型搭载Momenta方案",
+        "宝马新世代iX3搭载Momenta L2级领航辅助，奥迪E7X将率先应用L3级能力",
+        "CEO曹旭东判断：中国仅2-3家、全球3-4家智驾供应商将快速胜出"
+      ],
+      "raw_content": "4月26日，Momenta在北京车展期间举办「Momenta R7，物理AI序章」分享会，CEO曹旭东判断中国仅2-3家、全球3-4家智驾供应商将快速胜出。Momenta R7强化学习世界模型实现量产首发，搭载于上汽大众ID.ERA 9X。该模型按L4级标准打造，采用三层架构：世界模型预训练、仿真和强化学习。Momenta已与宝马、奥迪、奔驰等全球主流车企合作，累计定点超200款车型，搭载方案车型突破80万台，覆盖10个国家。奥迪E7X将率先应用其L3级量产能力。",
+      "search_keywords": ["Momenta R7", "强化学习世界模型", "曹旭东", "ID.ERA 9X", "智驾供应商格局"],
+      "version_info": "Momenta R7强化学习世界模型（量产版）",
+      "event_type": "发布会"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  },
+  {
+    "source": "Industry",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "authoritative_media",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "B",
+      "module_loading": {
+        "profile": "success",
+        "rules": "success",
+        "workflow": "success",
+        "output_format": "success",
+        "issues": [],
+        "strategy_used": "exact_path"
+      }
+    },
+    "content": {
+      "company": "Tesla",
+      "title": "特斯拉Robotaxi无人驾驶出租车服务扩展到达拉斯和休斯顿，运营城市增至3个",
+      "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
+      "publish_date": "2026-04-18",
+      "technical_points": [
+        "Robotaxi服务扩展至德克萨斯州达拉斯和休斯顿，此前已在奥斯汀运营",
+        "实现完全无安全驾驶员运营",
+        "奥斯汀Robotaxi自2026年1月启动无安全驾驶员服务以来已卷入14起事故",
+        "众包数据显示达拉斯和休斯顿目前各仅1辆运营车辆（奥斯汀46辆）",
+        "特斯拉同时还在旧金山湾区提供受限的有人驾驶网约车服务"
+      ],
+      "raw_content": "特斯拉4月18日宣布将Robotaxi无人驾驶出租车服务扩展至达拉斯和休斯顿，目前已在德州3个城市运营。公司2025年6月在奥斯汀推出Robotaxi服务，2026年1月起实现无安全驾驶员运营。据众包数据平台Robotaxi Tracker显示，达拉斯和休斯顿目前各仅1辆运营车辆，而奥斯汀有46辆。特斯拉在2月提交的文件中披露奥斯汀Robotaxi自运营以来已卷入14起事故。",
+      "search_keywords": ["Tesla Robotaxi", "Dallas Houston", "自动驾驶出租车", "无人驾驶"],
+      "version_info": "Robotaxi服务覆盖3城（奥斯汀、达拉斯、休斯顿）",
+      "event_type": "OTA/服务扩展"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": true,
+      "issues": []
+    }
+  }
+]

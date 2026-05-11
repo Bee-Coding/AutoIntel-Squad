@@ -1,0 +1,212 @@
+[
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 92,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "DiffusionDrive",
+      "full_name": "hustvl/DiffusionDrive",
+      "description": "[CVPR 2025 Highlight] Truncated Diffusion Model for Real-Time End-to-End Autonomous Driving",
+      "url": "https://github.com/hustvl/DiffusionDrive",
+      "stars": 1371,
+      "language": "Python",
+      "last_updated": "2026-04-27",
+      "category": "algorithm",
+      "company": "Huazhong University of Science and Technology (hustvl)",
+      "tech_stack": ["Python", "PyTorch", "Diffusion Models", "Transformer"],
+      "key_features": [
+        "Truncated diffusion model for real-time end-to-end driving",
+        "CVPR 2025 Highlight paper",
+        "Efficient action generation with reduced denoising steps",
+        "Compatible with nuScenes benchmark"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 95,
+      "innovation_points": [
+        "Truncated diffusion strategy that reduces denoising steps for real-time performance",
+        "First diffusion-based end-to-end driving model achieving CVPR Highlight",
+        "Balances generation quality with inference speed"
+      ],
+      "application_value": "为端到端自动驾驶提供实时扩散规划方案，可直接应用于实车部署的规划模块"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 88,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "SparseDrive",
+      "full_name": "swc-17/SparseDrive",
+      "description": "SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation",
+      "url": "https://github.com/swc-17/SparseDrive",
+      "stars": 927,
+      "language": "Python",
+      "last_updated": "2026-04-24",
+      "category": "algorithm",
+      "company": "Individual/Research",
+      "tech_stack": ["Python", "PyTorch", "Sparse Representation", "Transformer"],
+      "key_features": [
+        "End-to-end autonomous driving with sparse scene representation",
+        "Unified perception-prediction-planning pipeline",
+        "Efficient sparse query-based architecture",
+        "State-of-the-art results on nuScenes"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 90,
+      "innovation_points": [
+        "Fully sparse representation from perception to planning",
+        "Removes dense BEV features, reducing computational overhead",
+        "End-to-end trainable sparse pipeline"
+      ],
+      "application_value": "提供高效的稀疏化端到端自动驾驶方案，适合计算资源受限的部署场景"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "waymax",
+      "full_name": "waymo-research/waymax",
+      "description": "A JAX-based simulator for autonomous driving research.",
+      "url": "https://github.com/waymo-research/waymax",
+      "stars": 1063,
+      "language": "Python",
+      "last_updated": "2026-04-24",
+      "category": "simulator",
+      "company": "Waymo (Google)",
+      "tech_stack": ["Python", "JAX", "Waymo Open Dataset"],
+      "key_features": [
+        "JAX-based fully differentiable simulator",
+        "Built on Waymo Open Motion Dataset",
+        "Supports large-scale parallel simulation",
+        "Designed for reinforcement learning and imitation learning"
+      ],
+      "difficulty_level": "intermediate",
+      "relevance_score": 85,
+      "innovation_points": [
+        "Fully differentiable simulator enables gradient-based optimization",
+        "JAX backend allows massive parallelization on TPU/GPU",
+        "Seamless integration with Waymo dataset"
+      ],
+      "application_value": "为自动驾驶决策规划算法提供高效的仿真训练环境，特别适合强化学习和端到端方法的训练与评估"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 86,
+      "quality_grade": "A"
+    },
+    "content": {
+      "name": "FSDrive",
+      "full_name": "MIV-XJTU/FSDrive",
+      "description": "[NeurIPS 2025 spotlight] FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+      "url": "https://github.com/MIV-XJTU/FSDrive",
+      "stars": 716,
+      "language": "Python",
+      "last_updated": "2026-04-26",
+      "category": "algorithm",
+      "company": "Xi'an Jiaotong University (MIV-XJTU)",
+      "tech_stack": ["Python", "PyTorch", "VLM", "Chain-of-Thought"],
+      "key_features": [
+        "Spatio-temporal Chain-of-Thought reasoning for autonomous driving",
+        "Visual thinking with MLLM backbone",
+        "NeurIPS 2025 Spotlight paper",
+        "Integrates VLA and world model concepts"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 88,
+      "innovation_points": [
+        "Novel spatio-temporal CoT reasoning framework for driving",
+        "Bridges visual perception and action planning through explicit reasoning",
+        "Achieves interpretable end-to-end driving decisions"
+      ],
+      "application_value": "将CoT推理引入自动驾驶决策过程，提升模型的可解释性和复杂场景处理能力"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  },
+  {
+    "source": "OpenSource",
+    "metadata": {
+      "timestamp": "2026-04-27T08:00:00+08:00",
+      "data_source": "GitHub API",
+      "access_status": "success",
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    "content": {
+      "name": "AutoVLA",
+      "full_name": "ucla-mobility/AutoVLA",
+      "description": "[NeurIPS 2025] AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
+      "url": "https://github.com/ucla-mobility/AutoVLA",
+      "stars": 524,
+      "language": "Python",
+      "last_updated": "2026-04-27",
+      "category": "algorithm",
+      "company": "UCLA Mobility Lab",
+      "tech_stack": ["Python", "PyTorch", "VLM", "GRPO", "Reinforcement Learning"],
+      "key_features": [
+        "Vision-Language-Action model for end-to-end driving",
+        "Adaptive reasoning mechanism",
+        "Reinforcement fine-tuning with GRPO",
+        "NeurIPS 2025 paper"
+      ],
+      "difficulty_level": "advanced",
+      "relevance_score": 86,
+      "innovation_points": [
+        "Combines VLA with reinforcement fine-tuning (GRPO)",
+        "Adaptive reasoning that adjusts computation based on scene complexity",
+        "End-to-end trainable with both imitation and reinforcement learning"
+      ],
+      "application_value": "展示了VLA模型结合强化学习微调在端到端驾驶中的潜力，为L3+自动驾驶提供新思路"
+    },
+    "validation": {
+      "url_verified": true,
+      "date_verified": true,
+      "cross_check": false,
+      "issues": []
+    }
+  }
+]
